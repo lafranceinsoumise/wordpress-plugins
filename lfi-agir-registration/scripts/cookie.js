@@ -15,7 +15,7 @@
 window.addEventListener('DOMContentLoaded', function () {
   var i, pair;
 
-  var hashParams = new URLSearchParams(location.searchr dema);
+  var hashParams = new URLSearchParams(location.search);
 
   for (pair of hashParams.entries()) {
     if (pair[0].startsWith("agir_")) {
