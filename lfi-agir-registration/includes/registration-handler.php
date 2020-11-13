@@ -64,7 +64,8 @@ class RegistrationAction extends Action_Base
             "first_name",
             "last_name",
             "contact_phone",
-            "referer"
+            "referer",
+            "mandat"
         ];
 
         foreach ($api_fields as $api_field) {
