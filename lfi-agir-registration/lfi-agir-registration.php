@@ -93,11 +93,12 @@ class Plugin
         ]);
 
         if (is_wp_error($response) || $response['response']['code'] !== 200) {
-            return "";
+            return get_option("lfi_counter_stale");
         }
 
         $count  = json_decode($response["body"])->value;
         set_transient($transient_key, $count, 30);
+        update_option("lfi_counter_stale", $count, false);
 
         return $count;
     }
