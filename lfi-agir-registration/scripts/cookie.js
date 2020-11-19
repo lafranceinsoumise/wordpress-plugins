@@ -15,7 +15,7 @@
 window.addEventListener('DOMContentLoaded', function () {
   var i, pair;
 
-  var hashParams = new URLSearchParams(location.search);
+  var hashParams = new URLSearchParams(location.hash.replace("#", "?"));
 
   for (pair of hashParams.entries()) {
     if (pair[0].startsWith("agir_")) {
@@ -23,7 +23,7 @@ window.addEventListener('DOMContentLoaded', function () {
     }
   }
 
-  var queryParams = new URLSearchParams(location.hash.replace("#", "?"));
+  var queryParams = new URLSearchParams(location.search);
 
   var readParams = [];
   for (pair of queryParams.entries()) {

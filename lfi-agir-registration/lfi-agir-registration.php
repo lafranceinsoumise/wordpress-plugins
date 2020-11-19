@@ -61,8 +61,8 @@ class Plugin
     function cookie_script()
     {
         wp_enqueue_script('js-cookie', "https://cdn.jsdelivr.net/npm/js-cookie@rc/dist/js.cookie.min.js");
-        wp_enqueue_script('lfi-polyfills', plugin_dir_url( __FILE__ ).'/scripts/polyfills.js');
-        wp_enqueue_script('lfi-agir-cookie', plugin_dir_url( __FILE__ ).'/scripts/cookie.js', ['lfi-polyfills', 'js-cookie']);
+        wp_enqueue_script('lfi-polyfills', plugin_dir_url( __FILE__ ).'/scripts/polyfills.js', [], 1);
+        wp_enqueue_script('lfi-agir-cookie', plugin_dir_url( __FILE__ ).'/scripts/cookie.js', ['lfi-polyfills', 'js-cookie'], 1);
     }
 
     function signature_shortcode_handler($atts, $content, $tag)
