@@ -55,7 +55,7 @@ class Plugin
     {
         wp_enqueue_script('js-cookie', "https://cdn.jsdelivr.net/npm/js-cookie@rc/dist/js.cookie.min.js");
         wp_enqueue_script('lfi-polyfills', plugin_dir_url( __FILE__ ).'/scripts/polyfills.js', [], 2);
-        wp_enqueue_script('lfi-agir-cookie', plugin_dir_url( __FILE__ ).'/scripts/cookie.js', ['lfi-polyfills', 'js-cookie'], 1);
+        wp_enqueue_script('lfi-agir-cookie', plugin_dir_url( __FILE__ ).'/scripts/cookie.js', ['lfi-polyfills', 'js-cookie'], 2);
     }
 
     function signature_shortcode_handler($atts, $content, $tag)
