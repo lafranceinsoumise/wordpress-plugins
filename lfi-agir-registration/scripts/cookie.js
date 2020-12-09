@@ -84,6 +84,7 @@ window.addEventListener('DOMContentLoaded', function () {
       Cookies.set("agir_last_name", person.lastName);
       Cookies.set("agir_id", person.id);
       Cookies.set("agir_email", person.email);
+      Cookies.set("agir_referrer_id", person.referrerId);
       Cookies.set("agir_newsletters", person.newsletters.join(","));
 
       window.dispatchEvent(event);
