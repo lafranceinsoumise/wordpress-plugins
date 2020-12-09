@@ -37,7 +37,6 @@ class Plugin
     {
         require_once dirname(__FILE__).'/includes/registration-handler.php';
         require_once dirname(__FILE__).'/includes/update-newsletters-handler.php';
-        require_once dirname(__FILE__).'/includes/check_person_handler.php';
 
         $elementor_registration_action = new RegistrationAction();
         \ElementorPro\Plugin::instance()
@@ -49,12 +48,6 @@ class Plugin
         \ElementorPro\Plugin::instance()
             ->modules_manager->get_modules('forms')
             ->add_form_action($elementor_newsletter_action->get_name(), $elementor_newsletter_action)
-        ;
-
-        $elementor_check_person_action = new CheckPersonAction();
-        \ElementorPro\Plugin::instance()
-            ->modules_manager->get_modules('forms')
-            ->add_form_action($elementor_check_person_action->get_name(), $elementor_check_person_action)
         ;
     }
 
