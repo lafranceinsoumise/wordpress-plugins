@@ -47,10 +47,6 @@ class RegistrationAction extends Action_Base
             $ajax_handler->add_error("location_zip", 'Le code postal est obligatoire.');
         }
 
-        if (!empty($fields['location_zip']) && !preg_match('/^[0-9]{5}$/', $fields['location_zip'])) {
-            $ajax_handler->add_error("location_zip", 'Le code postal est invalide.');
-        }
-
         if (count($ajax_handler->errors) > 0) {
             return;
         }
