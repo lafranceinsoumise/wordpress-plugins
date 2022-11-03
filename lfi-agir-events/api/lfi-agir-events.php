@@ -1,14 +1,18 @@
 <?php
 
+namespace LFI\WPPlugins\AgirEvents\API;
+
+use Exception;
+use WP_REST_Request;
+use WP_REST_Response;
+
 function search_groups(WP_REST_Request $request)
 {
   $options = get_option('lfi_settings');
 
-  $url = $options['api_server'] . '/api/recherche/';
+  $url = $options['api_server'] . '/api/groupes/recherche/';
   $query = [
-    'q' =>  $request->get_param('term'),
-    'type' => 'groups',
-    'filters[groupInactive]' => 1
+    'q' =>  $request->get_param('term'),    
   ];
   $url .= '?' . http_build_query($query);
 
@@ -42,9 +46,9 @@ function search_groups(WP_REST_Request $request)
 
   try {
     $json = json_decode($response['body'], true);
-    foreach ($json['groups'] as $group) {
+    foreach ($json['results'] as $group) {
       $results[] = [
-        'id' => $group['name'] . ' - ' . $group['location']['zip'] . ' - ' . $group['id'],
+        'id' => $group['id'],
         'text' => $group['name'] . ' - ' . $group['location']['zip'] . ' - ' . $group['id'],
       ];
     }

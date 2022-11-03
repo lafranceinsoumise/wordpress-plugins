@@ -1,10 +1,17 @@
 <?php
 
+namespace LFI\WPPlugins\AgirEvents\Widgets;
+
+use Exception;
+use Elementor\Controls_Manager;
+use Elementor\Group_Control_Typography;
+use Elementor\Widget_Base;
+
 if (!defined('ABSPATH')) {
   exit; // Exit if accessed directly.
 }
 
-class LFIAgirEvents_Elementor_List_Widget extends \Elementor\Widget_Base
+class LFIAgirEvents_Widget extends Widget_Base
 {
   public function get_name()
   {
@@ -53,7 +60,7 @@ class LFIAgirEvents_Elementor_List_Widget extends \Elementor\Widget_Base
       'content_section',
       [
         'label' => esc_html__('Liste des événements', 'lfi-agir-events__content_section'),
-        'tab' => \Elementor\Controls_Manager::TAB_CONTENT,
+        'tab' => Controls_Manager::TAB_CONTENT,
       ]
     );
 
@@ -61,14 +68,14 @@ class LFIAgirEvents_Elementor_List_Widget extends \Elementor\Widget_Base
       'organizer_group',
       [
         'label' => esc_html__('Id du groupe', 'lfi-agir-events__organizer_group'),
-        'type' => \Elementor\Controls_Manager::TEXT,
+        'type' => Controls_Manager::TEXT,
         'placeholder' => esc_html__('aec78081-3b87-40d5-b097-e8374eef4a89', 'lfi-agir-events__organizer_group'),
         'title' => esc_html__('Ex. aec78081-3b87-40d5-b097-e8374eef4a89', 'lfi-agir-events__organizer_group'),
         'description' => esc_html__('Retrouvez l\'identifiant du groupe organisateur des événéments dans l\'URL de la page publique du groupe sur Action populaire. Ex. https://actionpopulaire.fr/groupes/aec78081-3b87-40d5-b097-e8374eef4a89/ → aec78081-3b87-40d5-b097-e8374eef4a89', 'lfi-agir-events__organizer_group'),
         'default' => '',
+        'label_block' => true
       ]
     );
-
     /*
     // TODO: Elementor Select2 control may be used, if a solution is found to automatically add and select the initial value
     // (currently the selected value is not displayed on page load)
@@ -76,7 +83,7 @@ class LFIAgirEvents_Elementor_List_Widget extends \Elementor\Widget_Base
       'organizer_group_id',
       [
         'label' => esc_html__('Id du groupe', 'lfi-agir-events__organizer_group_id'),
-        'type' => \Elementor\Controls_Manager::SELECT2,
+        'type' => Controls_Manager::SELECT2,
         'placeholder' => esc_html__('aec78081-3b87-40d5-b097-e8374eef4a89', 'lfi-agir-events__organizer_group_id'),
         'title' => esc_html__('Ex. aec78081-3b87-40d5-b097-e8374eef4a89', 'lfi-agir-events__organizer_group_id'),
         'description' => esc_html__('Retrouvez l\'identifiant du groupe organisateur des événéments dans l\'URL de la page publique du groupe sur Action populaire. Ex. https://actionpopulaire.fr/groupes/aec78081-3b87-40d5-b097-e8374eef4a89/ → aec78081-3b87-40d5-b097-e8374eef4a89', 'lfi-agir-events__organizer_group_id'),
@@ -84,6 +91,7 @@ class LFIAgirEvents_Elementor_List_Widget extends \Elementor\Widget_Base
         'options' => [
           '' => esc_html__('', 'lfi-agir-events__organizer_group_id')
         ],
+        'label_block' => true,
         'lockedOptions' => [''],
         'select2options' => [
           'name' => 'organizer_group_id',
@@ -104,21 +112,22 @@ class LFIAgirEvents_Elementor_List_Widget extends \Elementor\Widget_Base
       'event_type',
       [
         'label' => esc_html__('Type d\'événements', 'lfi-agir-events__event_type'),
-        'type' => \Elementor\Controls_Manager::SELECT,
+        'type' => Controls_Manager::SELECT,
         'default' => '',
         'options' => [
           '' => esc_html__('Tous', 'lfi-agir-events__event_type'),
           'a-venir/' => esc_html__('À  venir', 'lfi-agir-events__event_type'),
           'passes/' => esc_html__('Passés', 'lfi-agir-events__event_type'),
         ],
+        'label_block' => true
       ]
     );
 
     $this->add_control(
       'event_items',
       [
-        'label' => esc_html__('Nombre d\'événements à afficher', 'lfi-agir-events__event_items'),
-        'type' => \Elementor\Controls_Manager::NUMBER,
+        'label' => esc_html__('Nombre d\'événements à afficher [1-10]', 'lfi-agir-events__event_items'),
+        'type' => Controls_Manager::NUMBER,
         'min' => 1,
         'max' => 10,
         'step' => 1,
@@ -131,13 +140,13 @@ class LFIAgirEvents_Elementor_List_Widget extends \Elementor\Widget_Base
     $this->start_controls_section(
       'style_content_section',
       [
-        'label' => esc_html__('List Style', 'elementor-list-widget'),
-        'tab' => \Elementor\Controls_Manager::TAB_STYLE,
+        'label' => esc_html__('Style', 'lfi-agir-events__event_items'),
+        'tab' => Controls_Manager::TAB_STYLE,
       ]
     );
 
     $this->add_group_control(
-      \Elementor\Group_Control_Typography::get_type(),
+      Group_Control_Typography::get_type(),
       [
         'name' => 'icon_typography',
         'selector' => '{{WRAPPER}} .lfi-agir-events, {{WRAPPER}} .lfi-agir-events > a',
@@ -226,33 +235,36 @@ class LFIAgirEvents_Elementor_List_Widget extends \Elementor\Widget_Base
   {
   }
 
+  protected function render_error($error) {
+    ?>
+      <div class="lfi-agir-events lfi-agir-events--error">
+        <h5>&#9888; Une erreur est survenue&nbsp;:</h5>
+        <pre><?php echo json_encode($error, JSON_PRETTY_PRINT) ?></pre>
+      </div>
+    <?php
+  }
+
   protected function render()
   {
     $events = $this->get_group_events();
+    
     if (array_key_exists("error", $events)) {
-?>
-      <div class="lfi-agir-events lfi-agir-events--error">
-        <h5>&#9888; Une erreur est survenue&nbsp;:</h5>
-        <pre><?php echo json_encode($events, JSON_PRETTY_PRINT) ?></pre>
-      </div>
-    <?php
-      return;
+      return $this->render_error($events);
     }
+    
+    ?><ul class="lfi-agir-events lfi-agir-events--list"><?php
+
+    foreach ($events as $event) {
     ?>
-    <ul class="lfi-agir-events lfi-agir-events--list">
-      <?php
-      foreach ($events as $event) {
-      ?>
-        <li class="lfi-agir-events__item">
-          <a <?php echo $this->get_event_link_attrs($event) ?>>
-            <strong><?php echo wp_date(__('j F Y à g:i'), strtotime($event['startTime'])); ?></strong>
-            <span><?php echo $event['name']; ?></span>
-          </a>
-        </li>
-      <?php
-      }
-      ?>
-    </ul>
-<?php
+      <li class="lfi-agir-events__item">
+        <a <?php echo $this->get_event_link_attrs($event) ?>>
+          <strong><?php echo wp_date(__('j F Y à g:i'), strtotime($event['startTime'])); ?></strong>
+          <span><?php echo $event['name']; ?></span>
+        </a>
+      </li>
+    <?php
+    }
+
+    ?></ul><?php
   }
 }
