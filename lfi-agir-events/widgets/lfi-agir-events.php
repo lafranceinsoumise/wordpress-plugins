@@ -176,12 +176,17 @@ class LFIAgirEvents_Elementor_List_Widget extends \Elementor\Widget_Base
 
     $event_type = $settings['event_type'];
     $url = "{$options['api_server']}/api/groupes/{$group_id}/evenements/{$event_type}";
-    $response = wp_remote_get($url, [
-      'headers' => [
-        'Content-type' => 'application/json',
-        'X-Wordpress-Client' => $_SERVER['REMOTE_ADDR']
-      ]
-    ]);
+
+    $response = wp_cache_get($url, 'lfi-agir-events__get_group_events');
+    if (!$response) {
+      $response = wp_remote_get($url, [
+        'headers' => [
+          'Content-type' => 'application/json',
+          'X-Wordpress-Client' => $_SERVER['REMOTE_ADDR']
+        ]
+      ]);
+      wp_cache_set($url, $response, 'lfi-agir-events__get_group_events', 5 * MINUTE_IN_SECONDS);
+    }
 
     if (!is_array($response)) {
       return [

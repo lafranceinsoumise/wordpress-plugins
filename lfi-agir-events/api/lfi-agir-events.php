@@ -5,20 +5,25 @@ function search_groups(WP_REST_Request $request)
   $options = get_option('lfi_settings');
 
   $url = $options['api_server'] . '/api/recherche/';
-
   $query = [
     'q' =>  $request->get_param('term'),
     'type' => 'groups',
     'filters[groupInactive]' => 1
   ];
+  $url .= '?' . http_build_query($query);
 
-  $response = wp_remote_get($url . '?' . http_build_query($query), [
-    'headers' => [
-      'Content-type' => 'application/json',
-      'Authorization' => 'Basic ' . base64_encode($options['api_id'] . ':' . $options['api_key']),
-      'X-Wordpress-Client' => $_SERVER['REMOTE_ADDR']
-    ]
-  ]);
+  $response = wp_cache_get($url, 'lfi-agir-events__search_groups');
+
+  if (!$response) {
+    $response = wp_remote_get($url, [
+      'headers' => [
+        'Content-type' => 'application/json',
+        'Authorization' => 'Basic ' . base64_encode($options['api_id'] . ':' . $options['api_key']),
+        'X-Wordpress-Client' => $_SERVER['REMOTE_ADDR']
+      ]
+    ]);
+    wp_cache_set($url, $response, 'lfi-agir-events__search_groups');
+  }
 
   $results = [];
 
