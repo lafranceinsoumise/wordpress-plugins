@@ -25,7 +25,7 @@ class RegistrationAction extends Action_Base
         $raw_fields = $record->get('fields');
 
         if (empty($settings['agir_registration_type']) ||
-            !in_array($settings['agir_registration_type'], ['LFI', 'NSP'])) {
+            !in_array($settings['agir_registration_type'], ['LFI', 'NSP', 'LJI'])) {
             return;
         }
 
@@ -43,21 +43,25 @@ class RegistrationAction extends Action_Base
             $ajax_handler->add_error("email", "L'e-mail est invalide.");
         }
 
-        if (empty($fields['location_zip'])) {
-            $ajax_handler->add_error("location_zip", 'Le code postal est obligatoire.');
-        }
+        // le code postal n'est obligatoire que sans précision du pays ou si le pays est la France
+        if (empty($fields['location_country']) || fields['location_country'] == 'FR') {
+            if (empty($fields['location_zip'])) {
+                $ajax_handler->add_error("location_zip", 'Le code postal est obligatoire.');
+            }
 
-        if (!empty($fields['location_zip']) && !preg_match('/^[0-9]{5}$/', $fields['location_zip'])) {
-            $ajax_handler->add_error("location_zip", 'Le code postal est invalide.');
+            if (!empty($fields['location_zip']) && !preg_match('/^[0-9]{5}$/', $fields['location_zip'])) {
+                $ajax_handler->add_error("location_zip", 'Le code postal est invalide.');
+            }
         }
 
         if (count($ajax_handler->errors) > 0) {
             return;
         }
 
+
         $data = [];
         $data["email"] = sanitize_email($fields['email']);
-        $data["location_zip"] = sanitize_text_field($fields['location_zip']);
+        unset($fields['email']);
         $data["type"] = $settings["agir_registration_type"];
 
         $api_fields = [
@@ -65,14 +69,29 @@ class RegistrationAction extends Action_Base
             "last_name",
             "contact_phone",
             "referrer",
-            "mandat"
+            "mandat",
+            "location_zip",
+            "location_city",
+            "location_country",
+            "contact_phone"
         ];
 
-        foreach ($api_fields as $api_field) {
-            if (isset($fields[$api_field]) && $fields[$api_field] !== "") {
-                $data[$api_field] = sanitize_text_field($fields[$api_field]);
+        $metadata = array();
+
+        foreach ($fields as $key => $value) {
+            if (in_array($key, $api_fields)) {
+                $data[$key] = sanitize_text_field($value);
+            }
+            else {
+                $metadata[$key] = sanitize_text_field($value);
             }
         }
+
+        if (count($metadata) > 0) {
+            $data["metadata"] = $metadata;
+        }
+
+
 
         $options = get_option('lfi_settings');
 
@@ -87,7 +106,7 @@ class RegistrationAction extends Action_Base
             'body' => json_encode($data)
         ]);
 
-        if (!is_wp_error($response) && $response['response']['code'] === 400 || $response['response']['code'] === 400) {
+        if (!is_wp_error($response) && ($response['response']['code'] === 400 || $response['response']['code'] === 422)) {
             $errors = json_decode($response["body"]);
             foreach ($errors as $field => $msg) {
                 $ajax_handler->add_error($field, $msg);
@@ -125,6 +144,7 @@ class RegistrationAction extends Action_Base
                 'options' => [
                     'LFI' => "LFI",
                     'NSP' => "NSP",
+                    'LJI' => "LJI",
                 ],
                 'default' => 'NSP'
             ]
