@@ -24,6 +24,7 @@ class Plugin
         add_action('elementor_pro/init', [$this, 'register_elementor_addons']);
         add_action('wp_enqueue_scripts', [$this, 'cookie_script']);
         add_shortcode('agir_signatures', [$this, 'signature_shortcode_handler']);
+        add_shortcode('agir_dons', [$this, 'dons_shortcode_handler']);
     }
 
     public function admin_init()
@@ -92,6 +93,40 @@ class Plugin
         $count  = json_decode($response["body"])->value;
         set_transient($transient_key, $count, 30);
         update_option("lfi_counter_stale", $count, false);
+
+        return $count;
+    }
+
+
+    function dons_shortcode_handler($atts, $content, $tag)
+    {
+        $transient_key = 'agir_dons';
+
+        $count = get_transient($transient_key);
+
+        if ($count !== false) {
+            return $count;
+        }
+
+        $options = get_option('lfi_settings');
+
+        $url = $options['api_server'].'/api/2022/dons/';
+
+        $response = wp_remote_get($url, [
+            'headers' => [
+                'Content-type' => 'application/json',
+                'Authorization' => 'Basic '.base64_encode($options['api_id'].':'.$options['api_key']),
+                'X-Wordpress-Client' => $_SERVER['REMOTE_ADDR']
+            ]
+        ]);
+
+        if (is_wp_error($response) || $response['response']['code'] !== 200) {
+            return get_option("lfi_dons_stale");
+        }
+
+        $count  = json_decode($response["body"])->totalAmount;
+        set_transient($transient_key, $count, 30);
+        update_option("lfi_dons_stale", $count, false);
 
         return $count;
     }
