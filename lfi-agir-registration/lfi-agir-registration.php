@@ -24,6 +24,7 @@ class Plugin
         add_action('elementor_pro/init', [$this, 'register_elementor_addons']);
         add_action('wp_enqueue_scripts', [$this, 'cookie_script']);
         add_shortcode('agir_signatures', [$this, 'signature_shortcode_handler']);
+        add_shortcode('agir_cagnotte', [$this, 'cagnotte_shortcode_handler']);
     }
 
     public function admin_init()
@@ -92,6 +93,40 @@ class Plugin
         $count  = json_decode($response["body"])->value;
         set_transient($transient_key, $count, 30);
         update_option("lfi_counter_stale", $count, false);
+
+        return $count;
+    }
+
+    function cagnotte_shortcode_handler($atts, $content, $tag)
+    {
+        if (!is_array($atts) || !isset($atts["slug"])) {
+            return "";
+        }
+
+        $slug = $atts["slug"];
+        $options = get_option('lfi_settings');
+        $cache_group = 'lfi-agir-registrations__cagnottes';
+        $url = $options['api_server'] . "/cagnottes/$slug/compteur/";
+
+        $response = wp_cache_get($url, $cache_group);
+
+        if (!$response) {
+            $response = wp_remote_get($url, [
+                'headers' => [
+                    'Content-type' => 'application/json',
+                    'Authorization' => 'Basic ' . base64_encode($options['api_id'] . ':' . $options['api_key']),
+                    'X-Wordpress-Client' => $_SERVER['REMOTE_ADDR']
+                ]
+            ]);
+
+            if (is_wp_error($response) || $response['response']['code'] !== 200) {
+                return 0;
+            }
+        }
+
+        wp_cache_set($url, $response, $cache_group);
+
+        $count  = json_decode($response["body"])->totalAmount;
 
         return $count;
     }
