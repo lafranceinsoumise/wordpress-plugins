@@ -4,6 +4,8 @@ Plugin Name: LFI Inscription plateforme
 Description: Gère l'inscription sur la plateforme
 Version: 1.0
 Author: Jill Maud Royer
+Author: Giuseppe De Ponte
+Author: Salomé Cheysson
 License: GPL3
 */
 
@@ -15,6 +17,9 @@ if ( ! defined( 'ABSPATH' ) ) {
 
 class Plugin
 {
+    const CACHE_GROUP = "lfi-agir-registration";
+    const CAGNOTTE_DEFAULT_EXPIRATION = 10;
+
     /**
      * Constructor.
      */
@@ -23,6 +28,7 @@ class Plugin
         add_action('init', [$this, 'admin_init']);
         add_action('elementor_pro/init', [$this, 'register_elementor_addons']);
         add_action('wp_enqueue_scripts', [$this, 'cookie_script']);
+        add_action('lfi_agir_registration_cagnotte_rafraichir', [$this, 'cagnotte_rafraichir']);
         add_shortcode('agir_signatures', [$this, 'signature_shortcode_handler']);
         add_shortcode('agir_cagnotte', [$this, 'cagnotte_shortcode_handler']);
     }
@@ -99,36 +105,106 @@ class Plugin
 
     function cagnotte_shortcode_handler($atts, $content, $tag)
     {
-        if (!is_array($atts) || !isset($atts["slug"])) {
+        $atts = shortcode_atts(
+            array(
+                'slug' => NULL,
+                'minutes' => NULL
+            ), $atts
+        );
+
+        $slug = $atts['slug'];
+
+        if(is_null($slug) ) {
             return "";
         }
 
-        $slug = $atts["slug"];
-        $options = get_option('lfi_settings');
-        $cache_group = 'lfi-agir-registrations__cagnottes';
-        $url = $options['api_server'] . "/cagnottes/$slug/compteur/";
+        $minutes = floatval($atts['minutes']);
+        if ($minutes === 0.) {
+            $minutes = self::CAGNOTTE_DEFAULT_EXPIRATION;
+        }
 
-        $response = wp_cache_get($url, $cache_group);
+        $expiration = intval($minutes * 60);
+        list($valeur, $valide) = $this->cagnotte_recuperer_valeur_cache($slug, $expiration);
 
-        if (!$response) {
-            $response = wp_remote_get($url, [
-                'headers' => [
-                    'Content-type' => 'application/json',
-                    'Authorization' => 'Basic ' . base64_encode($options['api_id'] . ':' . $options['api_key']),
-                    'X-Wordpress-Client' => $_SERVER['REMOTE_ADDR']
-                ]
-            ]);
+        if (!$valide && !wp_next_scheduled(
+            'lfi_agir_registration_cagnotte_rafraichir', [$slug]
+        )) {
+            wp_schedule_single_event(
+                time(),
+                'lfi_agir_registration_cagnotte_rafraichir',
+                [$slug],
+                true
+            );
+        }
 
-            if (is_wp_error($response) || $response['response']['code'] !== 200) {
-                return 0;
+        return strval($valeur);
+    }
+
+    function cagnotte_recuperer_valeur_cache($slug, $expiration) {
+        $cached_value = wp_cache_get("cagnotte-$slug", self::CACHE_GROUP);
+        $valeur = 0;
+        $timestamp = 0;
+        $now = time();
+
+        if ($cached_value) {
+            $elements = explode(':', $cached_value);
+            $valeur = intval($elements[0]);
+            if (count($elements) > 1) {
+                $timestamp = intval($elements[1]);
             }
         }
 
-        wp_cache_set($url, $response, $cache_group);
+        if (!$valeur || $now > $timestamp + $expiration) {
+            return array($valeur, false);
+        }
 
-        $count  = json_decode($response["body"])->totalAmount;
+        return array($valeur, true);
+    }
 
-        return $count;
+    function cagnotte_rafraichir($slug) {
+        $valeur = $this->cagnotte_recuperer_valeur_actuelle($slug);
+
+        if (is_null($valeur)) {
+            return NULL;
+        }
+
+        $timestamp = time();
+        $cached_value = strval($valeur) . ':' . strval($timestamp);
+
+        wp_cache_set(
+            "cagnotte-$slug",
+            $cached_value,
+            self::CACHE_GROUP,
+            0  // cacher sans limite pour pouvoir afficher une valeur même périmée
+        );
+
+        return $valeur;
+    }
+
+    function cagnotte_recuperer_valeur_actuelle($slug) {
+        $options = get_option('lfi_settings');
+        $url = $options['api_server'] . "/cagnottes/$slug/compteur/";
+
+        $response = wp_remote_get($url, [
+            'headers' => [
+                'Content-type' => 'application/json',
+                'Authorization' => 'Basic ' . base64_encode($options['api_id'] . ':' . $options['api_key']),
+                'X-Wordpress-Client' => $_SERVER['REMOTE_ADDR']
+            ]
+        ]);
+
+        if (is_wp_error($response) || $response['response']['code'] !== 200) {
+            return NULL;
+        }
+
+        $body = wp_remote_retrieve_body($response);
+        $json_body = json_decode($body, true);
+
+        if (is_null($json_body) || !array_key_exists('totalAmount', $json_body)) {
+            return NULL;
+        }
+
+        return $json_body['totalAmount'];
     }
 }
 
