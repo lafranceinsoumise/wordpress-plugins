@@ -2,7 +2,7 @@
 /*
 Plugin Name: LFI Inscription plateforme
 Description: Gère l'inscription sur la plateforme
-Version: 1.0
+Version: 1.1
 Author: Jill Maud Royer
 Author: Giuseppe De Ponte
 Author: Salomé Cheysson
