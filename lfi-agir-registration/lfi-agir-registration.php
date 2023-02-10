@@ -2,10 +2,8 @@
 /*
 Plugin Name: LFI Inscription plateforme
 Description: Gère l'inscription sur la plateforme
-Version: 1.1
-Author: Jill Maud Royer
-Author: Giuseppe De Ponte
-Author: Salomé Cheysson
+Version: 1.2
+Author: Jill Maud Royer, Giuseppe de Ponte, Salomé Cheysson
 License: GPL3
 */
 
@@ -108,11 +106,13 @@ class Plugin
         $atts = shortcode_atts(
             array(
                 'slug' => NULL,
-                'minutes' => NULL
+                'minutes' => NULL,
+                'raw' => false
             ), $atts
         );
 
         $slug = $atts['slug'];
+        $raw = (bool) $atts['raw'];
 
         if(is_null($slug) ) {
             return "";
@@ -137,7 +137,11 @@ class Plugin
             );
         }
 
-        return strval($valeur);
+        if ($raw) {
+            return strval($valeur);
+        } else {
+            return number_format($valeur / 100, 0, ',', '&nbsp;');
+        }
     }
 
     function cagnotte_recuperer_valeur_cache($slug, $expiration) {
