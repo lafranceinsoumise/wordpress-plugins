@@ -7,7 +7,7 @@ if ( ! defined( 'ABSPATH' ) ) {
 }
 
 function genrer( $terme, $sexe ) {
-    $pos = mb_strpos( $terme, '-' );
+    $pos = mb_strpos( $terme, '·' );
 
     if ( $pos === false ) {
         return $terme;
