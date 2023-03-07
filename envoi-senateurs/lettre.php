@@ -6,11 +6,34 @@ if ( ! defined( 'ABSPATH' ) ) {
     exit; // Exit if accessed directly
 }
 
+function genrer( $terme, $sexe ) {
+    $pos = mb_strpos( $terme, '-' );
+
+    if ( $pos === false ) {
+        return $terme;
+    }
+
+
+    $masc = mb_substr( $terme, 0, $pos );
+
+    if ( $sexe == 'M' ) {
+        return $masc;
+    }
+
+    $ext = mb_substr( $terme, $pos + 1, null);
+
+    $fem = mb_substr( $terme, 0, 1 + $pos - mb_strlen($ext)) . $ext;
+    return $fem;
+}
+
+
 function texte_lettre($senateur, $expediteur) {
+    $profession = genrer( $expediteur['profession'], $expediteur['civilite'] );
+
     return [
         "À l'attention de $senateur[civilite] $senateur[nom_complet], $senateur[fonction].",
         "$senateur[adresse],",
-        "Le jeudi 9 février dernier, l’Assemblée nationale a voté le retour pour un an aux tarifs réglementés de l’électricité pour les entreprises (TPE, PME, ETI), dans le cadre de l’adoption de la PPL de Philippe Brun visant à renationaliser EDF. En tant que $expediteur[profession] c’est un nouvel espoir, et peut-être le dernier, pour que nous puissions payer nos factures et survivre à 2023.",
+        "Le jeudi 9 février dernier, l’Assemblée nationale a voté le retour pour un an aux tarifs réglementés de l’électricité pour les entreprises (TPE, PME, ETI), dans le cadre de l’adoption de la PPL de Philippe Brun visant à renationaliser EDF. En tant que $profession c’est un nouvel espoir, et peut-être le dernier, pour que nous puissions payer nos factures et survivre à 2023.",
         "Nous ne méritons pas ce qui nous arrive. Alors que nous travaillons plus de 70 heures par semaine, nous n’arrivons même plus à nous payer. Nos factures d’énergie ont été multipliées par 4, 5 voire parfois 10. Les aides mises en place par le Gouvernement sont totalement insuffisantes : 80% des boulangeries n’ont pas accès au bouclier tarifaire, et l’amortisseur électricité pour les PME ne prend en compte que 10 à 20% des factures. Les ETI n’ont le droit à rien. Pour beaucoup d’entre nous ces hausses des tarifs de l’énergie mettent en péril nos activités: il ne nous reste que quelques mois à vivre.",
         "Nous vous demandons d’inscrire le plus rapidement possible à l’ordre du jour du Sénat l’examen de la Proposition de loi Visant à la renationalisation du groupe EDF, adoptée par l’Assemblée, comprenant l’article 3bis portant le retour des TRVE pour nous.",
         "Nous aimerions que ce retour au TRVE devienne pérenne, mais le temps presse. Il faut que la PPL soit adoptée conforme. En effet, un retour à l’Assemblée nationale pour une 2ème lecture, permettrait à la majorité de bloquer son examen et nous serait fatal. Nous espérons que de nouvelles délibérations pourraient par la suite pérenniser le dispositif.",
