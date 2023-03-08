@@ -33,11 +33,11 @@ function texte_lettre($senateur, $expediteur) {
     return [
         "À l'attention de $senateur[civilite] $senateur[nom_complet], $senateur[fonction].",
         "$senateur[adresse],",
-        "Le jeudi 9 février dernier, l’Assemblée nationale a voté le retour pour un an aux tarifs réglementés de l’électricité pour les entreprises (TPE, PME, ETI), dans le cadre de l’adoption de la PPL de Philippe Brun visant à renationaliser EDF. En tant que $profession c’est un nouvel espoir, et peut-être le dernier, pour que nous puissions payer nos factures et survivre à 2023.",
-        "Nous ne méritons pas ce qui nous arrive. Alors que nous travaillons plus de 70 heures par semaine, nous n’arrivons même plus à nous payer. Nos factures d’énergie ont été multipliées par 4, 5 voire parfois 10. Les aides mises en place par le Gouvernement sont totalement insuffisantes : 80% des boulangeries n’ont pas accès au bouclier tarifaire, et l’amortisseur électricité pour les PME ne prend en compte que 10 à 20% des factures. Les ETI n’ont le droit à rien. Pour beaucoup d’entre nous ces hausses des tarifs de l’énergie mettent en péril nos activités: il ne nous reste que quelques mois à vivre.",
-        "Nous vous demandons d’inscrire le plus rapidement possible à l’ordre du jour du Sénat l’examen de la Proposition de loi Visant à la renationalisation du groupe EDF, adoptée par l’Assemblée, comprenant l’article 3bis portant le retour des TRVE pour nous.",
-        "Nous aimerions que ce retour au TRVE devienne pérenne, mais le temps presse. Il faut que la PPL soit adoptée conforme. En effet, un retour à l’Assemblée nationale pour une 2ème lecture, permettrait à la majorité de bloquer son examen et nous serait fatal. Nous espérons que de nouvelles délibérations pourraient par la suite pérenniser le dispositif.",
-        "Nous vous remercions $senateur[adresse]. Nous comptons sur votre soutien aux artisans, commerçants et petites entreprises qui font travailler des millions de salariés dans le pays.",
+        "En tant que $profession c’est un nouvel espoir, et peut-être le dernier, pour que nous puissions payer nos factures et survivre à 2023.",
+        "Nous ne méritons pas ce qui nous arrive. Alors que nous travaillons plus de 70 heures par semaine, nous n’arrivons même plus à nous payer. Nos factures d’énergie ont été multipliées par 4, 5 voire 10.",
+        "Les aides mises en place par le Gouvernement sont totalement insuffisantes : 80% des boulangeries n’ont pas accès au bouclier tarifaire TPE, et l’amortisseur électricité pour les PME ne prend en compte que 10 à 20% des factures. Les ETI n’ont le droit à rien. Ces hausses des tarifs de l’énergie mettent en péril la survie de notre activité et l'emploi de nos salariés.",
+        "L'examen de la proposition de loi de renationalisation du groupe EDF, adoptée par l’Assemblée, et notamment son article 3bis portant le retour des Tarif réglementé de vente de l'électricité (TRVE) pour toutes les entreprises de moins de 5000 salariés, sera examiné le 6 avril au Sénat.",
+        "Nous vous demandons de voter en faveur de cette loi et de tous les amendements qui pourraient pérenniser le retour des tarifs réglementés de l'électricité pour les entreprises.",
         "Bien cordialement,\n$expediteur[nom_complet]",
     ];
 }

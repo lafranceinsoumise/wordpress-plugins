@@ -27,13 +27,16 @@ function expediteur($args) {
     return null;
   }
 
+  $nom_complet = mb_convert_case( $args['prenom'], MB_CASE_TITLE )
+               . ' ' . mb_convert_case( $args['nom'], MB_CASE_UPPER);
+
   return [
     'email' => $args['email'],
     'nom' => $args['nom'],
     'prenom' => $args['prenom'],
     'profession' => $args['profession'],
     'civilite' => $args['civilite'],
-    'nom_complet' => "$args[prenom] $args[nom]",
+    'nom_complet' => $nom_complet,
   ];
 }
 
