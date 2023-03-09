@@ -59,7 +59,7 @@ class Plugin
       'envoi-senateurs',
       plugins_url( '/script.js', __FILE__ ),
       array( 'jquery' ),
-      '1.0.0',
+      '1.0.1',
       true
     );
 

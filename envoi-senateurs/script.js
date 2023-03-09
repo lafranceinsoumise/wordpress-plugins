@@ -21,10 +21,8 @@ function postForm(e) {
       mode: "same-origin",
       data: formData,
       success: function() {
-        const messageBox = $('<div class="message"></div>');
-        messageBox.text("Merci, votre email va être envoyé automatiquement. Vous en recevrez une copie sur l'adresse email que vous avez indiquée.");
-
-        form.after(messageBox);
+        const messageBox = $('.envoi-succes');
+        messageBox.css('display', 'block');
       }
     }
   );

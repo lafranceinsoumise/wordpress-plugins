@@ -71,8 +71,6 @@ function generer_lettre_html($senateur, $expediteur) {
     );
 
     $result = <<<EOD
-      <p>Voici le texte généré à partir de vos informations, adressé à un des sénateurs de votre département.</p>
-
       <blockquote>
         $texte_lettre_html
       </blockquote>
