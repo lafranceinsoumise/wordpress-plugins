@@ -28,7 +28,13 @@ function genrer( $terme, $sexe ) {
 
 
 function texte_lettre($senateur, $expediteur) {
-    $profession = genrer( $expediteur['profession'], $expediteur['civilite'] );
+    $profession = implode(
+        ' ',
+        array_map(
+            function ( $terme ) { return genrer( $terme, $expediteur['civilite'] ); },
+            explode( ' ', $expediteur['profession'] )
+        )
+    );
 
     return [
         "À l'attention de $senateur[civilite] $senateur[nom_complet], $senateur[fonction].",
