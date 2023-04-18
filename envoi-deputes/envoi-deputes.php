@@ -1,19 +1,19 @@
 <?php
 /*
-   Plugin Name: LFI Envoi Sénateurs
-   Description: Gère l'envoi de mails automatiques aux sénateurs
+   Plugin Name: LFI Envoi Députés
+   Description: Gère l'envoi de mails automatiques aux députés
    Version: 1.0
    Author: Salomé Cheysson
    License: GPL3
  */
 
-namespace LFI\WPPlugins\EnvoiSenateurs;
+namespace LFI\WPPlugins\EnvoiDeputes;
 
 if ( ! defined( 'ABSPATH' ) ) {
   exit; // Exit if accessed directly
 }
 
-require_once(dirname(__FILE__) . '/liste-senateurs.php');
+require_once(dirname(__FILE__) . '/liste-deputes.php');
 require_once(dirname(__FILE__) . '/lettre.php');
 
 
@@ -42,9 +42,9 @@ function expediteur($args) {
 
 class Plugin
 {
-  const TABLE_NAME = 'envoi_senateurs';
-  const TEXTDOMAIN = 'lfi-envoi-senateurs';
-  const API_NAMESPACE = 'envoi-senateurs/v1';
+  const TABLE_NAME = 'envoi_deputes';
+  const TEXTDOMAIN = 'lfi-envoi-deputes';
+  const API_NAMESPACE = 'envoi-deputes/v1';
 
   public function __construct()
   {
@@ -54,9 +54,9 @@ class Plugin
     add_action( 'rest_api_init', [$this, 'register_route'] );
   }
 
-  public function lettre_senateurs_shortcode($attrs) {
+  public function lettre_deputes_shortcode($attrs) {
     wp_enqueue_script(
-      'envoi-senateurs',
+      'envoi-deputes',
       plugins_url( '/script.js', __FILE__ ),
       array( 'jquery' ),
       '1.0.1',
@@ -64,26 +64,26 @@ class Plugin
     );
 
     wp_localize_script(
-      'envoi-senateurs',
-      'configSenateurs',
+      'envoi-deputes',
+      'configDeputes',
       array(
         'endpointURL' => get_rest_url( null, self::API_NAMESPACE . '/envoi'),
       ),
     );
 
-    $liste_senateurs = Liste_Senateurs::get_instance();
+    $liste_deputes = Liste_Deputes::get_instance();
 
     $expediteur = expediteur( stripslashes_deep ( $_GET ) );
     $departement = $_GET['departement'] ?? null;
 
-    if ( is_null( $expediteur ) || is_null( $liste_senateurs->departement( $departement ) ) ) {
-      return '';
+    $depute = null;
+
+    if (false === is_null($liste_deputes->departement($departement))) {
+      $depute = $liste_deputes->random_depute($departement);
     }
 
-    $senateur = $liste_senateurs->random_senateur( $departement );
-
     $result = generer_lettre_html(
-      $senateur, $expediteur
+      $depute, $expediteur
     );
 
     return $result;
@@ -95,9 +95,9 @@ class Plugin
 
     $params = $request->get_body_params();
 
-    if ( is_null(Liste_Senateurs::get_instance()->senateur (
+    if ( is_null(Liste_Deputes::get_instance()->depute (
       $params['departement'],
-      $params['senateur'] ) ) )
+      $params['depute'] ) ) )
     {
       return new WP_Error(
         'rest_invalid_param',
@@ -111,7 +111,7 @@ class Plugin
       array(
         'time' => current_time( 'mysql' ),
         'departement' => $params['departement'],
-        'senateur' => $params['senateur'],
+        'depute' => $params['depute'],
         'email' => $params['email'],
         'nom' => $params['nom'],
         'prenom' => $params['prenom'],
@@ -132,7 +132,7 @@ class Plugin
         'departement' => [
           'required' => true,
         ],
-        'senateur' => [
+        'depute' => [
           'required' => true,
         ],
         'nom' => [
@@ -161,7 +161,7 @@ class Plugin
       id mediumint(9) NOT NULL AUTO_INCREMENT,
       time datetime DEFAULT '0000-00-00 00:00:00' NOT NULL,
       departement tinytext NOT NULL,
-      senateur tinyint(2) NOT NULL,
+      depute tinyint(2) NOT NULL,
       email tinytext NOT NULL,
       nom tinytext NOT NULL,
       prenom tinytext NOT NULL,
@@ -174,7 +174,7 @@ class Plugin
   }
 
   public function init() {
-    add_shortcode( 'lettre_senateurs', [$this, 'lettre_senateurs_shortcode'] );
+    add_shortcode( 'lettre_deputes', [$this, 'lettre_deputes_shortcode'] );
   }
 }
 

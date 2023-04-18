@@ -1,0 +1,3919 @@
+[
+  {
+    "code": "10",
+    "tn": 5,
+    "nom": "Aube",
+    "ds": [
+      {
+        "n": "Bazin-Malgras",
+        "p": "Valérie",
+        "e": "Valerie.Bazin-Malgras@assemblee-nationale.fr",
+        "s": "F",
+        "g": "Les Républicains"
+      },
+      {
+        "n": "Guitton",
+        "p": "Jordan",
+        "e": "jordan.guitton@assemblee-nationale.fr",
+        "s": "H",
+        "g": "Rassemblement national"
+      },
+      {
+        "n": "Ranc",
+        "p": "Angélique",
+        "e": "angelique.ranc@assemblee-nationale.fr",
+        "s": "F",
+        "g": "Rassemblement national"
+      }
+    ],
+    "cha": "de l'",
+    "art": "l'"
+  },
+  {
+    "code": "11",
+    "tn": 5,
+    "nom": "Aude",
+    "ds": [
+      {
+        "n": "Barthès",
+        "p": "Christophe",
+        "e": "christophe.barthes@assemblee-nationale.fr",
+        "s": "H",
+        "g": "Rassemblement national"
+      },
+      {
+        "n": "Rancoule",
+        "p": "Julien",
+        "e": "julien.rancoule@assemblee-nationale.fr",
+        "s": "H",
+        "g": "Rassemblement national"
+      },
+      {
+        "n": "Falcon",
+        "p": "Frédéric",
+        "e": "frederic.falcon@assemblee-nationale.fr",
+        "s": "H",
+        "g": "Rassemblement national"
+      }
+    ],
+    "cha": "de l'",
+    "art": "l'"
+  },
+  {
+    "code": "12",
+    "tn": 5,
+    "nom": "Aveyron",
+    "ds": [
+      {
+        "n": "Mazars",
+        "p": "Stéphane",
+        "e": "Stephane.Mazars@assemblee-nationale.fr",
+        "s": "H",
+        "g": "Renaissance"
+      },
+      {
+        "n": "Rousset",
+        "p": "Jean-François",
+        "e": "jean-francois.rousset@assemblee-nationale.fr",
+        "s": "H",
+        "g": "Renaissance"
+      }
+    ],
+    "cha": "de l'",
+    "art": "l'"
+  },
+  {
+    "code": "13",
+    "tn": 4,
+    "nom": "Bouches-du-Rhône",
+    "ds": [
+      {
+        "n": "Gonzalez",
+        "p": "José",
+        "e": "jose.gonzalez@assemblee-nationale.fr",
+        "s": "H",
+        "g": "Rassemblement national"
+      },
+      {
+        "n": "Allisio",
+        "p": "Franck",
+        "e": "franck.allisio@assemblee-nationale.fr",
+        "s": "H",
+        "g": "Rassemblement national"
+      },
+      {
+        "n": "Laqhila",
+        "p": "Mohamed",
+        "e": "Mohamed.Laqhila@assemblee-nationale.fr",
+        "s": "H",
+        "g": "Démocrates (MoDem et Indépendants)"
+      },
+      {
+        "n": "Zulesi",
+        "p": "Jean-Marc",
+        "e": "Jean-Marc.Zulesi@assemblee-nationale.fr",
+        "s": "H",
+        "g": "Renaissance"
+      },
+      {
+        "n": "Lelouis",
+        "p": "Gisèle",
+        "e": "gisele.lelouis@assemblee-nationale.fr",
+        "s": "F",
+        "g": "Rassemblement national"
+      },
+      {
+        "n": "Baubry",
+        "p": "Romain",
+        "e": "romain.baubry@assemblee-nationale.fr",
+        "s": "H",
+        "g": "Rassemblement national"
+      },
+      {
+        "n": "Pitollat",
+        "p": "Claire",
+        "e": "Claire.Pitollat@assemblee-nationale.fr",
+        "s": "F",
+        "g": "Renaissance"
+      },
+      {
+        "n": "Petel",
+        "p": "Anne-Laurence",
+        "e": "anne-laurence.petel@en-marche.fr",
+        "s": "F",
+        "g": "Renaissance"
+      },
+      {
+        "n": "Mélin",
+        "p": "Joëlle",
+        "e": "joelle.melin@assemblee-nationale.fr",
+        "s": "F",
+        "g": "Rassemblement national"
+      },
+      {
+        "n": "Taché de la Pagerie",
+        "p": "Emmanuel",
+        "e": "emmanuel.tachedelapagerie@assemblee-nationale.fr",
+        "s": "H",
+        "g": "Rassemblement national"
+      },
+      {
+        "n": "Agresti-Roubache",
+        "p": "Sabrina",
+        "e": "sabrina.agrestiroubache@assemblee-nationale.fr",
+        "s": "F",
+        "g": "Renaissance"
+      },
+      {
+        "n": "Royer-Perreaut",
+        "p": "Lionel",
+        "e": "lionel.royer-perreaut@assemblee-nationale.fr",
+        "s": "H",
+        "g": "Renaissance"
+      }
+    ],
+    "cha": "des ",
+    "art": "les "
+  },
+  {
+    "code": "14",
+    "tn": 2,
+    "nom": "Calvados",
+    "ds": [
+      {
+        "n": "Patrier-Leitus",
+        "p": "Jérémie",
+        "e": "jeremie.patrier-leitus@assemblee-nationale.fr",
+        "s": "H",
+        "g": "Horizons et apparentés"
+      },
+      {
+        "n": "Blanchet",
+        "p": "Christophe",
+        "e": "Christophe.Blanchet@assemblee-nationale.fr",
+        "s": "H",
+        "g": "Démocrates (MoDem et Indépendants)"
+      },
+      {
+        "n": "Bouyx",
+        "p": "Bertrand",
+        "e": "Bertrand.Bouyx@assemblee-nationale.fr",
+        "s": "H",
+        "g": "Renaissance"
+      },
+      {
+        "n": "Le Vigoureux",
+        "p": "Fabrice",
+        "e": "Fabrice.LeVigoureux@assemblee-nationale.fr",
+        "s": "H",
+        "g": "Renaissance"
+      },
+      {
+        "n": "Sertin",
+        "p": "Freddy",
+        "e": "freddy.sertin@assemblee-nationale.fr",
+        "s": "H",
+        "g": "Renaissance"
+      }
+    ],
+    "cha": "du ",
+    "art": "le "
+  },
+  {
+    "code": "15",
+    "tn": 2,
+    "nom": "Cantal",
+    "ds": [
+      {
+        "n": "Bony",
+        "p": "Jean-Yves",
+        "e": "jybony@orange.fr",
+        "s": "H",
+        "g": "Les Républicains"
+      },
+      {
+        "n": "Descoeur",
+        "p": "Vincent",
+        "e": "Vincent.Descoeur@assemblee-nationale.fr",
+        "s": "H",
+        "g": "Les Républicains"
+      }
+    ],
+    "cha": "du ",
+    "art": "le "
+  },
+  {
+    "code": "16",
+    "tn": 3,
+    "nom": "Charente",
+    "ds": [
+      {
+        "n": "Colombier",
+        "p": "Caroline",
+        "e": "caroline.colombier@assemblee-nationale.fr",
+        "s": "F",
+        "g": "Rassemblement national"
+      },
+      {
+        "n": "Marsaud",
+        "p": "Sandra",
+        "e": "Sandra.Marsaud@assemblee-nationale.fr",
+        "s": "F",
+        "g": "Renaissance"
+      }
+    ],
+    "cha": "de la ",
+    "art": "la "
+  },
+  {
+    "code": "17",
+    "tn": 3,
+    "nom": "Charente-Maritime",
+    "ds": [
+      {
+        "n": "Ardouin",
+        "p": "Jean-Philippe",
+        "e": "Jean-Philippe.Ardouin@assemblee-nationale.fr",
+        "s": "H",
+        "g": "Renaissance"
+      },
+      {
+        "n": "Plassard",
+        "p": "Christophe",
+        "e": "christophe.plassard@assemblee-nationale.fr",
+        "s": "H",
+        "g": "Horizons et apparentés"
+      },
+      {
+        "n": "Babault",
+        "p": "Anne-Laure",
+        "e": "anne-laure.babault@assemblee-nationale.fr",
+        "s": "F",
+        "g": "Démocrates (MoDem et Indépendants)"
+      },
+      {
+        "n": "Falorni",
+        "p": "Olivier",
+        "e": "Olivier.Falorni@assemblee-nationale.fr",
+        "s": "H",
+        "g": "Démocrates (MoDem et Indépendants)"
+      },
+      {
+        "n": "Gérard",
+        "p": "Raphaël",
+        "e": "Raphael.Gerard@assemblee-nationale.fr",
+        "s": "H",
+        "g": "Renaissance"
+      }
+    ],
+    "cha": "de la ",
+    "art": "la "
+  },
+  {
+    "code": "18",
+    "tn": 2,
+    "nom": "Cher",
+    "ds": [
+      {
+        "n": "Cormier-Bouligeon",
+        "p": "François",
+        "e": "Francois.Cormier-Bouligeon@assemblee-nationale.fr",
+        "s": "H",
+        "g": "Renaissance"
+      },
+      {
+        "n": "Kervran",
+        "p": "Loïc",
+        "e": "Loic.Kervran@assemblee-nationale.fr",
+        "s": "H",
+        "g": "Horizons et apparentés"
+      }
+    ],
+    "cha": "du ",
+    "art": "le "
+  },
+  {
+    "code": "19",
+    "tn": 3,
+    "nom": "Corrèze",
+    "ds": [
+      {
+        "n": "Dubois",
+        "p": "Francis",
+        "e": "francis.dubois@assemblee-nationale.fr",
+        "s": "H",
+        "g": "Les Républicains"
+      },
+      {
+        "n": "Meunier",
+        "p": "Frédérique",
+        "e": "Frederique.Meunier@assemblee-nationale.fr",
+        "s": "F",
+        "g": "Les Républicains"
+      }
+    ],
+    "cha": "de la ",
+    "art": "la "
+  },
+  {
+    "code": "21",
+    "tn": 3,
+    "nom": "Côte-d'Or",
+    "ds": [
+      {
+        "n": "Khattabi",
+        "p": "Fadila",
+        "e": "Fadila.Khattabi@assemblee-nationale.fr",
+        "s": "F",
+        "g": "Renaissance"
+      },
+      {
+        "n": "Martin",
+        "p": "Didier",
+        "e": "Didier.Martin@assemblee-nationale.fr",
+        "s": "H",
+        "g": "Renaissance"
+      },
+      {
+        "n": "Brigand",
+        "p": "Hubert",
+        "e": "hubert.brigand@assemblee-nationale.fr",
+        "s": "H",
+        "g": "Les Républicains"
+      },
+      {
+        "n": "Paris",
+        "p": "Didier",
+        "e": "Didier.Paris@assemblee-nationale.fr",
+        "s": "H",
+        "g": "Renaissance"
+      },
+      {
+        "n": "Bordat",
+        "p": "Benoît",
+        "e": "benoit.bordat@assemblee-nationale.fr",
+        "s": "H",
+        "g": "Renaissance"
+      }
+    ],
+    "cha": "de la ",
+    "art": "la "
+  },
+  {
+    "code": "22",
+    "tn": 4,
+    "nom": "Côtes-d'Armor",
+    "ds": [
+      {
+        "n": "Bothorel",
+        "p": "Éric",
+        "e": "Eric.Bothorel@assemblee-nationale.fr",
+        "s": "H",
+        "g": "Renaissance"
+      },
+      {
+        "n": "Le Fur",
+        "p": "Marc",
+        "e": "Marc.LeFur@assemblee-nationale.fr",
+        "s": "H",
+        "g": "Les Républicains"
+      },
+      {
+        "n": "Cosson",
+        "p": "Mickaël",
+        "e": "mickael.cosson@assemblee-nationale.fr",
+        "s": "H",
+        "g": "Démocrates (MoDem et Indépendants)"
+      },
+      {
+        "n": "Bouloux",
+        "p": "Chantal",
+        "e": "chantal.bouloux@assemblee-nationale.fr",
+        "s": "F",
+        "g": "Renaissance"
+      }
+    ],
+    "cha": "des ",
+    "art": "les "
+  },
+  {
+    "code": "23",
+    "tn": 3,
+    "nom": "Creuse",
+    "ds": [],
+    "cha": "de la ",
+    "art": "la "
+  },
+  {
+    "code": "24",
+    "tn": 3,
+    "nom": "Dordogne",
+    "ds": [
+      {
+        "n": "Cubertafon",
+        "p": "Jean-Pierre",
+        "e": "Jean-Pierre.Cubertafon@assemblee-nationale.fr",
+        "s": "H",
+        "g": "Démocrates (MoDem et Indépendants)"
+      },
+      {
+        "n": "Muller",
+        "p": "Serge",
+        "e": "serge.muller@assemblee-nationale.fr",
+        "s": "H",
+        "g": "Rassemblement national"
+      }
+    ],
+    "cha": "de la ",
+    "art": "la "
+  },
+  {
+    "code": "25",
+    "tn": 2,
+    "nom": "Doubs",
+    "ds": [
+      {
+        "n": "Pacquot",
+        "p": "Nicolas",
+        "e": "nicolas.pacquot@assemblee-nationale.fr",
+        "s": "H",
+        "g": "Renaissance"
+      },
+      {
+        "n": "Grangier",
+        "p": "Géraldine",
+        "e": "geraldine.grangier@assemblee-nationale.fr",
+        "s": "F",
+        "g": "Rassemblement national"
+      },
+      {
+        "n": "Genevard",
+        "p": "Annie",
+        "e": "Annie.Genevard@assemblee-nationale.fr",
+        "s": "F",
+        "g": "Les Républicains"
+      },
+      {
+        "n": "Croizier",
+        "p": "Laurent",
+        "e": "laurent.croizier@assemblee-nationale.fr",
+        "s": "H",
+        "g": "Démocrates (MoDem et Indépendants)"
+      },
+      {
+        "n": "Alauzet",
+        "p": "Éric",
+        "e": "Eric.Alauzet@assemblee-nationale.fr",
+        "s": "H",
+        "g": "Renaissance"
+      }
+    ],
+    "cha": "du ",
+    "art": "le "
+  },
+  {
+    "code": "26",
+    "tn": 3,
+    "nom": "Drôme",
+    "ds": [
+      {
+        "n": "Anthoine",
+        "p": "Emmanuelle",
+        "e": "Emmanuelle.Anthoine@assemblee-nationale.fr",
+        "s": "F",
+        "g": "Les Républicains"
+      },
+      {
+        "n": "Pollet",
+        "p": "Lisette",
+        "e": "lisette.pollet@assemblee-nationale.fr",
+        "s": "F",
+        "g": "Rassemblement national"
+      },
+      {
+        "n": "Clapot",
+        "p": "Mireille",
+        "e": "Mireille.Clapot@assemblee-nationale.fr",
+        "s": "F",
+        "g": "Renaissance"
+      }
+    ],
+    "cha": "de la ",
+    "art": "la "
+  },
+  {
+    "code": "27",
+    "tn": 5,
+    "nom": "Eure",
+    "ds": [
+      {
+        "n": "Houssin",
+        "p": "Timothée",
+        "e": "timothee.houssin@assemblee-nationale.fr",
+        "s": "H",
+        "g": "Rassemblement national"
+      },
+      {
+        "n": "Loir",
+        "p": "Christine",
+        "e": "christine.loir@assemblee-nationale.fr",
+        "s": "F",
+        "g": "Rassemblement national"
+      },
+      {
+        "n": "Mauvieux",
+        "p": "Kévin",
+        "e": "kevin.mauvieux@assemblee-nationale.fr",
+        "s": "H",
+        "g": "Rassemblement national"
+      },
+      {
+        "n": "Levavasseur",
+        "p": "Katiana",
+        "e": "katiana.levavasseur@assemblee-nationale.fr",
+        "s": "F",
+        "g": "Rassemblement national"
+      }
+    ],
+    "cha": "de l'",
+    "art": "l'"
+  },
+  {
+    "code": "28",
+    "tn": 1,
+    "nom": "Eure-et-Loir",
+    "ds": [
+      {
+        "n": "Lamirault",
+        "p": "Luc",
+        "e": "luc.lamirault@assemblee-nationale.fr",
+        "s": "H",
+        "g": "Horizons et apparentés"
+      },
+      {
+        "n": "Vigier",
+        "p": "Philippe",
+        "e": "Philippe.Vigier@assemblee-nationale.fr",
+        "s": "H",
+        "g": "Démocrates (MoDem et Indépendants)"
+      },
+      {
+        "n": "Marleix",
+        "p": "Olivier",
+        "e": "Olivier.Marleix@assemblee-nationale.fr",
+        "s": "H",
+        "g": "Les Républicains"
+      },
+      {
+        "n": "Kasbarian",
+        "p": "Guillaume",
+        "e": "guillaume.kasbarian@en-marche.fr",
+        "s": "H",
+        "g": "Renaissance"
+      }
+    ],
+    "cha": "d'",
+    "art": ""
+  },
+  {
+    "code": "29",
+    "tn": 2,
+    "nom": "Finistère",
+    "ds": [
+      {
+        "n": "Le Feur",
+        "p": "Sandrine",
+        "e": "Sandrine.LeFeur@assemblee-nationale.fr",
+        "s": "F",
+        "g": "Renaissance"
+      },
+      {
+        "n": "Larsonneur",
+        "p": "Jean-Charles",
+        "e": "Jean-Charles.Larsonneur@assemblee-nationale.fr",
+        "s": "H",
+        "g": "Horizons et apparentés"
+      },
+      {
+        "n": "Tanguy",
+        "p": "Liliana",
+        "e": "Liliana.Tanguy@assemblee-nationale.fr",
+        "s": "F",
+        "g": "Renaissance"
+      },
+      {
+        "n": "Le Gac",
+        "p": "Didier",
+        "e": "Didier.LeGac@assemblee-nationale.fr",
+        "s": "H",
+        "g": "Renaissance"
+      },
+      {
+        "n": "Melchior",
+        "p": "Graziella",
+        "e": "Graziella.Melchior@assemblee-nationale.fr",
+        "s": "F",
+        "g": "Renaissance"
+      },
+      {
+        "n": "Le Meur",
+        "p": "Annaïg",
+        "e": "Annaig.LeMeur@assemblee-nationale.fr",
+        "s": "F",
+        "g": "Renaissance"
+      },
+      {
+        "n": "Balanant",
+        "p": "Erwan",
+        "e": "Erwan.Balanant@assemblee-nationale.fr",
+        "s": "H",
+        "g": "Démocrates (MoDem et Indépendants)"
+      }
+    ],
+    "cha": "du ",
+    "art": "le "
+  },
+  {
+    "code": "30",
+    "tn": 2,
+    "nom": "Gard",
+    "ds": [
+      {
+        "n": "Meizonnet",
+        "p": "Nicolas",
+        "e": "nicolas.meizonnet@assemblee-nationale.fr",
+        "s": "H",
+        "g": "Rassemblement national"
+      },
+      {
+        "n": "Meurin",
+        "p": "Pierre",
+        "e": "pierre.meurin@assemblee-nationale.fr",
+        "s": "H",
+        "g": "Rassemblement national"
+      },
+      {
+        "n": "Bordes",
+        "p": "Pascale",
+        "e": "pascale.bordes@assemblee-nationale.fr",
+        "s": "F",
+        "g": "Rassemblement national"
+      },
+      {
+        "n": "Berta",
+        "p": "Philippe",
+        "e": "philippeberta30@gmail.com",
+        "s": "H",
+        "g": "Démocrates (MoDem et Indépendants)"
+      },
+      {
+        "n": "Gillet",
+        "p": "Yoann",
+        "e": "yoann.gillet@assemblee-nationale.fr",
+        "s": "H",
+        "g": "Rassemblement national"
+      }
+    ],
+    "cha": "du ",
+    "art": "le "
+  },
+  {
+    "code": "31",
+    "tn": 3,
+    "nom": "Haute-Garonne",
+    "ds": [
+      {
+        "n": "Portarrieu",
+        "p": "Jean-François",
+        "e": "contact@portarrieu.fr",
+        "s": "H",
+        "g": "Horizons et apparentés"
+      },
+      {
+        "n": "Vignon",
+        "p": "Corinne",
+        "e": "permanence@corinnevignon.fr",
+        "s": "F",
+        "g": "Renaissance"
+      },
+      {
+        "n": "Iborra",
+        "p": "Monique",
+        "e": "monique.iborra@orange.fr",
+        "s": "F",
+        "g": "Renaissance"
+      },
+      {
+        "n": "Esquenet-Goxes",
+        "p": "Laurent",
+        "e": "laurent.esquenet@assemblee-nationale.fr",
+        "s": "H",
+        "g": "Démocrates (MoDem et Indépendants)"
+      }
+    ],
+    "cha": "de la ",
+    "art": "la "
+  },
+  {
+    "code": "32",
+    "tn": 2,
+    "nom": "Gers",
+    "ds": [
+      {
+        "n": "Cazeneuve",
+        "p": "Jean-René",
+        "e": "Jean-Rene.Cazeneuve@assemblee-nationale.fr",
+        "s": "H",
+        "g": "Renaissance"
+      },
+      {
+        "n": "Taupiac",
+        "p": "David",
+        "e": "david.taupiac@assemblee-nationale.fr",
+        "s": "H",
+        "g": "Libertés, Indépendants, Outre-mer et Territoires"
+      }
+    ],
+    "cha": "du ",
+    "art": "le "
+  },
+  {
+    "code": "33",
+    "tn": 3,
+    "nom": "Gironde",
+    "ds": [
+      {
+        "n": "Cazenave",
+        "p": "Thomas",
+        "e": "thomas.cazenave@assemblee-nationale.fr",
+        "s": "H",
+        "g": "Renaissance"
+      },
+      {
+        "n": "Poulliat",
+        "p": "Éric",
+        "e": "Eric.Poulliat@assemblee-nationale.fr",
+        "s": "H",
+        "g": "Renaissance"
+      },
+      {
+        "n": "Panonacle",
+        "p": "Sophie",
+        "e": "Sophie.Panonacle@assemblee-nationale.fr",
+        "s": "F",
+        "g": "Renaissance"
+      },
+      {
+        "n": "Fournas (de)",
+        "p": "Grégoire",
+        "e": "gregoire.defournas@assemblee-nationale.fr",
+        "s": "H",
+        "g": "Rassemblement national"
+      },
+      {
+        "n": "Lavergne",
+        "p": "Pascal",
+        "e": "pascal.lavergne@assemblee-nationale.fr",
+        "s": "H",
+        "g": "Renaissance"
+      },
+      {
+        "n": "Diaz",
+        "p": "Edwige",
+        "e": "edwige.diaz@assemblee-nationale.fr",
+        "s": "F",
+        "g": "Rassemblement national"
+      },
+      {
+        "n": "Mette",
+        "p": "Sophie",
+        "e": "Sophie.Mette@assemblee-nationale.fr",
+        "s": "F",
+        "g": "Démocrates (MoDem et Indépendants)"
+      },
+      {
+        "n": "Boudié",
+        "p": "Florent",
+        "e": "contact@florentboudie.fr",
+        "s": "H",
+        "g": "Renaissance"
+      },
+      {
+        "n": "Zgainski",
+        "p": "Frédéric",
+        "e": "frederic.zgainski@assemblee-nationale.fr",
+        "s": "H",
+        "g": "Démocrates (MoDem et Indépendants)"
+      }
+    ],
+    "cha": "de la ",
+    "art": "la "
+  },
+  {
+    "code": "34",
+    "tn": 5,
+    "nom": "Hérault",
+    "ds": [
+      {
+        "n": "Vignal",
+        "p": "Patrick",
+        "e": "vignalpatrick@gmail.com",
+        "s": "H",
+        "g": "Renaissance"
+      },
+      {
+        "n": "Lopez-Liguori",
+        "p": "Aurélien",
+        "e": "aurelien.lopezliguori@assemblee-nationale.fr",
+        "s": "H",
+        "g": "Rassemblement national"
+      },
+      {
+        "n": "Ménard",
+        "p": "Emmanuelle",
+        "e": "Emmanuelle.Menard@assemblee-nationale.fr",
+        "s": "F",
+        "g": " "
+      },
+      {
+        "n": "Galzy",
+        "p": "Stéphanie",
+        "e": "stephanie.galzy@assemblee-nationale.fr",
+        "s": "F",
+        "g": "Rassemblement national"
+      },
+      {
+        "n": "Cristol",
+        "p": "Laurence",
+        "e": "laurence.cristol@assemblee-nationale.fr",
+        "s": "F",
+        "g": "Renaissance"
+      },
+      {
+        "n": "Sorez",
+        "p": "Philippe",
+        "e": "philippe.sorez@assemblee-nationale.fr",
+        "s": "H",
+        "g": "Renaissance"
+      }
+    ],
+    "cha": "de l'",
+    "art": "l'"
+  },
+  {
+    "code": "35",
+    "tn": 1,
+    "nom": "Ille-et-Vilaine",
+    "ds": [
+      {
+        "n": "Maillart-Méhaignerie",
+        "p": "Laurence",
+        "e": "Laurence.Maillart-Mehaignerie@assemblee-nationale.fr",
+        "s": "F",
+        "g": "Renaissance"
+      },
+      {
+        "n": "Benoit",
+        "p": "Thierry",
+        "e": "Thierry.Benoit@assemblee-nationale.fr",
+        "s": "H",
+        "g": "Horizons et apparentés"
+      },
+      {
+        "n": "Le Nabour",
+        "p": "Christine",
+        "e": "Christine.Lenabour@assemblee-nationale.fr",
+        "s": "F",
+        "g": "Renaissance"
+      },
+      {
+        "n": "Bourgeaux",
+        "p": "Jean-Luc",
+        "e": "jean-luc.bourgeaux@assemblee-nationale.fr",
+        "s": "H",
+        "g": "Les Républicains"
+      }
+    ],
+    "cha": "d'",
+    "art": ""
+  },
+  {
+    "code": "36",
+    "tn": 5,
+    "nom": "Indre",
+    "ds": [
+      {
+        "n": "Jolivet",
+        "p": "François",
+        "e": "Francois.Jolivet@assemblee-nationale.fr",
+        "s": "H",
+        "g": "Horizons et apparentés"
+      },
+      {
+        "n": "Forissier",
+        "p": "Nicolas",
+        "e": "Nicolas.Forissier@assemblee-nationale.fr",
+        "s": "H",
+        "g": "Les Républicains"
+      }
+    ],
+    "cha": "de l'",
+    "art": "l'"
+  },
+  {
+    "code": "37",
+    "tn": 1,
+    "nom": "Indre-et-Loire",
+    "ds": [
+      {
+        "n": "Thillaye",
+        "p": "Sabine",
+        "e": "Sabine.Thillaye@assemblee-nationale.fr",
+        "s": "F",
+        "g": "Démocrates (MoDem et Indépendants)"
+      },
+      {
+        "n": "Labaronne",
+        "p": "Daniel",
+        "e": "Daniel.Labaronne@assemblee-nationale.fr",
+        "s": "H",
+        "g": "Renaissance"
+      },
+      {
+        "n": "Colboc",
+        "p": "Fabienne",
+        "e": "Fabienne.Colboc@assemblee-nationale.fr",
+        "s": "F",
+        "g": "Renaissance"
+      },
+      {
+        "n": "Alfandari",
+        "p": "Henri",
+        "e": "henri.alfandari@assemblee-nationale.fr",
+        "s": "H",
+        "g": "Horizons et apparentés"
+      }
+    ],
+    "cha": "d'",
+    "art": ""
+  },
+  {
+    "code": "38",
+    "tn": 5,
+    "nom": "Isère",
+    "ds": [
+      {
+        "n": "Abadie",
+        "p": "Caroline",
+        "e": "Caroline.Abadie@assemblee-nationale.fr",
+        "s": "F",
+        "g": "Renaissance"
+      },
+      {
+        "n": "Meynier-Millefert",
+        "p": "Marjolaine",
+        "e": "mmeyniermillefert@gmail.com",
+        "s": "F",
+        "g": "Renaissance"
+      },
+      {
+        "n": "Jolly",
+        "p": "Alexis",
+        "e": "alexis.jolly@assemblee-nationale.fr",
+        "s": "H",
+        "g": "Rassemblement national"
+      },
+      {
+        "n": "Neuder",
+        "p": "Yannick",
+        "e": "yannick.neuder@assemblee-nationale.fr",
+        "s": "H",
+        "g": "Les Républicains"
+      },
+      {
+        "n": "Jacquier-Laforge",
+        "p": "Élodie",
+        "e": "Elodie.Jacquier-Laforge@assemblee-nationale.fr",
+        "s": "F",
+        "g": "Démocrates (MoDem et Indépendants)"
+      },
+      {
+        "n": "Hugues",
+        "p": "Servane",
+        "e": "servane.hugues@assemblee-nationale.fr",
+        "s": "F",
+        "g": "Renaissance"
+      }
+    ],
+    "cha": "de l'",
+    "art": "l'"
+  },
+  {
+    "code": "39",
+    "tn": 2,
+    "nom": "Jura",
+    "ds": [
+      {
+        "n": "Dalloz",
+        "p": "Marie-Christine",
+        "e": "marie-christine.dalloz390@orange.fr",
+        "s": "F",
+        "g": "Les Républicains"
+      },
+      {
+        "n": "Gruet",
+        "p": "Justine",
+        "e": "justine.gruet@assemblee-nationale.fr",
+        "s": "F",
+        "g": "Les Républicains"
+      },
+      {
+        "n": "Brulebois",
+        "p": "Danielle",
+        "e": "Danielle.Brulebois@assemblee-nationale.fr",
+        "s": "F",
+        "g": "Renaissance"
+      }
+    ],
+    "cha": "du ",
+    "art": "le "
+  },
+  {
+    "code": "40",
+    "tn": 4,
+    "nom": "Landes",
+    "ds": [
+      {
+        "n": "Causse",
+        "p": "Lionel",
+        "e": "Lionel.Causse@assemblee-nationale.fr",
+        "s": "H",
+        "g": "Renaissance"
+      },
+      {
+        "n": "Lainé",
+        "p": "Fabien",
+        "e": "Fabien.Laine@assemblee-nationale.fr",
+        "s": "H",
+        "g": "Démocrates (MoDem et Indépendants)"
+      }
+    ],
+    "cha": "des ",
+    "art": "les "
+  },
+  {
+    "code": "41",
+    "tn": 2,
+    "nom": "Loir-et-Cher",
+    "ds": [
+      {
+        "n": "Marion",
+        "p": "Christophe",
+        "e": "christophe.marion@assemblee-nationale.fr",
+        "s": "H",
+        "g": "Renaissance"
+      },
+      {
+        "n": "Chudeau",
+        "p": "Roger",
+        "e": "roger.chudeau@assemblee-nationale.fr",
+        "s": "H",
+        "g": "Rassemblement national"
+      },
+      {
+        "n": "Desjonquères",
+        "p": "Mathilde",
+        "e": "mathilde.desjonqueres@assemblee-nationale.fr",
+        "s": "F",
+        "g": "Démocrates (MoDem et Indépendants)"
+      }
+    ],
+    "cha": "du ",
+    "art": "le "
+  },
+  {
+    "code": "42",
+    "tn": 3,
+    "nom": "Loire",
+    "ds": [
+      {
+        "n": "Bataillon",
+        "p": "Quentin",
+        "e": "quentin.bataillon@assemblee-nationale.fr",
+        "s": "H",
+        "g": "Renaissance"
+      },
+      {
+        "n": "Vermorel-Marques",
+        "p": "Antoine",
+        "e": "contact@antoinevermorel.fr",
+        "s": "H",
+        "g": "Les Républicains"
+      },
+      {
+        "n": "Cinieri",
+        "p": "Dino",
+        "e": "Dino.Cinieri@assemblee-nationale.fr",
+        "s": "H",
+        "g": "Les Républicains"
+      },
+      {
+        "n": "Taite",
+        "p": "Jean-Pierre",
+        "e": "jean-pierre.taite@assemblee-nationale.fr",
+        "s": "H",
+        "g": "Les Républicains"
+      },
+      {
+        "n": "Mandon",
+        "p": "Emmanuel",
+        "e": "emmanuel.mandon@assemblee-nationale.fr",
+        "s": "H",
+        "g": "Démocrates (MoDem et Indépendants)"
+      }
+    ],
+    "cha": "de la ",
+    "art": "la "
+  },
+  {
+    "code": "43",
+    "tn": 3,
+    "nom": "Haute-Loire",
+    "ds": [
+      {
+        "n": "Vigier",
+        "p": "Jean-Pierre",
+        "e": "Jean-Pierre.Vigier@assemblee-nationale.fr",
+        "s": "H",
+        "g": "Les Républicains"
+      },
+      {
+        "n": "Valentin",
+        "p": "Isabelle",
+        "e": "Isabelle.Valentin@assemblee-nationale.fr",
+        "s": "F",
+        "g": "Les Républicains"
+      }
+    ],
+    "cha": "de la ",
+    "art": "la "
+  },
+  {
+    "code": "44",
+    "tn": 3,
+    "nom": "Loire-Atlantique",
+    "ds": [
+      {
+        "n": "Errante",
+        "p": "Sophie",
+        "e": "Sophie.Errante@assemblee-nationale.fr",
+        "s": "F",
+        "g": "Renaissance"
+      },
+      {
+        "n": "Haury",
+        "p": "Yannick",
+        "e": "Yannick.Haury@assemblee-nationale.fr",
+        "s": "H",
+        "g": "Renaissance"
+      },
+      {
+        "n": "Belhamiti",
+        "p": "Mounir",
+        "e": "mounir.belhamiti@assemblee-nationale.fr",
+        "s": "H",
+        "g": "Renaissance"
+      },
+      {
+        "n": "Josso",
+        "p": "Sandrine",
+        "e": "sandrinejossocommunications@gmail.com",
+        "s": "F",
+        "g": "Démocrates (MoDem et Indépendants)"
+      },
+      {
+        "n": "Geismar",
+        "p": "Luc",
+        "e": "luc.geismar@assemblee-nationale.fr",
+        "s": "H",
+        "g": "Démocrates (MoDem et Indépendants)"
+      }
+    ],
+    "cha": "de la ",
+    "art": "la "
+  },
+  {
+    "code": "45",
+    "tn": 2,
+    "nom": "Loiret",
+    "ds": [
+      {
+        "n": "Ramos",
+        "p": "Richard",
+        "e": "Richard.Ramos@assemblee-nationale.fr",
+        "s": "H",
+        "g": "Démocrates (MoDem et Indépendants)"
+      },
+      {
+        "n": "Janvier",
+        "p": "Caroline",
+        "e": "caroline.janvier@en-marche.fr",
+        "s": "F",
+        "g": "Renaissance"
+      },
+      {
+        "n": "Brosse",
+        "p": "Anthony",
+        "e": "anthony.brosse@assemblee-nationale.fr",
+        "s": "H",
+        "g": "Renaissance"
+      },
+      {
+        "n": "Rist",
+        "p": "Stéphanie",
+        "e": "Stephanie.Rist@assemblee-nationale.fr",
+        "s": "F",
+        "g": "Renaissance"
+      },
+      {
+        "n": "Ménagé",
+        "p": "Thomas",
+        "e": "thomas.menage@assemblee-nationale.fr",
+        "s": "H",
+        "g": "Rassemblement national"
+      },
+      {
+        "n": "Paris",
+        "p": "Mathilde",
+        "e": "mathilde.paris@assemblee-nationale.fr",
+        "s": "F",
+        "g": "Rassemblement national"
+      }
+    ],
+    "cha": "du ",
+    "art": "le "
+  },
+  {
+    "code": "46",
+    "tn": 2,
+    "nom": "Lot",
+    "ds": [
+      {
+        "n": "Pradié",
+        "p": "Aurélien",
+        "e": "Aurelien.Pradie@assemblee-nationale.fr",
+        "s": "H",
+        "g": "Les Républicains"
+      },
+      {
+        "n": "Tiegna",
+        "p": "Huguette",
+        "e": "Huguette.Tiegna@assemblee-nationale.fr",
+        "s": "F",
+        "g": "Renaissance"
+      }
+    ],
+    "cha": "du ",
+    "art": "le "
+  },
+  {
+    "code": "47",
+    "tn": 2,
+    "nom": "Lot-et-Garonne",
+    "ds": [
+      {
+        "n": "Cousin",
+        "p": "Annick",
+        "e": "annick.cousin@assemblee-nationale.fr",
+        "s": "F",
+        "g": "Rassemblement national"
+      },
+      {
+        "n": "Laporte",
+        "p": "Hélène",
+        "e": "helene.laporte@assemblee-nationale.fr",
+        "s": "F",
+        "g": "Rassemblement national"
+      },
+      {
+        "n": "Lauzzana",
+        "p": "Michel",
+        "e": "Michel.Lauzzana@assemblee-nationale.fr",
+        "s": "H",
+        "g": "Renaissance"
+      }
+    ],
+    "cha": "du ",
+    "art": "le "
+  },
+  {
+    "code": "48",
+    "tn": 3,
+    "nom": "Lozère",
+    "ds": [
+      {
+        "n": "Morel-À-L'Huissier",
+        "p": "Pierre",
+        "e": "pierremorellozere@gmail.com",
+        "s": "H",
+        "g": "Libertés, Indépendants, Outre-mer et Territoires"
+      }
+    ],
+    "cha": "de la ",
+    "art": "la "
+  },
+  {
+    "code": "49",
+    "tn": 0,
+    "nom": "Maine-et-Loire",
+    "ds": [
+      {
+        "n": "Bolo",
+        "p": "Philippe",
+        "e": "Philippe.Bolo@assemblee-nationale.fr",
+        "s": "H",
+        "g": "Démocrates (MoDem et Indépendants)"
+      },
+      {
+        "n": "Dupont",
+        "p": "Stella",
+        "e": "Stella.Dupont@assemblee-nationale.fr",
+        "s": "F",
+        "g": "Renaissance"
+      },
+      {
+        "n": "Gernigon",
+        "p": "François",
+        "e": "francois.gernigon@assemblee-nationale.fr",
+        "s": "H",
+        "g": "Horizons et apparentés"
+      },
+      {
+        "n": "Dubré-Chirat",
+        "p": "Nicole",
+        "e": "Nicole.Dubre-Chirat@assemblee-nationale.fr",
+        "s": "F",
+        "g": "Renaissance"
+      },
+      {
+        "n": "Blin",
+        "p": "Anne-Laure",
+        "e": "anne-laure.blin@assemblee-nationale.fr",
+        "s": "F",
+        "g": "Les Républicains"
+      },
+      {
+        "n": "Masséglia",
+        "p": "Denis",
+        "e": "Denis.Masseglia@assemblee-nationale.fr",
+        "s": "H",
+        "g": "Renaissance"
+      },
+      {
+        "n": "Saint-Paul",
+        "p": "Laetitia",
+        "e": "Laetitia.Saint-Paul@assemblee-nationale.fr",
+        "s": "F",
+        "g": "Renaissance"
+      }
+    ],
+    "cha": "de ",
+    "art": ""
+  },
+  {
+    "code": "50",
+    "tn": 3,
+    "nom": "Manche",
+    "ds": [
+      {
+        "n": "Gosselin",
+        "p": "Philippe",
+        "e": "philippe.gosselin@assemblee-nationale.fr",
+        "s": "H",
+        "g": "Les Républicains"
+      },
+      {
+        "n": "Travert",
+        "p": "Stéphane",
+        "e": "Stephane.Travert@assemblee-nationale.fr",
+        "s": "H",
+        "g": "Renaissance"
+      },
+      {
+        "n": "Sorre",
+        "p": "Bertrand",
+        "e": "Bertrand.Sorre@assemblee-nationale.fr",
+        "s": "H",
+        "g": "Renaissance"
+      }
+    ],
+    "cha": "de la ",
+    "art": "la "
+  },
+  {
+    "code": "51",
+    "tn": 3,
+    "nom": "Marne",
+    "ds": [
+      {
+        "n": "Albertini",
+        "p": "Xavier",
+        "e": "xavier.albertini@assemblee-nationale.fr",
+        "s": "H",
+        "g": "Horizons et apparentés"
+      },
+      {
+        "n": "Courson (de)",
+        "p": "Charles",
+        "e": "Charles.deCourson@assemblee-nationale.fr",
+        "s": "H",
+        "g": "Libertés, Indépendants, Outre-mer et Territoires"
+      },
+      {
+        "n": "Magnier",
+        "p": "Lise",
+        "e": "Lise.Magnier@assemblee-nationale.fr",
+        "s": "F",
+        "g": "Horizons et apparentés"
+      },
+      {
+        "n": "Girardin",
+        "p": "Éric",
+        "e": "Eric.Girardin@assemblee-nationale.fr",
+        "s": "H",
+        "g": "Renaissance"
+      },
+      {
+        "n": "Miller",
+        "p": "Laure",
+        "e": "laure.miller@assemblee-nationale.fr",
+        "s": "F",
+        "g": "Renaissance"
+      }
+    ],
+    "cha": "de la ",
+    "art": "la "
+  },
+  {
+    "code": "52",
+    "tn": 3,
+    "nom": "Haute-Marne",
+    "ds": [
+      {
+        "n": "Bentz",
+        "p": "Christophe",
+        "e": "christophe.bentz@assemblee-nationale.fr",
+        "s": "H",
+        "g": "Rassemblement national"
+      },
+      {
+        "n": "Robert-Dehault",
+        "p": "Laurence",
+        "e": "laurence.robert-dehault@assemblee-nationale.fr",
+        "s": "F",
+        "g": "Rassemblement national"
+      }
+    ],
+    "cha": "de la ",
+    "art": "la "
+  },
+  {
+    "code": "53",
+    "tn": 3,
+    "nom": "Mayenne",
+    "ds": [
+      {
+        "n": "Bannier",
+        "p": "Géraldine",
+        "e": "Geraldine.Bannier@assemblee-nationale.fr",
+        "s": "F",
+        "g": "Démocrates (MoDem et Indépendants)"
+      },
+      {
+        "n": "Favennec-Bécot",
+        "p": "Yannick",
+        "e": "favennec.yannick@wanadoo.fr",
+        "s": "H",
+        "g": "Horizons et apparentés"
+      }
+    ],
+    "cha": "de la ",
+    "art": "la "
+  },
+  {
+    "code": "54",
+    "tn": 0,
+    "nom": "Meurthe-et-Moselle",
+    "ds": [
+      {
+        "n": "Bazin",
+        "p": "Thibault",
+        "e": "permanence.bazin@gmail.com",
+        "s": "H",
+        "g": "Les Républicains"
+      },
+      {
+        "n": "Lacresse",
+        "p": "Emmanuel",
+        "e": "emmanuel.lacresse@assemblee-nationale.fr",
+        "s": "H",
+        "g": "Renaissance"
+      },
+      {
+        "n": "Guillemard",
+        "p": "Philippe",
+        "e": "philippe.guillemard@assemblee-nationale.fr",
+        "s": "H",
+        "g": "Renaissance"
+      }
+    ],
+    "cha": "de ",
+    "art": ""
+  },
+  {
+    "code": "55",
+    "tn": 3,
+    "nom": "Meuse",
+    "ds": [
+      {
+        "n": "Pancher",
+        "p": "Bertrand",
+        "e": "bpancher.depute@orange.fr",
+        "s": "H",
+        "g": "Libertés, Indépendants, Outre-mer et Territoires"
+      },
+      {
+        "n": "Goulet",
+        "p": "Florence",
+        "e": "florence.goulet@assemblee-nationale.fr",
+        "s": "F",
+        "g": "Rassemblement national"
+      }
+    ],
+    "cha": "de la ",
+    "art": "la "
+  },
+  {
+    "code": "56",
+    "tn": 2,
+    "nom": "Morbihan",
+    "ds": [
+      {
+        "n": "Jacques",
+        "p": "Jean-Michel",
+        "e": "Jean-Michel.Jacques@assemblee-nationale.fr",
+        "s": "H",
+        "g": "Renaissance"
+      },
+      {
+        "n": "Le Peih",
+        "p": "Nicole",
+        "e": "Nicole.LePeih@assemblee-nationale.fr",
+        "s": "F",
+        "g": "Renaissance"
+      },
+      {
+        "n": "Pahun",
+        "p": "Jimmy",
+        "e": "Jimmy.Pahun@assemblee-nationale.fr",
+        "s": "H",
+        "g": "Démocrates (MoDem et Indépendants)"
+      },
+      {
+        "n": "Métayer",
+        "p": "Lysiane",
+        "e": "lysiane.metayer@assemblee-nationale.fr",
+        "s": "F",
+        "g": "Renaissance"
+      },
+      {
+        "n": "Le Hénanff",
+        "p": "Anne",
+        "e": "anne.lehenanff@assemblee-nationale.fr",
+        "s": "F",
+        "g": "Horizons et apparentés"
+      },
+      {
+        "n": "Molac",
+        "p": "Paul",
+        "e": "Paul.Molac@assemblee-nationale.fr",
+        "s": "H",
+        "g": "Libertés, Indépendants, Outre-mer et Territoires"
+      }
+    ],
+    "cha": "du ",
+    "art": "le "
+  },
+  {
+    "code": "57",
+    "tn": 3,
+    "nom": "Moselle",
+    "ds": [
+      {
+        "n": "Jacobelli",
+        "p": "Laurent",
+        "e": "laurent.jacobelli@assemblee-nationale.fr",
+        "s": "H",
+        "g": "Rassemblement national"
+      },
+      {
+        "n": "Di Filippo",
+        "p": "Fabien",
+        "e": "Fabien.DiFilippo@assemblee-nationale.fr",
+        "s": "H",
+        "g": "Les Républicains"
+      },
+      {
+        "n": "Mendes",
+        "p": "Ludovic",
+        "e": "Ludovic.Mendes@assemblee-nationale.fr",
+        "s": "H",
+        "g": "Renaissance"
+      },
+      {
+        "n": "Pfeffer",
+        "p": "Kévin",
+        "e": "kevin.pfeffer@assemblee-nationale.fr",
+        "s": "H",
+        "g": "Rassemblement national"
+      },
+      {
+        "n": "Seitlinger",
+        "p": "Vincent",
+        "e": "vincent.seitlinger@assemblee-nationale.fr",
+        "s": "H",
+        "g": "Les Républicains"
+      },
+      {
+        "n": "Rauch",
+        "p": "Isabelle",
+        "e": "Isabelle.Rauch@assemblee-nationale.fr",
+        "s": "F",
+        "g": "Horizons et apparentés"
+      },
+      {
+        "n": "Belhaddad",
+        "p": "Belkhir",
+        "e": "Belkhir.Belhaddad@assemblee-nationale.fr",
+        "s": "H",
+        "g": "Renaissance"
+      },
+      {
+        "n": "Loubet",
+        "p": "Alexandre",
+        "e": "alexandre.loubet@assemblee-nationale.fr",
+        "s": "H",
+        "g": "Rassemblement national"
+      }
+    ],
+    "cha": "de la ",
+    "art": "la "
+  },
+  {
+    "code": "58",
+    "tn": 3,
+    "nom": "Nièvre",
+    "ds": [
+      {
+        "n": "Goulet",
+        "p": "Perrine",
+        "e": "Perrine.Goulet@assemblee-nationale.fr",
+        "s": "F",
+        "g": "Démocrates (MoDem et Indépendants)"
+      },
+      {
+        "n": "Perrot",
+        "p": "Patrice",
+        "e": "Patrice.Perrot@assemblee-nationale.fr",
+        "s": "H",
+        "g": "Renaissance"
+      }
+    ],
+    "cha": "de la ",
+    "art": "la "
+  },
+  {
+    "code": "59",
+    "tn": 2,
+    "nom": "Nord",
+    "ds": [
+      {
+        "n": "Christophe",
+        "p": "Paul",
+        "e": "Paul.Christophe@assemblee-nationale.fr",
+        "s": "H",
+        "g": "Horizons et apparentés"
+      },
+      {
+        "n": "Catteau",
+        "p": "Victor",
+        "e": "victor.catteau@assemblee-nationale.fr",
+        "s": "H",
+        "g": "Rassemblement national"
+      },
+      {
+        "n": "Berteloot",
+        "p": "Pierrick",
+        "e": "pierrick.berteloot@assemblee-nationale.fr",
+        "s": "H",
+        "g": "Rassemblement national"
+      },
+      {
+        "n": "Parmentier-Lecocq",
+        "p": "Charlotte",
+        "e": "Charlotte.Lecocq@assemblee-nationale.fr",
+        "s": "F",
+        "g": "Renaissance"
+      },
+      {
+        "n": "Taverne",
+        "p": "Michaël",
+        "e": "michael.taverne@assemblee-nationale.fr",
+        "s": "H",
+        "g": "Rassemblement national"
+      },
+      {
+        "n": "Decodts",
+        "p": "Christine",
+        "e": "christine.decodts@assemblee-nationale.fr",
+        "s": "F",
+        "g": "Renaissance"
+      },
+      {
+        "n": "Marchio",
+        "p": "Matthieu",
+        "e": "matthieu.marchio@assemblee-nationale.fr",
+        "s": "H",
+        "g": "Rassemblement national"
+      },
+      {
+        "n": "François",
+        "p": "Thibaut",
+        "e": "thibaut.francois@assemblee-nationale.fr",
+        "s": "H",
+        "g": "Rassemblement national"
+      },
+      {
+        "n": "Chenu",
+        "p": "Sébastien",
+        "e": "Sebastien.Chenu@assemblee-nationale.fr",
+        "s": "H",
+        "g": "Rassemblement national"
+      },
+      {
+        "n": "Spillebout",
+        "p": "Violette",
+        "e": "violette.spillebout@assemblee-nationale.fr",
+        "s": "F",
+        "g": "Renaissance"
+      },
+      {
+        "n": "Bricout",
+        "p": "Guy",
+        "e": "Guy.Bricout@assemblee-nationale.fr",
+        "s": "H",
+        "g": "Libertés, Indépendants, Outre-mer et Territoires"
+      },
+      {
+        "n": "Descamps",
+        "p": "Béatrice",
+        "e": "Beatrice.Descamps@assemblee-nationale.fr",
+        "s": "F",
+        "g": "Libertés, Indépendants, Outre-mer et Territoires"
+      },
+      {
+        "n": "Liso",
+        "p": "Brigitte",
+        "e": "enmarche@brigitteliso.fr",
+        "s": "F",
+        "g": "Renaissance"
+      },
+      {
+        "n": "Saint-Huile",
+        "p": "Benjamin",
+        "e": "benjamin.saint-huile@assemblee-nationale.fr",
+        "s": "H",
+        "g": "Libertés, Indépendants, Outre-mer et Territoires"
+      },
+      {
+        "n": "Gérard",
+        "p": "Félicie",
+        "e": "felicie.gerard@assemblee-nationale.fr",
+        "s": "F",
+        "g": "Horizons et apparentés"
+      },
+      {
+        "n": "Ledoux",
+        "p": "Vincent",
+        "e": "permanenceledoux@gmail.com",
+        "s": "H",
+        "g": "Renaissance"
+      }
+    ],
+    "cha": "du ",
+    "art": "le "
+  },
+  {
+    "code": "60",
+    "tn": 5,
+    "nom": "Oise",
+    "ds": [
+      {
+        "n": "Vatin",
+        "p": "Pierre",
+        "e": "Pierre.Vatin@assemblee-nationale.fr",
+        "s": "H",
+        "g": "Les Républicains"
+      },
+      {
+        "n": "Minot",
+        "p": "Maxime",
+        "e": "maximeminot.votredepute@gmail.com",
+        "s": "H",
+        "g": "Les Républicains"
+      },
+      {
+        "n": "Ballard",
+        "p": "Philippe",
+        "e": "permanence.ballard@gmail.com",
+        "s": "H",
+        "g": "Rassemblement national"
+      },
+      {
+        "n": "Habert-Dassault",
+        "p": "Victor",
+        "e": "victor.habert-dassault@assemblee-nationale.fr",
+        "s": "H",
+        "g": "Les Républicains"
+      },
+      {
+        "n": "Sabatou",
+        "p": "Alexandre",
+        "e": "alexandre.sabatou@assemblee-nationale.fr",
+        "s": "H",
+        "g": "Rassemblement national"
+      },
+      {
+        "n": "Woerth",
+        "p": "Éric",
+        "e": "eric.woerth@orange.fr",
+        "s": "H",
+        "g": "Renaissance"
+      },
+      {
+        "n": "Guiniot",
+        "p": "Michel",
+        "e": "michel.guiniot@assemblee-nationale.fr",
+        "s": "H",
+        "g": "Rassemblement national"
+      }
+    ],
+    "cha": "de l'",
+    "art": "l'"
+  },
+  {
+    "code": "61",
+    "tn": 5,
+    "nom": "Orne",
+    "ds": [
+      {
+        "n": "Louwagie",
+        "p": "Véronique",
+        "e": "Veronique.Louwagie@assemblee-nationale.fr",
+        "s": "F",
+        "g": "Les Républicains"
+      },
+      {
+        "n": "Nury",
+        "p": "Jérôme",
+        "e": "Jerome.Nury@assemblee-nationale.fr",
+        "s": "H",
+        "g": "Les Républicains"
+      }
+    ],
+    "cha": "de l'",
+    "art": "l'"
+  },
+  {
+    "code": "62",
+    "tn": 2,
+    "nom": "Pas-de-Calais",
+    "ds": [
+      {
+        "n": "Blairy",
+        "p": "Emmanuel",
+        "e": "emmanuel.blairy@assemblee-nationale.fr",
+        "s": "H",
+        "g": "Rassemblement national"
+      },
+      {
+        "n": "Le Pen",
+        "p": "Marine",
+        "e": "Marine.LePen@assemblee-nationale.fr",
+        "s": "F",
+        "g": "Rassemblement national"
+      },
+      {
+        "n": "Frappé",
+        "p": "Thierry",
+        "e": "thierry.frappe@assemblee-nationale.fr",
+        "s": "H",
+        "g": "Rassemblement national"
+      },
+      {
+        "n": "Bilde",
+        "p": "Bruno",
+        "e": "Bruno.Bilde@assemblee-nationale.fr",
+        "s": "H",
+        "g": "Rassemblement national"
+      },
+      {
+        "n": "Pont",
+        "p": "Jean-Pierre",
+        "e": "stephanie.boulanger@clb-an.fr",
+        "s": "H",
+        "g": "Renaissance"
+      },
+      {
+        "n": "Dumont",
+        "p": "Pierre-Henri",
+        "e": "Pierre-Henri.Dumont@assemblee-nationale.fr",
+        "s": "H",
+        "g": "Les Républicains"
+      },
+      {
+        "n": "Fait",
+        "p": "Philippe",
+        "e": "philippe.fait@assemblee-nationale.fr",
+        "s": "H",
+        "g": "Renaissance"
+      },
+      {
+        "n": "Maquet",
+        "p": "Jacqueline",
+        "e": "Jacqueline.Maquet@assemblee-nationale.fr",
+        "s": "F",
+        "g": "Renaissance"
+      },
+      {
+        "n": "Parmentier",
+        "p": "Caroline",
+        "e": "caroline.parmentier@assemblee-nationale.fr",
+        "s": "F",
+        "g": "Rassemblement national"
+      },
+      {
+        "n": "Engrand",
+        "p": "Christine",
+        "e": "christine.engrand@assemblee-nationale.fr",
+        "s": "F",
+        "g": "Rassemblement national"
+      }
+    ],
+    "cha": "du ",
+    "art": "le "
+  },
+  {
+    "code": "63",
+    "tn": 2,
+    "nom": "Puy-de-Dôme",
+    "ds": [
+      {
+        "n": "Lingemann",
+        "p": "Delphine",
+        "e": "delphine.lingemann@assemblee-nationale.fr",
+        "s": "F",
+        "g": "Démocrates (MoDem et Indépendants)"
+      },
+      {
+        "n": "Vichnievsky",
+        "p": "Laurence",
+        "e": "Laurence.Vichnievsky@assemblee-nationale.fr",
+        "s": "F",
+        "g": "Démocrates (MoDem et Indépendants)"
+      }
+    ],
+    "cha": "du ",
+    "art": "le "
+  },
+  {
+    "code": "64",
+    "tn": 4,
+    "nom": "Pyrénées-Atlantiques",
+    "ds": [
+      {
+        "n": "Poueyto",
+        "p": "Josy",
+        "e": "Josy.Poueyto@assemblee-nationale.fr",
+        "s": "F",
+        "g": "Démocrates (MoDem et Indépendants)"
+      },
+      {
+        "n": "Mattei",
+        "p": "Jean-Paul",
+        "e": "Jean-Paul.Mattei@assemblee-nationale.fr",
+        "s": "H",
+        "g": "Démocrates (MoDem et Indépendants)"
+      },
+      {
+        "n": "Bru",
+        "p": "Vincent",
+        "e": "Vincent.Bru@assemblee-nationale.fr",
+        "s": "H",
+        "g": "Démocrates (MoDem et Indépendants)"
+      },
+      {
+        "n": "Lasserre",
+        "p": "Florence",
+        "e": "florence.lasserre@assemblee-nationale.fr",
+        "s": "F",
+        "g": "Démocrates (MoDem et Indépendants)"
+      },
+      {
+        "n": "Habib",
+        "p": "David",
+        "e": "dhabib.jurancon@orange.fr",
+        "s": "H",
+        "g": " "
+      }
+    ],
+    "cha": "des ",
+    "art": "les "
+  },
+  {
+    "code": "65",
+    "tn": 4,
+    "nom": "Hautes-Pyrénées",
+    "ds": [
+      {
+        "n": "Mournet",
+        "p": "Benoit",
+        "e": "benoit.mournet@assemblee-nationale.fr",
+        "s": "H",
+        "g": "Renaissance"
+      }
+    ],
+    "cha": "des ",
+    "art": "les "
+  },
+  {
+    "code": "66",
+    "tn": 4,
+    "nom": "Pyrénées-Orientales",
+    "ds": [
+      {
+        "n": "Blanc",
+        "p": "Sophie",
+        "e": "sophie.blanc@assemblee-nationale.fr",
+        "s": "F",
+        "g": "Rassemblement national"
+      },
+      {
+        "n": "Sabatini",
+        "p": "Anaïs",
+        "e": "anais.sabatini@assemblee-nationale.fr",
+        "s": "F",
+        "g": "Rassemblement national"
+      },
+      {
+        "n": "Martinez",
+        "p": "Michèle",
+        "e": "michele.martinez@assemblee-nationale.fr",
+        "s": "F",
+        "g": "Rassemblement national"
+      },
+      {
+        "n": "Dogor-Such",
+        "p": "Sandrine",
+        "e": "sandrine.dogor-such@assemblee-nationale.fr",
+        "s": "F",
+        "g": "Rassemblement national"
+      }
+    ],
+    "cha": "des ",
+    "art": "les "
+  },
+  {
+    "code": "67",
+    "tn": 2,
+    "nom": "Bas-Rhin",
+    "ds": [
+      {
+        "n": "Studer",
+        "p": "Bruno",
+        "e": "Bruno.Studer@assemblee-nationale.fr",
+        "s": "H",
+        "g": "Renaissance"
+      },
+      {
+        "n": "Thiébaut",
+        "p": "Vincent",
+        "e": "Vincent.Thiebaut@assemblee-nationale.fr",
+        "s": "H",
+        "g": "Horizons et apparentés"
+      },
+      {
+        "n": "Buffet",
+        "p": "Françoise",
+        "e": "francoise.buffet@assemblee-nationale.fr",
+        "s": "F",
+        "g": "Renaissance"
+      },
+      {
+        "n": "Hetzel",
+        "p": "Patrick",
+        "e": "contact@patrick-hetzel.fr",
+        "s": "H",
+        "g": "Les Républicains"
+      },
+      {
+        "n": "Kochert",
+        "p": "Stéphanie",
+        "e": "stephanie.kochert@assemblee-nationale.fr",
+        "s": "F",
+        "g": "Horizons et apparentés"
+      },
+      {
+        "n": "Sitzenstuhl",
+        "p": "Charles",
+        "e": "charles.sitzenstuhl@assemblee-nationale.fr",
+        "s": "H",
+        "g": "Renaissance"
+      },
+      {
+        "n": "Morel",
+        "p": "Louise",
+        "e": "louise.morel@assemblee-nationale.fr",
+        "s": "F",
+        "g": "Démocrates (MoDem et Indépendants)"
+      }
+    ],
+    "cha": "du ",
+    "art": "le "
+  },
+  {
+    "code": "68",
+    "tn": 2,
+    "nom": "Haut-Rhin",
+    "ds": [
+      {
+        "n": "Klinkert",
+        "p": "Brigitte",
+        "e": "brigitte.klinkert@assemblee-nationale.fr",
+        "s": "F",
+        "g": "Renaissance"
+      },
+      {
+        "n": "Schellenberger",
+        "p": "Raphaël",
+        "e": "Raphael.Schellenberger@assemblee-nationale.fr",
+        "s": "H",
+        "g": "Les Républicains"
+      },
+      {
+        "n": "Ott",
+        "p": "Hubert",
+        "e": "hubert.ott@assemblee-nationale.fr",
+        "s": "H",
+        "g": "Démocrates (MoDem et Indépendants)"
+      },
+      {
+        "n": "Fuchs",
+        "p": "Bruno",
+        "e": "Bruno.Fuchs@assemblee-nationale.fr",
+        "s": "H",
+        "g": "Démocrates (MoDem et Indépendants)"
+      },
+      {
+        "n": "Lemaire",
+        "p": "Didier",
+        "e": "didier.lemaire@assemblee-nationale.fr",
+        "s": "H",
+        "g": "Horizons et apparentés"
+      },
+      {
+        "n": "Goetschy-Bolognese",
+        "p": "Charlotte",
+        "e": "cab.goetschybolognese@gmail.com",
+        "s": "F",
+        "g": "Renaissance"
+      }
+    ],
+    "cha": "du ",
+    "art": "le "
+  },
+  {
+    "code": "69",
+    "tn": 2,
+    "nom": "Rhône",
+    "ds": [
+      {
+        "n": "Rudigoz",
+        "p": "Thomas",
+        "e": "trudigoz2022@gmail.com",
+        "s": "H",
+        "g": "Renaissance"
+      },
+      {
+        "n": "Brocard",
+        "p": "Blandine",
+        "e": "contact@blandinebrocard.com",
+        "s": "F",
+        "g": "Démocrates (MoDem et Indépendants)"
+      },
+      {
+        "n": "Portier",
+        "p": "Alexandre",
+        "e": "alexandre.portier@assemblee-nationale.fr",
+        "s": "H",
+        "g": "Les Républicains"
+      },
+      {
+        "n": "Gassilloud",
+        "p": "Thomas",
+        "e": "Thomas.Gassilloud@assemblee-nationale.fr",
+        "s": "H",
+        "g": "Renaissance"
+      },
+      {
+        "n": "Tanzilli",
+        "p": "Sarah",
+        "e": "sarah.tanzilli@assemblee-nationale.fr",
+        "s": "F",
+        "g": "Renaissance"
+      },
+      {
+        "n": "Brugnera",
+        "p": "Anne",
+        "e": "Anne.Brugnera@assemblee-nationale.fr",
+        "s": "F",
+        "g": "Renaissance"
+      },
+      {
+        "n": "Isaac-Sibille",
+        "p": "Cyrille",
+        "e": "Cyrille.Isaac-Sibille@assemblee-nationale.fr",
+        "s": "H",
+        "g": "Démocrates (MoDem et Indépendants)"
+      },
+      {
+        "n": "Serre",
+        "p": "Nathalie",
+        "e": "nathalie.serre@assemblee-nationale.fr",
+        "s": "F",
+        "g": "Les Républicains"
+      },
+      {
+        "n": "Vincendet",
+        "p": "Alexandre",
+        "e": "alexandre.vincendet@assemblee-nationale.fr",
+        "s": "H",
+        "g": "Les Républicains"
+      },
+      {
+        "n": "Fugit",
+        "p": "Jean-Luc",
+        "e": "Jean-Luc.Fugit@assemblee-nationale.fr",
+        "s": "H",
+        "g": "Renaissance"
+      }
+    ],
+    "cha": "du ",
+    "art": "le "
+  },
+  {
+    "code": "70",
+    "tn": 3,
+    "nom": "Haute-Saône",
+    "ds": [
+      {
+        "n": "Salmon",
+        "p": "Emeric",
+        "e": "emeric.salmon@assemblee-nationale.fr",
+        "s": "H",
+        "g": "Rassemblement national"
+      },
+      {
+        "n": "Villedieu",
+        "p": "Antoine",
+        "e": "antoine.villedieu@assemblee-nationale.fr",
+        "s": "H",
+        "g": "Rassemblement national"
+      }
+    ],
+    "cha": "de la ",
+    "art": "la "
+  },
+  {
+    "code": "71",
+    "tn": 0,
+    "nom": "Saône-et-Loire",
+    "ds": [
+      {
+        "n": "Dirx",
+        "p": "Benjamin",
+        "e": "Benjamin.Dirx@assemblee-nationale.fr",
+        "s": "H",
+        "g": "Renaissance"
+      },
+      {
+        "n": "Rebeyrotte",
+        "p": "Rémy",
+        "e": "Remy.Rebeyrotte@assemblee-nationale.fr",
+        "s": "H",
+        "g": "Renaissance"
+      },
+      {
+        "n": "Corneloup",
+        "p": "Josiane",
+        "e": "Josiane.Corneloup@assemblee-nationale.fr",
+        "s": "F",
+        "g": "Les Républicains"
+      },
+      {
+        "n": "Margueritte",
+        "p": "Louis",
+        "e": "louis.margueritte@assemblee-nationale.fr",
+        "s": "H",
+        "g": "Renaissance"
+      }
+    ],
+    "cha": "de ",
+    "art": ""
+  },
+  {
+    "code": "72",
+    "tn": 3,
+    "nom": "Sarthe",
+    "ds": [
+      {
+        "n": "Delpech",
+        "p": "Julie",
+        "e": "julie.delpech@assemblee-nationale.fr",
+        "s": "F",
+        "g": "Renaissance"
+      },
+      {
+        "n": "Grelier",
+        "p": "Jean-Carles",
+        "e": "Jean-Carles.Grelier@assemblee-nationale.fr",
+        "s": "H",
+        "g": "Renaissance"
+      },
+      {
+        "n": "Martineau",
+        "p": "Éric",
+        "e": "eric.martineau@assemblee-nationale.fr",
+        "s": "H",
+        "g": "Démocrates (MoDem et Indépendants)"
+      }
+    ],
+    "cha": "de la ",
+    "art": "la "
+  },
+  {
+    "code": "73",
+    "tn": 3,
+    "nom": "Savoie",
+    "ds": [
+      {
+        "n": "Bonnivard",
+        "p": "Émilie",
+        "e": "Emilie.Bonnivard@assemblee-nationale.fr",
+        "s": "F",
+        "g": "Les Républicains"
+      },
+      {
+        "n": "Ferrari",
+        "p": "Marina",
+        "e": "marina.ferrari@assemblee-nationale.fr",
+        "s": "F",
+        "g": "Démocrates (MoDem et Indépendants)"
+      },
+      {
+        "n": "Rolland",
+        "p": "Vincent",
+        "e": "vincent-rolland@wanadoo.fr",
+        "s": "H",
+        "g": "Les Républicains"
+      }
+    ],
+    "cha": "de la ",
+    "art": "la "
+  },
+  {
+    "code": "74",
+    "tn": 3,
+    "nom": "Haute-Savoie",
+    "ds": [
+      {
+        "n": "Roseren",
+        "p": "Xavier",
+        "e": "Xavier.Roseren@assemblee-nationale.fr",
+        "s": "H",
+        "g": "Renaissance"
+      },
+      {
+        "n": "Violland",
+        "p": "Anne-Cécile",
+        "e": "anne-cecile.violland@assemblee-nationale.fr",
+        "s": "F",
+        "g": "Horizons et apparentés"
+      },
+      {
+        "n": "Riotton",
+        "p": "Véronique",
+        "e": "Veronique.Riotton@assemblee-nationale.fr",
+        "s": "F",
+        "g": "Renaissance"
+      },
+      {
+        "n": "Armand",
+        "p": "Antoine",
+        "e": "antoine.armand@assemblee-nationale.fr",
+        "s": "H",
+        "g": "Renaissance"
+      },
+      {
+        "n": "Duby-Muller",
+        "p": "Virginie",
+        "e": "depute@virginiedubymuller.fr",
+        "s": "F",
+        "g": "Les Républicains"
+      },
+      {
+        "n": "Petex-Levet",
+        "p": "Christelle",
+        "e": "christelle.petex-levet@assemblee-nationale.fr",
+        "s": "F",
+        "g": "Les Républicains"
+      }
+    ],
+    "cha": "de la ",
+    "art": "la "
+  },
+  {
+    "code": "75",
+    "tn": 0,
+    "nom": "Paris",
+    "ds": [
+      {
+        "n": "Gatel",
+        "p": "Maud",
+        "e": "maud.gatel@assemblee-nationale.fr",
+        "s": "F",
+        "g": "Démocrates (MoDem et Indépendants)"
+      },
+      {
+        "n": "Amiel",
+        "p": "David",
+        "e": "david.amiel@assemblee-nationale.fr",
+        "s": "H",
+        "g": "Renaissance"
+      },
+      {
+        "n": "Haddad",
+        "p": "Benjamin",
+        "e": "benjamin.haddad@assemblee-nationale.fr",
+        "s": "H",
+        "g": "Renaissance"
+      },
+      {
+        "n": "Le Gendre",
+        "p": "Gilles",
+        "e": "gilles.le.gendre@assemblee-nationale.fr",
+        "s": "H",
+        "g": "Renaissance"
+      },
+      {
+        "n": "Maillard",
+        "p": "Sylvain",
+        "e": "Sylvain.Maillard@assemblee-nationale.fr",
+        "s": "H",
+        "g": "Renaissance"
+      },
+      {
+        "n": "Panosyan-Bouvet",
+        "p": "Astrid",
+        "e": "astrid.panosyan-bouvet@assemblee-nationale.fr",
+        "s": "F",
+        "g": "Renaissance"
+      },
+      {
+        "n": "Yadan",
+        "p": "Caroline",
+        "e": "caroline.yadan@assemblee-nationale.fr",
+        "s": "F",
+        "g": "Renaissance"
+      },
+      {
+        "n": "Berete",
+        "p": "Fanta",
+        "e": "fanta.berete@assemblee-nationale.fr",
+        "s": "F",
+        "g": "Renaissance"
+      },
+      {
+        "n": "Chassaniol",
+        "p": "Clara",
+        "e": "clara.chassaniol@assemblee-nationale.fr",
+        "s": "F",
+        "g": "Renaissance"
+      }
+    ],
+    "cha": "de ",
+    "art": ""
+  },
+  {
+    "code": "76",
+    "tn": 3,
+    "nom": "Seine-Maritime",
+    "ds": [
+      {
+        "n": "Vidal",
+        "p": "Annie",
+        "e": "Annie.Vidal@assemblee-nationale.fr",
+        "s": "F",
+        "g": "Renaissance"
+      },
+      {
+        "n": "Poussier-Winsback",
+        "p": "Marie-Agnès",
+        "e": "marieagnes.poussier-winsback@assemblee-nationale.fr",
+        "s": "F",
+        "g": "Horizons et apparentés"
+      },
+      {
+        "n": "Batut",
+        "p": "Xavier",
+        "e": "Xavier.Batut@assemblee-nationale.fr",
+        "s": "H",
+        "g": "Renaissance"
+      },
+      {
+        "n": "Adam",
+        "p": "Damien",
+        "e": "Damien.Adam@assemblee-nationale.fr",
+        "s": "H",
+        "g": "Renaissance"
+      },
+      {
+        "n": "Carel",
+        "p": "Agnès",
+        "e": "agnes.carel@assemblee-nationale.fr",
+        "s": "F",
+        "g": "Horizons et apparentés"
+      }
+    ],
+    "cha": "de la ",
+    "art": "la "
+  },
+  {
+    "code": "77",
+    "tn": 0,
+    "nom": "Seine-et-Marne",
+    "ds": [
+      {
+        "n": "Périgault",
+        "p": "Isabelle",
+        "e": "isabelle.perigault@assemblee-nationale.fr",
+        "s": "F",
+        "g": "Les Républicains"
+      },
+      {
+        "n": "Thiériot",
+        "p": "Jean-Louis",
+        "e": "Jean-Louis.Thieriot@assemblee-nationale.fr",
+        "s": "H",
+        "g": "Les Républicains"
+      },
+      {
+        "n": "Ghomi",
+        "p": "Hadrien",
+        "e": "hadrien.ghomi@assemblee-nationale.fr",
+        "s": "H",
+        "g": "Renaissance"
+      },
+      {
+        "n": "Roullaud",
+        "p": "Béatrice",
+        "e": "beatrice.roullaud@assemblee-nationale.fr",
+        "s": "F",
+        "g": "Rassemblement national"
+      },
+      {
+        "n": "Valletoux",
+        "p": "Frédéric",
+        "e": "frederic.valletoux@assemblee-nationale.fr",
+        "s": "H",
+        "g": "Horizons et apparentés"
+      },
+      {
+        "n": "Luquet",
+        "p": "Aude",
+        "e": "Aude.Luquet@assemblee-nationale.fr",
+        "s": "F",
+        "g": "Démocrates (MoDem et Indépendants)"
+      },
+      {
+        "n": "Peyron",
+        "p": "Michèle",
+        "e": "Michele.Peyron@assemblee-nationale.fr",
+        "s": "F",
+        "g": "Renaissance"
+      },
+      {
+        "n": "Lemoine",
+        "p": "Patricia",
+        "e": "Patricia.Lemoine@assemblee-nationale.fr",
+        "s": "F",
+        "g": "Renaissance"
+      }
+    ],
+    "cha": "de ",
+    "art": ""
+  },
+  {
+    "code": "78",
+    "tn": 4,
+    "nom": "Yvelines",
+    "ds": [
+      {
+        "n": "Braun-Pivet",
+        "p": "Yaël",
+        "e": "Yael.Braun-Pivet@assemblee-nationale.fr",
+        "s": "F",
+        "g": "Renaissance"
+      },
+      {
+        "n": "Piron",
+        "p": "Béatrice",
+        "e": "Beatrice.Piron@assemblee-nationale.fr",
+        "s": "F",
+        "g": "Renaissance"
+      },
+      {
+        "n": "Millienne",
+        "p": "Bruno",
+        "e": "Bruno.Millienne@assemblee-nationale.fr",
+        "s": "H",
+        "g": "Démocrates (MoDem et Indépendants)"
+      },
+      {
+        "n": "Rodwell",
+        "p": "Charles",
+        "e": "charles.rodwell@assemblee-nationale.fr",
+        "s": "H",
+        "g": "Renaissance"
+      },
+      {
+        "n": "Hai",
+        "p": "Nadia",
+        "e": "nadia.hai@assemblee-nationale.fr",
+        "s": "F",
+        "g": "Renaissance"
+      },
+      {
+        "n": "Bergé",
+        "p": "Aurore",
+        "e": "Aurore.Berge@assemblee-nationale.fr",
+        "s": "F",
+        "g": "Renaissance"
+      },
+      {
+        "n": "Lebec",
+        "p": "Marie",
+        "e": "Marie.Lebec@assemblee-nationale.fr",
+        "s": "F",
+        "g": "Renaissance"
+      },
+      {
+        "n": "Pouzyreff",
+        "p": "Natalia",
+        "e": "Natalia.Pouzyreff@assemblee-nationale.fr",
+        "s": "F",
+        "g": "Renaissance"
+      },
+      {
+        "n": "Olive",
+        "p": "Karl",
+        "e": "karl.olive@assemblee-nationale.fr",
+        "s": "H",
+        "g": "Renaissance"
+      },
+      {
+        "n": "Bergantz",
+        "p": "Anne",
+        "e": "anne.bergantz@assemblee-nationale.fr",
+        "s": "F",
+        "g": "Démocrates (MoDem et Indépendants)"
+      }
+    ],
+    "cha": "des ",
+    "art": "les "
+  },
+  {
+    "code": "79",
+    "tn": 4,
+    "nom": "Deux-Sèvres",
+    "ds": [
+      {
+        "n": "Marchive",
+        "p": "Bastien",
+        "e": "bastien.marchive@assemblee-nationale.fr",
+        "s": "H",
+        "g": "Renaissance"
+      },
+      {
+        "n": "Fiévet",
+        "p": "Jean-Marie",
+        "e": "Jean-Marie.Fievet@assemblee-nationale.fr",
+        "s": "H",
+        "g": "Renaissance"
+      }
+    ],
+    "cha": "des ",
+    "art": "les "
+  },
+  {
+    "code": "80",
+    "tn": 3,
+    "nom": "Somme",
+    "ds": [
+      {
+        "n": "Maquet",
+        "p": "Emmanuel",
+        "e": "Emmanuel.Maquet@assemblee-nationale.fr",
+        "s": "H",
+        "g": "Les Républicains"
+      },
+      {
+        "n": "Tanguy",
+        "p": "Jean-Philippe",
+        "e": "jean-philippe.tanguy@assemblee-nationale.fr",
+        "s": "H",
+        "g": "Rassemblement national"
+      },
+      {
+        "n": "Menache",
+        "p": "Yaël",
+        "e": "yael.menache@assemblee-nationale.fr",
+        "s": "F",
+        "g": "Rassemblement national"
+      },
+      {
+        "n": "Pompili",
+        "p": "Barbara",
+        "e": "barbara.pompili@assemblee-nationale.fr",
+        "s": "F",
+        "g": "Renaissance"
+      }
+    ],
+    "cha": "de la ",
+    "art": "la "
+  },
+  {
+    "code": "81",
+    "tn": 2,
+    "nom": "Tarn",
+    "ds": [
+      {
+        "n": "Terlier",
+        "p": "Jean",
+        "e": "Jean.Terlier@assemblee-nationale.fr",
+        "s": "H",
+        "g": "Renaissance"
+      },
+      {
+        "n": "Cabrolier",
+        "p": "Frédéric",
+        "e": "frederic.cabrolier@assemblee-nationale.fr",
+        "s": "H",
+        "g": "Rassemblement national"
+      }
+    ],
+    "cha": "du ",
+    "art": "le "
+  },
+  {
+    "code": "82",
+    "tn": 2,
+    "nom": "Tarn-et-Garonne",
+    "ds": [
+      {
+        "n": "Hamelet",
+        "p": "Marine",
+        "e": "marine.hamelet@assemblee-nationale.fr",
+        "s": "F",
+        "g": "Rassemblement national"
+      }
+    ],
+    "cha": "du ",
+    "art": "le "
+  },
+  {
+    "code": "83",
+    "tn": 2,
+    "nom": "Var",
+    "ds": [
+      {
+        "n": "Giletti",
+        "p": "Frank",
+        "e": "frank.giletti@assemblee-nationale.fr",
+        "s": "H",
+        "g": "Rassemblement national"
+      },
+      {
+        "n": "Lottiaux",
+        "p": "Philippe",
+        "e": "philippe.lottiaux@assemblee-nationale.fr",
+        "s": "H",
+        "g": "Rassemblement national"
+      },
+      {
+        "n": "Boccaletti",
+        "p": "Frédéric",
+        "e": "frederic.boccaletti@assemblee-nationale.fr",
+        "s": "H",
+        "g": "Rassemblement national"
+      },
+      {
+        "n": "Lechanteux",
+        "p": "Julie",
+        "e": "julie.lechanteux@assemblee-nationale.fr",
+        "s": "F",
+        "g": "Rassemblement national"
+      },
+      {
+        "n": "Chenevard",
+        "p": "Yannick",
+        "e": "yannick.chenevard@assemblee-nationale.fr",
+        "s": "H",
+        "g": "Renaissance"
+      },
+      {
+        "n": "Schreck",
+        "p": "Philippe",
+        "e": "philippe.schreck@assemblee-nationale.fr",
+        "s": "H",
+        "g": "Rassemblement national"
+      },
+      {
+        "n": "Lavalette",
+        "p": "Laure",
+        "e": "laure.lavalette@assemblee-nationale.fr",
+        "s": "F",
+        "g": "Rassemblement national"
+      },
+      {
+        "n": "Rambaud",
+        "p": "Stéphane",
+        "e": "stephane.rambaud@assemblee-nationale.fr",
+        "s": "H",
+        "g": "Rassemblement national"
+      }
+    ],
+    "cha": "du ",
+    "art": "le "
+  },
+  {
+    "code": "84",
+    "tn": 2,
+    "nom": "Vaucluse",
+    "ds": [
+      {
+        "n": "Lorho",
+        "p": "Marie-France",
+        "e": "Marie-France.Lorho@assemblee-nationale.fr",
+        "s": "F",
+        "g": "Rassemblement national"
+      },
+      {
+        "n": "Lépinau (de)",
+        "p": "Hervé",
+        "e": "herve.delepinau@assemblee-nationale.fr",
+        "s": "H",
+        "g": "Rassemblement national"
+      },
+      {
+        "n": "Auzanot",
+        "p": "Bénédicte",
+        "e": "benedicte.auzanot@assemblee-nationale.fr",
+        "s": "F",
+        "g": "Rassemblement national"
+      },
+      {
+        "n": "Hébrard",
+        "p": "Joris",
+        "e": "joris.hebrard@assemblee-nationale.fr",
+        "s": "H",
+        "g": "Rassemblement national"
+      },
+      {
+        "n": "Lovisolo",
+        "p": "Jean-François",
+        "e": "jean-francois.lovisolo@assemblee-nationale.fr",
+        "s": "H",
+        "g": "Renaissance"
+      }
+    ],
+    "cha": "du ",
+    "art": "le "
+  },
+  {
+    "code": "85",
+    "tn": 3,
+    "nom": "Vendée",
+    "ds": [
+      {
+        "n": "Latombe",
+        "p": "Philippe",
+        "e": "Philippe.Latombe@assemblee-nationale.fr",
+        "s": "H",
+        "g": "Démocrates (MoDem et Indépendants)"
+      },
+      {
+        "n": "Buchou",
+        "p": "Stéphane",
+        "e": "stephane.buchou@en-marche.fr",
+        "s": "H",
+        "g": "Renaissance"
+      },
+      {
+        "n": "Henriet",
+        "p": "Pierre",
+        "e": "Pierre.Henriet@assemblee-nationale.fr",
+        "s": "H",
+        "g": "Renaissance"
+      },
+      {
+        "n": "Besse",
+        "p": "Véronique",
+        "e": "veronique.besse@assemblee-nationale.fr",
+        "s": "F",
+        "g": " "
+      },
+      {
+        "n": "Bellamy",
+        "p": "Béatrice",
+        "e": "beatrice.bellamy@assemblee-nationale.fr",
+        "s": "F",
+        "g": "Horizons et apparentés"
+      }
+    ],
+    "cha": "de la ",
+    "art": "la "
+  },
+  {
+    "code": "86",
+    "tn": 3,
+    "nom": "Vienne",
+    "ds": [
+      {
+        "n": "Turquois",
+        "p": "Nicolas",
+        "e": "nicolas.turquois@gmail.com",
+        "s": "H",
+        "g": "Démocrates (MoDem et Indépendants)"
+      },
+      {
+        "n": "Lecamp",
+        "p": "Pascal",
+        "e": "pascal.lecamp@assemblee-nationale.fr",
+        "s": "H",
+        "g": "Démocrates (MoDem et Indépendants)"
+      },
+      {
+        "n": "Houlié",
+        "p": "Sacha",
+        "e": "contact@sachahoulie.fr",
+        "s": "H",
+        "g": "Renaissance"
+      }
+    ],
+    "cha": "de la ",
+    "art": "la "
+  },
+  {
+    "code": "87",
+    "tn": 3,
+    "nom": "Haute-Vienne",
+    "ds": [],
+    "cha": "de la ",
+    "art": "la "
+  },
+  {
+    "code": "88",
+    "tn": 4,
+    "nom": "Vosges",
+    "ds": [
+      {
+        "n": "Valence",
+        "p": "David",
+        "e": "david.valence@assemblee-nationale.fr",
+        "s": "H",
+        "g": "Renaissance"
+      },
+      {
+        "n": "Gaultier",
+        "p": "Jean-Jacques",
+        "e": "jjgaultier88@gmail.com",
+        "s": "H",
+        "g": "Les Républicains"
+      },
+      {
+        "n": "Viry",
+        "p": "Stéphane",
+        "e": "Stephane.Viry@assemblee-nationale.fr",
+        "s": "H",
+        "g": "Les Républicains"
+      },
+      {
+        "n": "Naegelen",
+        "p": "Christophe",
+        "e": "contact@naegelen.fr",
+        "s": "H",
+        "g": "Libertés, Indépendants, Outre-mer et Territoires"
+      }
+    ],
+    "cha": "des ",
+    "art": "les "
+  },
+  {
+    "code": "89",
+    "tn": 5,
+    "nom": "Yonne",
+    "ds": [
+      {
+        "n": "Villiers",
+        "p": "André",
+        "e": "Andre.Villiers@assemblee-nationale.fr",
+        "s": "H",
+        "g": "Horizons et apparentés"
+      },
+      {
+        "n": "Grenon",
+        "p": "Daniel",
+        "e": "daniel.grenon@assemblee-nationale.fr",
+        "s": "H",
+        "g": "Rassemblement national"
+      },
+      {
+        "n": "Odoul",
+        "p": "Julien",
+        "e": "julien.odoul@assemblee-nationale.fr",
+        "s": "H",
+        "g": "Rassemblement national"
+      }
+    ],
+    "cha": "de l'",
+    "art": "l'"
+  },
+  {
+    "code": "90",
+    "tn": 2,
+    "nom": "Territoire de Belfort",
+    "ds": [
+      {
+        "n": "Boucard",
+        "p": "Ian",
+        "e": "Ian.Boucard@assemblee-nationale.fr",
+        "s": "H",
+        "g": "Les Républicains"
+      }
+    ],
+    "cha": "du ",
+    "art": "le "
+  },
+  {
+    "code": "91",
+    "tn": 5,
+    "nom": "Essonne",
+    "ds": [
+      {
+        "n": "Rixain",
+        "p": "Marie-Pierre",
+        "e": "Marie-Pierre.Rixain@assemblee-nationale.fr",
+        "s": "F",
+        "g": "Renaissance"
+      },
+      {
+        "n": "Guévenoux",
+        "p": "Marie",
+        "e": "Marie.Guevenoux@assemblee-nationale.fr",
+        "s": "F",
+        "g": "Renaissance"
+      },
+      {
+        "n": "Dupont-Aignan",
+        "p": "Nicolas",
+        "e": "Nicolas.Dupont-Aignan@assemblee-nationale.fr",
+        "s": "H",
+        "g": " "
+      },
+      {
+        "n": "Izard",
+        "p": "Alexis",
+        "e": "alexis.izard@assemblee-nationale.fr",
+        "s": "H",
+        "g": "Renaissance"
+      },
+      {
+        "n": "Reda",
+        "p": "Robin",
+        "e": "Robin.Reda@assemblee-nationale.fr",
+        "s": "H",
+        "g": "Renaissance"
+      },
+      {
+        "n": "Midy",
+        "p": "Paul",
+        "e": "paul.midy@assemblee-nationale.fr",
+        "s": "H",
+        "g": "Renaissance"
+      },
+      {
+        "n": "Da Conceicao Carvalho",
+        "p": "Nathalie",
+        "e": "nathalie.daconceicaocarvalho@assemblee-nationale.fr",
+        "s": "F",
+        "g": "Rassemblement national"
+      }
+    ],
+    "cha": "de l'",
+    "art": "l'"
+  },
+  {
+    "code": "92",
+    "tn": 4,
+    "nom": "Hauts-de-Seine",
+    "ds": [
+      {
+        "n": "Pellerin",
+        "p": "Emmanuel",
+        "e": "emmanuel.pellerin@assemblee-nationale.fr",
+        "s": "H",
+        "g": "Renaissance"
+      },
+      {
+        "n": "Cazeneuve",
+        "p": "Pierre",
+        "e": "pierre.cazeneuve@assemblee-nationale.fr",
+        "s": "H",
+        "g": "Renaissance"
+      },
+      {
+        "n": "Bregeon",
+        "p": "Maud",
+        "e": "maud.bregeon@assemblee-nationale.fr",
+        "s": "F",
+        "g": "Renaissance"
+      },
+      {
+        "n": "Calvez",
+        "p": "Céline",
+        "e": "Celine.Calvez@assemblee-nationale.fr",
+        "s": "F",
+        "g": "Renaissance"
+      },
+      {
+        "n": "Bourlanges",
+        "p": "Jean-Louis",
+        "e": "Jean-Louis.Bourlanges@assemblee-nationale.fr",
+        "s": "H",
+        "g": "Démocrates (MoDem et Indépendants)"
+      },
+      {
+        "n": "Thevenot",
+        "p": "Prisca",
+        "e": "prisca.thevenot@assemblee-nationale.fr",
+        "s": "F",
+        "g": "Renaissance"
+      },
+      {
+        "n": "Le Grip",
+        "p": "Constance",
+        "e": "Constance.LeGrip@assemblee-nationale.fr",
+        "s": "F",
+        "g": "Renaissance"
+      },
+      {
+        "n": "Juvin",
+        "p": "Philippe",
+        "e": "philippe.juvin@assemblee-nationale.fr",
+        "s": "H",
+        "g": "Les Républicains"
+      },
+      {
+        "n": "Guichard",
+        "p": "Claire",
+        "e": "claire.guichard@assemblee-nationale.fr",
+        "s": "F",
+        "g": "Renaissance"
+      }
+    ],
+    "cha": "des ",
+    "art": "les "
+  },
+  {
+    "code": "93",
+    "tn": 3,
+    "nom": "Seine-Saint-Denis",
+    "ds": [],
+    "cha": "de la ",
+    "art": "la "
+  },
+  {
+    "code": "94",
+    "tn": 2,
+    "nom": "Val-de-Marne",
+    "ds": [
+      {
+        "n": "Descrozaille",
+        "p": "Frédéric",
+        "e": "Frederic.Descrozaille@assemblee-nationale.fr",
+        "s": "H",
+        "g": "Renaissance"
+      },
+      {
+        "n": "Lefèvre",
+        "p": "Mathieu",
+        "e": "mathieu.lefevre@assemblee-nationale.fr",
+        "s": "H",
+        "g": "Renaissance"
+      },
+      {
+        "n": "Gouffier Valente",
+        "p": "Guillaume",
+        "e": "Guillaume.Gouffier-Valente@assemblee-nationale.fr",
+        "s": "H",
+        "g": "Renaissance"
+      },
+      {
+        "n": "Petit",
+        "p": "Maud",
+        "e": "Maud.Petit@assemblee-nationale.fr",
+        "s": "F",
+        "g": "Démocrates (MoDem et Indépendants)"
+      },
+      {
+        "n": "Herbillon",
+        "p": "Michel",
+        "e": "michel.herbillon@orange.fr",
+        "s": "H",
+        "g": "Les Républicains"
+      }
+    ],
+    "cha": "du ",
+    "art": "le "
+  },
+  {
+    "code": "95",
+    "tn": 2,
+    "nom": "Val-d'Oise",
+    "ds": [
+      {
+        "n": "Chandler",
+        "p": "Émilie",
+        "e": "emilie.chandler@assemblee-nationale.fr",
+        "s": "F",
+        "g": "Renaissance"
+      },
+      {
+        "n": "Da Silva",
+        "p": "Dominique",
+        "e": "Dominique.DaSilva@assemblee-nationale.fr",
+        "s": "H",
+        "g": "Renaissance"
+      },
+      {
+        "n": "Vuilletet",
+        "p": "Guillaume",
+        "e": "Guillaume.Vuilletet@assemblee-nationale.fr",
+        "s": "H",
+        "g": "Renaissance"
+      },
+      {
+        "n": "Moutchou",
+        "p": "Naïma",
+        "e": "Naima.Moutchou@assemblee-nationale.fr",
+        "s": "F",
+        "g": "Horizons et apparentés"
+      },
+      {
+        "n": "Folest",
+        "p": "Estelle",
+        "e": "estelle.folest@assemblee-nationale.fr",
+        "s": "F",
+        "g": "Démocrates (MoDem et Indépendants)"
+      },
+      {
+        "n": "Rilhac",
+        "p": "Cécile",
+        "e": "Cecile.Rilhac@assemblee-nationale.fr",
+        "s": "F",
+        "g": "Renaissance"
+      }
+    ],
+    "cha": "du ",
+    "art": "le "
+  },
+  {
+    "code": "99",
+    "tn": 4,
+    "nom": "Français de l’étranger",
+    "ds": [
+      {
+        "n": "Anglade",
+        "p": "Pieyre-Alexandre",
+        "e": "Pieyre-Alexandre.Anglade@assemblee-nationale.fr",
+        "s": "H",
+        "g": "Renaissance"
+      },
+      {
+        "n": "Genetet",
+        "p": "Anne",
+        "e": "Anne.Genetet@assemblee-nationale.fr",
+        "s": "F",
+        "g": "Renaissance"
+      },
+      {
+        "n": "Petit",
+        "p": "Frédéric",
+        "e": "Frederic.Petit@assemblee-nationale.fr",
+        "s": "H",
+        "g": "Démocrates (MoDem et Indépendants)"
+      },
+      {
+        "n": "Ferracci",
+        "p": "Marc",
+        "e": "marc.ferracci@assemblee-nationale.fr",
+        "s": "H",
+        "g": "Renaissance"
+      },
+      {
+        "n": "Lakrafi",
+        "p": "Amélia",
+        "e": "amelia.lakrafi@assemblee-nationale.fr",
+        "s": "F",
+        "g": "Renaissance"
+      },
+      {
+        "n": "Vojetta",
+        "p": "Stéphane",
+        "e": "stephane.vojetta@assemblee-nationale.fr",
+        "s": "H",
+        "g": "Renaissance"
+      },
+      {
+        "n": "Holroyd",
+        "p": "Alexandre",
+        "e": "Alexandre.Holroyd@assemblee-nationale.fr",
+        "s": "H",
+        "g": "Renaissance"
+      },
+      {
+        "n": "Weissberg",
+        "p": "Christopher",
+        "e": "christopher.weissberg@assemblee-nationale.fr",
+        "s": "H",
+        "g": "Renaissance"
+      }
+    ],
+    "cha": "des ",
+    "art": "les "
+  },
+  {
+    "code": "971",
+    "tn": 3,
+    "nom": "Guadeloupe",
+    "ds": [
+      {
+        "n": "Serva",
+        "p": "Olivier",
+        "e": "o.serva@ose.gp",
+        "s": "H",
+        "g": "Libertés, Indépendants, Outre-mer et Territoires"
+      },
+      {
+        "n": "Mathiasin",
+        "p": "Max",
+        "e": "Max.Mathiasin@assemblee-nationale.fr",
+        "s": "H",
+        "g": "Libertés, Indépendants, Outre-mer et Territoires"
+      }
+    ],
+    "cha": "de la ",
+    "art": "la "
+  },
+  {
+    "code": "972",
+    "tn": 3,
+    "nom": "Martinique",
+    "ds": [],
+    "cha": "de la ",
+    "art": "la "
+  },
+  {
+    "code": "973",
+    "tn": 3,
+    "nom": "Guyane",
+    "ds": [],
+    "cha": "de la ",
+    "art": "la "
+  },
+  {
+    "code": "974",
+    "tn": 0,
+    "nom": "La Réunion",
+    "ds": [
+      {
+        "n": "Bassire",
+        "p": "Nathalie",
+        "e": "Nathalie.Bassire@assemblee-nationale.fr",
+        "s": "F",
+        "g": "Libertés, Indépendants, Outre-mer et Territoires"
+      }
+    ],
+    "cha": "de ",
+    "art": ""
+  },
+  {
+    "code": "975",
+    "tn": 0,
+    "nom": "Saint-Pierre-et-Miquelon",
+    "ds": [
+      {
+        "n": "Lenormand",
+        "p": "Stéphane",
+        "e": "stephane.lenormand@assemblee-nationale.fr",
+        "s": "H",
+        "g": "Libertés, Indépendants, Outre-mer et Territoires"
+      }
+    ],
+    "cha": "de ",
+    "art": ""
+  },
+  {
+    "code": "976",
+    "tn": 0,
+    "nom": "Mayotte",
+    "ds": [
+      {
+        "n": "Youssouffa",
+        "p": "Estelle",
+        "e": "estelle.youssouffa@assemblee-nationale.fr",
+        "s": "F",
+        "g": "Libertés, Indépendants, Outre-mer et Territoires"
+      },
+      {
+        "n": "Kamardine",
+        "p": "Mansour",
+        "e": "mansour@mkamardine.fr",
+        "s": "H",
+        "g": "Les Républicains"
+      }
+    ],
+    "cha": "de ",
+    "art": ""
+  },
+  {
+    "code": "977",
+    "tn": 0,
+    "nom": "Saint-Barthélemy et Saint-Martin",
+    "ds": [
+      {
+        "n": "Gumbs",
+        "p": "Frantz",
+        "e": "frantz.gumbs@assemblee-nationale.fr",
+        "s": "H",
+        "g": "Démocrates (MoDem et Indépendants)"
+      }
+    ],
+    "cha": "de ",
+    "art": ""
+  },
+  {
+    "code": "986",
+    "tn": 0,
+    "nom": "Wallis-et-Futuna",
+    "ds": [
+      {
+        "n": "Seo",
+        "p": "Mikaele",
+        "e": "mikaele.seo@assemblee-nationale.fr",
+        "s": "H",
+        "g": "Renaissance"
+      }
+    ],
+    "cha": "des ",
+    "art": "les "
+  },
+  {
+    "code": "988",
+    "tn": 3,
+    "nom": "Nouvelle-Calédonie",
+    "ds": [
+      {
+        "n": "Dunoyer",
+        "p": "Philippe",
+        "e": "Philippe.Dunoyer@assemblee-nationale.fr",
+        "s": "H",
+        "g": "Renaissance"
+      },
+      {
+        "n": "Metzdorf",
+        "p": "Nicolas",
+        "e": "nicolasmetzdorf@gmail.com",
+        "s": "H",
+        "g": "Renaissance"
+      }
+    ],
+    "cha": "de ",
+    "art": "la "
+  },
+  {
+    "code": "01",
+    "tn": 5,
+    "nom": "Ain",
+    "ds": [
+      {
+        "n": "Abad",
+        "p": "Damien",
+        "e": "contact@damien-abad.fr",
+        "s": "H",
+        "g": "Renaissance"
+      },
+      {
+        "n": "Daubié",
+        "p": "Romain",
+        "e": "romain.daubie@assemblee-nationale.fr",
+        "s": "H",
+        "g": "Démocrates (MoDem et Indépendants)"
+      },
+      {
+        "n": "Breton",
+        "p": "Xavier",
+        "e": "Xavier.Breton@assemblee-nationale.fr",
+        "s": "H",
+        "g": "Les Républicains"
+      },
+      {
+        "n": "Buisson",
+        "p": "Jérôme",
+        "e": "jerome.buisson@assemblee-nationale.fr",
+        "s": "H",
+        "g": "Rassemblement national"
+      },
+      {
+        "n": "Givernet",
+        "p": "Olga",
+        "e": "Olga.Givernet@assemblee-nationale.fr",
+        "s": "F",
+        "g": "Renaissance"
+      }
+    ],
+    "cha": "de l'",
+    "art": "l'"
+  },
+  {
+    "code": "02",
+    "tn": 5,
+    "nom": "Aisne",
+    "ds": [
+      {
+        "n": "Dive",
+        "p": "Julien",
+        "e": "julien.dive-permanence@orange.fr",
+        "s": "H",
+        "g": "Les Républicains"
+      },
+      {
+        "n": "Beaurain",
+        "p": "José",
+        "e": "jose.beaurain@assemblee-nationale.fr",
+        "s": "H",
+        "g": "Rassemblement national"
+      },
+      {
+        "n": "Dessigny",
+        "p": "Jocelyn",
+        "e": "jocelyn.dessigny@assemblee-nationale.fr",
+        "s": "H",
+        "g": "Rassemblement national"
+      },
+      {
+        "n": "Dragon",
+        "p": "Nicolas",
+        "e": "nicolas.dragon@assemblee-nationale.fr",
+        "s": "H",
+        "g": "Rassemblement national"
+      },
+      {
+        "n": "Bricout",
+        "p": "Jean-Louis",
+        "e": "Jean-Louis.Bricout@assemblee-nationale.fr",
+        "s": "H",
+        "g": "Libertés, Indépendants, Outre-mer et Territoires"
+      }
+    ],
+    "cha": "de l'",
+    "art": "l'"
+  },
+  {
+    "code": "03",
+    "tn": 5,
+    "nom": "Allier",
+    "ds": [
+      {
+        "n": "Bovet",
+        "p": "Jorys",
+        "e": "jorys.bovet@assemblee-nationale.fr",
+        "s": "H",
+        "g": "Rassemblement national"
+      },
+      {
+        "n": "Ray",
+        "p": "Nicolas",
+        "e": "nicolas.ray@assemblee-nationale.fr",
+        "s": "H",
+        "g": "Les Républicains"
+      }
+    ],
+    "cha": "de l'",
+    "art": "l'"
+  },
+  {
+    "code": "04",
+    "tn": 4,
+    "nom": "Alpes-de-Haute-Provence",
+    "ds": [
+      {
+        "n": "Girard",
+        "p": "Christian",
+        "e": "christian.girard@assemblee-nationale.fr",
+        "s": "H",
+        "g": "Rassemblement national"
+      }
+    ],
+    "cha": "des ",
+    "art": "les "
+  },
+  {
+    "code": "05",
+    "tn": 4,
+    "nom": "Hautes-Alpes",
+    "ds": [
+      {
+        "n": "Boyer",
+        "p": "Pascale",
+        "e": "Pascale.Boyer@assemblee-nationale.fr",
+        "s": "F",
+        "g": "Renaissance"
+      },
+      {
+        "n": "Giraud",
+        "p": "Joël",
+        "e": "joel.giraud@assemblee-nationale.fr",
+        "s": "H",
+        "g": "Renaissance"
+      }
+    ],
+    "cha": "des ",
+    "art": "les "
+  },
+  {
+    "code": "06",
+    "tn": 4,
+    "nom": "Alpes-Maritimes",
+    "ds": [
+      {
+        "n": "Ciotti",
+        "p": "Éric",
+        "e": "Eric.Ciotti@assemblee-nationale.fr",
+        "s": "H",
+        "g": "Les Républicains"
+      },
+      {
+        "n": "Pradal",
+        "p": "Philippe",
+        "e": "philippe.pradal@assemblee-nationale.fr",
+        "s": "H",
+        "g": "Horizons et apparentés"
+      },
+      {
+        "n": "Martin",
+        "p": "Alexandra",
+        "e": "alexandra.martin@assemblee-nationale.fr",
+        "s": "F",
+        "g": "Les Républicains"
+      },
+      {
+        "n": "Masson",
+        "p": "Alexandra",
+        "e": "alexandra.masson@assemblee-nationale.fr",
+        "s": "F",
+        "g": "Rassemblement national"
+      },
+      {
+        "n": "Tivoli",
+        "p": "Lionel",
+        "e": "lionel.tivoli@assemblee-nationale.fr",
+        "s": "H",
+        "g": "Rassemblement national"
+      },
+      {
+        "n": "D'Intorni",
+        "p": "Christelle",
+        "e": "christelle.dintorni@assemblee-nationale.fr",
+        "s": "F",
+        "g": "Les Républicains"
+      },
+      {
+        "n": "Tabarot",
+        "p": "Michèle",
+        "e": "Michele.Tabarot@assemblee-nationale.fr",
+        "s": "F",
+        "g": "Les Républicains"
+      },
+      {
+        "n": "Pauget",
+        "p": "Éric",
+        "e": "Eric.Pauget@assemblee-nationale.fr",
+        "s": "H",
+        "g": "Les Républicains"
+      },
+      {
+        "n": "Masson",
+        "p": "Bryan",
+        "e": "bryan.masson@assemblee-nationale.fr",
+        "s": "H",
+        "g": "Rassemblement national"
+      }
+    ],
+    "cha": "des ",
+    "art": "les "
+  },
+  {
+    "code": "07",
+    "tn": 5,
+    "nom": "Ardèche",
+    "ds": [
+      {
+        "n": "Brun",
+        "p": "Fabrice",
+        "e": "Fabrice.Brun@assemblee-nationale.fr",
+        "s": "H",
+        "g": "Les Républicains"
+      },
+      {
+        "n": "Heydel Grillere",
+        "p": "Laurence",
+        "e": "laurence.heydelgrillere@assemblee-nationale.fr",
+        "s": "F",
+        "g": "Renaissance"
+      }
+    ],
+    "cha": "de l'",
+    "art": "l'"
+  },
+  {
+    "code": "08",
+    "tn": 4,
+    "nom": "Ardennes",
+    "ds": [
+      {
+        "n": "Vuibert",
+        "p": "Lionel",
+        "e": "lionel.vuibert@assemblee-nationale.fr",
+        "s": "H",
+        "g": "Renaissance"
+      },
+      {
+        "n": "Cordier",
+        "p": "Pierre",
+        "e": "Pierre.Cordier@assemblee-nationale.fr",
+        "s": "H",
+        "g": "Les Républicains"
+      },
+      {
+        "n": "Warsmann",
+        "p": "Jean-Luc",
+        "e": "Jean-Luc.Warsmann@assemblee-nationale.fr",
+        "s": "H",
+        "g": "Libertés, Indépendants, Outre-mer et Territoires"
+      }
+    ],
+    "cha": "des ",
+    "art": "les "
+  },
+  {
+    "code": "09",
+    "tn": 5,
+    "nom": "Ariège",
+    "ds": [
+      {
+        "n": "Panifous",
+        "p": "Laurent",
+        "e": "laurent.panifous@assemblee-nationale.fr",
+        "s": "H",
+        "g": "Libertés, Indépendants, Outre-mer et Territoires"
+      },
+      {
+        "n": "Froger",
+        "p": "Martine",
+        "e": "martine.froger@assemblee-nationale.fr",
+        "s": "F",
+        "g": " "
+      }
+    ],
+    "cha": "de l'",
+    "art": "l'"
+  },
+  {
+    "code": "2A",
+    "tn": 3,
+    "nom": "Corse-du-Sud",
+    "ds": [
+      {
+        "n": "Colombani",
+        "p": "Paul-André",
+        "e": "Paul-Andre.Colombani@assemblee-nationale.fr",
+        "s": "H",
+        "g": "Libertés, Indépendants, Outre-mer et Territoires"
+      },
+      {
+        "n": "Marcangeli",
+        "p": "Laurent",
+        "e": "laurent.marcangeli@assemblee-nationale.fr",
+        "s": "H",
+        "g": "Horizons et apparentés"
+      }
+    ],
+    "cha": "de la ",
+    "art": "la "
+  },
+  {
+    "code": "2B",
+    "tn": 3,
+    "nom": "Haute-Corse",
+    "ds": [
+      {
+        "n": "Castellani",
+        "p": "Michel",
+        "e": "Michel.Castellani@assemblee-nationale.fr",
+        "s": "H",
+        "g": "Libertés, Indépendants, Outre-mer et Territoires"
+      },
+      {
+        "n": "Acquaviva",
+        "p": "Jean-Félix",
+        "e": "Jean-Felix.Acquaviva@assemblee-nationale.fr",
+        "s": "H",
+        "g": "Libertés, Indépendants, Outre-mer et Territoires"
+      }
+    ],
+    "cha": "de la ",
+    "art": "la "
+  }
+]

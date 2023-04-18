@@ -76,7 +76,7 @@ function generer_lettre_html($senateur, $expediteur) {
       </blockquote>
 
       <div>
-        <form class="envoi-senateurs">
+        <form class="envoi-senateurs" id="envoi-senateurs">
           <input type="hidden" name="action" value="envoi-senateurs">
           <input type="hidden" name="departement" value="$senateur[departement]">
           <input type="hidden" name="senateur" value="$senateur[id]">
