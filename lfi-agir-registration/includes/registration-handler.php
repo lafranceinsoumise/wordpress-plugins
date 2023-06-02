@@ -44,7 +44,7 @@ class RegistrationAction extends Action_Base
         }
 
         // le code postal n'est obligatoire que sans précision du pays ou si le pays est la France
-        if (empty($fields['location_country']) || fields['location_country'] == 'FR') {
+        if (empty($fields['location_country']) || $fields['location_country'] == 'FR') {
             if (empty($fields['location_zip'])) {
                 $ajax_handler->add_error("location_zip", 'Le code postal est obligatoire.');
             }
