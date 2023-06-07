@@ -93,6 +93,7 @@ function generer_lettre_html($depute, $expediteur) {
           <input type="hidden" name="nom" value="$expediteur[nom]">
           <input type="hidden" name="prenom" value="$expediteur[prenom]">
           <input type="hidden" name="profession" value="$expediteur[profession]">
+          <input type="hidden" name="campaign" value="envoi-deputes-0">
           <a href="$lien_email">Je l'envoie moi-même</a>
           <button type="submit">Envoyez-le pour moi</button>
       </div>

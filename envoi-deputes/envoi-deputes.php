@@ -2,7 +2,7 @@
 /*
    Plugin Name: LFI Envoi Députés
    Description: Gère l'envoi de mails automatiques aux députés
-   Version: 1.0
+   Version: 1.1
    Author: Salomé Cheysson
    License: GPL3
  */
@@ -116,6 +116,7 @@ class Plugin
         'nom' => $params['nom'],
         'prenom' => $params['prenom'],
         'profession' => $params['profession'],
+        'campaign' => $params['campaign'],
       )
     );
 
@@ -147,6 +148,10 @@ class Plugin
           'type' => 'string',
           'required' => true,
         ],
+        'campaign' => [
+          'type' => 'string',
+          'required' => true,
+        ],
       ]
     ) );
   }
@@ -166,6 +171,7 @@ class Plugin
       nom tinytext NOT NULL,
       prenom tinytext NOT NULL,
       profession tinytext NOT NULL,
+      campaign tinytext DEFAULT '' NOT NULL,
       PRIMARY KEY  (id)
     ) $charset_collate;";
 
