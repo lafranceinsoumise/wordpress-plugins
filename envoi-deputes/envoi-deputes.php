@@ -116,6 +116,7 @@ class Plugin
         'nom' => $params['nom'],
         'prenom' => $params['prenom'],
         'profession' => $params['profession'],
+        'civilite' => $params['civilite'],
         'campaign' => $params['campaign'],
       )
     );
@@ -148,6 +149,10 @@ class Plugin
           'type' => 'string',
           'required' => true,
         ],
+        'civilite' => [
+          'type' => 'string',
+          'required' => true,
+        ],
         'campaign' => [
           'type' => 'string',
           'required' => true,
@@ -171,6 +176,7 @@ class Plugin
       nom tinytext NOT NULL,
       prenom tinytext NOT NULL,
       profession tinytext NOT NULL,
+      civilite tinytext DEFAULT '' NOT NULL,
       campaign tinytext DEFAULT '' NOT NULL,
       PRIMARY KEY  (id)
     ) $charset_collate;";
