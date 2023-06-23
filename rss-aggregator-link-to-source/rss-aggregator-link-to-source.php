@@ -7,6 +7,8 @@
 */
 
 function rss_aggregator_link_to_source($url, $post) {
+    $permalink = '';
+
     if ($post->post_type == 'post') {
         $permalink = get_post_meta($post->ID, "wprss_item_permalink", true);
     }
