@@ -11,15 +11,15 @@ class Liste_Senateurs
     private static $instance = null;
     private $departements;
     private $target_groups = array(
-        "SER", // Socialistes, Écologistes & Républicains
-        "Les Républicains",
-        "Les Indépendants",
-        "RDSE", // Rassemblement Démocratisque et Social Éuropéen
-        "UC", // Union Centriste
-        "RDPI", // Rassemblement des Démocrates Progressistes et Indépendants
-        "NI", // Non inscrits
-        // "GEST", // Groupe Écologiste du Sénat Solidarité et Territoires
-        // "CRCE", // Groupe Communiste Républicain et Citoyen
+        "LREM", // Groupe Rassemblement des démocrates, progressistes et indépendants
+        "RDSE", // Groupe du Rassemblement Démocratique et Social Européen
+        "UC", // Groupe Union Centriste
+        "UMP", // Groupe Les Républicains
+        "CRC", // Groupe Communiste Républicain Citoyen et Écologiste - Kanaky
+        "SOC", // Groupe Socialiste, Écologiste et Républicain
+        "RTLI", // Groupe Les Indépendants - République et Territoires
+        "GEST", // Groupe Écologiste - Solidarité et Territoires
+        "NI", // Réunion administrative des Sénateurs ne figurant sur la liste d'aucun groupe
     );
 
     private function __construct()
