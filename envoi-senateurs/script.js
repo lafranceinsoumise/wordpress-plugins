@@ -14,19 +14,15 @@ function postForm(e) {
   const button = form.find('button[type="submit"]');
   button.prop("disabled", true);
 
-  const res = $.ajax(
-    configSenateurs.endpointURL,
-    {
-      method: 'POST',
-      mode: "same-origin",
-      data: formData,
-      success: function() {
-        const messageBox = $('.envoi-succes');
-        messageBox.css('display', 'block');
-      }
-    }
-  );
-
+  const res = $.ajax(configSenateurs.endpointURL, {
+    method: "POST",
+    mode: "same-origin",
+    data: formData,
+    success: function () {
+      const messageBox = $(".envoi-succes");
+      messageBox.css("display", "block");
+    },
+  });
 }
 
 jQuery(function () {
