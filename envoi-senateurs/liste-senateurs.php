@@ -123,7 +123,8 @@ class Liste_Senateurs
             'prenom' => $senateur['p'],
             'nom_complet' => "$senateur[p] $senateur[n]",
             'fonction' => "$fonction $dep_info[cha]$dep_info[nom]",
-            'recipient' => "$cha $senateur[g] $dep_info[cha]$dep_info[nom]",
+            'groupe' => $senateur["gl"],
+            'recipient' => "$cha $dep_info[cha]$dep_info[nom]",
             'adresse' => $adresse,
             'civilite' => $civilite,
             'email' => $senateur['e']

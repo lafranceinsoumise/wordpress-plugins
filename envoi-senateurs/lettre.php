@@ -25,7 +25,7 @@ function genrer($terme, $sexe)
 
 function objet_lettre($senateur, $expediteur)
 {
-    return 'Protégez nos petites entreprises';
+    return 'Inscription à l’ordre du jour du Sénat de la proposition de loi transpartisane pour la réouverture des accueils physiques des services publics';;
 }
 
 function texte_lettre($senateur, $expediteur)
@@ -41,14 +41,21 @@ function texte_lettre($senateur, $expediteur)
         "",
 
         "$senateur[adresse],",
-        "En tant que $profession, je vous demande solennellement d’inscrire la PPL visant à protéger le groupe EDF d’un démembrement à l’ordre du jour au Sénat au mois de juin ou de juillet, pour le retour aux tarifs réglementés de l’électricité pour les TPE et les PME. C’est un nouvel espoir, et peut-être le dernier, pour que nous puissions payer nos factures et survivre à la crise de l’énergie qui rend notre activité de plus en plus difficile, nous oblige souvent à licencier et nous interdit de nous projeter.",
-        "Nous ne méritons pas ce qui nous arrive. Alors que nous travaillons plus de 70 heures par semaine, nous n’arrivons même plus à nous payer. Nos factures d’énergie ont été multipliées par 4, 5 voire 10. Les aides mises en place par le Gouvernement sont totalement insuffisantes : 80% des boulangeries n’ont pas accès au bouclier tarifaire, et l’amortisseur électricité pour les PME ne prend en compte que 10 à 20% des factures. Pour beaucoup d’entre nous, il ne nous reste que quelques mois à vivre.",
-        "Les communes, concernées par le retour aux TRVe dans ce texte, comptent également énormément sur ce texte. Elles sont aujourd’hui contraintes de faire des choix entre les services publics, ou d'augmenter les impôts !",
-        "Cette situation n’est pas viable, surtout quand on sait qu’en France, c’est EDF qui produit 80% de notre électricité et que le coût de production en France est de 60€/MWh.",
-        "Je compte sur votre soutien, en inscrivant cette PPL urgente et vitale à l’ordre du jour, et en la votant conforme à son adoption à l’Assemblée nationale. Nous, PME, y serons vigilants.",
-        "Nous comptons sur vous.",
-        "Bien cordialement,",
+
         "",
+
+        "Le 30 novembre 2023, l’Assemblée nationale a adopté une proposition de loi transpartisane tendant à la réouverture des accueils physiques dans les services publics.",
+
+        "Par ce vote, s’est ouvert l’espoir d’améliorer significativement l’accès effectif aux droits de millions de nos concitoyennes et concitoyens pour qui la dématérialisation tous azimuts des démarches administratives représente un obstacle majeur.",
+
+        "J’ai moi-même et plusieurs de mes proches ont déjà fait l’expérience des difficultés que provoquent les procédures systématiquement dématérialisées pour accéder à des services ou faire valoir des droits",
+
+        "Voilà pourquoi je vous demande de tout mettre en œuvre pour que cette proposition de loi soit mise à l’agenda et votée au Sénat",
+
+        "Bien cordialement,",
+
+        "",
+
         "$expediteur[nom_complet]",
     ];
 }
@@ -58,7 +65,7 @@ function generer_lettre_html($senateur, $expediteur)
 {
     if (is_null($senateur) || is_null($expediteur)) {
         $result = <<<EOD
-        <p>Aucun·e sénateur·ice des groupes opposé·e n'a été élu·e dans votre département.</p>
+        <p>Aucun·e sénateur·ice des groupes opposés n'a été élu·e dans votre département.</p>
         EOD;
 
         return $result;
@@ -88,7 +95,7 @@ function generer_lettre_html($senateur, $expediteur)
 
     $result = <<<EOD
       <p>
-        Voici le texte généré à partir de vos informations, adressé pour l'exemple $senateur[recipient] <strong>$senateur[nom_complet]</strong>.
+        Voici le texte généré à partir de vos informations, adressé pour l'exemple $senateur[recipient] <strong>$senateur[nom_complet]</strong> ($senateur[groupe]).
       <p>
 
       <blockquote>
@@ -105,7 +112,7 @@ function generer_lettre_html($senateur, $expediteur)
           <input type="hidden" name="prenom" value="$expediteur[prenom]">
           <input type="hidden" name="profession" value="$expediteur[profession]">
           <input type="hidden" name="civilite" value="$expediteur[civilite]">
-          <input type="hidden" name="campaign" value="envoi-senateurs-06.2023">
+          <input type="hidden" name="campaign" value="rouvreznosservicespublics_senateurs_2024-01">
           <a href="$lien_email">Je l'envoie moi-même</a>
           <button type="submit">Envoyez-le pour moi</button>
       </div>
