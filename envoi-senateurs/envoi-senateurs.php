@@ -85,9 +85,12 @@ class Plugin
     }
 
     $senateur = $liste_senateurs->random_senateur($departement);
+    $twitters =
+      $liste_senateurs->departement_twitters($departement);
 
-    $result = generer_lettre_html(
+    $result = generer_interpellation(
       $senateur,
+      $twitters,
       $expediteur
     );
 
