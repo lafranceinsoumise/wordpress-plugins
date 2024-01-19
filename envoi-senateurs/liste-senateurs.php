@@ -127,7 +127,8 @@ class Liste_Senateurs
             'recipient' => "$cha $dep_info[cha]$dep_info[nom]",
             'adresse' => $adresse,
             'civilite' => $civilite,
-            'email' => $senateur['e']
+            'email' => $senateur['e'],
+            'twitter' => $senateur['t'],
         ];
     }
 

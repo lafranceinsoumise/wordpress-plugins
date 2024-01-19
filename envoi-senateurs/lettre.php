@@ -61,7 +61,24 @@ function texte_lettre($senateur, $expediteur)
 }
 
 
-function generer_lettre_html($senateur, $expediteur)
+function lien_twitter($senateur)
+{
+    if (!$senateur["twitter"]) {
+        return "";
+    }
+
+    $url = "https://twitter.com/intent/tweet";
+    $params = [
+        'text' => ".@$senateur[twitter] Guichets fermés, impossibilité d’obtenir un rendez-vous, obligation de passer par l’informatique… STOP ! Inscrivez à l’ordre du jour la proposition de loi transpartisane pour la réouverture des accueils physiques dans les services publics !",
+        'url' => 'https://RouvrezNosServicesPublics.fr'
+    ];
+
+    $url .= "?" . http_build_query($params);
+
+    return "<a href='$url' target='__blank' rel='noopener noreferrer'>Interpellez $senateur[nom_complet] sur twitter</a>";
+}
+
+function generer_interpellation($senateur, $twitters, $expediteur)
 {
     if (is_null($senateur) || is_null($expediteur)) {
         $result = <<<EOD
@@ -93,6 +110,8 @@ function generer_lettre_html($senateur, $expediteur)
         ENT_QUOTES | ENT_HTML5,
     );
 
+    $lien_twitter = lien_twitter($senateur);
+
     $result = <<<EOD
       <p>
         Voici le texte généré à partir de vos informations, adressé pour l'exemple $senateur[recipient] <strong>$senateur[nom_complet]</strong> ($senateur[groupe]).
@@ -102,8 +121,14 @@ function generer_lettre_html($senateur, $expediteur)
         $texte_lettre_html
       </blockquote>
 
+      <p>
+        Si vous envoyez le texte vous-même, il sera expédié $senateur[recipient] <strong>$senateur[nom_complet]</strong>.
+        <br/>
+        En cliquant sur « Envoyez-le pour moi », nous l'expédierons par email de votre part à <strong><u>tou·tes les sénateur·ices</u></strong> de votre département.
+      </p>
+
       <div>
-        <form class="envoi-senateurs" id="envoi-senateurs">
+        <form class="envoi" id="envoi-senateurs">
           <input type="hidden" name="action" value="envoi-senateurs">
           <input type="hidden" name="departement" value="$senateur[departement]">
           <input type="hidden" name="senateur" value="$senateur[id]">
@@ -116,8 +141,11 @@ function generer_lettre_html($senateur, $expediteur)
           <a href="$lien_email">Je l'envoie moi-même</a>
           <button type="submit">Envoyez-le pour moi</button>
       </div>
-      <p>
-        Si vous envoyez le texte vous-même, il sera expédié $senateur[recipient] <strong>$senateur[nom_complet]</strong>. En cliquant sur « Envoyez-le pour moi », nous l'expédierons par email de votre part à <strong>tou·tes les sénateur·ices</strong> de votre département.
+
+      <div class="envoi">$lien_twitter</div>
+
+      <p id="success-message">
+        Merci, votre email va être envoyé automatiquement. Vous en recevrez une copie sur l’adresse email que vous avez indiquée.
       </p>
       EOD;
 

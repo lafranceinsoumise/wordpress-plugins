@@ -1,12 +1,10 @@
 function postForm(e) {
-  console.log("Dans le gestionnaire");
-  if (!e.target.classList.contains("envoi-senateurs")) {
+  const $ = jQuery;
+  if (e.target.id !== "envoi-senateurs") {
     return;
   }
   e.preventDefault();
-  console.log("et actif");
-
-  const $ = jQuery;
+  $("#success-message").css("display", "none");
 
   const form = $(e.target);
   const formData = form.serialize();
@@ -19,8 +17,7 @@ function postForm(e) {
     mode: "same-origin",
     data: formData,
     success: function () {
-      const messageBox = $(".envoi-succes");
-      messageBox.css("display", "block");
+      $("#success-message").css("display", "block");
     },
   });
 }
