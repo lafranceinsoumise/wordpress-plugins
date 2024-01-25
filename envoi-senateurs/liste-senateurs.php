@@ -50,7 +50,7 @@ class Liste_Senateurs
 
     public function filter_senateurs($senateur)
     {
-        return in_array(
+        return is_email($senateur['e']) && in_array(
             $senateur['g'],
             $this->target_groups,
             true
