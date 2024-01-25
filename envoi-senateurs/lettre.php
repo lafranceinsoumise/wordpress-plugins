@@ -57,6 +57,10 @@ function texte_lettre($senateur, $expediteur)
         "",
 
         "$expediteur[nom_complet]",
+
+        "",
+
+        "PS. Si vous êtes favorable à la proposition de loi transpartisane tendant à la réouverture des accueils physiques dans les services publics vous pouvez le signaler en écrivant à l'adresse contact@rouvreznosservicespublics.fr."
     ];
 }
 
@@ -82,7 +86,7 @@ function generer_interpellation($senateur, $twitters, $expediteur)
 {
     if (is_null($senateur) || is_null($expediteur)) {
         $result = <<<EOD
-        <p>Aucun·e sénateur·ice des groupes opposés n'a été élu·e dans votre département.</p>
+        <p>🎉 🎉 🎉<br />Aucun·e des sénateur·ices élu·es dans votre département n'est opposé·e à cette proposition de loi !<br />🎉 🎉 🎉</p>
         EOD;
 
         return $result;

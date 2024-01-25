@@ -50,11 +50,27 @@ class Liste_Senateurs
 
     public function filter_senateurs($senateur)
     {
-        return is_email($senateur['e']) && in_array(
+        if (false === is_email($senateur['e'])) {
+            return false;
+        }
+
+        if (false === in_array(
             $senateur['g'],
             $this->target_groups,
             true
-        );
+        )) {
+            return false;
+        }
+
+        $blacklist = file_exists(dirname(__FILE__) . '/blacklist.json') ? wp_json_file_decode(
+            dirname(__FILE__) . '/blacklist.json'
+        ) : [];
+
+        if (false === in_array($senateur['e'], $blacklist, true)) {
+            return true;
+        }
+
+        return false;
     }
 
 
