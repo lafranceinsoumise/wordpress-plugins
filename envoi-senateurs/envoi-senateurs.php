@@ -2,8 +2,8 @@
 /*
    Plugin Name: LFI Envoi Sénateurs
    Description: Gère l'envoi de mails automatiques aux sénateurs
-   Version: 1.1
-   Author: Salomé Cheysson
+   Version: 2.0
+   Author: Salomé Cheysson, Giuseppe De Ponte
    License: GPL3
  */
 
@@ -28,6 +28,7 @@ class Plugin
 
     add_action('init', [$this, 'init']);
     add_action('rest_api_init', [$this, 'register_planned_sending_route']);
+    add_action('elementor_pro/forms/new_record', [$this, 'save_new_blacklist_record'], 10, 2);
 
     if (class_exists('WP_CLI')) {
       \WP_CLI::add_command(
@@ -285,6 +286,54 @@ class Plugin
         ],
       ]
     ));
+  }
+
+
+  public function save_new_blacklist_record($record, $handler)
+  {
+    $form_name = $record->get_form_settings('form_name');
+    if ('blacklist_senateurs' !== $form_name) {
+      return;
+    }
+    $raw_fields = $record->get('fields');
+    $fields = [];
+    foreach ($raw_fields as $id => $field) {
+      $fields[$id] = $field['value'];
+    }
+    $email = trim(strtolower($fields["email"]));
+
+    $blacklist = file_exists(dirname(__FILE__) . '/blacklist.json') ? wp_json_file_decode(
+      dirname(__FILE__) . '/blacklist.json'
+    ) : [];
+
+    if (in_array($email, $blacklist)) {
+      return $blacklist;
+    }
+
+    $senateurs_config = wp_json_file_decode(
+      dirname(__FILE__) . '/senateurs.json',
+      ['associative' => true]
+    );
+
+    $match = false;
+    foreach ($senateurs_config as $k => $v) {
+      foreach ($v["sen"] as $senateur) {
+        if ($senateur["e"] === $email) {
+          $match = $senateur["e"];
+          break 2;
+        }
+      }
+    }
+
+    if (false === $match) {
+      return $blacklist;
+    }
+
+    array_push($blacklist, $match);
+    $responseData = wp_json_encode($blacklist);
+    file_put_contents(dirname(__FILE__) . '/blacklist.json', $responseData);
+
+    return $blacklist;
   }
 
   public function install()
