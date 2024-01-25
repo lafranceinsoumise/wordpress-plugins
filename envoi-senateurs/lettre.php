@@ -2,7 +2,7 @@
 
 namespace LFI\WPPlugins\EnvoiSenateurs;
 
-if ( ! defined( 'ABSPATH' ) ) {
+if (!defined('ABSPATH')) {
     exit; // Exit if accessed directly
 }
 
@@ -23,8 +23,13 @@ function genrer($terme, $sexe)
     return mb_substr($terme, 0, $pos);
 }
 
+function objet_lettre($senateur, $expediteur)
+{
+    return 'Protégez nos petites entreprises';
+}
 
-function texte_lettre($senateur, $expediteur) {
+function texte_lettre($senateur, $expediteur)
+{
     $profession = $expediteur['profession'];
     if ($expediteur['civilite']) {
         $profession = genrer($profession, $expediteur['civilite']);
@@ -32,6 +37,9 @@ function texte_lettre($senateur, $expediteur) {
 
     return [
         "À l'attention de $senateur[civilite] $senateur[nom_complet], $senateur[fonction].",
+
+        "",
+
         "$senateur[adresse],",
         "En tant que $profession, je vous demande solennellement d’inscrire la PPL visant à protéger le groupe EDF d’un démembrement à l’ordre du jour au Sénat au mois de juin ou de juillet, pour le retour aux tarifs réglementés de l’électricité pour les TPE et les PME. C’est un nouvel espoir, et peut-être le dernier, pour que nous puissions payer nos factures et survivre à la crise de l’énergie qui rend notre activité de plus en plus difficile, nous oblige souvent à licencier et nous interdit de nous projeter.",
         "Nous ne méritons pas ce qui nous arrive. Alors que nous travaillons plus de 70 heures par semaine, nous n’arrivons même plus à nous payer. Nos factures d’énergie ont été multipliées par 4, 5 voire 10. Les aides mises en place par le Gouvernement sont totalement insuffisantes : 80% des boulangeries n’ont pas accès au bouclier tarifaire, et l’amortisseur électricité pour les PME ne prend en compte que 10 à 20% des factures. Pour beaucoup d’entre nous, il ne nous reste que quelques mois à vivre.",
@@ -71,9 +79,10 @@ function generer_lettre_html($senateur, $expediteur)
     );
 
     $texte_lettre_email = rawurlencode(implode("\n\n", $texte));
-    $sujet_lettre_email = rawurlencode('Protégez nos petites entreprises');
+    $objet_lettre_email = rawurlencode(objet_lettre($senateur, $expediteur));
+
     $lien_email = htmlspecialchars(
-        "mailto:$senateur[email]?subject=$sujet_lettre_email&body=$texte_lettre_email",
+        "mailto:$senateur[email]?subject=$objet_lettre_email&body=$texte_lettre_email",
         ENT_QUOTES | ENT_HTML5,
     );
 

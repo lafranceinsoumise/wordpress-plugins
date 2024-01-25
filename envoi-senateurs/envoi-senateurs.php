@@ -9,36 +9,12 @@
 
 namespace LFI\WPPlugins\EnvoiSenateurs;
 
-if ( ! defined( 'ABSPATH' ) ) {
+if (!defined('ABSPATH')) {
   exit; // Exit if accessed directly
 }
 
 require_once(dirname(__FILE__) . '/liste-senateurs.php');
 require_once(dirname(__FILE__) . '/lettre.php');
-
-
-function expediteur($args) {
-  if ( !array_key_exists( 'email', $args )
-    || !array_key_exists( 'nom', $args )
-    || !array_key_exists( 'prenom', $args )
-    || !array_key_exists( 'profession', $args )
-    || !array_key_exists( 'civilite', $args ) )
-  {
-    return null;
-  }
-
-  $nom_complet = mb_convert_case( $args['prenom'], MB_CASE_TITLE )
-               . ' ' . mb_convert_case( $args['nom'], MB_CASE_UPPER);
-
-  return [
-    'email' => $args['email'],
-    'nom' => $args['nom'],
-    'prenom' => $args['prenom'],
-    'profession' => $args['profession'],
-    'civilite' => $args['civilite'],
-    'nom_complet' => $nom_complet,
-  ];
-}
 
 class Plugin
 {
@@ -48,17 +24,45 @@ class Plugin
 
   public function __construct()
   {
-    register_activation_hook( __FILE__, [$this, 'install'] );
+    register_activation_hook(__FILE__, [$this, 'install']);
 
-    add_action( 'init', [$this, 'init'] );
-    add_action( 'rest_api_init', [$this, 'register_route'] );
+    add_action('init', [$this, 'init']);
+    add_action('rest_api_init', [$this, 'register_planned_sending_route']);
+
+    if (class_exists('WP_CLI')) {
+      \WP_CLI::add_command(
+        "senateurs-scheduled",
+        [$this, "send_scheduled_emails"],
+        [
+          'shortdesc' => 'Send scheduled senateurs emails for a given campaign',
+          'synopsis' => array(
+            array(
+              'type'        => 'positional',
+              'name'        => 'campaign',
+              'description' => 'The unique identifier for the campaign to sent',
+              'optional'    => false,
+              'repeating'   => false,
+            ),
+            array(
+              'type'        => 'flag',
+              'name'        => 'dry-run',
+              'description' => 'Whether or not to actually send the emails and update the DB',
+              'optional'    => true,
+              'default'     => 'false',
+            ),
+          ),
+          'longdesc' =>   '## EXAMPLES' . "\n\n" . 'wp senateurs-scheduled [campaign] [--dry-run]',
+        ]
+      );
+    }
   }
 
-  public function lettre_senateurs_shortcode($attrs) {
+  public function lettre_senateurs_shortcode($attrs)
+  {
     wp_enqueue_script(
       'envoi-senateurs',
-      plugins_url( '/script.js', __FILE__ ),
-      array( 'jquery' ),
+      plugins_url('/script.js', __FILE__),
+      array('jquery'),
       '1.0.1',
       true
     );
@@ -67,49 +71,51 @@ class Plugin
       'envoi-senateurs',
       'configSenateurs',
       array(
-        'endpointURL' => get_rest_url( null, self::API_NAMESPACE . '/envoi'),
+        'endpointURL' => get_rest_url(null, self::API_NAMESPACE . '/envoi'),
       ),
     );
 
     $liste_senateurs = Liste_Senateurs::get_instance();
 
-    $expediteur = expediteur( stripslashes_deep ( $_GET ) );
+    $expediteur = $liste_senateurs->expediteur(stripslashes_deep($_GET));
     $departement = $_GET['departement'] ?? null;
 
-    if ( is_null( $expediteur ) || is_null( $liste_senateurs->departement( $departement ) ) ) {
+    if (is_null($expediteur) || is_null($liste_senateurs->departement($departement))) {
       return '';
     }
 
-    $senateur = $liste_senateurs->random_senateur( $departement );
+    $senateur = $liste_senateurs->random_senateur($departement);
 
     $result = generer_lettre_html(
-      $senateur, $expediteur
+      $senateur,
+      $expediteur
     );
 
     return $result;
   }
 
-
-  public function planifier_envoi( $request ) {
+  public function planifier_envoi($request)
+  {
     global $wpdb;
 
     $params = $request->get_body_params();
 
-    if ( is_null(Liste_Senateurs::get_instance()->senateur (
+    if (is_null(Liste_Senateurs::get_instance()->senateur(
       $params['departement'],
-      $params['senateur'] ) ) )
-    {
-      return new WP_Error(
+      null,
+      $params['senateur']
+    ))) {
+      return new \WP_Error(
         'rest_invalid_param',
-        sprintf( esc_html__( '%1$s n\'est pas un département', self::TEXTDOMAIN ), $departement, 'string' ),
-        array ( 'status' => 400 ),
+        sprintf(esc_html__('%1$s n\'est pas un département', self::TEXTDOMAIN), $departement, 'string'),
+        array('status' => 400),
       );
     }
 
     $wpdb->insert(
       $wpdb->prefix . self::TABLE_NAME,
       array(
-        'time' => current_time( 'mysql' ),
+        'time' => current_time('mysql'),
         'departement' => $params['departement'],
         'senateur' => $params['senateur'],
         'email' => $params['email'],
@@ -125,12 +131,128 @@ class Plugin
     return [];
   }
 
-  public function register_route()
+
+  public function send_scheduled_email($data, $dry_run = False)
   {
-    register_rest_route( self::API_NAMESPACE, '/envoi', array(
+    $liste_senateurs = Liste_Senateurs::get_instance();
+    $expediteur = $liste_senateurs->expediteur($data);
+    $recipients = $liste_senateurs->departement_senateurs($data['departement']);
+
+    $count = count($recipients);
+
+    if ($count === 0) {
+      \WP_CLI::log("\n— No recipients found for departement $data[departement].");
+      return;
+    }
+
+    \WP_CLI::log("\n— Sending $count e-mail(s) for $expediteur[email] ($data[departement])");
+
+    foreach ($recipients as $recipient) {
+      $recipient = $liste_senateurs->senateur($data['departement'], $recipient);
+      $subject = objet_lettre($recipient, $expediteur);
+      $message = implode("\n\n", texte_lettre($recipient, $expediteur));
+
+      if (false === $dry_run) {
+        $result = wp_mail(
+          $recipient['email'],
+          $subject,
+          $message,
+          "From:" . $expediteur["nom_complet"] . "<" . $expediteur["email"] . ">"
+        );
+      }
+
+      if ($dry_run || true === $result) {
+        \WP_CLI::log("   ✅ $recipient[email]");
+      } else {
+        \WP_CLI::log("   ❌ $recipient[email]");
+      }
+    }
+  }
+
+  public function send_scheduled_emails($args, $assoc_args)
+  {
+    global $wpdb;
+
+    if (false === class_exists('WP_CLI')) {
+      return;
+    }
+
+    $campaign = $args[0];
+    $dry_run = isset($assoc_args["dry-run"]) ? $assoc_args["dry-run"] : false;
+    $datetime = date(\DateTime::ATOM);
+
+    \WP_CLI::log("\nSending scheduled senateurs email...");
+
+    if ($dry_run) {
+      \WP_CLI::log("[ DRY-MODE - $datetime ]");
+    } else {
+      \WP_CLI::log("[ $datetime ]");
+    }
+
+
+    $db_table = $wpdb->prefix . self::TABLE_NAME;
+    $rows = $wpdb->get_results(
+      "
+      SELECT * FROM $db_table
+      WHERE campaign = '$campaign'
+      AND email NOT IN (
+        SELECT email FROM $db_table
+        WHERE campaign LIKE '$campaign::sent::%'
+      );
+      ",
+      "OBJECT_K"
+    );
+
+    if (empty($rows)) {
+      \WP_CLI::log("\nNo email requests found !\n");
+      return;
+    }
+
+    $count = count($rows);
+    \WP_CLI::log("\n$count email request(s) found.");
+
+    $handled_senders = [];
+
+    foreach ($rows as $row) {
+      # Avoid sending multiple messages for the same sender email address
+      if (in_array($row->email, $handled_senders)) {
+        continue;
+      }
+
+      # Send the emails
+      $this->send_scheduled_email(
+        (array)$row,
+        $dry_run
+      );
+
+      # Add sender to handled senders to avoid duplicates
+      array_push($handled_senders, $row->email);
+
+      # Update the DB row to mark the email as sent
+      if (false === $dry_run) {
+        $wpdb->update(
+          $db_table,
+          [
+            "campaign" => "$row->campaign::sent::$datetime"
+          ],
+          [
+            "id" => $row->id
+          ]
+        );
+      }
+    }
+
+    \WP_CLI::log("\nAll email request(s) have been handled !\n");
+  }
+
+  public function register_planned_sending_route()
+  {
+    register_rest_route(self::API_NAMESPACE, '/envoi', array(
       'methods' => 'POST',
       'callback' => [$this, 'planifier_envoi'],
-      'permission_callback' => function () { return true; },
+      'permission_callback' => function () {
+        return true;
+      },
       'args' => [
         'departement' => [
           'required' => true,
@@ -159,14 +281,15 @@ class Plugin
           'required' => true,
         ],
       ]
-    ) );
+    ));
   }
 
-  public function install() {
+  public function install()
+  {
     global $wpdb;
 
     $table_name = $wpdb->prefix . self::TABLE_NAME;
-    $charset_collate= $wpdb->get_charset_collate();
+    $charset_collate = $wpdb->get_charset_collate();
 
     $sql = "CREATE TABLE $table_name (
       id mediumint(9) NOT NULL AUTO_INCREMENT,
@@ -182,12 +305,13 @@ class Plugin
       PRIMARY KEY  (id)
     ) $charset_collate;";
 
-    require_once( ABSPATH . 'wp-admin/includes/upgrade.php' );
-    dbDelta( $sql );
+    require_once(ABSPATH . 'wp-admin/includes/upgrade.php');
+    dbDelta($sql);
   }
 
-  public function init() {
-    add_shortcode( 'lettre_senateurs', [$this, 'lettre_senateurs_shortcode'] );
+  public function init()
+  {
+    add_shortcode('lettre_senateurs', [$this, 'lettre_senateurs_shortcode']);
   }
 }
 

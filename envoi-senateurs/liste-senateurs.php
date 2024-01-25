@@ -58,8 +58,10 @@ class Liste_Senateurs
     }
 
 
-    public function departement_senateurs($dep_info)
+    public function departement_senateurs($departement)
     {
+        $dep_info = $this->departements[$departement] ?? null;
+
         if (is_null($dep_info) or empty($dep_info['sen'])) {
             return [];
         }
@@ -87,14 +89,16 @@ class Liste_Senateurs
     }
 
 
-    public function senateur($departement, $index)
+    public function senateur($departement, $senateur, $index = null)
     {
         $dep_info = $this->departements[$departement] ?? null;
         if (is_null($dep_info)) {
             return null;
         }
 
-        $senateur = $dep_info['sen'][$index] ?? null;
+        if (is_null($senateur) && false === is_null($index)) {
+            $senateur = $dep_info['sen'][$index] ?? null;
+        }
 
         if (is_null($senateur)) {
             return null;
@@ -126,20 +130,51 @@ class Liste_Senateurs
         ];
     }
 
-    public function random_senateur($departement)
+    function expediteur($args)
     {
-        $dep_info = $this->departements[$departement] ?? null;
-        if (is_null($dep_info)) {
-
+        if (
+            !array_key_exists('email', $args)
+            || !array_key_exists('nom', $args)
+            || !array_key_exists('prenom', $args)
+            || !array_key_exists('civilite', $args)
+        ) {
             return null;
         }
-        $senateurs = $this->departement_senateurs($dep_info);
-        if (empty($senateurs)) {
 
+        $nom_complet = mb_convert_case($args['prenom'], MB_CASE_TITLE)
+            . ' ' . mb_convert_case($args['nom'], MB_CASE_UPPER);
+
+        return [
+            'email' => $args['email'],
+            'nom' => $args['nom'],
+            'prenom' => $args['prenom'],
+            'profession' => $args['profession'] ?? "",
+            'civilite' => $args['civilite'],
+            'nom_complet' => $nom_complet,
+        ];
+    }
+
+    public function random_senateur($departement)
+    {
+        $senateurs = $this->departement_senateurs($departement);
+        if (empty($senateurs)) {
             return null;
         }
         $index = array_rand($senateurs, 1);
 
-        return $this->senateur($departement, $index);
+        return $this->senateur($departement, null, $index);
+    }
+
+    public function departement_twitters($departement)
+    {
+        $senateurs = $this->departement_senateurs($departement);
+
+        $twitters = [];
+        foreach ($senateurs as $senateur) {
+            if ($senateur["t"]) {
+                array_push($twitters, "@" . $senateur["t"]);
+            }
+        }
+        return $twitters;
     }
 }
