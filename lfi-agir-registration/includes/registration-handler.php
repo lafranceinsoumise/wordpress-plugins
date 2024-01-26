@@ -1,10 +1,11 @@
 <?php
+
 namespace LFI\WPPlugins\AgirRegistration;
 
 
 use ElementorPro\Modules\Forms\Classes\Action_Base;
 
-if ( ! defined( 'ABSPATH' ) ) {
+if (!defined('ABSPATH')) {
     exit; // Exit if accessed directly
 }
 
@@ -20,12 +21,15 @@ class RegistrationAction extends Action_Base
         return "LFI : Inscription à la plateforme";
     }
 
-    public function run($record, $ajax_handler) {
+    public function run($record, $ajax_handler)
+    {
         $settings = $record->get('form_settings');
         $raw_fields = $record->get('fields');
 
-        if (empty($settings['agir_registration_type']) ||
-            !in_array($settings['agir_registration_type'], ['LFI', 'NSP', 'LJI'])) {
+        if (
+            empty($settings['agir_registration_type']) ||
+            !in_array($settings['agir_registration_type'], ['LFI', 'NSP', 'LJI', 'ISE'])
+        ) {
             return;
         }
 
@@ -81,8 +85,7 @@ class RegistrationAction extends Action_Base
         foreach ($fields as $key => $value) {
             if (in_array($key, $api_fields)) {
                 $data[$key] = sanitize_text_field($value);
-            }
-            else {
+            } else {
                 $metadata[$key] = sanitize_text_field($value);
             }
         }
@@ -95,12 +98,12 @@ class RegistrationAction extends Action_Base
 
         $options = get_option('lfi_settings');
 
-        $url = $options['api_server'].'/api/people/subscription/';
+        $url = $options['api_server'] . '/api/people/subscription/';
 
         $response = wp_remote_post($url, [
             'headers' => [
                 'Content-type' => 'application/json',
-                'Authorization' => 'Basic '.base64_encode($options['api_id'].':'.$options['api_key']),
+                'Authorization' => 'Basic ' . base64_encode($options['api_id'] . ':' . $options['api_key']),
                 'X-Wordpress-Client' => $_SERVER['REMOTE_ADDR']
             ],
             'body' => json_encode($data)
@@ -120,8 +123,8 @@ class RegistrationAction extends Action_Base
 
         $redirect_to = json_decode($response['body'])->url;
 
-        if (!empty( $redirect_to ) && filter_var($redirect_to, FILTER_VALIDATE_URL)) {
-            $ajax_handler->add_response_data( 'redirect_url', $redirect_to );
+        if (!empty($redirect_to) && filter_var($redirect_to, FILTER_VALIDATE_URL)) {
+            $ajax_handler->add_response_data('redirect_url', $redirect_to);
         }
     }
 
@@ -145,6 +148,7 @@ class RegistrationAction extends Action_Base
                     'LFI' => "LFI",
                     'NSP' => "NSP",
                     'LJI' => "LJI",
+                    'ISE' => 'ISE'
                 ],
                 'default' => 'NSP'
             ]

@@ -9,7 +9,7 @@ License: GPL3
 
 namespace LFI\WPPlugins\AgirRegistration;
 
-if ( ! defined( 'ABSPATH' ) ) {
+if (!defined('ABSPATH')) {
     exit; // Exit if accessed directly
 }
 
@@ -33,43 +33,41 @@ class Plugin
 
     public function admin_init()
     {
-        require_once dirname(__FILE__).'/includes/admin.php';
+        require_once dirname(__FILE__) . '/includes/admin.php';
 
         new Admin();
     }
 
     public function register_elementor_addons()
     {
-        require_once dirname(__FILE__).'/includes/registration-handler.php';
-        require_once dirname(__FILE__).'/includes/update-newsletters-handler.php';
+        require_once dirname(__FILE__) . '/includes/registration-handler.php';
+        require_once dirname(__FILE__) . '/includes/update-newsletters-handler.php';
 
         $elementor_registration_action = new RegistrationAction();
         \ElementorPro\Plugin::instance()
             ->modules_manager->get_modules('forms')
-            ->add_form_action($elementor_registration_action->get_name(), $elementor_registration_action)
-        ;
+            ->add_form_action($elementor_registration_action->get_name(), $elementor_registration_action);
 
         $elementor_newsletter_action = new UpdateNewslettersAction();
         \ElementorPro\Plugin::instance()
             ->modules_manager->get_modules('forms')
-            ->add_form_action($elementor_newsletter_action->get_name(), $elementor_newsletter_action)
-        ;
+            ->add_form_action($elementor_newsletter_action->get_name(), $elementor_newsletter_action);
     }
 
     function cookie_script()
     {
-        wp_enqueue_script('js-cookie', plugin_dir_url( __FILE__ ).'/scripts/js-cookie.js', [], 2);
-        wp_enqueue_script('lfi-polyfills', plugin_dir_url( __FILE__ ).'/scripts/polyfills.js', [], 2);
-        wp_enqueue_script('lfi-agir-cookie', plugin_dir_url( __FILE__ ).'/scripts/cookie.js', ['lfi-polyfills', 'js-cookie'], 3);
+        wp_enqueue_script('js-cookie', plugin_dir_url(__FILE__) . '/scripts/js-cookie.js', [], 2);
+        wp_enqueue_script('lfi-polyfills', plugin_dir_url(__FILE__) . '/scripts/polyfills.js', [], 2);
+        wp_enqueue_script('lfi-agir-cookie', plugin_dir_url(__FILE__) . '/scripts/cookie.js', ['lfi-polyfills', 'js-cookie'], 3);
     }
 
     function signature_shortcode_handler($atts, $content, $tag)
     {
-        if (!is_array($atts) || !isset($atts["type"]) || !in_array($atts["type"], ["nsp", "lfi"])) {
+        if (!is_array($atts) || !isset($atts["type"]) || !in_array($atts["type"], ["nsp", "lfi", "ise"])) {
             return "";
         }
 
-        $transient_key = 'agir_signature_'.$atts["type"];
+        $transient_key = 'agir_signature_' . $atts["type"];
 
         $count = get_transient($transient_key);
 
@@ -79,13 +77,13 @@ class Plugin
 
         $options = get_option('lfi_settings');
 
-        $url = $options['api_server'].'/api/people/counter/';
+        $url = $options['api_server'] . '/api/people/counter/';
         $query = ['type' => $atts['type']];
 
-        $response = wp_remote_get($url.'?'.http_build_query($query), [
+        $response = wp_remote_get($url . '?' . http_build_query($query), [
             'headers' => [
                 'Content-type' => 'application/json',
-                'Authorization' => 'Basic '.base64_encode($options['api_id'].':'.$options['api_key']),
+                'Authorization' => 'Basic ' . base64_encode($options['api_id'] . ':' . $options['api_key']),
                 'X-Wordpress-Client' => $_SERVER['REMOTE_ADDR']
             ]
         ]);
@@ -108,13 +106,14 @@ class Plugin
                 'slug' => NULL,
                 'minutes' => NULL,
                 'raw' => false
-            ), $atts
+            ),
+            $atts
         );
 
         $slug = $atts['slug'];
         $raw = (bool) $atts['raw'];
 
-        if(is_null($slug) ) {
+        if (is_null($slug)) {
             return "";
         }
 
@@ -127,7 +126,8 @@ class Plugin
         list($valeur, $valide) = $this->cagnotte_recuperer_valeur_cache($slug, $expiration);
 
         if (!$valide && !wp_next_scheduled(
-            'lfi_agir_registration_cagnotte_rafraichir', [$slug]
+            'lfi_agir_registration_cagnotte_rafraichir',
+            [$slug]
         )) {
             wp_schedule_single_event(
                 time(),
@@ -144,7 +144,8 @@ class Plugin
         }
     }
 
-    function cagnotte_recuperer_valeur_cache($slug, $expiration) {
+    function cagnotte_recuperer_valeur_cache($slug, $expiration)
+    {
         $cached_value = wp_cache_get("cagnotte-$slug", self::CACHE_GROUP);
         $valeur = 0;
         $timestamp = 0;
@@ -165,7 +166,8 @@ class Plugin
         return array($valeur, true);
     }
 
-    function cagnotte_rafraichir($slug) {
+    function cagnotte_rafraichir($slug)
+    {
         $valeur = $this->cagnotte_recuperer_valeur_actuelle($slug);
 
         if (is_null($valeur)) {
@@ -185,7 +187,8 @@ class Plugin
         return $valeur;
     }
 
-    function cagnotte_recuperer_valeur_actuelle($slug) {
+    function cagnotte_recuperer_valeur_actuelle($slug)
+    {
         $options = get_option('lfi_settings');
         $url = $options['api_server'] . "/cagnottes/$slug/compteur/";
 
