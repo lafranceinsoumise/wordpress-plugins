@@ -39,6 +39,11 @@ class RegistrationAction extends Action_Base
             $fields[str_replace("agir_", "", $id)]  = $field['value'];
         }
 
+        // Allow desactivating the whole subscription action process on-demand
+        if (array_key_exists('lfi_registration', $fields) && $fields['lfi_registration'] === "N") {
+            return;
+        }
+
         if (empty($fields['email'])) {
             $ajax_handler->add_error("email", "L'email est obligatoire.");
         }
@@ -56,6 +61,10 @@ class RegistrationAction extends Action_Base
             if (!empty($fields['location_zip']) && !preg_match('/^[0-9]{5}$/', $fields['location_zip'])) {
                 $ajax_handler->add_error("location_zip", 'Le code postal est invalide.');
             }
+        }
+
+        if (array_key_exists('media_preferences', $fields)) {
+            $fields["media_preferences"] = empty($fields["media_preferences"]) ? [] : explode(",", $fields["media_preferences"]);
         }
 
         if (count($ajax_handler->errors) > 0) {
@@ -77,24 +86,31 @@ class RegistrationAction extends Action_Base
             "location_zip",
             "location_city",
             "location_country",
-            "contact_phone"
+            "contact_phone",
+            "gender",
+            "date_of_birth",
+            "media_preferences"
         ];
 
         $metadata = array();
 
         foreach ($fields as $key => $value) {
-            if (in_array($key, $api_fields)) {
-                $data[$key] = sanitize_text_field($value);
+            if (is_array($value)) {
+                $value = array_map("sanitize_text_field", $value);
             } else {
-                $metadata[$key] = sanitize_text_field($value);
+                $value = sanitize_text_field($value);
+            }
+
+            if (in_array($key, $api_fields)) {
+                $data[$key] = $value;
+            } else {
+                $metadata[$key] = $value;
             }
         }
 
         if (count($metadata) > 0) {
             $data["metadata"] = $metadata;
         }
-
-
 
         $options = get_option('lfi_settings');
 
@@ -123,7 +139,7 @@ class RegistrationAction extends Action_Base
 
         $redirect_to = json_decode($response['body'])->url;
 
-        if (!empty($redirect_to) && filter_var($redirect_to, FILTER_VALIDATE_URL)) {
+        if ($settings["agir_registration_redirect"] && !empty($redirect_to) && filter_var($redirect_to, FILTER_VALIDATE_URL)) {
             $ajax_handler->add_response_data('redirect_url', $redirect_to);
         }
     }
@@ -154,11 +170,24 @@ class RegistrationAction extends Action_Base
             ]
         );
 
+        $widget->add_control(
+            'agir_registration_redirect',
+            [
+                'label' => 'Rediriger la personne vers une page externe après validation',
+                'type' => \Elementor\Controls_Manager::SWITCHER,
+                'label_on' => "Oui",
+                'label_off' => "Non",
+                'return_value' => 'yes',
+                'default' => 'yes',
+            ]
+        );
+
         $widget->end_controls_section();
     }
 
     public function on_export($element)
     {
         unset($element['agir_registration_type']);
+        unset($element['agir_registration_redirect']);
     }
 }
