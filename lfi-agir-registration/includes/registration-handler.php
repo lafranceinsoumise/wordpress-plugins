@@ -21,6 +21,12 @@ class RegistrationAction extends Action_Base
         return "LFI : Inscription à la plateforme";
     }
 
+    protected function validateDate($date, $format = 'Y-m-d')
+    {
+        $d = \DateTimeImmutable::createFromFormat($format, $date);
+        return $d && $d->format($format) == $date;
+    }
+
     public function run($record, $ajax_handler)
     {
         $settings = $record->get('form_settings');
@@ -60,6 +66,20 @@ class RegistrationAction extends Action_Base
 
             if (!empty($fields['location_zip']) && !preg_match('/^[0-9]{5}$/', $fields['location_zip'])) {
                 $ajax_handler->add_error("location_zip", 'Le code postal est invalide.');
+            }
+        }
+
+        // Validate date_of_birth format
+        if (array_key_exists('date_of_birth', $fields)) {
+            if (!empty($fields['date_of_birth']) && false === $this->validateDate($fields["date_of_birth"])) {
+                $ajax_handler->add_error("date_of_birth", 'La date de naissance est invalide. Veuillez renseigner une date au format AAAA-MM-JJ.');
+            }
+        // Allow specifying the date of birth in the format 'd/m/Y' through the 'dob' field
+        } elseif (array_key_exists('dob', $fields) && !empty($fields['dob'])) {
+            if ($this->validateDate($fields["dob"], "d/m/Y")) {
+                $fields["date_of_birth"] = \DateTimeImmutable::createFromFormat('d/m/Y', $fields["dob"])->format('Y-m-d');
+            } else {
+                $ajax_handler->add_error("dob", 'La date de naissance est invalide. Veuillez renseigner une date au format JJ/MM/AAAA.');
             }
         }
 
