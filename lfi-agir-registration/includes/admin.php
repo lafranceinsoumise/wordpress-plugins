@@ -21,9 +21,10 @@ class Admin
 
     public function add_admin_menu()
     {
-        add_options_page(
-            'Paramètres de LFI Inscription plateforme',
-            'LFI Inscription plateforme',
+        add_submenu_page(
+            'lfi',
+            'LFI | Inscription plateforme',
+            'Inscription plateforme',
             'manage_options',
             'lfi-agir-registration',
             [$this, 'options_page']

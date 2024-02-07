@@ -138,10 +138,10 @@ final class Plugin
 
     function settings_page() {
         add_menu_page(
-            'Paramètres généraux',
+            'LFI | Fonctionnalités diverses',
             'La France insoumise',
             'manage_options',
-            'lfi_general',
+            'lfi',
             [$this, 'settings_page_render'],
         );
     }

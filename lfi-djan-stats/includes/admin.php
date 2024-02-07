@@ -31,9 +31,10 @@ class Admin
 
     public function add_admin_menu()
     {
-        add_options_page(
+        add_submenu_page(
+            'lfi',
             'LFI | Paramètres API Djan',
-            'LFI | Paramètres API Djan',
+            'Paramètres API Djan',
             'manage_options',
             'lfi-djan-stats',
             [$this, 'options_page']
