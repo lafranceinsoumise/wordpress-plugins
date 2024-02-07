@@ -1,0 +1,5 @@
+name: wordpress-plugins
+recipe: wordpress
+config:
+  webroot: wordpress
+  php: 8.2
