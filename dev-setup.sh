@@ -8,7 +8,6 @@ lando wp core download \
       --path=wordpress \
       --locale=fr_FR
 
-
 lando wp config create \
       --path=wordpress \
       --dbname=wordpress \

@@ -39,8 +39,7 @@ final class Plugin
     {
         // Load translation
         add_action( 'init', array($this, 'i18n') );
-        add_action( 'admin_init', array($this, 'settings_init') );
-        add_action( 'admin_menu', array($this, 'settings_page') );
+        add_action( 'init', array($this, 'admin_init') );
         add_filter( 'the_author', array($this, 'replace_author') );
         add_filter( 'oembed_response_data', array($this, 'replace_author_in_oembed') );
         add_action( 'template_redirect', array($this, 'disable_author_pages') );
@@ -60,10 +59,17 @@ final class Plugin
         load_plugin_textdomain( 'lfi-programme' );
     }
 
+    public function admin_init() {
+        require_once dirname(__FILE__) . '/admin.php';
+        new GeneralAdmin();
+    }
+
     public function replace_author( $display_author )
     {
         $options = get_option( 'lfi_general' );
-        if ( $options['hide_authors_enabled'] ) {
+        $enabled = isset($options['hide_authors_enabled']) ?
+            $options['hide_authors_enabled'] : false;
+        if ( $enabled && !is_admin() ) {
             return $options['hide_authors_replacement'];
         }
         return $display_author;
@@ -72,7 +78,9 @@ final class Plugin
     public function replace_author_in_oembed( $data )
     {
         $options = get_option( 'lfi_general' );
-        if ( $options['hide_authors_enabled'] ) {
+        $enabled = isset($options['hide_authors_oembed']) ?
+            $options['hide_authors_oembed'] : false;
+        if ( $enabled ) {
             $data['author_name'] = $options[ 'hide_authors_replacement' ];
             $data['author_url'] = get_home_url();
         }
@@ -81,137 +89,11 @@ final class Plugin
 
     public function disable_author_pages() {
         $options = get_option( 'lfi_general' );
-        if ( $options['hide_authors_enabled'] && is_author() ) {
+        $enabled = isset($options['hide_authors_pages']) ?
+            $options['hide_authors_pages'] : false;
+        if ( $enabled && is_author() ) {
             wp_redirect( home_url() );
         }
-    }
-
-    public function settings_init()
-    {
-        register_setting(
-            'lfi_general',
-            'lfi_general',
-            array(
-                'type' => 'array',
-                'default' => array(
-                    'hide_authors_enabled' => false,
-                    'hide_authors_replacement' => 'La France insoumise',
-                ),
-            ),
-        );
-
-        add_settings_section(
-            'lfi_hide_authors_section',
-            __('Masquer les noms d\'auteurs', 'lfi-settings'),
-            [$this, 'hide_authors_section_render'],
-            'lfi_general',
-            array(
-                'id' => 'lfi_hide_authors_section',
-            ),
-        );
-
-        add_settings_field(
-            'lfi_hide_authors_enabled',
-            __('Activer le masquage des noms d\'auteurs', 'lfi-settings'),
-            [$this, 'hide_authors_enabled_render'],
-            'lfi_general',
-            'lfi_hide_authors_section',
-            array(
-                'label_for' => 'lfi_hide_authors_enabled',
-                'class' => 'lfi_settings_row'
-            ),
-        );
-
-        add_settings_field(
-            'lfi_hide_authors_replacement',
-            __('Nom affiché à la place', 'lfi-settings'),
-            [$this, 'hide_authors_replacement_render'],
-            'lfi_general',
-            'lfi_hide_authors_section',
-            array(
-                'label_for' => 'lfi_hide_authors_replacement',
-                'class' => 'lfi_settings_row',
-            ),
-        );
-    }
-
-
-    function settings_page() {
-        add_menu_page(
-            'LFI | Fonctionnalités diverses',
-            'La France insoumise',
-            'manage_options',
-            'lfi',
-            [$this, 'settings_page_render'],
-        );
-    }
-
-    function hide_authors_section_render ( $args )
-    {
-        ?>
-        <p id="<?php echo esc_attr( $args['id'] ); ?>">
-            Cette fonctionnalité permet de remplacer les noms
-            d'auteurs partout par une valeur unique, définie ici, lorsqu'elle est active.
-        </p>
-        <?php
-    }
-
-    function hide_authors_enabled_render( $args )
-    {
-        $value = get_option( 'lfi_general' )['hide_authors_enabled'];
-        ?>
-            <input
-               type="checkbox"
-               id="<?php echo esc_attr( $args['label_for'] ); ?>"
-               <?php if ($value) { echo "checked"; } ?>
-               name="lfi_general[hide_authors_enabled]"
-            >
-        <?php
-    }
-
-    function hide_authors_replacement_render( $args )
-    {
-        $value = get_option( 'lfi_general' )['hide_authors_replacement'];
-        ?>
-            <input type="text"
-                   id="<?php echo esc_attr( $args['label_for'] ); ?>"
-                   name="lfi_general[hide_authors_replacement]"
-                   value="<?php echo $value; ?>"
-            >
-        <?php
-    }
-
-    function settings_page_render()
-    {
-
-        if ( ! current_user_can( 'manage_options' ) ) {
-            return;
-        }
-
-        if ( isset( $_GET['settings-updated'] ) ) {
-            // add settings saved message with the class of "updated"
-            add_settings_error(
-                'lfi_messages',
-                'lfi_message',
-                __( 'Paramètres enregistrés', 'lfi-settings' ),
-                'updated'
-            );
-        }
-
-        settings_errors( 'lfi_messages' );
-
-        ?>
-        <div class="wrap">
-          <h1><?php echo esc_html( get_admin_page_title() ); ?></h1>
-          <form action="options.php" method="post">
-            <?php
-            settings_fields('lfi_general');
-            do_settings_sections('lfi_general');
-            submit_button('Valider');
-            ?>
-          </form>
-        </div>
-        <?php
     }
 
 }
