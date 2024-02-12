@@ -14,11 +14,6 @@ final class GeneralAdmin {
 
     public function init()
     {
-        // éviter d'ajouter les infos si on est pas sur la page
-        if (! isset($_GET['page']) || $_GET['page'] !== 'lfi') {
-            return;
-        }
-
         register_setting(
             'lfi_general',
             'lfi_general',
@@ -32,6 +27,13 @@ final class GeneralAdmin {
                 ),
             ),
         );
+
+
+        // éviter d'ajouter les champs et tout si on est pas sur la page
+        if (! isset($_GET['page']) || $_GET['page'] !== 'lfi') {
+            return;
+        }
+
 
         add_settings_section(
             'hide_authors_section',
