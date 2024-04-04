@@ -34,7 +34,7 @@ class RegistrationAction extends Action_Base
 
         if (
             empty($settings['agir_registration_type']) ||
-            !in_array($settings['agir_registration_type'], ['LFI', 'NSP', 'LJI', 'ISE'])
+            !in_array($settings['agir_registration_type'], ['LFI', 'NSP', 'LJI', 'ISE', 'EU24'])
         ) {
             return;
         }
@@ -74,7 +74,7 @@ class RegistrationAction extends Action_Base
             if (!empty($fields['date_of_birth']) && false === $this->validateDate($fields["date_of_birth"])) {
                 $ajax_handler->add_error("date_of_birth", 'La date de naissance est invalide. Veuillez renseigner une date au format AAAA-MM-JJ.');
             }
-        // Allow specifying the date of birth in the format 'd/m/Y' through the 'dob' field
+            // Allow specifying the date of birth in the format 'd/m/Y' through the 'dob' field
         } elseif (array_key_exists('dob', $fields) && !empty($fields['dob'])) {
             if ($this->validateDate($fields["dob"], "d/m/Y")) {
                 $fields["date_of_birth"] = \DateTimeImmutable::createFromFormat('d/m/Y', $fields["dob"])->format('Y-m-d');
@@ -184,7 +184,8 @@ class RegistrationAction extends Action_Base
                     'LFI' => "LFI",
                     'NSP' => "NSP",
                     'LJI' => "LJI",
-                    'ISE' => 'ISE'
+                    'ISE' => 'ISE',
+                    'EU24' => 'EU24',
                 ],
                 'default' => 'NSP'
             ]

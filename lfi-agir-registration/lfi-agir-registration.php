@@ -63,7 +63,7 @@ class Plugin
 
     function signature_shortcode_handler($atts, $content, $tag)
     {
-        if (!is_array($atts) || !isset($atts["type"]) || !in_array($atts["type"], ["nsp", "lfi", "ise"])) {
+        if (!is_array($atts) || !isset($atts["type"]) || !in_array($atts["type"], ["NSP", "LFI", "ISE", "EU24"])) {
             return "";
         }
 
