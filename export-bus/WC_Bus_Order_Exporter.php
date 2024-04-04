@@ -6,13 +6,23 @@ require_once(dirname(__FILE__) . '/vendor/google-api-php-client/vendor/autoload.
 
 class WC_Bus_Order_Exporter
 {
-    const PARENT_PRODUCT_ID = 62417;
-    const GOOGLE_SPREADSHEETS_ID = "1dPlab0UQa1Yntse710hC-rRGyRC8GtDlcu_gp3s4rxg";
-    const GOOGLE_SPREADSHEETS_RANGE = "_export";
     const CATEGORY_BUS_ID = "198";
-
     const META_PREFIX = "meta__";
     const GOOGLE_CLIENT_AUTH_FILE_PATH = '/gce.json';
+
+    protected int $PARENT_PRODUCT_ID;
+    protected string $GOOGLE_SPREADSHEET_ID;
+    protected string $GOOGLE_SPREADSHEET_RANGE;
+
+    public function __construct(
+        int $PARENT_PRODUCT_ID,
+        string $GOOGLE_SPREADSHEET_ID,
+        string $GOOGLE_SPREADSHEET_RANGE = "_export"
+    ) {
+        $this->PARENT_PRODUCT_ID = $PARENT_PRODUCT_ID;
+        $this->GOOGLE_SPREADSHEET_ID = $GOOGLE_SPREADSHEET_ID;
+        $this->GOOGLE_SPREADSHEET_RANGE = $GOOGLE_SPREADSHEET_RANGE;
+    }
 
     private function log($message)
     {
@@ -82,7 +92,7 @@ class WC_Bus_Order_Exporter
     {
         global $wpdb;
 
-        $product_id = self::PARENT_PRODUCT_ID;
+        $product_id = $this->PARENT_PRODUCT_ID;
         $bus_order_id_list = $wpdb->get_col(
             "
             SELECT DISTINCT woi.order_id
@@ -96,6 +106,10 @@ class WC_Bus_Order_Exporter
             ORDER BY woi.order_item_id DESC;"
         );
 
+        if (count($bus_order_id_list) === 0) {
+            return [];
+        }
+
         $args = array(
             'post__in' => $bus_order_id_list,
             'status' => "any",
@@ -103,8 +117,22 @@ class WC_Bus_Order_Exporter
             'limit' => -1,
             'orderby' => 'date',
         );
-
         return wc_get_orders($args);
+    }
+
+    private function get_attribute_stock($order_item)
+    {
+        $product = $order_item->get_product();
+        $attributes = mewz_wcas_get_product_attributes($product);
+        $stocks = mewz_wcas_match_product_stock($product, $attributes);
+        foreach ($stocks as $stock) {
+            $s = mewz_wcas_get_stock($stock["stock_id"]);
+
+            if (in_array($this->PARENT_PRODUCT_ID, $s->products())) {
+                return explode(" - ", $s->title())[1];
+            }
+        }
+        return "";
     }
 
     private function format_order_item($order, $item, $context)
@@ -117,6 +145,8 @@ class WC_Bus_Order_Exporter
         $data["status"] = $order->get_status($context);
         $data["item_name"] = $item->get_name($context);
         $data["quantity"] = $item->get_quantity($context) && is_numeric($item->get_quantity($context)) ? (float) $item->get_quantity($context) : NULL;
+
+        $data["attribute_stock"] = $this->get_attribute_stock($item);
         $meta_formatted = $this->get_item_formatted_meta_data($item, '_');
         foreach ($meta_formatted as $meta_key => $formatted_meta) {
             $data[self::META_PREFIX . $formatted_meta['key']] = wp_strip_all_tags(str_replace('"', '&quot;', $formatted_meta['value']));
@@ -141,6 +171,7 @@ class WC_Bus_Order_Exporter
 
         return $data;
     }
+
 
     private function format_orders($orders, $datetime = "", $context = 'view')
     {
@@ -178,7 +209,7 @@ class WC_Bus_Order_Exporter
         foreach ($orders as $order) {
             $row = [];
             foreach ($cols as $key) {
-                array_push($row, $order[$key]);
+                array_push($row, $order[$key] ?? "");
             }
             array_push($rows, $row);
         }
@@ -188,7 +219,8 @@ class WC_Bus_Order_Exporter
         $params = array(
             "valueInputOption" => "USER_ENTERED"
         );
-        $result = $service->spreadsheets_values->update(self::GOOGLE_SPREADSHEETS_ID, self::GOOGLE_SPREADSHEETS_RANGE, $rows, $params);
+        $this->log($params);
+        $result = $service->spreadsheets_values->update($this->GOOGLE_SPREADSHEET_ID, $this->GOOGLE_SPREADSHEET_RANGE, $rows, $params);
 
         return $result;
     }
@@ -200,12 +232,13 @@ class WC_Bus_Order_Exporter
         $this->log("[$now] :: WC_Bus_Order_Exporter execution start");
         $orders = $this->get_bus_orders();
         $orders = $this->format_orders($orders, $now);
-        $this->log(count($orders) . " orders found ...");
-        $result = $this->export_to_google_sheet($orders);
-        $this->log("... and succesfully exported to google sheets !");
-        $this->log($result);
+        $count = count($orders);
+        $this->log($count . " orders found ...");
+        if ($count > 0) {
+            $result = $this->export_to_google_sheet($orders);
+            $this->log("... and succesfully exported to google sheets !");
+            $this->log($result);
+        }
         $this->log("======================================================================");
     }
 }
-
-(new WC_Bus_Order_Exporter())->export();
