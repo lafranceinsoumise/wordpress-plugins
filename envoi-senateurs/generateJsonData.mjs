@@ -12,6 +12,7 @@ const __dirname = path.dirname(__filename);
 const GENERAL_SOURCE =
   "https://data.senat.fr/data/senateurs/ODSEN_GENERAL.json";
 const MAIN_SOURCE = "https://www.senat.fr/api-senat/senateurs.json";
+const TWITTER_SOURCE = `${__dirname}/twitters.json`;
 const TARGET = `${__dirname}/senateurs.json`;
 
 const initializeData = () => {
@@ -38,6 +39,8 @@ const downloadData = async () => {
 
 const formatData = (data) => {
   const departements = initializeData();
+  const twitterData = JSON.parse(fs.readFileSync(TWITTER_SOURCE));
+
   return departements.map((departement) => {
     departement.sen = data
       .filter((senateur) =>
@@ -53,9 +56,18 @@ const formatData = (data) => {
         n: senateur.nom,
         g: senateur.groupe.code,
         gl: senateur.groupe.libelle,
-        e: senateur.Courrier_electronique || "",
-        t: senateur.twitter ? senateur.twitter.split("/").pop() : "",
-        f: senateur.facebook,
+        e:
+          senateur.Courrier_electronique &&
+          senateur.Courrier_electronique.includes("@")
+            ? senateur.Courrier_electronique
+            : "",
+        t: senateur.twitter
+          ? senateur.twitter.split("/").pop()
+          : twitterData[senateur.Courrier_electronique.toLowerCase()] || "",
+        f:
+          senateur.facebook && /^\d+$/.test(senateur.facebook)
+            ? senateur.facebook
+            : "",
         dn: senateur.Date_naissance,
       }));
 

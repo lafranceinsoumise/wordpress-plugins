@@ -88,10 +88,12 @@ class Plugin
     $senateur = $liste_senateurs->random_senateur($departement);
     $twitters =
       $liste_senateurs->departement_twitters($departement);
+    $facebooks = $liste_senateurs->departement_facebooks($departement);
 
     $result = generer_interpellation(
       $senateur,
       $twitters,
+      $facebooks,
       $expediteur
     );
 

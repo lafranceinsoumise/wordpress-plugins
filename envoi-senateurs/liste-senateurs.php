@@ -145,6 +145,7 @@ class Liste_Senateurs
             'civilite' => $civilite,
             'email' => $senateur['e'],
             'twitter' => $senateur['t'],
+            'facebook' => $senateur['f'],
         ];
     }
 
@@ -194,5 +195,18 @@ class Liste_Senateurs
             }
         }
         return $twitters;
+    }
+
+    public function departement_facebooks($departement)
+    {
+        $senateurs = $this->departement_senateurs($departement);
+
+        $facebooks = [];
+        foreach ($senateurs as $senateur) {
+            if ($senateur["f"]) {
+                array_push($facebooks, $senateur["f"]);
+            }
+        }
+        return $facebooks;
     }
 }

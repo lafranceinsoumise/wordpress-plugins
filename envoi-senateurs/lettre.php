@@ -82,7 +82,7 @@ function lien_twitter($senateur)
     return "<a href='$url' target='__blank' rel='noopener noreferrer'>Interpellez $senateur[nom_complet] sur twitter</a>";
 }
 
-function generer_interpellation($senateur, $twitters, $expediteur)
+function generer_interpellation($senateur, $twitters, $facebooks, $expediteur)
 {
     if (is_null($senateur) || is_null($expediteur)) {
         $result = <<<EOD
