@@ -29,6 +29,7 @@ class Plugin
         add_action('lfi_agir_registration_cagnotte_rafraichir', [$this, 'cagnotte_rafraichir']);
         add_shortcode('agir_signatures', [$this, 'signature_shortcode_handler']);
         add_shortcode('agir_cagnotte', [$this, 'cagnotte_shortcode_handler']);
+        add_shortcode('agir_eu24_dons', [$this, 'eu24_donation_amount_shortcode_handler']);
     }
 
     public function admin_init()
@@ -212,6 +213,33 @@ class Plugin
         }
 
         return $json_body['totalAmount'];
+    }
+
+    function eu24_donation_amount_shortcode_handler()
+    {
+        $options = get_option('lfi_settings');
+        $url = $options['api_server'] . "/europeennes2024/montant/";
+
+        $response = wp_remote_get($url, [
+            'headers' => [
+                'Content-type' => 'application/json',
+                'Authorization' => 'Basic ' . base64_encode($options['api_id'] . ':' . $options['api_key']),
+                'X-Wordpress-Client' => $_SERVER['REMOTE_ADDR']
+            ]
+        ]);
+
+        if (is_wp_error($response) || $response['response']['code'] !== 200) {
+            return NULL;
+        }
+
+        $body = wp_remote_retrieve_body($response);
+        $json_body = json_decode($body, true);
+
+        if (is_null($json_body)) {
+            return NULL;
+        }
+
+        return $json_body['dons'] . "," . $json_body['prets'];
     }
 }
 
