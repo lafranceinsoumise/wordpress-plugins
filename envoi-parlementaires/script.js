@@ -1,10 +1,8 @@
 function postForm(e) {
-  console.log("Dans le gestionnaire");
-  if (!e.target.classList.contains("envoi-parlementaires")) {
+  if (!e.target.classList.contains("envoi-parlementaires-comission-lois")) {
     return;
   }
   e.preventDefault();
-  console.log("et actif");
 
   const $ = jQuery;
 
@@ -21,14 +19,22 @@ function postForm(e) {
       mode: "same-origin",
       data: formData,
       success: function() {
-        const messageBox = $('.envoi-succes');
+        const messageBox = $('.envoi-succeeded');
         messageBox.css('display', 'block');
       }
     }
   );
+}
 
+function sendAgain() {
+    location.reload();
 }
 
 jQuery(function () {
   document.addEventListener("submit", postForm);
+  const sendAgainButton = document.getElementById("send-again");
+  if (sendAgainButton) {
+      console.log('found sendAgainButton')
+      sendAgainButton.addEventListener("click", sendAgain)
+  }
 });

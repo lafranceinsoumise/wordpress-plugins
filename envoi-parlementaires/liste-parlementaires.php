@@ -32,8 +32,6 @@ class Liste_Parlementaires
         if (
             !array_key_exists('email', $args)
             || !array_key_exists('nom', $args)
-            || !array_key_exists('prenom', $args)
-            || !array_key_exists('civilite', $args)
         ) {
             return null;
         }
@@ -41,14 +39,12 @@ class Liste_Parlementaires
         return [
             'email' => $args['email'],
             'nom' => $args['nom'],
-            'prenom' => $args['prenom'],
-            'civilite' => $args['civilite'],
         ];
     }
 
     public function random_parlementaire()
     {
-        return array_rand($this->liste_parlementaires, 1);
+        return $this->liste_parlementaires[array_rand($this->liste_parlementaires, 1)];
     }
 
     public function all_parlementaires()
