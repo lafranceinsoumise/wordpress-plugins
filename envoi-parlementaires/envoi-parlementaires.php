@@ -3,7 +3,7 @@
    Plugin Name: LFI Envoi Parlementaires
    Description: Gère l'envoi de mails automatiques aux parlementaires
    Version: 1.1
-   Author: Salomé Cheysson
+   Author: Salomé Cheysson, Alexandra Puret
    License: GPL3
  */
 
@@ -57,7 +57,7 @@ class Plugin
     }
   }
 
-  public function lettre_parlementaires_shortcode($attrs)
+  public function lettre_parlementaire_shortcode($attrs)
   {
     wp_enqueue_script(
       'envoi-parlementaires',
@@ -66,7 +66,6 @@ class Plugin
       '1.0.1',
       true
     );
-
     wp_localize_script(
       'envoi-parlementaires',
       'configParlementaires',
@@ -85,7 +84,7 @@ class Plugin
 
     $parlementaire = $liste_parlementaires->random_parlementaire();
 
-    $result = generer_lettre_html(
+    $result = generer_mail(
       $parlementaire,
       $expediteur
     );
@@ -105,10 +104,8 @@ class Plugin
       $wpdb->prefix . self::TABLE_NAME,
       array(
         'time' => current_time('mysql'),
-        'parlementaire' => $params['parlementaire'],
-        'email' => $params['mail'],
+        'email' => $params['email'],
         'nom' => $params['nom'],
-        'prenom' => $params['prenom'],
         'campaign' =>
         $params['campaign'],
       )
@@ -135,7 +132,7 @@ class Plugin
 
     foreach ($recipients as $recipient) {
       $subject = objet_lettre($recipient, $expediteur);
-      $message = implode("\n\n", texte_lettre($recipient, $expediteur));
+      $message = implode("\n\n", mail_contenu($recipient, $expediteur));
 
       if (false === $dry_run) {
         $result = wp_mail(
@@ -239,22 +236,11 @@ class Plugin
         return true;
       },
       'args' => [
-        'parlementaire' => [
-          'required' => true,
-        ],
         'nom' => [
           'type' => 'string',
           'required' => true,
         ],
-        'prenom' => [
-          'type' => 'string',
-          'required' => true,
-        ],
         'email' => [
-          'type' => 'string',
-          'required' => true,
-        ],
-        'civilite' => [
           'type' => 'string',
           'required' => true,
         ],
@@ -276,11 +262,8 @@ class Plugin
     $sql = "CREATE TABLE $table_name (
       id mediumint(9) NOT NULL AUTO_INCREMENT,
       time datetime DEFAULT '0000-00-00 00:00:00' NOT NULL,
-      parlementaire tinyint(2) NOT NULL,
       email tinytext NOT NULL,
       nom tinytext NOT NULL,
-      prenom tinytext NOT NULL,
-      civilite tinytext DEFAULT '' NOT NULL,
       campaign tinytext DEFAULT '' NOT NULL,
       PRIMARY KEY  (id)
     ) $charset_collate;";
@@ -289,9 +272,15 @@ class Plugin
     dbDelta($sql);
   }
 
+  public function parlementaire_aleatoire_shortcode($attr) {
+     $liste_parlementaires = Liste_Parlementaires::get_instance();
+     return $liste_parlementaires->random_parlementaire();
+  }
+
   public function init()
   {
-    add_shortcode('lettre_parlementaires', [$this, 'lettre_parlementaires_shortcode']);
+    add_shortcode('parlementaire_aleatoire', [$this, 'parlementaire_aleatoire_shortcode']);
+    add_shortcode('lettre_parlementaire', [$this, 'lettre_parlementaire_shortcode']);
   }
 }
 
