@@ -32,6 +32,7 @@ class Liste_Parlementaires
         if (
             !array_key_exists('email', $args)
             || !array_key_exists('nom', $args)
+            || !array_key_exists('prenom', $args)
         ) {
             return null;
         }
@@ -39,6 +40,7 @@ class Liste_Parlementaires
         return [
             'email' => $args['email'],
             'nom' => $args['nom'],
+            'prenom' => $args['prenom']
         ];
     }
 

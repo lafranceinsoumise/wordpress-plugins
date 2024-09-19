@@ -84,12 +84,10 @@ class Plugin
 
     $parlementaire = $liste_parlementaires->random_parlementaire();
 
-    $result = generer_mail(
-      $parlementaire,
-      $expediteur
-    );
-
-    return $result;
+      return generer_mail(
+        $parlementaire,
+        $expediteur
+      );
   }
 
   public function planifier_envoi($request)
@@ -139,7 +137,7 @@ class Plugin
           $recipient['email'],
           $subject,
           $message,
-          "From:" . $expediteur["nom_complet"] . "<" . $expediteur["email"] . ">"
+          "From:" . $expediteur["nom"] . "<" . $expediteur["email"] . ">"
         );
       }
 
@@ -240,6 +238,10 @@ class Plugin
           'type' => 'string',
           'required' => true,
         ],
+        'prenom' => [
+            'type' => 'string',
+            'required' => true
+        ],
         'email' => [
           'type' => 'string',
           'required' => true,
@@ -264,6 +266,7 @@ class Plugin
       time datetime DEFAULT '0000-00-00 00:00:00' NOT NULL,
       email tinytext NOT NULL,
       nom tinytext NOT NULL,
+      prenom tinytext NOT NULL,
       campaign tinytext DEFAULT '' NOT NULL,
       PRIMARY KEY  (id)
     ) $charset_collate;";
