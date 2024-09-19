@@ -34,7 +34,6 @@ jQuery(function () {
   document.addEventListener("submit", postForm);
   const sendAgainButton = document.getElementById("send-again");
   if (sendAgainButton) {
-      console.log('found sendAgainButton')
       sendAgainButton.addEventListener("click", sendAgain)
   }
 });
