@@ -104,8 +104,8 @@ class Plugin
         'time' => current_time('mysql'),
         'email' => $params['email'],
         'nom' => $params['nom'],
-        'campaign' =>
-        $params['campaign'],
+        'prenom' => $params['prenom'],
+        'campaign' => $params['campaign'],
       )
     );
 
