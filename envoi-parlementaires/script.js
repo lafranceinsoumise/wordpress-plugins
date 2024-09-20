@@ -29,14 +29,23 @@ function postForm(e) {
   );
 }
 
+function mailto() {
+    const $ = jQuery;
+    $('#ouvrir_popup_client_mail').click()
+}
+
 function sendAgain() {
     location.reload();
 }
 
 jQuery(function () {
   document.addEventListener("submit", postForm);
-  const sendAgainButton = document.getElementById("send-again");
-  if (sendAgainButton) {
-      sendAgainButton.addEventListener("click", sendAgain)
-  }
+  setInterval(() => {
+      //only way to listen on modal button to refresh the page.
+      const sendAgainButton = document.getElementById("send-again");
+      if (sendAgainButton) {
+          sendAgainButton.removeEventListener("click", sendAgain);
+          sendAgainButton.addEventListener("click", sendAgain);
+      }
+  }, 1000);
 });

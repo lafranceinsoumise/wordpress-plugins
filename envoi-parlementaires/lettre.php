@@ -77,7 +77,7 @@ function generer_mail($parlementaire, $expediteur)
           <input type="hidden" name="nom" value="$expediteur[nom]">
           <input type="hidden" name="prenom" value="$expediteur[prenom]">
           <input type="hidden" name="campaign" value="envoi-destitution-2024-comission-lois">
-          <a href="$lien_email">Je l'envoie moi-même</a>
+          <a onclick="mailto()" href="$lien_email">Je l'envoie moi-même</a>
           <button type="submit">Envoyez-le pour moi</button>
       </div>
       <p>
