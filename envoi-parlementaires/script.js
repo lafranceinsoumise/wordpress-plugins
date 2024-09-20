@@ -21,6 +21,9 @@ function postForm(e) {
       success: function() {
         const messageBox = $('.envoi-succeeded');
         messageBox.css('display', 'block');
+
+        const formVerifierLettre = $('#form-verifier-lettre');
+        formVerifierLettre.css('display', 'none')
       }
     }
   );
