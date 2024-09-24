@@ -69,7 +69,7 @@ function generer_mail($parlementaires, $expediteur)
 
     $result = <<<EOD
       <p>
-        Voici le texte généré à partir de vos informations, qui sera adressé à tous les parlementaires n'ayant pas signé la motion de destitution.
+        Voici le texte généré à partir de vos informations, qui sera adressé à <strong>tou·tes les députés membres de la comission des lois qui n'ont pas signés la motion de destitution d'Emmanuel Macron</strong>.
       <p>
 
       <blockquote>
@@ -86,9 +86,6 @@ function generer_mail($parlementaires, $expediteur)
           <a onclick="mailto()" href="$lien_email">Je l'envoie moi-même</a>
           <button type="submit">Envoyez-le pour moi</button>
       </div>
-      <p>
-        Si vous envoyez le texte vous-même, il sera expédié à $parlementaire[email] <strong>$parlementaire[nom]</strong>. En cliquant sur « Envoyez-le pour moi », nous l'expédierons par email de votre part à <strong>tou·tes les députés membres de la comission des lois qui n'ont pas signés la motion de destitution d'Emmanuel Macron</strong>.
-      </p>
       EOD;
 
     return $result;
