@@ -6,15 +6,15 @@ if (!defined('ABSPATH')) {
     exit; // Exit if accessed directly
 }
 
-function objet_lettre($senateur, $expediteur)
+function objet_lettre($expediteur)
 {
     return 'Commission des lois, destitution';
 }
 
-function mail_contenu($parlementaire, $expediteur)
+function mail_contenu($expediteur)
 {
     return [
-        "À l'attention de $parlementaire[nom].",
+        "Chèr.e député.e,",
 
         "Je me permets de vous écrire en tant que citoyen(ne) préoccupé(e) par la situation politique actuelle et par certaines décisions récentes du Président de la République, M. Emmanuel Macron. Ces décisions, ainsi que la manière dont elles ont été prises, soulèvent de vives inquiétudes sur le respect des principes démocratiques et de l'intérêt général de notre pays.",
         "En tant que membre de la Commission des Lois, votre rôle est essentiel dans la protection de l'État de droit et dans le maintien d'un équilibre démocratique sain. Il est de plus en plus évident que le Président de la République a outrepassé les pouvoirs qui lui sont conférés, mettant en péril l'esprit de notre Constitution.",
@@ -29,9 +29,9 @@ Je vous remercie par avance pour l’attention que vous porterez à ma demande e
 }
 
 
-function generer_mail($parlementaire, $expediteur)
+function generer_mail($parlementaires, $expediteur)
 {
-    if (is_null($parlementaire) || is_null($expediteur)) {
+    if (is_null($parlementaires) || is_null($expediteur)) {
         $result = <<<EOD
         <p>Aucun député trouvé.</p>
         EOD;
@@ -39,7 +39,7 @@ function generer_mail($parlementaire, $expediteur)
         return $result;
     }
 
-    $texte = mail_contenu($parlementaire, $expediteur);
+    $texte = mail_contenu($expediteur);
 
     $texte_lettre_html = implode(
         "\n",
@@ -54,10 +54,16 @@ function generer_mail($parlementaire, $expediteur)
     );
 
     $texte_lettre_email = rawurlencode(implode("\n\n", $texte));
-    $objet_lettre_email = rawurlencode(objet_lettre($parlementaire, $expediteur));
+    $objet_lettre_email = rawurlencode(objet_lettre($expediteur));
+
+    $email_concat = "";
+    foreach ($parlementaires as &$parlementaire) {
+        $email_concat = $parlementaire["email"] . ';' . $email_concat;
+    }
+
 
     $lien_email = htmlspecialchars(
-        "mailto:$parlementaire[email]?subject=$objet_lettre_email&body=$texte_lettre_email",
+        "mailto:?bcc=$email_concat?subject=$objet_lettre_email&body=$texte_lettre_email",
         ENT_QUOTES | ENT_HTML5,
     );
 

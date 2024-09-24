@@ -82,10 +82,10 @@ class Plugin
       return '';
     }
 
-    $parlementaire = $liste_parlementaires->random_parlementaire();
+    $parlementaires = $liste_parlementaires->all_parlementaires();
 
       return generer_mail(
-        $parlementaire,
+        $parlementaires,
         $expediteur
       );
   }
@@ -129,8 +129,8 @@ class Plugin
     \WP_CLI::log("\n— Sending $count e-mail(s) for $expediteur[email]");
 
     foreach ($recipients as $recipient) {
-      $subject = objet_lettre($recipient, $expediteur);
-      $message = implode("\n\n", mail_contenu($recipient, $expediteur));
+      $subject = objet_lettre($expediteur);
+      $message = implode("\n\n", mail_contenu($expediteur));
 
       if (false === $dry_run) {
         $result = wp_mail(
