@@ -3,3 +3,7 @@ recipe: wordpress
 config:
   webroot: wordpress
   php: 8.2
+
+services:
+  redis:
+    type: redis
