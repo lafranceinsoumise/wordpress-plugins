@@ -23,6 +23,6 @@ lando wp core install \
       --admin_password=password \
       --admin_email=admin@wordpress-plugins.lndo.site
 
-for plugin in lfi-settings lfi-agir-registration lfi-djan-stats; do
+for plugin in lfi-settings lfi-agir-registration lfi-djan-stats lfi-compteur; do
     ln -s "../../../$plugin" "wordpress/wp-content/plugins/$plugin"
 done
