@@ -69,7 +69,7 @@ function generer_mail($parlementaires, $expediteur)
 
     $result = <<<EOD
       <p>
-        Voici le texte généré à partir de vos informations, adressé pour <span class="parlementaire-email">$parlementaire[email]</span> <span class="parlementaire-nom">$parlementaire[nom]</span>.
+        Voici le texte généré à partir de vos informations, qui sera adressé à tous les parlementaires n'ayant pas signé la motion de destitution.
       <p>
 
       <blockquote>
