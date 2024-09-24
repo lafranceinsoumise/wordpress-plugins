@@ -37,7 +37,8 @@ class CompteurAction extends Action_Base
         if ( empty( $settings['lfi_compteur_uniques'] ) ) {
             $uniques = [];
         } else {
-            $uniques = explode( ',', $settings['lfi_compteur_unique'] );
+            $uniques = explode( ',', $settings['lfi_compteur_uniques'] );
+
         }
 
         $key_prefix = compteur_redis_key($settings["lfi_compteur_nom"]);
@@ -45,7 +46,8 @@ class CompteurAction extends Action_Base
         $results = [];
 
         foreach($uniques as $field) {
-            $value = $raw_fields[$field];
+            $value = $raw_fields[$field]['value'];
+            $ajax_handler->add_response_data($field, $value);
             if ( isset($value) && $value !== "" ) {
                 array_push(
                     $results,
@@ -65,6 +67,7 @@ class CompteurAction extends Action_Base
             $redis_client->incr( $key_prefix );
         }
 
+        $ajax_handler->add_success_message( "Merci, votre participation a été prise en compte.");
     }
 
     public function register_settings_section($widget)

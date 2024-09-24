@@ -20,14 +20,12 @@ define('COMPTEUR_KEY_PREFIX', 'lfi-compteur');
 
 
 function compteur_redis_key($name) {
-    return "{COMPTEUR_KEY_PREFIX}:{$name}";
+    return COMPTEUR_KEY_PREFIX . ':' . $name;
 }
 
 
-function get_redis_client($parameters) {
-    global $wp_object_cache;
-
-    return $wp_object_cache->__get("redis");
+function get_redis_client() {
+    return $GLOBALS['wp_object_cache']->redis;
 }
 
 
@@ -39,7 +37,7 @@ class Plugin
     public function __construct()
     {
         add_action('init', [$this, 'compteur_init']);
-        add_action('elementor_pro/init', [$this, 'register_elementor_addons']);
+        add_action('elementor_pro/init', [$this, 'register_elementor_plugins']);
     }
 
     public function register_elementor_plugins()
