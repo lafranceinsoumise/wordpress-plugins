@@ -8,23 +8,21 @@ if (!defined('ABSPATH')) {
 
 function objet_lettre($expediteur)
 {
-    return 'Commission des lois, destitution';
+    return ucfirst($expediteur["nom"] . " " . ucfirst($expediteur["prenom"])) . " souhaite vous interpeller.";
 }
 
 function mail_contenu($expediteur)
 {
     return [
-        "Chèr.e député.e,",
+        "Madame la Députée, Monsieur le Député,",
 
-        "Je me permets de vous écrire en tant que citoyen(ne) préoccupé(e) par la situation politique actuelle et par certaines décisions récentes du Président de la République, M. Emmanuel Macron. Ces décisions, ainsi que la manière dont elles ont été prises, soulèvent de vives inquiétudes sur le respect des principes démocratiques et de l'intérêt général de notre pays.",
-        "En tant que membre de la Commission des Lois, votre rôle est essentiel dans la protection de l'État de droit et dans le maintien d'un équilibre démocratique sain. Il est de plus en plus évident que le Président de la République a outrepassé les pouvoirs qui lui sont conférés, mettant en péril l'esprit de notre Constitution.",
-        "C'est pourquoi je vous interpelle aujourd'hui pour envisager la mise en place d'une procédure de destitution, conformément à l'article 68 de la Constitution. Cette procédure, bien que rare et grave, est indispensable lorsque les actes d'un Président vont à l'encontre de la confiance que les citoyens placent dans les institutions de notre République.",
-        "Je vous invite donc, en tant que représentant(e) de la nation, à envisager sérieusement cette possibilité et à soutenir cette démarche pour rétablir la confiance entre le peuple et ses institutions.
+        "La proposition de résolution visant à destituer le président de la République Emmanuel Macron, prévue à l’article 68 de la Constitution, sera étudiée ce mercredi 2 octobre.",
+        "Le président de la République a été lourdement sanctionné lors des élections européennes et législatives de 2024. Or il a nommé Michel Barnier Premier ministre pour continuer la politique menée depuis 2017.\nC’est un affront démocratique, d’autant plus que Michel Barnier est membre d’un parti (LR) ayant recueilli à peine 5% des voix en 2024.",
+        "Ce choix constitue un manquement grave aux devoirs du président de la République. En démocratie, seul le Peuple et souverain.\nPour en finir avec ces manquements d’Emmanuel Macron et respecter le vote du peuple, il est nécessaire d’enclencher la procédure de destitution du président de la République.",
+        "Par ce courriel, je vous demande solennellement de voter pour la destitution du président de la République au sein de la commission de Lois dans laquelle vous siégez.",
+        "Je vous prie d'agréer, Madame la Députée, Monsieur le Député, l'expression de mes salutations distinguées.",
 
-Je vous remercie par avance pour l’attention que vous porterez à ma demande et reste à votre disposition pour échanger plus en détail sur ce sujet.",
-
-        "Cordialement,",
-        "$expediteur[nom] $expediteur[prenom]",
+        ucfirst($expediteur["nom"]) . " " . ucfirst($expediteur["prenom"]),
     ];
 }
 
@@ -69,7 +67,7 @@ function generer_mail($parlementaires, $expediteur)
 
     $result = <<<EOD
       <p>
-        Voici le texte généré à partir de vos informations, qui sera adressé à <strong>tou·tes les députés membres de la comission des lois qui n'ont pas signés la motion de destitution d'Emmanuel Macron</strong>.
+        Voici le texte généré à partir de vos informations, qui sera adressé à <strong>tou·tes les députés membres de la commission des lois qui n'ont pas signés la motion de destitution d'Emmanuel Macron</strong>.
       <p>
 
       <blockquote>
@@ -84,7 +82,7 @@ function generer_mail($parlementaires, $expediteur)
           <input type="hidden" name="prenom" value="$expediteur[prenom]">
           <input type="hidden" name="campaign" value="envoi-destitution-2024-comission-lois">
           <a onclick="mailto()" href="$lien_email">Je l'envoie moi-même</a>
-          <button type="submit">Envoyez-le pour moi</button>
+          <button style="text-wrap: auto;" type="submit">Envoyez-le pour moi</button>
       </div>
       EOD;
 
