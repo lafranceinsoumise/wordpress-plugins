@@ -56,12 +56,12 @@ function generer_mail($parlementaires, $expediteur)
 
     $email_concat = "";
     foreach ($parlementaires as &$parlementaire) {
-        $email_concat = $parlementaire["email"] . ';' . $email_concat;
+        $email_concat = $parlementaire["email"] . ',' . $email_concat;
     }
 
 
     $lien_email = htmlspecialchars(
-        "mailto:?bcc=$email_concat?subject=$objet_lettre_email&body=$texte_lettre_email",
+        "mailto:?bcc=$email_concat&subject=$objet_lettre_email&body=$texte_lettre_email",
         ENT_QUOTES | ENT_HTML5,
     );
 
