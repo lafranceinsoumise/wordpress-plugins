@@ -16,6 +16,7 @@
 namespace LFI\Compteur;
 
 
+define('REDIS_DATABASE', 3);
 define('COMPTEUR_KEY_PREFIX', 'lfi-compteur');
 
 
@@ -25,7 +26,22 @@ function compteur_redis_key($name) {
 
 
 function get_redis_client() {
-    return $GLOBALS['wp_object_cache']->redis;
+    $redis_client = new \Redis();
+
+    if ( defined ( 'WP_REDIS_HOST' ) ) {
+        $host = WP_REDIS_HOST;
+    } else {
+        $host = '127.0.0.1';
+    }
+
+    $redis_client->connect(
+        $host,
+        6379,
+        1
+    );
+
+    $redis_client->select(REDIS_DATABASE);
+    return $redis_client;
 }
 
 
