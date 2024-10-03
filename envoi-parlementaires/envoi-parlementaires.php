@@ -57,6 +57,12 @@ class Plugin
     }
   }
 
+  public function forumulaire_shortcode($attrs) {
+      $liste_parlementaires = Liste_Parlementaires::get_instance();
+
+      return generer_formulaire($liste_parlementaires->get_departements());
+  }
+
   public function lettre_parlementaire_shortcode($attrs)
   {
     wp_enqueue_script(
@@ -82,11 +88,11 @@ class Plugin
       return '';
     }
 
-    $parlementaires = $liste_parlementaires->all_parlementaires();
+    $parlementaires = $liste_parlementaires->get_parlementaire_par_departement($expediteur["departement"]);
 
       return generer_mail(
         $parlementaires,
-        $expediteur
+        $expediteur,
       );
   }
 
@@ -104,6 +110,7 @@ class Plugin
         'time' => current_time('mysql'),
         'email' => $params['email'],
         'nom' => $params['nom'],
+        'departement' => $params["departement"],
         'prenom' => $params['prenom'],
         'campaign' => $params['campaign'],
       )
@@ -234,6 +241,10 @@ class Plugin
         return true;
       },
       'args' => [
+        'departement' => [
+            'type' => 'string',
+            'required' => true,
+        ],
         'nom' => [
           'type' => 'string',
           'required' => true,

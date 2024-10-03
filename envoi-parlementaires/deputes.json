@@ -1,0 +1,5187 @@
+[
+  {
+    "nom": "Mme Nadège Abomangoli",
+    "departement": "Seine-Saint-Denis",
+    "circonscription": "10",
+    "url": "https://www2.assemblee-nationale.fr/deputes/fiche/OMC_PA795228",
+    "email": "nadege.abomangoli@assemblee-nationale.fr",
+    "groupe": "La France insoumise - Nouveau Front Populaire",
+    "role": "Vice-présidente de l'Assemblée nationale"
+  },
+  {
+    "nom": "M. Xavier Albertini",
+    "departement": "Marne",
+    "circonscription": "1",
+    "url": "https://www2.assemblee-nationale.fr/deputes/fiche/OMC_PA794278",
+    "email": "xavier.albertini@assemblee-nationale.fr",
+    "groupe": "Horizons & Indépendants",
+    "role": ""
+  },
+  {
+    "nom": "M. Laurent Alexandre",
+    "departement": "Aveyron",
+    "circonscription": "2",
+    "url": "https://www2.assemblee-nationale.fr/deputes/fiche/OMC_PA793262",
+    "email": "laurent.alexandre@assemblee-nationale.fr",
+    "groupe": "La France insoumise - Nouveau Front Populaire",
+    "role": ""
+  },
+  {
+    "nom": "M. Henri Alfandari",
+    "departement": "Indre-et-Loire",
+    "circonscription": "3",
+    "url": "https://www2.assemblee-nationale.fr/deputes/fiche/OMC_PA793992",
+    "email": "henri.alfandari@assemblee-nationale.fr",
+    "groupe": "Horizons & Indépendants",
+    "role": ""
+  },
+  {
+    "nom": "M. Alexandre Allegret-Pilot",
+    "departement": "Gard",
+    "circonscription": "5",
+    "url": "https://www2.assemblee-nationale.fr/deputes/fiche/OMC_PA841067",
+    "email": "alexandre.allegret-pilot@assemblee-nationale.fr",
+    "groupe": "UDR",
+    "role": ""
+  },
+  {
+    "nom": "Mme Marie-José Allemand",
+    "departement": "Hautes-Alpes",
+    "circonscription": "1",
+    "url": "https://www2.assemblee-nationale.fr/deputes/fiche/OMC_PA840665",
+    "email": "marie-jose.allemand@assemblee-nationale.fr",
+    "groupe": "Socialistes et apparentés",
+    "role": ""
+  },
+  {
+    "nom": "M. Franck Allisio",
+    "departement": "Bouches-du-Rhône",
+    "circonscription": "12",
+    "url": "https://www2.assemblee-nationale.fr/deputes/fiche/OMC_PA793432",
+    "email": "franck.allisio@assemblee-nationale.fr",
+    "groupe": "Rassemblement National",
+    "role": ""
+  },
+  {
+    "nom": "M. Charles Alloncle",
+    "departement": "Hérault",
+    "circonscription": "9",
+    "url": "https://www2.assemblee-nationale.fr/deputes/fiche/OMC_PA841207",
+    "email": "charles.alloncle@assemblee-nationale.fr",
+    "groupe": "UDR",
+    "role": ""
+  },
+  {
+    "nom": "M. Gabriel Amard",
+    "departement": "Rhône",
+    "circonscription": "6",
+    "url": "https://www2.assemblee-nationale.fr/deputes/fiche/OMC_PA794906",
+    "email": "gabriel.amard@assemblee-nationale.fr",
+    "groupe": "La France insoumise - Nouveau Front Populaire",
+    "role": "Secrétaire de l'Assemblée nationale"
+  },
+  {
+    "nom": "M. Maxime Amblard",
+    "departement": "Meuse",
+    "circonscription": "1",
+    "url": "https://www2.assemblee-nationale.fr/deputes/fiche/OMC_PA841495",
+    "email": "maxime.amblard@assemblee-nationale.fr",
+    "groupe": "Rassemblement National",
+    "role": ""
+  },
+  {
+    "nom": "M. David Amiel",
+    "departement": "Paris",
+    "circonscription": "13",
+    "url": "https://www2.assemblee-nationale.fr/deputes/fiche/OMC_PA795950",
+    "email": "david.amiel@assemblee-nationale.fr",
+    "groupe": "Ensemble pour la République",
+    "role": ""
+  },
+  {
+    "nom": "Mme Ségolène Amiot",
+    "departement": "Loire-Atlantique",
+    "circonscription": "3",
+    "url": "https://www2.assemblee-nationale.fr/deputes/fiche/OMC_PA794138",
+    "email": "segolene.amiot@assemblee-nationale.fr",
+    "groupe": "La France insoumise - Nouveau Front Populaire",
+    "role": ""
+  },
+  {
+    "nom": "M. Pouria Amirshahi",
+    "departement": "Paris",
+    "circonscription": "5",
+    "url": "https://www2.assemblee-nationale.fr/deputes/fiche/OMC_PA610968",
+    "email": "pouria.amirshahi@assemblee-nationale.fr",
+    "groupe": "Écologiste et Social",
+    "role": ""
+  },
+  {
+    "nom": "Mme Farida Amrani",
+    "departement": "Essonne",
+    "circonscription": "1",
+    "url": "https://www2.assemblee-nationale.fr/deputes/fiche/OMC_PA795588",
+    "email": "farida.amrani@assemblee-nationale.fr",
+    "groupe": "La France insoumise - Nouveau Front Populaire",
+    "role": "Secrétaire de l'Assemblée nationale"
+  },
+  {
+    "nom": "M. Pieyre-Alexandre Anglade",
+    "departement": "Français établis hors de France",
+    "circonscription": "4",
+    "url": "https://www2.assemblee-nationale.fr/deputes/fiche/OMC_PA721158",
+    "email": "Pieyre-Alexandre.Anglade@assemblee-nationale.fr",
+    "groupe": "Ensemble pour la République",
+    "role": ""
+  },
+  {
+    "nom": "M. Rodrigo Arenas",
+    "departement": "Paris",
+    "circonscription": "10",
+    "url": "https://www2.assemblee-nationale.fr/deputes/fiche/OMC_PA795084",
+    "email": "rodrigo.arenas@assemblee-nationale.fr",
+    "groupe": "La France insoumise - Nouveau Front Populaire",
+    "role": ""
+  },
+  {
+    "nom": "M. Antoine Armand",
+    "departement": "Haute-Savoie",
+    "circonscription": "2",
+    "url": "https://www2.assemblee-nationale.fr/deputes/fiche/OMC_PA795144",
+    "email": "antoine.armand@assemblee-nationale.fr",
+    "groupe": "Ensemble pour la République",
+    "role": ""
+  },
+  {
+    "nom": "M. Raphaël Arnault",
+    "departement": "Vaucluse",
+    "circonscription": "1",
+    "url": "https://www2.assemblee-nationale.fr/deputes/fiche/OMC_PA842105",
+    "email": "raphael.arnault@assemblee-nationale.fr",
+    "groupe": "La France insoumise - Nouveau Front Populaire",
+    "role": ""
+  },
+  {
+    "nom": "Mme Christine Arrighi",
+    "departement": "Haute-Garonne",
+    "circonscription": "9",
+    "url": "https://www2.assemblee-nationale.fr/deputes/fiche/OMC_PA793780",
+    "email": "christine.arrighi@assemblee-nationale.fr",
+    "groupe": "Écologiste et Social",
+    "role": ""
+  },
+  {
+    "nom": "M. Gabriel Attal",
+    "departement": "Hauts-de-Seine",
+    "circonscription": "10",
+    "url": "https://www2.assemblee-nationale.fr/deputes/fiche/OMC_PA722190",
+    "email": "gabriel.attal@assemblee-nationale.fr",
+    "groupe": "Ensemble pour la République",
+    "role": ""
+  },
+  {
+    "nom": "Mme Clémentine Autain",
+    "departement": "Seine-Saint-Denis",
+    "circonscription": "11",
+    "url": "https://www2.assemblee-nationale.fr/deputes/fiche/OMC_PA588884",
+    "email": "Clementine.Autain@assemblee-nationale.fr",
+    "groupe": "Écologiste et Social",
+    "role": ""
+  },
+  {
+    "nom": "Mme Bénédicte Auzanot",
+    "departement": "Vaucluse",
+    "circonscription": "2",
+    "url": "https://www2.assemblee-nationale.fr/deputes/fiche/OMC_PA796118",
+    "email": "benedicte.auzanot@assemblee-nationale.fr",
+    "groupe": "Rassemblement National",
+    "role": ""
+  },
+  {
+    "nom": "M. Joël Aviragnet",
+    "departement": "Haute-Garonne",
+    "circonscription": "8",
+    "url": "https://www2.assemblee-nationale.fr/deputes/fiche/OMC_PA642764",
+    "email": "Joel.Aviragnet@assemblee-nationale.fr",
+    "groupe": "Socialistes et apparentés",
+    "role": ""
+  },
+  {
+    "nom": "Mme Léa Balage El Mariky",
+    "departement": "Paris",
+    "circonscription": "3",
+    "url": "https://www2.assemblee-nationale.fr/deputes/fiche/OMC_PA841701",
+    "email": "lea.balage@assemblee-nationale.fr",
+    "groupe": "Écologiste et Social",
+    "role": ""
+  },
+  {
+    "nom": "M. Erwan Balanant",
+    "departement": "Finistère",
+    "circonscription": "8",
+    "url": "https://www2.assemblee-nationale.fr/deputes/fiche/OMC_PA719558",
+    "email": "Erwan.Balanant@assemblee-nationale.fr",
+    "groupe": "Les Démocrates",
+    "role": ""
+  },
+  {
+    "nom": "M. Philippe Ballard",
+    "departement": "Oise",
+    "circonscription": "2",
+    "url": "https://www2.assemblee-nationale.fr/deputes/fiche/OMC_PA794562",
+    "email": "philippe.ballard@assemblee-nationale.fr",
+    "groupe": "Rassemblement National",
+    "role": ""
+  },
+  {
+    "nom": "Mme Anchya Bamana",
+    "departement": "Mayotte",
+    "circonscription": "2",
+    "url": "https://www2.assemblee-nationale.fr/deputes/fiche/OMC_PA842279",
+    "email": "anchya.bamana@assemblee-nationale.fr",
+    "groupe": "Rassemblement National",
+    "role": ""
+  },
+  {
+    "nom": "Mme Géraldine Bannier",
+    "departement": "Mayenne",
+    "circonscription": "2",
+    "url": "https://www2.assemblee-nationale.fr/deputes/fiche/OMC_PA720256",
+    "email": "Geraldine.Bannier@assemblee-nationale.fr",
+    "groupe": "Les Démocrates",
+    "role": ""
+  },
+  {
+    "nom": "M. Christian Baptiste",
+    "departement": "Guadeloupe",
+    "circonscription": "2",
+    "url": "https://www2.assemblee-nationale.fr/deputes/fiche/OMC_PA643143",
+    "email": "christian.baptiste@assemblee-nationale.fr",
+    "groupe": "Socialistes et apparentés",
+    "role": ""
+  },
+  {
+    "nom": "Mme Brigitte Barèges",
+    "departement": "Tarn-et-Garonne",
+    "circonscription": "1",
+    "url": "https://www2.assemblee-nationale.fr/deputes/fiche/OMC_PA267561",
+    "email": "brigitte.bareges@assemblee-nationale.fr",
+    "groupe": "UDR",
+    "role": ""
+  },
+  {
+    "nom": "M. Jean-Noël Barrot",
+    "departement": "Yvelines",
+    "circonscription": "2",
+    "url": "https://www2.assemblee-nationale.fr/deputes/fiche/OMC_PA721836",
+    "email": "jean-noel.barrot@assemblee-nationale.fr",
+    "groupe": "Les Démocrates",
+    "role": ""
+  },
+  {
+    "nom": "M. Christophe Barthès",
+    "departement": "Aude",
+    "circonscription": "1",
+    "url": "https://www2.assemblee-nationale.fr/deputes/fiche/OMC_PA793238",
+    "email": "christophe.barthes@assemblee-nationale.fr",
+    "groupe": "Rassemblement National",
+    "role": ""
+  },
+  {
+    "nom": "M. Fabrice Barusseau",
+    "departement": "Charente-Maritime",
+    "circonscription": "3",
+    "url": "https://www2.assemblee-nationale.fr/deputes/fiche/OMC_PA840829",
+    "email": "fabrice.barusseau@assemblee-nationale.fr",
+    "groupe": "Socialistes et apparentés",
+    "role": ""
+  },
+  {
+    "nom": "M. Jean-Pierre Bataille",
+    "departement": "Nord",
+    "circonscription": "15",
+    "url": "https://www2.assemblee-nationale.fr/deputes/fiche/OMC_PA267763",
+    "email": "jean-pierre.bataille@assemblee-nationale.fr",
+    "groupe": "Libertés, Indépendants, Outre-mer et Territoires",
+    "role": ""
+  },
+  {
+    "nom": "Mme Delphine Batho",
+    "departement": "Deux-Sèvres",
+    "circonscription": "2",
+    "url": "https://www2.assemblee-nationale.fr/deputes/fiche/OMC_PA335999",
+    "email": "Delphine.Batho@assemblee-nationale.fr",
+    "groupe": "Écologiste et Social",
+    "role": ""
+  },
+  {
+    "nom": "Mme Marie-Noëlle Battistel",
+    "departement": "Isère",
+    "circonscription": "4",
+    "url": "https://www2.assemblee-nationale.fr/deputes/fiche/OMC_PA342415",
+    "email": "Marie-Noelle.Battistel@assemblee-nationale.fr",
+    "groupe": "Socialistes et apparentés",
+    "role": ""
+  },
+  {
+    "nom": "M. Romain Baubry",
+    "departement": "Bouches-du-Rhône",
+    "circonscription": "15",
+    "url": "https://www2.assemblee-nationale.fr/deputes/fiche/OMC_PA793374",
+    "email": "romain.baubry@assemblee-nationale.fr",
+    "groupe": "Rassemblement National",
+    "role": ""
+  },
+  {
+    "nom": "M. Laurent Baumel",
+    "departement": "Indre-et-Loire",
+    "circonscription": "4",
+    "url": "https://www2.assemblee-nationale.fr/deputes/fiche/OMC_PA606793",
+    "email": "laurent.baumel@assemblee-nationale.fr",
+    "groupe": "Socialistes et apparentés",
+    "role": ""
+  },
+  {
+    "nom": "M. Thibault Bazin",
+    "departement": "Meurthe-et-Moselle",
+    "circonscription": "4",
+    "url": "https://www2.assemblee-nationale.fr/deputes/fiche/OMC_PA642847",
+    "email": "Thibault.Bazin@assemblee-nationale.fr",
+    "groupe": "Droite Républicaine",
+    "role": ""
+  },
+  {
+    "nom": "Mme Valérie Bazin-Malgras",
+    "departement": "Aube",
+    "circonscription": "2",
+    "url": "https://www2.assemblee-nationale.fr/deputes/fiche/OMC_PA718884",
+    "email": "Valerie.Bazin-Malgras@assemblee-nationale.fr",
+    "groupe": "Droite Républicaine",
+    "role": ""
+  },
+  {
+    "nom": "M. José Beaurain",
+    "departement": "Aisne",
+    "circonscription": "4",
+    "url": "https://www2.assemblee-nationale.fr/deputes/fiche/OMC_PA793158",
+    "email": "jose.beaurain@assemblee-nationale.fr",
+    "groupe": "Rassemblement National",
+    "role": ""
+  },
+  {
+    "nom": "M. Olivier Becht",
+    "departement": "Haut-Rhin",
+    "circonscription": "5",
+    "url": "https://www2.assemblee-nationale.fr/deputes/fiche/OMC_PA642935",
+    "email": "olivier.becht@assemblee-nationale.fr",
+    "groupe": "Ensemble pour la République",
+    "role": ""
+  },
+  {
+    "nom": "M. Belkhir Belhaddad",
+    "departement": "Moselle",
+    "circonscription": "1",
+    "url": "https://www2.assemblee-nationale.fr/deputes/fiche/OMC_PA720362",
+    "email": "Belkhir.Belhaddad@assemblee-nationale.fr",
+    "groupe": "Ensemble pour la République",
+    "role": ""
+  },
+  {
+    "nom": "Mme Béatrice Bellamy",
+    "departement": "Vendée",
+    "circonscription": "2",
+    "url": "https://www2.assemblee-nationale.fr/deputes/fiche/OMC_PA795278",
+    "email": "beatrice.bellamy@assemblee-nationale.fr",
+    "groupe": "Horizons & Indépendants",
+    "role": ""
+  },
+  {
+    "nom": "Mme Béatrice Bellay",
+    "departement": "Martinique",
+    "circonscription": "3",
+    "url": "https://www2.assemblee-nationale.fr/deputes/fiche/OMC_PA842211",
+    "email": "beatrice.bellay@assemblee-nationale.fr",
+    "groupe": "Socialistes et apparentés",
+    "role": ""
+  },
+  {
+    "nom": "Mme Lisa Belluco",
+    "departement": "Vienne",
+    "circonscription": "1",
+    "url": "https://www2.assemblee-nationale.fr/deputes/fiche/OMC_PA795362",
+    "email": "lisa.belluco@assemblee-nationale.fr",
+    "groupe": "Écologiste et Social",
+    "role": ""
+  },
+  {
+    "nom": "Mme Anaïs Belouassa-Cherifi",
+    "departement": "Rhône",
+    "circonscription": "1",
+    "url": "https://www2.assemblee-nationale.fr/deputes/fiche/OMC_PA841657",
+    "email": "anais.belouassa@assemblee-nationale.fr",
+    "groupe": "La France insoumise - Nouveau Front Populaire",
+    "role": ""
+  },
+  {
+    "nom": "M. Karim Ben Cheikh",
+    "departement": "Français établis hors de France",
+    "circonscription": "9",
+    "url": "https://www2.assemblee-nationale.fr/deputes/fiche/OMC_PA795454",
+    "email": "karim.bencheikh@assemblee-nationale.fr",
+    "groupe": "Écologiste et Social",
+    "role": ""
+  },
+  {
+    "nom": "M. Édouard Bénard",
+    "departement": "Seine-Maritime",
+    "circonscription": "3",
+    "url": "https://www2.assemblee-nationale.fr/deputes/fiche/OMC_PA796106",
+    "email": "edouard.benard@assemblee-nationale.fr",
+    "groupe": "Gauche Démocrate et Républicaine",
+    "role": ""
+  },
+  {
+    "nom": "M. Karim Benbrahim",
+    "departement": "Loire-Atlantique",
+    "circonscription": "1",
+    "url": "https://www2.assemblee-nationale.fr/deputes/fiche/OMC_PA841315",
+    "email": "karim.benbrahim@assemblee-nationale.fr",
+    "groupe": "Socialistes et apparentés",
+    "role": ""
+  },
+  {
+    "nom": "M. Thierry Benoit",
+    "departement": "Ille-et-Vilaine",
+    "circonscription": "6",
+    "url": "https://www2.assemblee-nationale.fr/deputes/fiche/OMC_PA332228",
+    "email": "Thierry.Benoit@assemblee-nationale.fr",
+    "groupe": "Horizons & Indépendants",
+    "role": ""
+  },
+  {
+    "nom": "M. Christophe Bentz",
+    "departement": "Haute-Marne",
+    "circonscription": "1",
+    "url": "https://www2.assemblee-nationale.fr/deputes/fiche/OMC_PA794434",
+    "email": "christophe.bentz@assemblee-nationale.fr",
+    "groupe": "Rassemblement National",
+    "role": ""
+  },
+  {
+    "nom": "Mme Aurore Bergé",
+    "departement": "Yvelines",
+    "circonscription": "10",
+    "url": "https://www2.assemblee-nationale.fr/deputes/fiche/OMC_PA722046",
+    "email": "Aurore.Berge@assemblee-nationale.fr",
+    "groupe": "Ensemble pour la République",
+    "role": ""
+  },
+  {
+    "nom": "M. Jean-Didier Berger",
+    "departement": "Hauts-de-Seine",
+    "circonscription": "12",
+    "url": "https://www2.assemblee-nationale.fr/deputes/fiche/OMC_PA408578",
+    "email": "jean-didier.berger@assemblee-nationale.fr",
+    "groupe": "Droite Républicaine",
+    "role": ""
+  },
+  {
+    "nom": "M. Ugo Bernalicis",
+    "departement": "Nord",
+    "circonscription": "2",
+    "url": "https://www2.assemblee-nationale.fr/deputes/fiche/OMC_PA720430",
+    "email": "Ugo.Bernalicis@assemblee-nationale.fr",
+    "groupe": "La France insoumise - Nouveau Front Populaire",
+    "role": ""
+  },
+  {
+    "nom": "M. Théo Bernhardt",
+    "departement": "Bas-Rhin",
+    "circonscription": "8",
+    "url": "https://www2.assemblee-nationale.fr/deputes/fiche/OMC_PA841645",
+    "email": "theo.bernhardt@assemblee-nationale.fr",
+    "groupe": "Rassemblement National",
+    "role": ""
+  },
+  {
+    "nom": "M. Sylvain Berrios",
+    "departement": "Val-de-Marne",
+    "circonscription": "1",
+    "url": "https://www2.assemblee-nationale.fr/deputes/fiche/OMC_PA687214",
+    "email": "sylvain.berrios@assemblee-nationale.fr",
+    "groupe": "Horizons & Indépendants",
+    "role": ""
+  },
+  {
+    "nom": "M. Hervé Berville",
+    "departement": "Côtes-d'Armor",
+    "circonscription": "2",
+    "url": "https://www2.assemblee-nationale.fr/deputes/fiche/OMC_PA719218",
+    "email": "herve.berville@assemblee-nationale.fr",
+    "groupe": "Ensemble pour la République",
+    "role": ""
+  },
+  {
+    "nom": "Mme Véronique Besse",
+    "departement": "Vendée",
+    "circonscription": "4",
+    "url": "https://www2.assemblee-nationale.fr/deputes/fiche/OMC_PA309643",
+    "email": "veronique.besse@assemblee-nationale.fr",
+    "groupe": "Non inscrit",
+    "role": ""
+  },
+  {
+    "nom": "M. Christophe Bex",
+    "departement": "Haute-Garonne",
+    "circonscription": "7",
+    "url": "https://www2.assemblee-nationale.fr/deputes/fiche/OMC_PA793772",
+    "email": "christophe.bex@assemblee-nationale.fr",
+    "groupe": "La France insoumise - Nouveau Front Populaire",
+    "role": ""
+  },
+  {
+    "nom": "M. Guillaume Bigot",
+    "departement": "Territoire de Belfort",
+    "circonscription": "2",
+    "url": "https://www2.assemblee-nationale.fr/deputes/fiche/OMC_PA842001",
+    "email": "guillaume.bigot@assemblee-nationale.fr",
+    "groupe": "Rassemblement National",
+    "role": ""
+  },
+  {
+    "nom": "M. Bruno Bilde",
+    "departement": "Pas-de-Calais",
+    "circonscription": "12",
+    "url": "https://www2.assemblee-nationale.fr/deputes/fiche/OMC_PA720822",
+    "email": "Bruno.Bilde@assemblee-nationale.fr",
+    "groupe": "Rassemblement National",
+    "role": ""
+  },
+  {
+    "nom": "M. Carlos Martens Bilongo",
+    "departement": "Val-d'Oise",
+    "circonscription": "8",
+    "url": "https://www2.assemblee-nationale.fr/deputes/fiche/OMC_PA795616",
+    "email": "carlosmartens.bilongo@assemblee-nationale.fr",
+    "groupe": "La France insoumise - Nouveau Front Populaire",
+    "role": ""
+  },
+  {
+    "nom": "M. Benoît Biteau",
+    "departement": "Charente-Maritime",
+    "circonscription": "2",
+    "url": "https://www2.assemblee-nationale.fr/deputes/fiche/OMC_PA840997",
+    "email": "benoit.biteau@assemblee-nationale.fr",
+    "groupe": "Écologiste et Social",
+    "role": ""
+  },
+  {
+    "nom": "M. Emmanuel Blairy",
+    "departement": "Pas-de-Calais",
+    "circonscription": "1",
+    "url": "https://www2.assemblee-nationale.fr/deputes/fiche/OMC_PA720668",
+    "email": "emmanuel.blairy@assemblee-nationale.fr",
+    "groupe": "Rassemblement National",
+    "role": ""
+  },
+  {
+    "nom": "Mme Sophie Blanc",
+    "departement": "Pyrénées-Orientales",
+    "circonscription": "1",
+    "url": "https://www2.assemblee-nationale.fr/deputes/fiche/OMC_PA794886",
+    "email": "sophie.blanc@assemblee-nationale.fr",
+    "groupe": "Rassemblement National",
+    "role": ""
+  },
+  {
+    "nom": "M. Christophe Blanchet",
+    "departement": "Calvados",
+    "circonscription": "4",
+    "url": "https://www2.assemblee-nationale.fr/deputes/fiche/OMC_PA719024",
+    "email": "Christophe.Blanchet@assemblee-nationale.fr",
+    "groupe": "Les Démocrates",
+    "role": ""
+  },
+  {
+    "nom": "Mme Anne-Laure Blin",
+    "departement": "Maine-et-Loire",
+    "circonscription": "3",
+    "url": "https://www2.assemblee-nationale.fr/deputes/fiche/OMC_PA774954",
+    "email": "anne-laure.blin@assemblee-nationale.fr",
+    "groupe": "Droite Républicaine",
+    "role": ""
+  },
+  {
+    "nom": "M. Matthieu Bloch",
+    "departement": "Doubs",
+    "circonscription": "3",
+    "url": "https://www2.assemblee-nationale.fr/deputes/fiche/OMC_PA840889",
+    "email": "matthieu.bloch@assemblee-nationale.fr",
+    "groupe": "UDR",
+    "role": ""
+  },
+  {
+    "nom": "M. Frédéric Boccaletti",
+    "departement": "Var",
+    "circonscription": "7",
+    "url": "https://www2.assemblee-nationale.fr/deputes/fiche/OMC_PA796042",
+    "email": "frederic.boccaletti@assemblee-nationale.fr",
+    "groupe": "Rassemblement National",
+    "role": ""
+  },
+  {
+    "nom": "M. Philippe Bolo",
+    "departement": "Maine-et-Loire",
+    "circonscription": "7",
+    "url": "https://www2.assemblee-nationale.fr/deputes/fiche/OMC_PA720162",
+    "email": "Philippe.Bolo@assemblee-nationale.fr",
+    "groupe": "Les Démocrates",
+    "role": ""
+  },
+  {
+    "nom": "M. Manuel Bompard",
+    "departement": "Bouches-du-Rhône",
+    "circonscription": "4",
+    "url": "https://www2.assemblee-nationale.fr/deputes/fiche/OMC_PA793444",
+    "email": "manuel.bompard@assemblee-nationale.fr",
+    "groupe": "La France insoumise - Nouveau Front Populaire",
+    "role": ""
+  },
+  {
+    "nom": "M. Philippe Bonnecarrère",
+    "departement": "Tarn",
+    "circonscription": "1",
+    "url": "https://www2.assemblee-nationale.fr/deputes/fiche/OMC_PA569",
+    "email": "philippe.bonnecarrere@assemblee-nationale.fr",
+    "groupe": "Non inscrit",
+    "role": ""
+  },
+  {
+    "nom": "M. Arnaud Bonnet",
+    "departement": "Seine-et-Marne",
+    "circonscription": "8",
+    "url": "https://www2.assemblee-nationale.fr/deputes/fiche/OMC_PA841885",
+    "email": "arnaud.bonnet@assemblee-nationale.fr",
+    "groupe": "Écologiste et Social",
+    "role": ""
+  },
+  {
+    "nom": "M. Nicolas Bonnet",
+    "departement": "Puy-de-Dôme",
+    "circonscription": "3",
+    "url": "https://www2.assemblee-nationale.fr/deputes/fiche/OMC_PA841507",
+    "email": "nicolas.bonnet@assemblee-nationale.fr",
+    "groupe": "Écologiste et Social",
+    "role": ""
+  },
+  {
+    "nom": "Mme Sylvie Bonnet",
+    "departement": "Loire",
+    "circonscription": "4",
+    "url": "https://www2.assemblee-nationale.fr/deputes/fiche/OMC_PA719968",
+    "email": "sylvie.bonnet@assemblee-nationale.fr",
+    "groupe": "Droite Républicaine",
+    "role": ""
+  },
+  {
+    "nom": "Mme Émilie Bonnivard",
+    "departement": "Savoie",
+    "circonscription": "3",
+    "url": "https://www2.assemblee-nationale.fr/deputes/fiche/OMC_PA721410",
+    "email": "Emilie.Bonnivard@assemblee-nationale.fr",
+    "groupe": "Droite Républicaine",
+    "role": ""
+  },
+  {
+    "nom": "M. Jean-Yves Bony",
+    "departement": "Cantal",
+    "circonscription": "2",
+    "url": "https://www2.assemblee-nationale.fr/deputes/fiche/OMC_PA266793",
+    "email": "Jean-Yves.Bony@assemblee-nationale.fr",
+    "groupe": "Droite Républicaine",
+    "role": ""
+  },
+  {
+    "nom": "Mme Pascale Bordes",
+    "departement": "Gard",
+    "circonscription": "3",
+    "url": "https://www2.assemblee-nationale.fr/deputes/fiche/OMC_PA793844",
+    "email": "pascale.bordes@assemblee-nationale.fr",
+    "groupe": "Rassemblement National",
+    "role": ""
+  },
+  {
+    "nom": "Mme Élisabeth Borne",
+    "departement": "Calvados",
+    "circonscription": "6",
+    "url": "https://www2.assemblee-nationale.fr/deputes/fiche/OMC_PA717161",
+    "email": "elisabeth.borne@assemblee-nationale.fr",
+    "groupe": "Ensemble pour la République",
+    "role": ""
+  },
+  {
+    "nom": "M. Éric Bothorel",
+    "departement": "Côtes-d'Armor",
+    "circonscription": "5",
+    "url": "https://www2.assemblee-nationale.fr/deputes/fiche/OMC_PA642695",
+    "email": "Eric.Bothorel@assemblee-nationale.fr",
+    "groupe": "Ensemble pour la République",
+    "role": ""
+  },
+  {
+    "nom": "M. Ian Boucard",
+    "departement": "Territoire de Belfort",
+    "circonscription": "1",
+    "url": "https://www2.assemblee-nationale.fr/deputes/fiche/OMC_PA721816",
+    "email": "Ian.Boucard@assemblee-nationale.fr",
+    "groupe": "Droite Républicaine",
+    "role": ""
+  },
+  {
+    "nom": "M. Florent Boudié",
+    "departement": "Gironde",
+    "circonscription": "10",
+    "url": "https://www2.assemblee-nationale.fr/deputes/fiche/OMC_PA606507",
+    "email": "Florent.Boudie@assemblee-nationale.fr",
+    "groupe": "Ensemble pour la République",
+    "role": ""
+  },
+  {
+    "nom": "M. Anthony Boulogne",
+    "departement": "Meurthe-et-Moselle",
+    "circonscription": "6",
+    "url": "https://www2.assemblee-nationale.fr/deputes/fiche/OMC_PA841487",
+    "email": "anthony.boulogne@assemblee-nationale.fr",
+    "groupe": "Rassemblement National",
+    "role": ""
+  },
+  {
+    "nom": "M. Mickaël Bouloux",
+    "departement": "Ille-et-Vilaine",
+    "circonscription": "8",
+    "url": "https://www2.assemblee-nationale.fr/deputes/fiche/OMC_PA794094",
+    "email": "mickael.bouloux@assemblee-nationale.fr",
+    "groupe": "Socialistes et apparentés",
+    "role": ""
+  },
+  {
+    "nom": "M. Idir Boumertit",
+    "departement": "Rhône",
+    "circonscription": "14",
+    "url": "https://www2.assemblee-nationale.fr/deputes/fiche/OMC_PA794938",
+    "email": "idir.boumertit@assemblee-nationale.fr",
+    "groupe": "La France insoumise - Nouveau Front Populaire",
+    "role": ""
+  },
+  {
+    "nom": "Mme Manon Bouquin",
+    "departement": "Hérault",
+    "circonscription": "4",
+    "url": "https://www2.assemblee-nationale.fr/deputes/fiche/OMC_PA841131",
+    "email": "manon.bouquin@assemblee-nationale.fr",
+    "groupe": "Rassemblement National",
+    "role": ""
+  },
+  {
+    "nom": "M. Jean-Luc Bourgeaux",
+    "departement": "Ille-et-Vilaine",
+    "circonscription": "7",
+    "url": "https://www2.assemblee-nationale.fr/deputes/fiche/OMC_PA342240",
+    "email": "jean-luc.bourgeaux@assemblee-nationale.fr",
+    "groupe": "Droite Républicaine",
+    "role": ""
+  },
+  {
+    "nom": "Mme Soumya Bourouaha",
+    "departement": "Seine-Saint-Denis",
+    "circonscription": "4",
+    "url": "https://www2.assemblee-nationale.fr/deputes/fiche/OMC_PA720838",
+    "email": "soumya.bourouaha@assemblee-nationale.fr",
+    "groupe": "Gauche Démocrate et Républicaine",
+    "role": ""
+  },
+  {
+    "nom": "M. Bertrand Bouyx",
+    "departement": "Calvados",
+    "circonscription": "5",
+    "url": "https://www2.assemblee-nationale.fr/deputes/fiche/OMC_PA719032",
+    "email": "Bertrand.Bouyx@assemblee-nationale.fr",
+    "groupe": "Horizons & Indépendants",
+    "role": ""
+  },
+  {
+    "nom": "M. Jorys Bovet",
+    "departement": "Allier",
+    "circonscription": "2",
+    "url": "https://www2.assemblee-nationale.fr/deputes/fiche/OMC_PA793182",
+    "email": "jorys.bovet@assemblee-nationale.fr",
+    "groupe": "Rassemblement National",
+    "role": ""
+  },
+  {
+    "nom": "M. Louis Boyard",
+    "departement": "Val-de-Marne",
+    "circonscription": "3",
+    "url": "https://www2.assemblee-nationale.fr/deputes/fiche/OMC_PA795318",
+    "email": "louis.boyard@assemblee-nationale.fr",
+    "groupe": "La France insoumise - Nouveau Front Populaire",
+    "role": ""
+  },
+  {
+    "nom": "M. Jean-Michel Brard",
+    "departement": "Loire-Atlantique",
+    "circonscription": "9",
+    "url": "https://www2.assemblee-nationale.fr/deputes/fiche/OMC_PA841339",
+    "email": "jean-michel.brard@assemblee-nationale.fr",
+    "groupe": "Horizons & Indépendants",
+    "role": ""
+  },
+  {
+    "nom": "Mme Yaël Braun-Pivet",
+    "departement": "Yvelines",
+    "circonscription": "5",
+    "url": "https://www2.assemblee-nationale.fr/deputes/fiche/OMC_PA721908",
+    "email": "Yael.Braun-Pivet@assemblee-nationale.fr",
+    "groupe": "Ensemble pour la République",
+    "role": "Présidente de l'Assemblée nationale"
+  },
+  {
+    "nom": "Mme Maud Bregeon",
+    "departement": "Hauts-de-Seine",
+    "circonscription": "13",
+    "url": "https://www2.assemblee-nationale.fr/deputes/fiche/OMC_PA795990",
+    "email": "maud.bregeon@assemblee-nationale.fr",
+    "groupe": "Ensemble pour la République",
+    "role": ""
+  },
+  {
+    "nom": "M. Xavier Breton",
+    "departement": "Ain",
+    "circonscription": "1",
+    "url": "https://www2.assemblee-nationale.fr/deputes/fiche/OMC_PA330008",
+    "email": "Xavier.Breton@assemblee-nationale.fr",
+    "groupe": "Droite Républicaine",
+    "role": "Vice-président de l'Assemblée nationale"
+  },
+  {
+    "nom": "M. Hubert Brigand",
+    "departement": "Côte-d'Or",
+    "circonscription": "4",
+    "url": "https://www2.assemblee-nationale.fr/deputes/fiche/OMC_PA793508",
+    "email": "hubert.brigand@assemblee-nationale.fr",
+    "groupe": "Droite Républicaine",
+    "role": ""
+  },
+  {
+    "nom": "Mme Blandine Brocard",
+    "departement": "Rhône",
+    "circonscription": "5",
+    "url": "https://www2.assemblee-nationale.fr/deputes/fiche/OMC_PA721336",
+    "email": "Blandine.Brocard@assemblee-nationale.fr",
+    "groupe": "Les Démocrates",
+    "role": ""
+  },
+  {
+    "nom": "M. Anthony Brosse",
+    "departement": "Loiret",
+    "circonscription": "5",
+    "url": "https://www2.assemblee-nationale.fr/deputes/fiche/OMC_PA794330",
+    "email": "anthony.brosse@assemblee-nationale.fr",
+    "groupe": "Ensemble pour la République",
+    "role": ""
+  },
+  {
+    "nom": "Mme Danielle Brulebois",
+    "departement": "Jura",
+    "circonscription": "1",
+    "url": "https://www2.assemblee-nationale.fr/deputes/fiche/OMC_PA719890",
+    "email": "Danielle.Brulebois@assemblee-nationale.fr",
+    "groupe": "Ensemble pour la République",
+    "role": ""
+  },
+  {
+    "nom": "M. Joël Bruneau",
+    "departement": "Calvados",
+    "circonscription": "1",
+    "url": "https://www2.assemblee-nationale.fr/deputes/fiche/OMC_PA840817",
+    "email": "joel.bruneau@assemblee-nationale.fr",
+    "groupe": "Libertés, Indépendants, Outre-mer et Territoires",
+    "role": ""
+  },
+  {
+    "nom": "M. Fabrice Brun",
+    "departement": "Ardèche",
+    "circonscription": "3",
+    "url": "https://www2.assemblee-nationale.fr/deputes/fiche/OMC_PA718838",
+    "email": "Fabrice.Brun@assemblee-nationale.fr",
+    "groupe": "Droite Républicaine",
+    "role": ""
+  },
+  {
+    "nom": "M. Philippe Brun",
+    "departement": "Eure",
+    "circonscription": "4",
+    "url": "https://www2.assemblee-nationale.fr/deputes/fiche/OMC_PA793624",
+    "email": "philippe.brun@assemblee-nationale.fr",
+    "groupe": "Socialistes et apparentés",
+    "role": ""
+  },
+  {
+    "nom": "M. Stéphane Buchou",
+    "departement": "Vendée",
+    "circonscription": "3",
+    "url": "https://www2.assemblee-nationale.fr/deputes/fiche/OMC_PA722000",
+    "email": "Stephane.Buchou@assemblee-nationale.fr",
+    "groupe": "Ensemble pour la République",
+    "role": ""
+  },
+  {
+    "nom": "Mme Françoise Buffet",
+    "departement": "Bas-Rhin",
+    "circonscription": "4",
+    "url": "https://www2.assemblee-nationale.fr/deputes/fiche/OMC_PA794798",
+    "email": "francoise.buffet@assemblee-nationale.fr",
+    "groupe": "Ensemble pour la République",
+    "role": ""
+  },
+  {
+    "nom": "M. Jérôme Buisson",
+    "departement": "Ain",
+    "circonscription": "4",
+    "url": "https://www2.assemblee-nationale.fr/deputes/fiche/OMC_PA793134",
+    "email": "jerome.buisson@assemblee-nationale.fr",
+    "groupe": "Rassemblement National",
+    "role": ""
+  },
+  {
+    "nom": "M. Pierre-Yves Cadalen",
+    "departement": "Finistère",
+    "circonscription": "2",
+    "url": "https://www2.assemblee-nationale.fr/deputes/fiche/OMC_PA841023",
+    "email": "pierre-yves.cadalen@assemblee-nationale.fr",
+    "groupe": "La France insoumise - Nouveau Front Populaire",
+    "role": ""
+  },
+  {
+    "nom": "M. Elie Califer",
+    "departement": "Guadeloupe",
+    "circonscription": "4",
+    "url": "https://www2.assemblee-nationale.fr/deputes/fiche/OMC_PA795762",
+    "email": "elie.califer@assemblee-nationale.fr",
+    "groupe": "Socialistes et apparentés",
+    "role": ""
+  },
+  {
+    "nom": "Mme Céline Calvez",
+    "departement": "Hauts-de-Seine",
+    "circonscription": "5",
+    "url": "https://www2.assemblee-nationale.fr/deputes/fiche/OMC_PA721750",
+    "email": "Celine.Calvez@assemblee-nationale.fr",
+    "groupe": "Ensemble pour la République",
+    "role": ""
+  },
+  {
+    "nom": "Mme Colette Capdevielle",
+    "departement": "Pyrénées-Atlantiques",
+    "circonscription": "5",
+    "url": "https://www2.assemblee-nationale.fr/deputes/fiche/OMC_PA608264",
+    "email": "colette.capdevielle@assemblee-nationale.fr",
+    "groupe": "Socialistes et apparentés",
+    "role": ""
+  },
+  {
+    "nom": "Mme Eléonore Caroit",
+    "departement": "Français établis hors de France",
+    "circonscription": "2",
+    "url": "https://www2.assemblee-nationale.fr/deputes/fiche/OMC_PA795330",
+    "email": "eleonore.caroit@assemblee-nationale.fr",
+    "groupe": "Ensemble pour la République",
+    "role": ""
+  },
+  {
+    "nom": "M. Aymeric Caron",
+    "departement": "Paris",
+    "circonscription": "18",
+    "url": "https://www2.assemblee-nationale.fr/deputes/fiche/OMC_PA796090",
+    "email": "aymeric.caron@assemblee-nationale.fr",
+    "groupe": "La France insoumise - Nouveau Front Populaire",
+    "role": ""
+  },
+  {
+    "nom": "M. Sylvain Carrière",
+    "departement": "Hérault",
+    "circonscription": "8",
+    "url": "https://www2.assemblee-nationale.fr/deputes/fiche/OMC_PA793912",
+    "email": "sylvain.carriere@assemblee-nationale.fr",
+    "groupe": "La France insoumise - Nouveau Front Populaire",
+    "role": ""
+  },
+  {
+    "nom": "M. Michel Castellani",
+    "departement": "Haute-Corse",
+    "circonscription": "1",
+    "url": "https://www2.assemblee-nationale.fr/deputes/fiche/OMC_PA719138",
+    "email": "Michel.Castellani@assemblee-nationale.fr",
+    "groupe": "Libertés, Indépendants, Outre-mer et Territoires",
+    "role": ""
+  },
+  {
+    "nom": "M. Eddy Casterman",
+    "departement": "Aisne",
+    "circonscription": "3",
+    "url": "https://www2.assemblee-nationale.fr/deputes/fiche/OMC_PA840075",
+    "email": "eddy.casterman@assemblee-nationale.fr",
+    "groupe": "Rassemblement National",
+    "role": ""
+  },
+  {
+    "nom": "M. Jean-Victor Castor",
+    "departement": "Guyane",
+    "circonscription": "1",
+    "url": "https://www2.assemblee-nationale.fr/deputes/fiche/OMC_PA795868",
+    "email": "jean-victor.castor@assemblee-nationale.fr",
+    "groupe": "Gauche Démocrate et Républicaine",
+    "role": ""
+  },
+  {
+    "nom": "Mme Gabrielle Cathala",
+    "departement": "Val-d'Oise",
+    "circonscription": "6",
+    "url": "https://www2.assemblee-nationale.fr/deputes/fiche/OMC_PA842187",
+    "email": "gabrielle.cathala@assemblee-nationale.fr",
+    "groupe": "La France insoumise - Nouveau Front Populaire",
+    "role": ""
+  },
+  {
+    "nom": "M. Vincent Caure",
+    "departement": "Français établis hors de France",
+    "circonscription": "3",
+    "url": "https://www2.assemblee-nationale.fr/deputes/fiche/OMC_PA842311",
+    "email": "vincent.caure@assemblee-nationale.fr",
+    "groupe": "Ensemble pour la République",
+    "role": ""
+  },
+  {
+    "nom": "M. Lionel Causse",
+    "departement": "Landes",
+    "circonscription": "2",
+    "url": "https://www2.assemblee-nationale.fr/deputes/fiche/OMC_PA719922",
+    "email": "Lionel.Causse@assemblee-nationale.fr",
+    "groupe": "Ensemble pour la République",
+    "role": ""
+  },
+  {
+    "nom": "M. Thomas Cazenave",
+    "departement": "Gironde",
+    "circonscription": "1",
+    "url": "https://www2.assemblee-nationale.fr/deputes/fiche/OMC_PA793940",
+    "email": "thomas.cazenave@assemblee-nationale.fr",
+    "groupe": "Ensemble pour la République",
+    "role": ""
+  },
+  {
+    "nom": "M. Jean-René Cazeneuve",
+    "departement": "Gers",
+    "circonscription": "1",
+    "url": "https://www2.assemblee-nationale.fr/deputes/fiche/OMC_PA719472",
+    "email": "Jean-Rene.Cazeneuve@assemblee-nationale.fr",
+    "groupe": "Ensemble pour la République",
+    "role": ""
+  },
+  {
+    "nom": "M. Pierre Cazeneuve",
+    "departement": "Hauts-de-Seine",
+    "circonscription": "7",
+    "url": "https://www2.assemblee-nationale.fr/deputes/fiche/OMC_PA795864",
+    "email": "pierre.cazeneuve@assemblee-nationale.fr",
+    "groupe": "Ensemble pour la République",
+    "role": ""
+  },
+  {
+    "nom": "M. François-Xavier Ceccoli",
+    "departement": "Haute-Corse",
+    "circonscription": "2",
+    "url": "https://www2.assemblee-nationale.fr/deputes/fiche/OMC_PA841047",
+    "email": "francois-xavier.ceccoli@assemblee-nationale.fr",
+    "groupe": "Droite Républicaine",
+    "role": ""
+  },
+  {
+    "nom": "M. Bérenger Cernon",
+    "departement": "Essonne",
+    "circonscription": "8",
+    "url": "https://www2.assemblee-nationale.fr/deputes/fiche/OMC_PA842037",
+    "email": "berenger.cernon@assemblee-nationale.fr",
+    "groupe": "La France insoumise - Nouveau Front Populaire",
+    "role": ""
+  },
+  {
+    "nom": "M. Bernard Chaix",
+    "departement": "Alpes-Maritimes",
+    "circonscription": "3",
+    "url": "https://www2.assemblee-nationale.fr/deputes/fiche/OMC_PA840701",
+    "email": "bernard.chaix@assemblee-nationale.fr",
+    "groupe": "UDR",
+    "role": ""
+  },
+  {
+    "nom": "M. André Chassaigne",
+    "departement": "Puy-de-Dôme",
+    "circonscription": "5",
+    "url": "https://www2.assemblee-nationale.fr/deputes/fiche/OMC_PA267306",
+    "email": "Andre.Chassaigne@assemblee-nationale.fr",
+    "groupe": "Gauche Démocrate et Républicaine",
+    "role": ""
+  },
+  {
+    "nom": "Mme Cyrielle Chatelain",
+    "departement": "Isère",
+    "circonscription": "2",
+    "url": "https://www2.assemblee-nationale.fr/deputes/fiche/OMC_PA794008",
+    "email": "cyrielle.chatelain@assemblee-nationale.fr",
+    "groupe": "Écologiste et Social",
+    "role": ""
+  },
+  {
+    "nom": "M. Marc Chavent",
+    "departement": "Ain",
+    "circonscription": "5",
+    "url": "https://www2.assemblee-nationale.fr/deputes/fiche/OMC_PA840721",
+    "email": "marc.chavent@assemblee-nationale.fr",
+    "groupe": "UDR",
+    "role": ""
+  },
+  {
+    "nom": "M. Yannick Chenevard",
+    "departement": "Var",
+    "circonscription": "1",
+    "url": "https://www2.assemblee-nationale.fr/deputes/fiche/OMC_PA795908",
+    "email": "yannick.chenevard@assemblee-nationale.fr",
+    "groupe": "Ensemble pour la République",
+    "role": ""
+  },
+  {
+    "nom": "M. Sébastien Chenu",
+    "departement": "Nord",
+    "circonscription": "19",
+    "url": "https://www2.assemblee-nationale.fr/deputes/fiche/OMC_PA720468",
+    "email": "Sebastien.Chenu@assemblee-nationale.fr",
+    "groupe": "Rassemblement National",
+    "role": ""
+  },
+  {
+    "nom": "Mme Sophia Chikirou",
+    "departement": "Paris",
+    "circonscription": "6",
+    "url": "https://www2.assemblee-nationale.fr/deputes/fiche/OMC_PA791812",
+    "email": "sophia.chikirou@assemblee-nationale.fr",
+    "groupe": "La France insoumise - Nouveau Front Populaire",
+    "role": ""
+  },
+  {
+    "nom": "M. Paul Christophe",
+    "departement": "Nord",
+    "circonscription": "14",
+    "url": "https://www2.assemblee-nationale.fr/deputes/fiche/OMC_PA642868",
+    "email": "Paul.Christophe@assemblee-nationale.fr",
+    "groupe": "Horizons & Indépendants",
+    "role": ""
+  },
+  {
+    "nom": "M. Paul Christophle",
+    "departement": "Drôme",
+    "circonscription": "1",
+    "url": "https://www2.assemblee-nationale.fr/deputes/fiche/OMC_PA840903",
+    "email": "paul.christophle@assemblee-nationale.fr",
+    "groupe": "Socialistes et apparentés",
+    "role": ""
+  },
+  {
+    "nom": "M. Roger Chudeau",
+    "departement": "Loir-et-Cher",
+    "circonscription": "2",
+    "url": "https://www2.assemblee-nationale.fr/deputes/fiche/OMC_PA794198",
+    "email": "roger.chudeau@assemblee-nationale.fr",
+    "groupe": "Rassemblement National",
+    "role": ""
+  },
+  {
+    "nom": "M. Éric Ciotti",
+    "departement": "Alpes-Maritimes",
+    "circonscription": "1",
+    "url": "https://www2.assemblee-nationale.fr/deputes/fiche/OMC_PA330240",
+    "email": "Eric.Ciotti@assemblee-nationale.fr",
+    "groupe": "UDR",
+    "role": ""
+  },
+  {
+    "nom": "M. Bruno Clavet",
+    "departement": "Pas-de-Calais",
+    "circonscription": "3",
+    "url": "https://www2.assemblee-nationale.fr/deputes/fiche/OMC_PA840159",
+    "email": "bruno.clavet@assemblee-nationale.fr",
+    "groupe": "Rassemblement National",
+    "role": ""
+  },
+  {
+    "nom": "M. Hadrien Clouet",
+    "departement": "Haute-Garonne",
+    "circonscription": "1",
+    "url": "https://www2.assemblee-nationale.fr/deputes/fiche/OMC_PA793736",
+    "email": "hadrien.clouet@assemblee-nationale.fr",
+    "groupe": "La France insoumise - Nouveau Front Populaire",
+    "role": ""
+  },
+  {
+    "nom": "Mme Nathalie Colin-Oesterlé",
+    "departement": "Moselle",
+    "circonscription": "3",
+    "url": "https://www2.assemblee-nationale.fr/deputes/fiche/OMC_PA841431",
+    "email": "nathalie.colin-oesterle@assemblee-nationale.fr",
+    "groupe": "Horizons & Indépendants",
+    "role": ""
+  },
+  {
+    "nom": "M. Paul-André Colombani",
+    "departement": "Corse-du-Sud",
+    "circonscription": "2",
+    "url": "https://www2.assemblee-nationale.fr/deputes/fiche/OMC_PA719286",
+    "email": "Paul-Andre.Colombani@assemblee-nationale.fr",
+    "groupe": "Libertés, Indépendants, Outre-mer et Territoires",
+    "role": ""
+  },
+  {
+    "nom": "Mme Caroline Colombier",
+    "departement": "Charente",
+    "circonscription": "3",
+    "url": "https://www2.assemblee-nationale.fr/deputes/fiche/OMC_PA793548",
+    "email": "caroline.colombier@assemblee-nationale.fr",
+    "groupe": "Rassemblement National",
+    "role": ""
+  },
+  {
+    "nom": "M. Éric Coquerel",
+    "departement": "Seine-Saint-Denis",
+    "circonscription": "1",
+    "url": "https://www2.assemblee-nationale.fr/deputes/fiche/OMC_PA721202",
+    "email": "Eric.Coquerel@assemblee-nationale.fr",
+    "groupe": "La France insoumise - Nouveau Front Populaire",
+    "role": ""
+  },
+  {
+    "nom": "M. Alexis Corbière",
+    "departement": "Seine-Saint-Denis",
+    "circonscription": "7",
+    "url": "https://www2.assemblee-nationale.fr/deputes/fiche/OMC_PA721210",
+    "email": "Alexis.Corbiere@assemblee-nationale.fr",
+    "groupe": "Écologiste et Social",
+    "role": ""
+  },
+  {
+    "nom": "M. Pierre Cordier",
+    "departement": "Ardennes",
+    "circonscription": "2",
+    "url": "https://www2.assemblee-nationale.fr/deputes/fiche/OMC_PA718850",
+    "email": "Pierre.Cordier@assemblee-nationale.fr",
+    "groupe": "Droite Républicaine",
+    "role": ""
+  },
+  {
+    "nom": "M. François Cormier-Bouligeon",
+    "departement": "Cher",
+    "circonscription": "1",
+    "url": "https://www2.assemblee-nationale.fr/deputes/fiche/OMC_PA719118",
+    "email": "Francois.Cormier-Bouligeon@assemblee-nationale.fr",
+    "groupe": "Ensemble pour la République",
+    "role": ""
+  },
+  {
+    "nom": "Mme Josiane Corneloup",
+    "departement": "Saône-et-Loire",
+    "circonscription": "2",
+    "url": "https://www2.assemblee-nationale.fr/deputes/fiche/OMC_PA722390",
+    "email": "Josiane.Corneloup@assemblee-nationale.fr",
+    "groupe": "Droite Républicaine",
+    "role": ""
+  },
+  {
+    "nom": "M. Mickaël Cosson",
+    "departement": "Côtes-d'Armor",
+    "circonscription": "1",
+    "url": "https://www2.assemblee-nationale.fr/deputes/fiche/OMC_PA793520",
+    "email": "mickael.cosson@assemblee-nationale.fr",
+    "groupe": "Les Démocrates",
+    "role": ""
+  },
+  {
+    "nom": "M. Jean-François Coulomme",
+    "departement": "Savoie",
+    "circonscription": "4",
+    "url": "https://www2.assemblee-nationale.fr/deputes/fiche/OMC_PA795136",
+    "email": "jean-francois.coulomme@assemblee-nationale.fr",
+    "groupe": "La France insoumise - Nouveau Front Populaire",
+    "role": ""
+  },
+  {
+    "nom": "M. Pierrick Courbon",
+    "departement": "Loire",
+    "circonscription": "1",
+    "url": "https://www2.assemblee-nationale.fr/deputes/fiche/OMC_PA841295",
+    "email": "pierrick.courbon@assemblee-nationale.fr",
+    "groupe": "Socialistes et apparentés",
+    "role": ""
+  },
+  {
+    "nom": "M. Laurent Croizier",
+    "departement": "Doubs",
+    "circonscription": "1",
+    "url": "https://www2.assemblee-nationale.fr/deputes/fiche/OMC_PA793716",
+    "email": "laurent.croizier@assemblee-nationale.fr",
+    "groupe": "Les Démocrates",
+    "role": ""
+  },
+  {
+    "nom": "M. Charles de Courson",
+    "departement": "Marne",
+    "circonscription": "5",
+    "url": "https://www2.assemblee-nationale.fr/deputes/fiche/OMC_PA942",
+    "email": "Charles.deCourson@assemblee-nationale.fr",
+    "groupe": "Libertés, Indépendants, Outre-mer et Territoires",
+    "role": ""
+  },
+  {
+    "nom": "Mme Christelle D'Intorni",
+    "departement": "Alpes-Maritimes",
+    "circonscription": "5",
+    "url": "https://www2.assemblee-nationale.fr/deputes/fiche/OMC_PA793322",
+    "email": "christelle.dintorni@assemblee-nationale.fr",
+    "groupe": "UDR",
+    "role": ""
+  },
+  {
+    "nom": "Mme Nathalie Da Conceicao Carvalho",
+    "departement": "Essonne",
+    "circonscription": "2",
+    "url": "https://www2.assemblee-nationale.fr/deputes/fiche/OMC_PA795644",
+    "email": "nathalie.daconceicaocarvalho@assemblee-nationale.fr",
+    "groupe": "Rassemblement National",
+    "role": ""
+  },
+  {
+    "nom": "Mme Marie-Christine Dalloz",
+    "departement": "Jura",
+    "circonscription": "2",
+    "url": "https://www2.assemblee-nationale.fr/deputes/fiche/OMC_PA332523",
+    "email": "Marie-Christine.Dalloz@assemblee-nationale.fr",
+    "groupe": "Droite Républicaine",
+    "role": ""
+  },
+  {
+    "nom": "M. Gérald Darmanin",
+    "departement": "Nord",
+    "circonscription": "10",
+    "url": "https://www2.assemblee-nationale.fr/deputes/fiche/OMC_PA607846",
+    "email": "gerald.darmanin@assemblee-nationale.fr",
+    "groupe": "Ensemble pour la République",
+    "role": ""
+  },
+  {
+    "nom": "Mme Geneviève Darrieussecq",
+    "departement": "Landes",
+    "circonscription": "1",
+    "url": "https://www2.assemblee-nationale.fr/deputes/fiche/OMC_PA719914",
+    "email": "genevieve.darrieussecq@assemblee-nationale.fr",
+    "groupe": "Les Démocrates",
+    "role": ""
+  },
+  {
+    "nom": "M. Romain Daubié",
+    "departement": "Ain",
+    "circonscription": "2",
+    "url": "https://www2.assemblee-nationale.fr/deputes/fiche/OMC_PA793122",
+    "email": "romain.daubie@assemblee-nationale.fr",
+    "groupe": "Les Démocrates",
+    "role": ""
+  },
+  {
+    "nom": "M. Hendrik Davi",
+    "departement": "Bouches-du-Rhône",
+    "circonscription": "5",
+    "url": "https://www2.assemblee-nationale.fr/deputes/fiche/OMC_PA793452",
+    "email": "hendrik.davi@assemblee-nationale.fr",
+    "groupe": "Écologiste et Social",
+    "role": ""
+  },
+  {
+    "nom": "M. Alain David",
+    "departement": "Gironde",
+    "circonscription": "4",
+    "url": "https://www2.assemblee-nationale.fr/deputes/fiche/OMC_PA1008",
+    "email": "Alain.David@assemblee-nationale.fr",
+    "groupe": "Socialistes et apparentés",
+    "role": ""
+  },
+  {
+    "nom": "Mme Sandra Delannoy",
+    "departement": "Nord",
+    "circonscription": "3",
+    "url": "https://www2.assemblee-nationale.fr/deputes/fiche/OMC_PA840119",
+    "email": "sandra.delannoy@assemblee-nationale.fr",
+    "groupe": "Rassemblement National",
+    "role": ""
+  },
+  {
+    "nom": "M. Arthur Delaporte",
+    "departement": "Calvados",
+    "circonscription": "2",
+    "url": "https://www2.assemblee-nationale.fr/deputes/fiche/OMC_PA793394",
+    "email": "arthur.delaporte@assemblee-nationale.fr",
+    "groupe": "Socialistes et apparentés",
+    "role": ""
+  },
+  {
+    "nom": "M. Stéphane Delautrette",
+    "departement": "Haute-Vienne",
+    "circonscription": "2",
+    "url": "https://www2.assemblee-nationale.fr/deputes/fiche/OMC_PA795430",
+    "email": "stephane.delautrette@assemblee-nationale.fr",
+    "groupe": "Socialistes et apparentés",
+    "role": ""
+  },
+  {
+    "nom": "M. Sébastien Delogu",
+    "departement": "Bouches-du-Rhône",
+    "circonscription": "7",
+    "url": "https://www2.assemblee-nationale.fr/deputes/fiche/OMC_PA793464",
+    "email": "sebastien.delogu@assemblee-nationale.fr",
+    "groupe": "La France insoumise - Nouveau Front Populaire",
+    "role": ""
+  },
+  {
+    "nom": "Mme Julie Delpech",
+    "departement": "Sarthe",
+    "circonscription": "1",
+    "url": "https://www2.assemblee-nationale.fr/deputes/fiche/OMC_PA794982",
+    "email": "julie.delpech@assemblee-nationale.fr",
+    "groupe": "Ensemble pour la République",
+    "role": ""
+  },
+  {
+    "nom": "M. Vincent Descoeur",
+    "departement": "Cantal",
+    "circonscription": "1",
+    "url": "https://www2.assemblee-nationale.fr/deputes/fiche/OMC_PA330909",
+    "email": "Vincent.Descoeur@assemblee-nationale.fr",
+    "groupe": "Droite Républicaine",
+    "role": ""
+  },
+  {
+    "nom": "M. Jocelyn Dessigny",
+    "departement": "Aisne",
+    "circonscription": "5",
+    "url": "https://www2.assemblee-nationale.fr/deputes/fiche/OMC_PA793166",
+    "email": "jocelyn.dessigny@assemblee-nationale.fr",
+    "groupe": "Rassemblement National",
+    "role": ""
+  },
+  {
+    "nom": "M. Fabien Di Filippo",
+    "departement": "Moselle",
+    "circonscription": "4",
+    "url": "https://www2.assemblee-nationale.fr/deputes/fiche/OMC_PA720386",
+    "email": "Fabien.DiFilippo@assemblee-nationale.fr",
+    "groupe": "Droite Républicaine",
+    "role": ""
+  },
+  {
+    "nom": "Mme Edwige Diaz",
+    "departement": "Gironde",
+    "circonscription": "11",
+    "url": "https://www2.assemblee-nationale.fr/deputes/fiche/OMC_PA793928",
+    "email": "edwige.diaz@assemblee-nationale.fr",
+    "groupe": "Rassemblement National",
+    "role": ""
+  },
+  {
+    "nom": "Mme Dieynaba Diop",
+    "departement": "Yvelines",
+    "circonscription": "9",
+    "url": "https://www2.assemblee-nationale.fr/deputes/fiche/OMC_PA841919",
+    "email": "dieynaba.diop@assemblee-nationale.fr",
+    "groupe": "Socialistes et apparentés",
+    "role": ""
+  },
+  {
+    "nom": "M. Aly Diouara",
+    "departement": "Seine-Saint-Denis",
+    "circonscription": "5",
+    "url": "https://www2.assemblee-nationale.fr/deputes/fiche/OMC_PA842155",
+    "email": "aly.diouara@assemblee-nationale.fr",
+    "groupe": "La France insoumise - Nouveau Front Populaire",
+    "role": ""
+  },
+  {
+    "nom": "M. Benjamin Dirx",
+    "departement": "Saône-et-Loire",
+    "circonscription": "1",
+    "url": "https://www2.assemblee-nationale.fr/deputes/fiche/OMC_PA722382",
+    "email": "Benjamin.Dirx@assemblee-nationale.fr",
+    "groupe": "Ensemble pour la République",
+    "role": ""
+  },
+  {
+    "nom": "M. Julien Dive",
+    "departement": "Aisne",
+    "circonscription": "2",
+    "url": "https://www2.assemblee-nationale.fr/deputes/fiche/OMC_PA712015",
+    "email": "Julien.Dive@assemblee-nationale.fr",
+    "groupe": "Droite Républicaine",
+    "role": ""
+  },
+  {
+    "nom": "Mme Sandrine Dogor-Such",
+    "departement": "Pyrénées-Orientales",
+    "circonscription": "3",
+    "url": "https://www2.assemblee-nationale.fr/deputes/fiche/OMC_PA794762",
+    "email": "sandrine.dogor-such@assemblee-nationale.fr",
+    "groupe": "Rassemblement National",
+    "role": ""
+  },
+  {
+    "nom": "Mme Fanny Dombre Coste",
+    "departement": "Hérault",
+    "circonscription": "3",
+    "url": "https://www2.assemblee-nationale.fr/deputes/fiche/OMC_PA606573",
+    "email": "fanny.dombrecoste@assemblee-nationale.fr",
+    "groupe": "Socialistes et apparentés",
+    "role": ""
+  },
+  {
+    "nom": "M. Nicolas Dragon",
+    "departement": "Aisne",
+    "circonscription": "1",
+    "url": "https://www2.assemblee-nationale.fr/deputes/fiche/OMC_PA793146",
+    "email": "nicolas.dragon@assemblee-nationale.fr",
+    "groupe": "Rassemblement National",
+    "role": ""
+  },
+  {
+    "nom": "Mme Nicole Dubré-Chirat",
+    "departement": "Maine-et-Loire",
+    "circonscription": "6",
+    "url": "https://www2.assemblee-nationale.fr/deputes/fiche/OMC_PA720154",
+    "email": "Nicole.Dubre-Chirat@assemblee-nationale.fr",
+    "groupe": "Ensemble pour la République",
+    "role": ""
+  },
+  {
+    "nom": "Mme Virginie Duby-Muller",
+    "departement": "Haute-Savoie",
+    "circonscription": "4",
+    "url": "https://www2.assemblee-nationale.fr/deputes/fiche/OMC_PA608826",
+    "email": "Virginie.Duby-Muller@assemblee-nationale.fr",
+    "groupe": "Droite Républicaine",
+    "role": ""
+  },
+  {
+    "nom": "M. Peio Dufau",
+    "departement": "Pyrénées-Atlantiques",
+    "circonscription": "6",
+    "url": "https://www2.assemblee-nationale.fr/deputes/fiche/OMC_PA841633",
+    "email": "peio.dufau@assemblee-nationale.fr",
+    "groupe": "Socialistes et apparentés",
+    "role": ""
+  },
+  {
+    "nom": "M. Alexandre Dufosset",
+    "departement": "Nord",
+    "circonscription": "18",
+    "url": "https://www2.assemblee-nationale.fr/deputes/fiche/OMC_PA840135",
+    "email": "alexandre.dufosset@assemblee-nationale.fr",
+    "groupe": "Rassemblement National",
+    "role": ""
+  },
+  {
+    "nom": "Mme Alma Dufour",
+    "departement": "Seine-Maritime",
+    "circonscription": "4",
+    "url": "https://www2.assemblee-nationale.fr/deputes/fiche/OMC_PA795200",
+    "email": "alma.dufour@assemblee-nationale.fr",
+    "groupe": "La France insoumise - Nouveau Front Populaire",
+    "role": ""
+  },
+  {
+    "nom": "M. Emmanuel Duplessy",
+    "departement": "Loiret",
+    "circonscription": "2",
+    "url": "https://www2.assemblee-nationale.fr/deputes/fiche/OMC_PA841351",
+    "email": "emmanuel.duplessy@assemblee-nationale.fr",
+    "groupe": "Écologiste et Social",
+    "role": ""
+  },
+  {
+    "nom": "Mme Stella Dupont",
+    "departement": "Maine-et-Loire",
+    "circonscription": "2",
+    "url": "https://www2.assemblee-nationale.fr/deputes/fiche/OMC_PA643175",
+    "email": "Stella.Dupont@assemblee-nationale.fr",
+    "groupe": "Ensemble pour la République",
+    "role": ""
+  },
+  {
+    "nom": "M. Gaëtan Dussausaye",
+    "departement": "Vosges",
+    "circonscription": "2",
+    "url": "https://www2.assemblee-nationale.fr/deputes/fiche/OMC_PA842073",
+    "email": "gaetan.dussausaye@assemblee-nationale.fr",
+    "groupe": "Rassemblement National",
+    "role": ""
+  },
+  {
+    "nom": "M. Aurélien Dutremble",
+    "departement": "Saône-et-Loire",
+    "circonscription": "3",
+    "url": "https://www2.assemblee-nationale.fr/deputes/fiche/OMC_PA841761",
+    "email": "aurelien.dutremble@assemblee-nationale.fr",
+    "groupe": "Rassemblement National",
+    "role": ""
+  },
+  {
+    "nom": "M. Marc de Fleurian",
+    "departement": "Pas-de-Calais",
+    "circonscription": "7",
+    "url": "https://www2.assemblee-nationale.fr/deputes/fiche/OMC_PA841613",
+    "email": "marc.defleurian@assemblee-nationale.fr",
+    "groupe": "Rassemblement National",
+    "role": ""
+  },
+  {
+    "nom": "M. Hervé de Lépinau",
+    "departement": "Vaucluse",
+    "circonscription": "3",
+    "url": "https://www2.assemblee-nationale.fr/deputes/fiche/OMC_PA642988",
+    "email": "herve.delepinau@assemblee-nationale.fr",
+    "groupe": "Rassemblement National",
+    "role": ""
+  },
+  {
+    "nom": "Mme Constance de Pélichy",
+    "departement": "Loiret",
+    "circonscription": "3",
+    "url": "https://www2.assemblee-nationale.fr/deputes/fiche/OMC_PA841359",
+    "email": "constance.depelichy@assemblee-nationale.fr",
+    "groupe": "Libertés, Indépendants, Outre-mer et Territoires",
+    "role": ""
+  },
+  {
+    "nom": "M. Inaki Echaniz",
+    "departement": "Pyrénées-Atlantiques",
+    "circonscription": "4",
+    "url": "https://www2.assemblee-nationale.fr/deputes/fiche/OMC_PA794854",
+    "email": "inaki.echaniz@assemblee-nationale.fr",
+    "groupe": "Socialistes et apparentés",
+    "role": "Secrétaire de l'Assemblée nationale"
+  },
+  {
+    "nom": "Mme Christine Engrand",
+    "departement": "Pas-de-Calais",
+    "circonscription": "6",
+    "url": "https://www2.assemblee-nationale.fr/deputes/fiche/OMC_PA794718",
+    "email": "christine.engrand@assemblee-nationale.fr",
+    "groupe": "Rassemblement National",
+    "role": ""
+  },
+  {
+    "nom": "Mme Karen Erodi",
+    "departement": "Tarn",
+    "circonscription": "2",
+    "url": "https://www2.assemblee-nationale.fr/deputes/fiche/OMC_PA795844",
+    "email": "karen.erodi@assemblee-nationale.fr",
+    "groupe": "La France insoumise - Nouveau Front Populaire",
+    "role": ""
+  },
+  {
+    "nom": "Mme Sophie Errante",
+    "departement": "Loire-Atlantique",
+    "circonscription": "10",
+    "url": "https://www2.assemblee-nationale.fr/deputes/fiche/OMC_PA607193",
+    "email": "Sophie.Errante@assemblee-nationale.fr",
+    "groupe": "Non inscrit",
+    "role": ""
+  },
+  {
+    "nom": "M. Romain Eskenazi",
+    "departement": "Val-d'Oise",
+    "circonscription": "7",
+    "url": "https://www2.assemblee-nationale.fr/deputes/fiche/OMC_PA842195",
+    "email": "romain.eskenazi@assemblee-nationale.fr",
+    "groupe": "Socialistes et apparentés",
+    "role": ""
+  },
+  {
+    "nom": "M. Auguste Evrard",
+    "departement": "Pas-de-Calais",
+    "circonscription": "8",
+    "url": "https://www2.assemblee-nationale.fr/deputes/fiche/OMC_PA841621",
+    "email": "auguste.evrard@assemblee-nationale.fr",
+    "groupe": "Rassemblement National",
+    "role": ""
+  },
+  {
+    "nom": "M. Philippe Fait",
+    "departement": "Pas-de-Calais",
+    "circonscription": "4",
+    "url": "https://www2.assemblee-nationale.fr/deputes/fiche/OMC_PA794658",
+    "email": "philippe.fait@assemblee-nationale.fr",
+    "groupe": "Ensemble pour la République",
+    "role": ""
+  },
+  {
+    "nom": "M. Frédéric Falcon",
+    "departement": "Aude",
+    "circonscription": "2",
+    "url": "https://www2.assemblee-nationale.fr/deputes/fiche/OMC_PA793246",
+    "email": "frederic.falcon@assemblee-nationale.fr",
+    "groupe": "Rassemblement National",
+    "role": ""
+  },
+  {
+    "nom": "M. Olivier Falorni",
+    "departement": "Charente-Maritime",
+    "circonscription": "1",
+    "url": "https://www2.assemblee-nationale.fr/deputes/fiche/OMC_PA605694",
+    "email": "Olivier.Falorni@assemblee-nationale.fr",
+    "groupe": "Les Démocrates",
+    "role": ""
+  },
+  {
+    "nom": "Mme Elsa Faucillon",
+    "departement": "Hauts-de-Seine",
+    "circonscription": "1",
+    "url": "https://www2.assemblee-nationale.fr/deputes/fiche/OMC_PA721896",
+    "email": "Elsa.Faucillon@assemblee-nationale.fr",
+    "groupe": "Gauche Démocrate et Républicaine",
+    "role": ""
+  },
+  {
+    "nom": "M. Olivier Faure",
+    "departement": "Seine-et-Marne",
+    "circonscription": "11",
+    "url": "https://www2.assemblee-nationale.fr/deputes/fiche/OMC_PA609332",
+    "email": "Olivier.Faure@assemblee-nationale.fr",
+    "groupe": "Socialistes et apparentés",
+    "role": ""
+  },
+  {
+    "nom": "M. Yannick Favennec-Bécot",
+    "departement": "Mayenne",
+    "circonscription": "3",
+    "url": "https://www2.assemblee-nationale.fr/deputes/fiche/OMC_PA267042",
+    "email": "Yannick.Favennec@assemblee-nationale.fr",
+    "groupe": "Libertés, Indépendants, Outre-mer et Territoires",
+    "role": ""
+  },
+  {
+    "nom": "M. Olivier Fayssat",
+    "departement": "Bouches-du-Rhône",
+    "circonscription": "6",
+    "url": "https://www2.assemblee-nationale.fr/deputes/fiche/OMC_PA840773",
+    "email": "olivier.fayssat@assemblee-nationale.fr",
+    "groupe": "UDR",
+    "role": ""
+  },
+  {
+    "nom": "M. Denis Fégné",
+    "departement": "Hautes-Pyrénées",
+    "circonscription": "2",
+    "url": "https://www2.assemblee-nationale.fr/deputes/fiche/OMC_PA841665",
+    "email": "denis.fegne@assemblee-nationale.fr",
+    "groupe": "Socialistes et apparentés",
+    "role": ""
+  },
+  {
+    "nom": "Mme Mathilde Feld",
+    "departement": "Gironde",
+    "circonscription": "12",
+    "url": "https://www2.assemblee-nationale.fr/deputes/fiche/OMC_PA841251",
+    "email": "mathilde.feld@assemblee-nationale.fr",
+    "groupe": "La France insoumise - Nouveau Front Populaire",
+    "role": ""
+  },
+  {
+    "nom": "M. Emmanuel Fernandes",
+    "departement": "Bas-Rhin",
+    "circonscription": "2",
+    "url": "https://www2.assemblee-nationale.fr/deputes/fiche/OMC_PA794786",
+    "email": "emmanuel.fernandes@assemblee-nationale.fr",
+    "groupe": "La France insoumise - Nouveau Front Populaire",
+    "role": ""
+  },
+  {
+    "nom": "M. Marc Ferracci",
+    "departement": "Français établis hors de France",
+    "circonscription": "6",
+    "url": "https://www2.assemblee-nationale.fr/deputes/fiche/OMC_PA795884",
+    "email": "marc.ferracci@assemblee-nationale.fr",
+    "groupe": "Ensemble pour la République",
+    "role": ""
+  },
+  {
+    "nom": "Mme Marina Ferrari",
+    "departement": "Savoie",
+    "circonscription": "1",
+    "url": "https://www2.assemblee-nationale.fr/deputes/fiche/OMC_PA795120",
+    "email": "marina.ferrari@assemblee-nationale.fr",
+    "groupe": "Les Démocrates",
+    "role": ""
+  },
+  {
+    "nom": "Mme Sylvie Ferrer",
+    "departement": "Hautes-Pyrénées",
+    "circonscription": "1",
+    "url": "https://www2.assemblee-nationale.fr/deputes/fiche/OMC_PA794870",
+    "email": "sylvie.ferrer@assemblee-nationale.fr",
+    "groupe": "La France insoumise - Nouveau Front Populaire",
+    "role": ""
+  },
+  {
+    "nom": "M. Marc Fesneau",
+    "departement": "Loir-et-Cher",
+    "circonscription": "1",
+    "url": "https://www2.assemblee-nationale.fr/deputes/fiche/OMC_PA719938",
+    "email": "marc.fesneau@assemblee-nationale.fr",
+    "groupe": "Les Démocrates",
+    "role": ""
+  },
+  {
+    "nom": "M. Jean-Marie Fiévet",
+    "departement": "Deux-Sèvres",
+    "circonscription": "3",
+    "url": "https://www2.assemblee-nationale.fr/deputes/fiche/OMC_PA722134",
+    "email": "Jean-Marie.Fievet@assemblee-nationale.fr",
+    "groupe": "Ensemble pour la République",
+    "role": ""
+  },
+  {
+    "nom": "Mme Agnès Firmin Le Bodo",
+    "departement": "Seine-Maritime",
+    "circonscription": "7",
+    "url": "https://www2.assemblee-nationale.fr/deputes/fiche/OMC_PA267780",
+    "email": "Agnes.FirminLeBodo@assemblee-nationale.fr",
+    "groupe": "Horizons & Indépendants",
+    "role": ""
+  },
+  {
+    "nom": "M. Guillaume Florquin",
+    "departement": "Nord",
+    "circonscription": "20",
+    "url": "https://www2.assemblee-nationale.fr/deputes/fiche/OMC_PA840143",
+    "email": "guillaume.florquin@assemblee-nationale.fr",
+    "groupe": "Rassemblement National",
+    "role": ""
+  },
+  {
+    "nom": "M. Nicolas Forissier",
+    "departement": "Indre",
+    "circonscription": "2",
+    "url": "https://www2.assemblee-nationale.fr/deputes/fiche/OMC_PA1327",
+    "email": "Nicolas.Forissier@assemblee-nationale.fr",
+    "groupe": "Droite Républicaine",
+    "role": ""
+  },
+  {
+    "nom": "M. Emmanuel Fouquart",
+    "departement": "Bouches-du-Rhône",
+    "circonscription": "13",
+    "url": "https://www2.assemblee-nationale.fr/deputes/fiche/OMC_PA840801",
+    "email": "emmanuel.fouquart@assemblee-nationale.fr",
+    "groupe": "Rassemblement National",
+    "role": ""
+  },
+  {
+    "nom": "M. Charles Fournier",
+    "departement": "Indre-et-Loire",
+    "circonscription": "1",
+    "url": "https://www2.assemblee-nationale.fr/deputes/fiche/OMC_PA793980",
+    "email": "charles.fournier@assemblee-nationale.fr",
+    "groupe": "Écologiste et Social",
+    "role": ""
+  },
+  {
+    "nom": "M. Thierry Frappé",
+    "departement": "Pas-de-Calais",
+    "circonscription": "10",
+    "url": "https://www2.assemblee-nationale.fr/deputes/fiche/OMC_PA794678",
+    "email": "thierry.frappe@assemblee-nationale.fr",
+    "groupe": "Rassemblement National",
+    "role": ""
+  },
+  {
+    "nom": "M. Moerani Frébault",
+    "departement": "Polynésie Française",
+    "circonscription": "1",
+    "url": "https://www2.assemblee-nationale.fr/deputes/fiche/OMC_PA840235",
+    "email": "moerani.frebault@assemblee-nationale.fr",
+    "groupe": "Ensemble pour la République",
+    "role": ""
+  },
+  {
+    "nom": "Mme Martine Froger",
+    "departement": "Ariège",
+    "circonscription": "1",
+    "url": "https://www2.assemblee-nationale.fr/deputes/fiche/OMC_PA822617",
+    "email": "martine.froger@assemblee-nationale.fr",
+    "groupe": "Libertés, Indépendants, Outre-mer et Territoires",
+    "role": ""
+  },
+  {
+    "nom": "M. Bruno Fuchs",
+    "departement": "Haut-Rhin",
+    "circonscription": "6",
+    "url": "https://www2.assemblee-nationale.fr/deputes/fiche/OMC_PA722284",
+    "email": "Bruno.Fuchs@assemblee-nationale.fr",
+    "groupe": "Les Démocrates",
+    "role": ""
+  },
+  {
+    "nom": "M. Jean-Luc Fugit",
+    "departement": "Rhône",
+    "circonscription": "11",
+    "url": "https://www2.assemblee-nationale.fr/deputes/fiche/OMC_PA722366",
+    "email": "Jean-Luc.Fugit@assemblee-nationale.fr",
+    "groupe": "Ensemble pour la République",
+    "role": ""
+  },
+  {
+    "nom": "M. Julien Gabarron",
+    "departement": "Hérault",
+    "circonscription": "6",
+    "url": "https://www2.assemblee-nationale.fr/deputes/fiche/OMC_PA841139",
+    "email": "julien.gabarron@assemblee-nationale.fr",
+    "groupe": "Rassemblement National",
+    "role": ""
+  },
+  {
+    "nom": "M. Perceval Gaillard",
+    "departement": "Réunion",
+    "circonscription": "7",
+    "url": "https://www2.assemblee-nationale.fr/deputes/fiche/OMC_PA796070",
+    "email": "perceval.gaillard@assemblee-nationale.fr",
+    "groupe": "La France insoumise - Nouveau Front Populaire",
+    "role": ""
+  },
+  {
+    "nom": "Mme Stéphanie Galzy",
+    "departement": "Hérault",
+    "circonscription": "5",
+    "url": "https://www2.assemblee-nationale.fr/deputes/fiche/OMC_PA793892",
+    "email": "stephanie.galzy@assemblee-nationale.fr",
+    "groupe": "Rassemblement National",
+    "role": ""
+  },
+  {
+    "nom": "Mme Marie-Charlotte Garin",
+    "departement": "Rhône",
+    "circonscription": "3",
+    "url": "https://www2.assemblee-nationale.fr/deputes/fiche/OMC_PA795010",
+    "email": "marie-charlotte.garin@assemblee-nationale.fr",
+    "groupe": "Écologiste et Social",
+    "role": ""
+  },
+  {
+    "nom": "M. Guillaume Garot",
+    "departement": "Mayenne",
+    "circonscription": "1",
+    "url": "https://www2.assemblee-nationale.fr/deputes/fiche/OMC_PA333285",
+    "email": "Guillaume.Garot@assemblee-nationale.fr",
+    "groupe": "Socialistes et apparentés",
+    "role": ""
+  },
+  {
+    "nom": "M. Thomas Gassilloud",
+    "departement": "Rhône",
+    "circonscription": "10",
+    "url": "https://www2.assemblee-nationale.fr/deputes/fiche/OMC_PA722358",
+    "email": "Thomas.Gassilloud@assemblee-nationale.fr",
+    "groupe": "Ensemble pour la République",
+    "role": ""
+  },
+  {
+    "nom": "Mme Anne Genetet",
+    "departement": "Français établis hors de France",
+    "circonscription": "11",
+    "url": "https://www2.assemblee-nationale.fr/deputes/fiche/OMC_PA721024",
+    "email": "Anne.Genetet@assemblee-nationale.fr",
+    "groupe": "Ensemble pour la République",
+    "role": ""
+  },
+  {
+    "nom": "Mme Annie Genevard",
+    "departement": "Doubs",
+    "circonscription": "5",
+    "url": "https://www2.assemblee-nationale.fr/deputes/fiche/OMC_PA605991",
+    "email": "Annie.Genevard@assemblee-nationale.fr",
+    "groupe": "Droite Républicaine",
+    "role": "Vice-présidente de l'Assemblée nationale"
+  },
+  {
+    "nom": "Mme Félicie Gérard",
+    "departement": "Nord",
+    "circonscription": "7",
+    "url": "https://www2.assemblee-nationale.fr/deputes/fiche/OMC_PA794470",
+    "email": "felicie.gerard@assemblee-nationale.fr",
+    "groupe": "Horizons & Indépendants",
+    "role": ""
+  },
+  {
+    "nom": "M. François Gernigon",
+    "departement": "Maine-et-Loire",
+    "circonscription": "1",
+    "url": "https://www2.assemblee-nationale.fr/deputes/fiche/OMC_PA794234",
+    "email": "francois.gernigon@assemblee-nationale.fr",
+    "groupe": "Horizons & Indépendants",
+    "role": ""
+  },
+  {
+    "nom": "M. Jonathan Gery",
+    "departement": "Rhône",
+    "circonscription": "8",
+    "url": "https://www2.assemblee-nationale.fr/deputes/fiche/OMC_PA841737",
+    "email": "jonathan.gery@assemblee-nationale.fr",
+    "groupe": "Rassemblement National",
+    "role": ""
+  },
+  {
+    "nom": "M. Frank Giletti",
+    "departement": "Var",
+    "circonscription": "6",
+    "url": "https://www2.assemblee-nationale.fr/deputes/fiche/OMC_PA796034",
+    "email": "frank.giletti@assemblee-nationale.fr",
+    "groupe": "Rassemblement National",
+    "role": ""
+  },
+  {
+    "nom": "M. Yoann Gillet",
+    "departement": "Gard",
+    "circonscription": "1",
+    "url": "https://www2.assemblee-nationale.fr/deputes/fiche/OMC_PA793832",
+    "email": "yoann.gillet@assemblee-nationale.fr",
+    "groupe": "Rassemblement National",
+    "role": ""
+  },
+  {
+    "nom": "M. Christian Girard",
+    "departement": "Alpes-de-Haute-Provence",
+    "circonscription": "1",
+    "url": "https://www2.assemblee-nationale.fr/deputes/fiche/OMC_PA793102",
+    "email": "christian.girard@assemblee-nationale.fr",
+    "groupe": "Rassemblement National",
+    "role": ""
+  },
+  {
+    "nom": "M. Damien Girard",
+    "departement": "Morbihan",
+    "circonscription": "5",
+    "url": "https://www2.assemblee-nationale.fr/deputes/fiche/OMC_PA841419",
+    "email": "damien.girard@assemblee-nationale.fr",
+    "groupe": "Écologiste et Social",
+    "role": ""
+  },
+  {
+    "nom": "Mme Olga Givernet",
+    "departement": "Ain",
+    "circonscription": "3",
+    "url": "https://www2.assemblee-nationale.fr/deputes/fiche/OMC_PA718674",
+    "email": "Olga.Givernet@assemblee-nationale.fr",
+    "groupe": "Ensemble pour la République",
+    "role": ""
+  },
+  {
+    "nom": "Mme Océane Godard",
+    "departement": "Côte-d'Or",
+    "circonscription": "1",
+    "url": "https://www2.assemblee-nationale.fr/deputes/fiche/OMC_PA840939",
+    "email": "oceane.godard@assemblee-nationale.fr",
+    "groupe": "Socialistes et apparentés",
+    "role": ""
+  },
+  {
+    "nom": "M. Julien Gokel",
+    "departement": "Nord",
+    "circonscription": "13",
+    "url": "https://www2.assemblee-nationale.fr/deputes/fiche/OMC_PA841539",
+    "email": "julien.gokel@assemblee-nationale.fr",
+    "groupe": "Socialistes et apparentés",
+    "role": ""
+  },
+  {
+    "nom": "M. Antoine Golliot",
+    "departement": "Pas-de-Calais",
+    "circonscription": "5",
+    "url": "https://www2.assemblee-nationale.fr/deputes/fiche/OMC_PA841605",
+    "email": "antoine.golliot@assemblee-nationale.fr",
+    "groupe": "Rassemblement National",
+    "role": ""
+  },
+  {
+    "nom": "M. José Gonzalez",
+    "departement": "Bouches-du-Rhône",
+    "circonscription": "10",
+    "url": "https://www2.assemblee-nationale.fr/deputes/fiche/OMC_PA793362",
+    "email": "jose.gonzalez@assemblee-nationale.fr",
+    "groupe": "Rassemblement National",
+    "role": ""
+  },
+  {
+    "nom": "M. Philippe Gosselin",
+    "departement": "Manche",
+    "circonscription": "1",
+    "url": "https://www2.assemblee-nationale.fr/deputes/fiche/OMC_PA266797",
+    "email": "philippe.gosselin@assemblee-nationale.fr",
+    "groupe": "Droite Républicaine",
+    "role": ""
+  },
+  {
+    "nom": "Mme Pascale Got",
+    "departement": "Gironde",
+    "circonscription": "5",
+    "url": "https://www2.assemblee-nationale.fr/deputes/fiche/OMC_PA331973",
+    "email": "pascale.got@assemblee-nationale.fr",
+    "groupe": "Socialistes et apparentés",
+    "role": ""
+  },
+  {
+    "nom": "M. Guillaume Gouffier Valente",
+    "departement": "Val-de-Marne",
+    "circonscription": "6",
+    "url": "https://www2.assemblee-nationale.fr/deputes/fiche/OMC_PA721296",
+    "email": "guillaume.gouffier-valente@assemblee-nationale.fr",
+    "groupe": "Ensemble pour la République",
+    "role": ""
+  },
+  {
+    "nom": "Mme Florence Goulet",
+    "departement": "Meuse",
+    "circonscription": "2",
+    "url": "https://www2.assemblee-nationale.fr/deputes/fiche/OMC_PA794418",
+    "email": "florence.goulet@assemblee-nationale.fr",
+    "groupe": "Rassemblement National",
+    "role": ""
+  },
+  {
+    "nom": "Mme Perrine Goulet",
+    "departement": "Nièvre",
+    "circonscription": "1",
+    "url": "https://www2.assemblee-nationale.fr/deputes/fiche/OMC_PA720560",
+    "email": "Perrine.Goulet@assemblee-nationale.fr",
+    "groupe": "Les Démocrates",
+    "role": ""
+  },
+  {
+    "nom": "Mme Géraldine Grangier",
+    "departement": "Doubs",
+    "circonscription": "4",
+    "url": "https://www2.assemblee-nationale.fr/deputes/fiche/OMC_PA793592",
+    "email": "geraldine.grangier@assemblee-nationale.fr",
+    "groupe": "Rassemblement National",
+    "role": ""
+  },
+  {
+    "nom": "M. Emmanuel Grégoire",
+    "departement": "Paris",
+    "circonscription": "7",
+    "url": "https://www2.assemblee-nationale.fr/deputes/fiche/OMC_PA840171",
+    "email": "emmanuel.gregoire@assemblee-nationale.fr",
+    "groupe": "Socialistes et apparentés",
+    "role": ""
+  },
+  {
+    "nom": "Mme Olivia Grégoire",
+    "departement": "Paris",
+    "circonscription": "12",
+    "url": "https://www2.assemblee-nationale.fr/deputes/fiche/OMC_PA721764",
+    "email": "olivia.gregoire@assemblee-nationale.fr",
+    "groupe": "Ensemble pour la République",
+    "role": ""
+  },
+  {
+    "nom": "M. Jean-Carles Grelier",
+    "departement": "Sarthe",
+    "circonscription": "5",
+    "url": "https://www2.assemblee-nationale.fr/deputes/fiche/OMC_PA267318",
+    "email": "Jean-Carles.Grelier@assemblee-nationale.fr",
+    "groupe": "Les Démocrates",
+    "role": ""
+  },
+  {
+    "nom": "M. Daniel Grenon",
+    "departement": "Yonne",
+    "circonscription": "1",
+    "url": "https://www2.assemblee-nationale.fr/deputes/fiche/OMC_PA795540",
+    "email": "daniel.grenon@assemblee-nationale.fr",
+    "groupe": "Non inscrit",
+    "role": ""
+  },
+  {
+    "nom": "Mme Monique Griseti",
+    "departement": "Bouches-du-Rhône",
+    "circonscription": "1",
+    "url": "https://www2.assemblee-nationale.fr/deputes/fiche/OMC_PA840757",
+    "email": "monique.griseti@assemblee-nationale.fr",
+    "groupe": "Rassemblement National",
+    "role": ""
+  },
+  {
+    "nom": "Mme Justine Gruet",
+    "departement": "Jura",
+    "circonscription": "3",
+    "url": "https://www2.assemblee-nationale.fr/deputes/fiche/OMC_PA794058",
+    "email": "justine.gruet@assemblee-nationale.fr",
+    "groupe": "Droite Républicaine",
+    "role": ""
+  },
+  {
+    "nom": "M. Jérôme Guedj",
+    "departement": "Essonne",
+    "circonscription": "6",
+    "url": "https://www2.assemblee-nationale.fr/deputes/fiche/OMC_PA1567",
+    "email": "jerome.guedj@assemblee-nationale.fr",
+    "groupe": "Socialistes et apparentés",
+    "role": ""
+  },
+  {
+    "nom": "Mme Clémence Guetté",
+    "departement": "Val-de-Marne",
+    "circonscription": "2",
+    "url": "https://www2.assemblee-nationale.fr/deputes/fiche/OMC_PA795310",
+    "email": "clemence.guette@assemblee-nationale.fr",
+    "groupe": "La France insoumise - Nouveau Front Populaire",
+    "role": "Vice-présidente de l'Assemblée nationale"
+  },
+  {
+    "nom": "M. Julien Guibert",
+    "departement": "Nièvre",
+    "circonscription": "2",
+    "url": "https://www2.assemblee-nationale.fr/deputes/fiche/OMC_PA841451",
+    "email": "julien.guibert@assemblee-nationale.fr",
+    "groupe": "Rassemblement National",
+    "role": ""
+  },
+  {
+    "nom": "M. Michel Guiniot",
+    "departement": "Oise",
+    "circonscription": "6",
+    "url": "https://www2.assemblee-nationale.fr/deputes/fiche/OMC_PA794734",
+    "email": "michel.guiniot@assemblee-nationale.fr",
+    "groupe": "Rassemblement National",
+    "role": ""
+  },
+  {
+    "nom": "M. David Guiraud",
+    "departement": "Nord",
+    "circonscription": "8",
+    "url": "https://www2.assemblee-nationale.fr/deputes/fiche/OMC_PA794478",
+    "email": "david.guiraud@assemblee-nationale.fr",
+    "groupe": "La France insoumise - Nouveau Front Populaire",
+    "role": ""
+  },
+  {
+    "nom": "M. Jordan Guitton",
+    "departement": "Aube",
+    "circonscription": "1",
+    "url": "https://www2.assemblee-nationale.fr/deputes/fiche/OMC_PA793218",
+    "email": "jordan.guitton@assemblee-nationale.fr",
+    "groupe": "Rassemblement National",
+    "role": ""
+  },
+  {
+    "nom": "M. Frantz Gumbs",
+    "departement": "Saint-Barthélemy et Saint-Martin",
+    "circonscription": "1",
+    "url": "https://www2.assemblee-nationale.fr/deputes/fiche/OMC_PA795258",
+    "email": "frantz.gumbs@assemblee-nationale.fr",
+    "groupe": "Les Démocrates",
+    "role": ""
+  },
+  {
+    "nom": "M. Steevy Gustave",
+    "departement": "Essonne",
+    "circonscription": "3",
+    "url": "https://www2.assemblee-nationale.fr/deputes/fiche/OMC_PA842013",
+    "email": "steevy.gustave@assemblee-nationale.fr",
+    "groupe": "Écologiste et Social",
+    "role": ""
+  },
+  {
+    "nom": "M. David Habib",
+    "departement": "Pyrénées-Atlantiques",
+    "circonscription": "3",
+    "url": "https://www2.assemblee-nationale.fr/deputes/fiche/OMC_PA1592",
+    "email": "David.Habib@assemblee-nationale.fr",
+    "groupe": "Libertés, Indépendants, Outre-mer et Territoires",
+    "role": ""
+  },
+  {
+    "nom": "M. Stéphane Hablot",
+    "departement": "Meurthe-et-Moselle",
+    "circonscription": "2",
+    "url": "https://www2.assemblee-nationale.fr/deputes/fiche/OMC_PA841471",
+    "email": "stephane.hablot@assemblee-nationale.fr",
+    "groupe": "Socialistes et apparentés",
+    "role": ""
+  },
+  {
+    "nom": "M. Benjamin Haddad",
+    "departement": "Paris",
+    "circonscription": "14",
+    "url": "https://www2.assemblee-nationale.fr/deputes/fiche/OMC_PA795958",
+    "email": "benjamin.haddad@assemblee-nationale.fr",
+    "groupe": "Ensemble pour la République",
+    "role": ""
+  },
+  {
+    "nom": "Mme Ayda Hadizadeh",
+    "departement": "Val-d'Oise",
+    "circonscription": "2",
+    "url": "https://www2.assemblee-nationale.fr/deputes/fiche/OMC_PA842263",
+    "email": "ayda.hadizadeh@assemblee-nationale.fr",
+    "groupe": "Socialistes et apparentés",
+    "role": ""
+  },
+  {
+    "nom": "Mme Zahia Hamdane",
+    "departement": "Somme",
+    "circonscription": "2",
+    "url": "https://www2.assemblee-nationale.fr/deputes/fiche/OMC_PA841947",
+    "email": "zahia.hamdane@assemblee-nationale.fr",
+    "groupe": "La France insoumise - Nouveau Front Populaire",
+    "role": ""
+  },
+  {
+    "nom": "Mme Marine Hamelet",
+    "departement": "Tarn-et-Garonne",
+    "circonscription": "2",
+    "url": "https://www2.assemblee-nationale.fr/deputes/fiche/OMC_PA795900",
+    "email": "marine.hamelet@assemblee-nationale.fr",
+    "groupe": "Rassemblement National",
+    "role": ""
+  },
+  {
+    "nom": "M. Pierre Henriet",
+    "departement": "Vendée",
+    "circonscription": "5",
+    "url": "https://www2.assemblee-nationale.fr/deputes/fiche/OMC_PA722070",
+    "email": "Pierre.Henriet@assemblee-nationale.fr",
+    "groupe": "Horizons & Indépendants",
+    "role": ""
+  },
+  {
+    "nom": "M. Michel Herbillon",
+    "departement": "Val-de-Marne",
+    "circonscription": "8",
+    "url": "https://www2.assemblee-nationale.fr/deputes/fiche/OMC_PA1630",
+    "email": "Michel.Herbillon@assemblee-nationale.fr",
+    "groupe": "Droite Républicaine",
+    "role": ""
+  },
+  {
+    "nom": "Mme Florence Herouin-Léautey",
+    "departement": "Seine-Maritime",
+    "circonscription": "1",
+    "url": "https://www2.assemblee-nationale.fr/deputes/fiche/OMC_PA841813",
+    "email": "florence.herouin-leautey@assemblee-nationale.fr",
+    "groupe": "Socialistes et apparentés",
+    "role": ""
+  },
+  {
+    "nom": "Mme Catherine Hervieu",
+    "departement": "Côte-d'Or",
+    "circonscription": "2",
+    "url": "https://www2.assemblee-nationale.fr/deputes/fiche/OMC_PA840947",
+    "email": "catherine.hervieu@assemblee-nationale.fr",
+    "groupe": "Écologiste et Social",
+    "role": ""
+  },
+  {
+    "nom": "Mme Céline Hervieu",
+    "departement": "Paris",
+    "circonscription": "11",
+    "url": "https://www2.assemblee-nationale.fr/deputes/fiche/OMC_PA841853",
+    "email": "celine.hervieu@assemblee-nationale.fr",
+    "groupe": "Socialistes et apparentés",
+    "role": ""
+  },
+  {
+    "nom": "M. Patrick Hetzel",
+    "departement": "Bas-Rhin",
+    "circonscription": "7",
+    "url": "https://www2.assemblee-nationale.fr/deputes/fiche/OMC_PA608416",
+    "email": "Patrick.Hetzel@assemblee-nationale.fr",
+    "groupe": "Droite Républicaine",
+    "role": ""
+  },
+  {
+    "nom": "Mme Mathilde Hignet",
+    "departement": "Ille-et-Vilaine",
+    "circonscription": "4",
+    "url": "https://www2.assemblee-nationale.fr/deputes/fiche/OMC_PA794082",
+    "email": "mathilde.hignet@assemblee-nationale.fr",
+    "groupe": "La France insoumise - Nouveau Front Populaire",
+    "role": ""
+  },
+  {
+    "nom": "M. François Hollande",
+    "departement": "Corrèze",
+    "circonscription": "1",
+    "url": "https://www2.assemblee-nationale.fr/deputes/fiche/OMC_PA1654",
+    "email": "francois.hollande@assemblee-nationale.fr",
+    "groupe": "Socialistes et apparentés",
+    "role": ""
+  },
+  {
+    "nom": "M. Sacha Houlié",
+    "departement": "Vienne",
+    "circonscription": "2",
+    "url": "https://www2.assemblee-nationale.fr/deputes/fiche/OMC_PA722150",
+    "email": "Sacha.Houlie@assemblee-nationale.fr",
+    "groupe": "Non inscrit",
+    "role": ""
+  },
+  {
+    "nom": "M. Timothée Houssin",
+    "departement": "Eure",
+    "circonscription": "5",
+    "url": "https://www2.assemblee-nationale.fr/deputes/fiche/OMC_PA793632",
+    "email": "timothee.houssin@assemblee-nationale.fr",
+    "groupe": "Rassemblement National",
+    "role": ""
+  },
+  {
+    "nom": "M. Sébastien Humbert",
+    "departement": "Vosges",
+    "circonscription": "4",
+    "url": "https://www2.assemblee-nationale.fr/deputes/fiche/OMC_PA842085",
+    "email": "sebastien.humbert@assemblee-nationale.fr",
+    "groupe": "Rassemblement National",
+    "role": ""
+  },
+  {
+    "nom": "M. Harold Huwart",
+    "departement": "Eure-et-Loir",
+    "circonscription": "3",
+    "url": "https://www2.assemblee-nationale.fr/deputes/fiche/OMC_PA841017",
+    "email": "harold.huwart@assemblee-nationale.fr",
+    "groupe": "Libertés, Indépendants, Outre-mer et Territoires",
+    "role": ""
+  },
+  {
+    "nom": "M. Sébastien Huyghe",
+    "departement": "Nord",
+    "circonscription": "5",
+    "url": "https://www2.assemblee-nationale.fr/deputes/fiche/OMC_PA267200",
+    "email": "sebastien.huyghe@assemblee-nationale.fr",
+    "groupe": "Ensemble pour la République",
+    "role": ""
+  },
+  {
+    "nom": "M. Jérémie Iordanoff",
+    "departement": "Isère",
+    "circonscription": "5",
+    "url": "https://www2.assemblee-nationale.fr/deputes/fiche/OMC_PA794022",
+    "email": "jeremie.iordanoff@assemblee-nationale.fr",
+    "groupe": "Écologiste et Social",
+    "role": ""
+  },
+  {
+    "nom": "M. Cyrille Isaac-Sibille",
+    "departement": "Rhône",
+    "circonscription": "12",
+    "url": "https://www2.assemblee-nationale.fr/deputes/fiche/OMC_PA722374",
+    "email": "Cyrille.Isaac-Sibille@assemblee-nationale.fr",
+    "groupe": "Les Démocrates",
+    "role": ""
+  },
+  {
+    "nom": "M. Laurent Jacobelli",
+    "departement": "Moselle",
+    "circonscription": "8",
+    "url": "https://www2.assemblee-nationale.fr/deputes/fiche/OMC_PA794598",
+    "email": "laurent.jacobelli@assemblee-nationale.fr",
+    "groupe": "Rassemblement National",
+    "role": ""
+  },
+  {
+    "nom": "M. Jean-Michel Jacques",
+    "departement": "Morbihan",
+    "circonscription": "6",
+    "url": "https://www2.assemblee-nationale.fr/deputes/fiche/OMC_PA720354",
+    "email": "Jean-Michel.Jacques@assemblee-nationale.fr",
+    "groupe": "Ensemble pour la République",
+    "role": ""
+  },
+  {
+    "nom": "M. Vincent Jeanbrun",
+    "departement": "Val-de-Marne",
+    "circonscription": "7",
+    "url": "https://www2.assemblee-nationale.fr/deputes/fiche/OMC_PA842117",
+    "email": "vincent.jeanbrun@assemblee-nationale.fr",
+    "groupe": "Droite Républicaine",
+    "role": ""
+  },
+  {
+    "nom": "M. Pascal Jenft",
+    "departement": "Moselle",
+    "circonscription": "5",
+    "url": "https://www2.assemblee-nationale.fr/deputes/fiche/OMC_PA841439",
+    "email": "pascal.jenft@assemblee-nationale.fr",
+    "groupe": "Rassemblement National",
+    "role": ""
+  },
+  {
+    "nom": "M. François Jolivet",
+    "departement": "Indre",
+    "circonscription": "1",
+    "url": "https://www2.assemblee-nationale.fr/deputes/fiche/OMC_PA719778",
+    "email": "Francois.Jolivet@assemblee-nationale.fr",
+    "groupe": "Horizons & Indépendants",
+    "role": ""
+  },
+  {
+    "nom": "M. Alexis Jolly",
+    "departement": "Isère",
+    "circonscription": "6",
+    "url": "https://www2.assemblee-nationale.fr/deputes/fiche/OMC_PA794030",
+    "email": "alexis.jolly@assemblee-nationale.fr",
+    "groupe": "Rassemblement National",
+    "role": ""
+  },
+  {
+    "nom": "Mme Tiffany Joncour",
+    "departement": "Rhône",
+    "circonscription": "13",
+    "url": "https://www2.assemblee-nationale.fr/deputes/fiche/OMC_PA841749",
+    "email": "tiffany.joncour@assemblee-nationale.fr",
+    "groupe": "Rassemblement National",
+    "role": ""
+  },
+  {
+    "nom": "Mme Sylvie Josserand",
+    "departement": "Gard",
+    "circonscription": "6",
+    "url": "https://www2.assemblee-nationale.fr/deputes/fiche/OMC_PA841075",
+    "email": "sylvie.josserand@assemblee-nationale.fr",
+    "groupe": "Rassemblement National",
+    "role": ""
+  },
+  {
+    "nom": "Mme Sandrine Josso",
+    "departement": "Loire-Atlantique",
+    "circonscription": "7",
+    "url": "https://www2.assemblee-nationale.fr/deputes/fiche/OMC_PA720038",
+    "email": "Sandrine.Josso@assemblee-nationale.fr",
+    "groupe": "Les Démocrates",
+    "role": ""
+  },
+  {
+    "nom": "Mme Florence Joubert",
+    "departement": "Dordogne",
+    "circonscription": "3",
+    "url": "https://www2.assemblee-nationale.fr/deputes/fiche/OMC_PA840869",
+    "email": "florence.joubert@assemblee-nationale.fr",
+    "groupe": "Rassemblement National",
+    "role": ""
+  },
+  {
+    "nom": "Mme Chantal Jourdan",
+    "departement": "Orne",
+    "circonscription": "1",
+    "url": "https://www2.assemblee-nationale.fr/deputes/fiche/OMC_PA643192",
+    "email": "chantal.jourdan@assemblee-nationale.fr",
+    "groupe": "Socialistes et apparentés",
+    "role": ""
+  },
+  {
+    "nom": "M. Philippe Juvin",
+    "departement": "Hauts-de-Seine",
+    "circonscription": "3",
+    "url": "https://www2.assemblee-nationale.fr/deputes/fiche/OMC_PA346782",
+    "email": "philippe.juvin@assemblee-nationale.fr",
+    "groupe": "Droite Républicaine",
+    "role": ""
+  },
+  {
+    "nom": "Mme Émeline K/Bidi",
+    "departement": "Réunion",
+    "circonscription": "4",
+    "url": "https://www2.assemblee-nationale.fr/deputes/fiche/OMC_PA795998",
+    "email": "emeline.kbidi@assemblee-nationale.fr",
+    "groupe": "Gauche Démocrate et Républicaine",
+    "role": ""
+  },
+  {
+    "nom": "Mme Marietta Karamanli",
+    "departement": "Sarthe",
+    "circonscription": "2",
+    "url": "https://www2.assemblee-nationale.fr/deputes/fiche/OMC_PA335054",
+    "email": "Marietta.Karamanli@assemblee-nationale.fr",
+    "groupe": "Socialistes et apparentés",
+    "role": ""
+  },
+  {
+    "nom": "M. Guillaume Kasbarian",
+    "departement": "Eure-et-Loir",
+    "circonscription": "1",
+    "url": "https://www2.assemblee-nationale.fr/deputes/fiche/OMC_PA719372",
+    "email": "Guillaume.Kasbarian@assemblee-nationale.fr",
+    "groupe": "Ensemble pour la République",
+    "role": ""
+  },
+  {
+    "nom": "Mme Fatiha Keloua Hachi",
+    "departement": "Seine-Saint-Denis",
+    "circonscription": "8",
+    "url": "https://www2.assemblee-nationale.fr/deputes/fiche/OMC_PA795156",
+    "email": "fatiha.kelouahachi@assemblee-nationale.fr",
+    "groupe": "Socialistes et apparentés",
+    "role": ""
+  },
+  {
+    "nom": "M. Andy Kerbrat",
+    "departement": "Loire-Atlantique",
+    "circonscription": "2",
+    "url": "https://www2.assemblee-nationale.fr/deputes/fiche/OMC_PA794130",
+    "email": "andy.kerbrat@assemblee-nationale.fr",
+    "groupe": "La France insoumise - Nouveau Front Populaire",
+    "role": ""
+  },
+  {
+    "nom": "M. Loïc Kervran",
+    "departement": "Cher",
+    "circonscription": "3",
+    "url": "https://www2.assemblee-nationale.fr/deputes/fiche/OMC_PA719052",
+    "email": "Loic.Kervran@assemblee-nationale.fr",
+    "groupe": "Horizons & Indépendants",
+    "role": ""
+  },
+  {
+    "nom": "Mme Brigitte Klinkert",
+    "departement": "Haut-Rhin",
+    "circonscription": "1",
+    "url": "https://www2.assemblee-nationale.fr/deputes/fiche/OMC_PA643184",
+    "email": "brigitte.klinkert@assemblee-nationale.fr",
+    "groupe": "Ensemble pour la République",
+    "role": "Questeure de l'Assemblée nationale"
+  },
+  {
+    "nom": "M. Daniel Labaronne",
+    "departement": "Indre-et-Loire",
+    "circonscription": "2",
+    "url": "https://www2.assemblee-nationale.fr/deputes/fiche/OMC_PA719798",
+    "email": "Daniel.Labaronne@assemblee-nationale.fr",
+    "groupe": "Ensemble pour la République",
+    "role": ""
+  },
+  {
+    "nom": "M. Bastien Lachaud",
+    "departement": "Seine-Saint-Denis",
+    "circonscription": "6",
+    "url": "https://www2.assemblee-nationale.fr/deputes/fiche/OMC_PA720846",
+    "email": "Bastien.Lachaud@assemblee-nationale.fr",
+    "groupe": "La France insoumise - Nouveau Front Populaire",
+    "role": ""
+  },
+  {
+    "nom": "Mme Julie Laernoes",
+    "departement": "Loire-Atlantique",
+    "circonscription": "4",
+    "url": "https://www2.assemblee-nationale.fr/deputes/fiche/OMC_PA794146",
+    "email": "julie.laernoes@assemblee-nationale.fr",
+    "groupe": "Écologiste et Social",
+    "role": ""
+  },
+  {
+    "nom": "M. Tristan Lahais",
+    "departement": "Ille-et-Vilaine",
+    "circonscription": "2",
+    "url": "https://www2.assemblee-nationale.fr/deputes/fiche/OMC_PA841223",
+    "email": "tristan.lahais@assemblee-nationale.fr",
+    "groupe": "Écologiste et Social",
+    "role": ""
+  },
+  {
+    "nom": "M. Abdelkader Lahmar",
+    "departement": "Rhône",
+    "circonscription": "7",
+    "url": "https://www2.assemblee-nationale.fr/deputes/fiche/OMC_PA841729",
+    "email": "abdelkader.lahmar@assemblee-nationale.fr",
+    "groupe": "La France insoumise - Nouveau Front Populaire",
+    "role": ""
+  },
+  {
+    "nom": "M. Maxime Laisney",
+    "departement": "Seine-et-Marne",
+    "circonscription": "10",
+    "url": "https://www2.assemblee-nationale.fr/deputes/fiche/OMC_PA795516",
+    "email": "maxime.laisney@assemblee-nationale.fr",
+    "groupe": "La France insoumise - Nouveau Front Populaire",
+    "role": ""
+  },
+  {
+    "nom": "Mme Amélia Lakrafi",
+    "departement": "Français établis hors de France",
+    "circonscription": "10",
+    "url": "https://www2.assemblee-nationale.fr/deputes/fiche/OMC_PA721004",
+    "email": "amelia.lakrafi@assemblee-nationale.fr",
+    "groupe": "Ensemble pour la République",
+    "role": ""
+  },
+  {
+    "nom": "M. Thomas Lam",
+    "departement": "Hauts-de-Seine",
+    "circonscription": "2",
+    "url": "https://www2.assemblee-nationale.fr/deputes/fiche/OMC_PA842125",
+    "email": "thomas.lam@assemblee-nationale.fr",
+    "groupe": "Horizons & Indépendants",
+    "role": ""
+  },
+  {
+    "nom": "Mme Hélène Laporte",
+    "departement": "Lot-et-Garonne",
+    "circonscription": "2",
+    "url": "https://www2.assemblee-nationale.fr/deputes/fiche/OMC_PA794354",
+    "email": "helene.laporte@assemblee-nationale.fr",
+    "groupe": "Rassemblement National",
+    "role": ""
+  },
+  {
+    "nom": "M. Philippe Latombe",
+    "departement": "Vendée",
+    "circonscription": "1",
+    "url": "https://www2.assemblee-nationale.fr/deputes/fiche/OMC_PA721984",
+    "email": "Philippe.Latombe@assemblee-nationale.fr",
+    "groupe": "Les Démocrates",
+    "role": ""
+  },
+  {
+    "nom": "M. Jean Laussucq",
+    "departement": "Paris",
+    "circonscription": "2",
+    "url": "https://www2.assemblee-nationale.fr/deputes/fiche/OMC_PA841693",
+    "email": "jean.laussucq@assemblee-nationale.fr",
+    "groupe": "Ensemble pour la République",
+    "role": ""
+  },
+  {
+    "nom": "M. Michel Lauzzana",
+    "departement": "Lot-et-Garonne",
+    "circonscription": "1",
+    "url": "https://www2.assemblee-nationale.fr/deputes/fiche/OMC_PA720022",
+    "email": "Michel.Lauzzana@assemblee-nationale.fr",
+    "groupe": "Ensemble pour la République",
+    "role": ""
+  },
+  {
+    "nom": "Mme Laure Lavalette",
+    "departement": "Var",
+    "circonscription": "2",
+    "url": "https://www2.assemblee-nationale.fr/deputes/fiche/OMC_PA795912",
+    "email": "laure.lavalette@assemblee-nationale.fr",
+    "groupe": "Rassemblement National",
+    "role": ""
+  },
+  {
+    "nom": "Mme Sandrine Le Feur",
+    "departement": "Finistère",
+    "circonscription": "4",
+    "url": "https://www2.assemblee-nationale.fr/deputes/fiche/OMC_PA719412",
+    "email": "Sandrine.LeFeur@assemblee-nationale.fr",
+    "groupe": "Ensemble pour la République",
+    "role": ""
+  },
+  {
+    "nom": "M. Didier Le Gac",
+    "departement": "Finistère",
+    "circonscription": "3",
+    "url": "https://www2.assemblee-nationale.fr/deputes/fiche/OMC_PA719404",
+    "email": "Didier.LeGac@assemblee-nationale.fr",
+    "groupe": "Ensemble pour la République",
+    "role": ""
+  },
+  {
+    "nom": "M. Arnaud Le Gall",
+    "departement": "Val-d'Oise",
+    "circonscription": "9",
+    "url": "https://www2.assemblee-nationale.fr/deputes/fiche/OMC_PA795672",
+    "email": "arnaud.legall@assemblee-nationale.fr",
+    "groupe": "La France insoumise - Nouveau Front Populaire",
+    "role": ""
+  },
+  {
+    "nom": "Mme Constance Le Grip",
+    "departement": "Hauts-de-Seine",
+    "circonscription": "6",
+    "url": "https://www2.assemblee-nationale.fr/deputes/fiche/OMC_PA345722",
+    "email": "Constance.LeGrip@assemblee-nationale.fr",
+    "groupe": "Ensemble pour la République",
+    "role": ""
+  },
+  {
+    "nom": "Mme Anne Le Hénanff",
+    "departement": "Morbihan",
+    "circonscription": "1",
+    "url": "https://www2.assemblee-nationale.fr/deputes/fiche/OMC_PA794426",
+    "email": "anne.lehenanff@assemblee-nationale.fr",
+    "groupe": "Horizons & Indépendants",
+    "role": ""
+  },
+  {
+    "nom": "Mme Annaïg Le Meur",
+    "departement": "Finistère",
+    "circonscription": "1",
+    "url": "https://www2.assemblee-nationale.fr/deputes/fiche/OMC_PA719388",
+    "email": "Annaig.LeMeur@assemblee-nationale.fr",
+    "groupe": "Ensemble pour la République",
+    "role": ""
+  },
+  {
+    "nom": "Mme Christine Le Nabour",
+    "departement": "Ille-et-Vilaine",
+    "circonscription": "5",
+    "url": "https://www2.assemblee-nationale.fr/deputes/fiche/OMC_PA719756",
+    "email": "Christine.lenabour@assemblee-nationale.fr",
+    "groupe": "Ensemble pour la République",
+    "role": ""
+  },
+  {
+    "nom": "Mme Nicole Le Peih",
+    "departement": "Morbihan",
+    "circonscription": "3",
+    "url": "https://www2.assemblee-nationale.fr/deputes/fiche/OMC_PA720342",
+    "email": "Nicole.LePeih@assemblee-nationale.fr",
+    "groupe": "Ensemble pour la République",
+    "role": ""
+  },
+  {
+    "nom": "Mme Marine Le Pen",
+    "departement": "Pas-de-Calais",
+    "circonscription": "11",
+    "url": "https://www2.assemblee-nationale.fr/deputes/fiche/OMC_PA720614",
+    "email": "Marine.LePen@assemblee-nationale.fr",
+    "groupe": "Rassemblement National",
+    "role": ""
+  },
+  {
+    "nom": "M. Robert Le Bourgeois",
+    "departement": "Seine-Maritime",
+    "circonscription": "10",
+    "url": "https://www2.assemblee-nationale.fr/deputes/fiche/OMC_PA841837",
+    "email": "robert.lebourgeois@assemblee-nationale.fr",
+    "groupe": "Rassemblement National",
+    "role": ""
+  },
+  {
+    "nom": "M. Aurélien Le Coq",
+    "departement": "Nord",
+    "circonscription": "1",
+    "url": "https://www2.assemblee-nationale.fr/deputes/fiche/OMC_PA841515",
+    "email": "aurelien.lecoq@assemblee-nationale.fr",
+    "groupe": "La France insoumise - Nouveau Front Populaire",
+    "role": ""
+  },
+  {
+    "nom": "M. Corentin Le Fur",
+    "departement": "Côtes-d'Armor",
+    "circonscription": "3",
+    "url": "https://www2.assemblee-nationale.fr/deputes/fiche/OMC_PA840979",
+    "email": "corentin.lefur@assemblee-nationale.fr",
+    "groupe": "Droite Républicaine",
+    "role": ""
+  },
+  {
+    "nom": "M. Antoine Léaument",
+    "departement": "Essonne",
+    "circonscription": "10",
+    "url": "https://www2.assemblee-nationale.fr/deputes/fiche/OMC_PA795746",
+    "email": "antoine.leaument@assemblee-nationale.fr",
+    "groupe": "La France insoumise - Nouveau Front Populaire",
+    "role": ""
+  },
+  {
+    "nom": "Mme Marie Lebec",
+    "departement": "Yvelines",
+    "circonscription": "4",
+    "url": "https://www2.assemblee-nationale.fr/deputes/fiche/OMC_PA721852",
+    "email": "Marie.Lebec@assemblee-nationale.fr",
+    "groupe": "Ensemble pour la République",
+    "role": ""
+  },
+  {
+    "nom": "Mme Karine Lebon",
+    "departement": "Réunion",
+    "circonscription": "2",
+    "url": "https://www2.assemblee-nationale.fr/deputes/fiche/OMC_PA774962",
+    "email": "karine.lebon@assemblee-nationale.fr",
+    "groupe": "Gauche Démocrate et Républicaine",
+    "role": ""
+  },
+  {
+    "nom": "Mme Élise Leboucher",
+    "departement": "Sarthe",
+    "circonscription": "4",
+    "url": "https://www2.assemblee-nationale.fr/deputes/fiche/OMC_PA795108",
+    "email": "elise.leboucher@assemblee-nationale.fr",
+    "groupe": "La France insoumise - Nouveau Front Populaire",
+    "role": ""
+  },
+  {
+    "nom": "M. Pascal Lecamp",
+    "departement": "Vienne",
+    "circonscription": "3",
+    "url": "https://www2.assemblee-nationale.fr/deputes/fiche/OMC_PA795374",
+    "email": "pascal.lecamp@assemblee-nationale.fr",
+    "groupe": "Les Démocrates",
+    "role": ""
+  },
+  {
+    "nom": "Mme Julie Lechanteux",
+    "departement": "Var",
+    "circonscription": "5",
+    "url": "https://www2.assemblee-nationale.fr/deputes/fiche/OMC_PA796026",
+    "email": "julie.lechanteux@assemblee-nationale.fr",
+    "groupe": "Rassemblement National",
+    "role": ""
+  },
+  {
+    "nom": "Mme Nadine Lechon",
+    "departement": "Dordogne",
+    "circonscription": "1",
+    "url": "https://www2.assemblee-nationale.fr/deputes/fiche/OMC_PA840857",
+    "email": "nadine.lechon@assemblee-nationale.fr",
+    "groupe": "Rassemblement National",
+    "role": ""
+  },
+  {
+    "nom": "M. Jean-Paul Lecoq",
+    "departement": "Seine-Maritime",
+    "circonscription": "8",
+    "url": "https://www2.assemblee-nationale.fr/deputes/fiche/OMC_PA335612",
+    "email": "Jean-Paul.Lecoq@assemblee-nationale.fr",
+    "groupe": "Gauche Démocrate et Républicaine",
+    "role": ""
+  },
+  {
+    "nom": "M. Mathieu Lefèvre",
+    "departement": "Val-de-Marne",
+    "circonscription": "5",
+    "url": "https://www2.assemblee-nationale.fr/deputes/fiche/OMC_PA795386",
+    "email": "mathieu.lefevre@assemblee-nationale.fr",
+    "groupe": "Ensemble pour la République",
+    "role": ""
+  },
+  {
+    "nom": "M. Jérôme Legavre",
+    "departement": "Seine-Saint-Denis",
+    "circonscription": "12",
+    "url": "https://www2.assemblee-nationale.fr/deputes/fiche/OMC_PA795298",
+    "email": "jerome.legavre@assemblee-nationale.fr",
+    "groupe": "La France insoumise - Nouveau Front Populaire",
+    "role": ""
+  },
+  {
+    "nom": "Mme Sarah Legrain",
+    "departement": "Paris",
+    "circonscription": "16",
+    "url": "https://www2.assemblee-nationale.fr/deputes/fiche/OMC_PA791824",
+    "email": "sarah.legrain@assemblee-nationale.fr",
+    "groupe": "La France insoumise - Nouveau Front Populaire",
+    "role": ""
+  },
+  {
+    "nom": "Mme Claire Lejeune",
+    "departement": "Essonne",
+    "circonscription": "7",
+    "url": "https://www2.assemblee-nationale.fr/deputes/fiche/OMC_PA842029",
+    "email": "claire.lejeune@assemblee-nationale.fr",
+    "groupe": "La France insoumise - Nouveau Front Populaire",
+    "role": ""
+  },
+  {
+    "nom": "Mme Gisèle Lelouis",
+    "departement": "Bouches-du-Rhône",
+    "circonscription": "3",
+    "url": "https://www2.assemblee-nationale.fr/deputes/fiche/OMC_PA793290",
+    "email": "gisele.lelouis@assemblee-nationale.fr",
+    "groupe": "Rassemblement National",
+    "role": ""
+  },
+  {
+    "nom": "M. Didier Lemaire",
+    "departement": "Haut-Rhin",
+    "circonscription": "3",
+    "url": "https://www2.assemblee-nationale.fr/deputes/fiche/OMC_PA794838",
+    "email": "didier.lemaire@assemblee-nationale.fr",
+    "groupe": "Horizons & Indépendants",
+    "role": ""
+  },
+  {
+    "nom": "M. Bartolomé Lenoir",
+    "departement": "Creuse",
+    "circonscription": "1",
+    "url": "https://www2.assemblee-nationale.fr/deputes/fiche/OMC_PA840983",
+    "email": "bartolome.lenoir@assemblee-nationale.fr",
+    "groupe": "UDR",
+    "role": ""
+  },
+  {
+    "nom": "M. Stéphane Lenormand",
+    "departement": "Saint-Pierre-et-Miquelon",
+    "circonscription": "1",
+    "url": "https://www2.assemblee-nationale.fr/deputes/fiche/OMC_PA795244",
+    "email": "stephane.lenormand@assemblee-nationale.fr",
+    "groupe": "Libertés, Indépendants, Outre-mer et Territoires",
+    "role": ""
+  },
+  {
+    "nom": "M. Guillaume Lepers",
+    "departement": "Lot-et-Garonne",
+    "circonscription": "3",
+    "url": "https://www2.assemblee-nationale.fr/deputes/fiche/OMC_PA695512",
+    "groupe": "Droite Républicaine",
+    "role": ""
+  },
+  {
+    "nom": "Mme Murielle Lepvraud",
+    "departement": "Côtes-d'Armor",
+    "circonscription": "4",
+    "url": "https://www2.assemblee-nationale.fr/deputes/fiche/OMC_PA793532",
+    "email": "murielle.lepvraud@assemblee-nationale.fr",
+    "groupe": "La France insoumise - Nouveau Front Populaire",
+    "role": ""
+  },
+  {
+    "nom": "M. Roland Lescure",
+    "departement": "Français établis hors de France",
+    "circonscription": "1",
+    "url": "https://www2.assemblee-nationale.fr/deputes/fiche/OMC_PA721134",
+    "email": "roland.lescure@assemblee-nationale.fr",
+    "groupe": "Ensemble pour la République",
+    "role": "Vice-président de l'Assemblée nationale"
+  },
+  {
+    "nom": "M. Gérard Leseul",
+    "departement": "Seine-Maritime",
+    "circonscription": "5",
+    "url": "https://www2.assemblee-nationale.fr/deputes/fiche/OMC_PA774958",
+    "email": "gerard.leseul@assemblee-nationale.fr",
+    "groupe": "Socialistes et apparentés",
+    "role": ""
+  },
+  {
+    "nom": "Mme Valérie Létard",
+    "departement": "Nord",
+    "circonscription": "21",
+    "url": "https://www2.assemblee-nationale.fr/deputes/fiche/OMC_PA227089",
+    "email": "valerie.letard@assemblee-nationale.fr",
+    "groupe": "Libertés, Indépendants, Outre-mer et Territoires",
+    "role": ""
+  },
+  {
+    "nom": "Mme Katiana Levavasseur",
+    "departement": "Eure",
+    "circonscription": "2",
+    "url": "https://www2.assemblee-nationale.fr/deputes/fiche/OMC_PA793608",
+    "email": "katiana.levavasseur@assemblee-nationale.fr",
+    "groupe": "Rassemblement National",
+    "role": ""
+  },
+  {
+    "nom": "M. Laurent Lhardit",
+    "departement": "Bouches-du-Rhône",
+    "circonscription": "2",
+    "url": "https://www2.assemblee-nationale.fr/deputes/fiche/OMC_PA840765",
+    "email": "laurent.lhardit@assemblee-nationale.fr",
+    "groupe": "Socialistes et apparentés",
+    "role": ""
+  },
+  {
+    "nom": "M. Julien Limongi",
+    "departement": "Seine-et-Marne",
+    "circonscription": "4",
+    "url": "https://www2.assemblee-nationale.fr/deputes/fiche/OMC_PA841873",
+    "email": "julien.limongi@assemblee-nationale.fr",
+    "groupe": "Rassemblement National",
+    "role": ""
+  },
+  {
+    "nom": "Mme Delphine Lingemann",
+    "departement": "Puy-de-Dôme",
+    "circonscription": "4",
+    "url": "https://www2.assemblee-nationale.fr/deputes/fiche/OMC_PA794702",
+    "email": "delphine.lingemann@assemblee-nationale.fr",
+    "groupe": "Les Démocrates",
+    "role": ""
+  },
+  {
+    "nom": "M. René Lioret",
+    "departement": "Côte-d'Or",
+    "circonscription": "5",
+    "url": "https://www2.assemblee-nationale.fr/deputes/fiche/OMC_PA840967",
+    "email": "rene.lioret@assemblee-nationale.fr",
+    "groupe": "Rassemblement National",
+    "role": ""
+  },
+  {
+    "nom": "Mme Brigitte Liso",
+    "departement": "Nord",
+    "circonscription": "4",
+    "url": "https://www2.assemblee-nationale.fr/deputes/fiche/OMC_PA720446",
+    "email": "Brigitte.Liso@assemblee-nationale.fr",
+    "groupe": "Ensemble pour la République",
+    "role": ""
+  },
+  {
+    "nom": "Mme Christine Loir",
+    "departement": "Eure",
+    "circonscription": "1",
+    "url": "https://www2.assemblee-nationale.fr/deputes/fiche/OMC_PA793672",
+    "email": "christine.loir@assemblee-nationale.fr",
+    "groupe": "Rassemblement National",
+    "role": ""
+  },
+  {
+    "nom": "M. Aurélien Lopez-Liguori",
+    "departement": "Hérault",
+    "circonscription": "7",
+    "url": "https://www2.assemblee-nationale.fr/deputes/fiche/OMC_PA793904",
+    "email": "aurelien.lopezliguori@assemblee-nationale.fr",
+    "groupe": "Rassemblement National",
+    "role": ""
+  },
+  {
+    "nom": "Mme Marie-France Lorho",
+    "departement": "Vaucluse",
+    "circonscription": "4",
+    "url": "https://www2.assemblee-nationale.fr/deputes/fiche/OMC_PA721932",
+    "email": "Marie-France.Lorho@assemblee-nationale.fr",
+    "groupe": "Rassemblement National",
+    "role": ""
+  },
+  {
+    "nom": "M. Philippe Lottiaux",
+    "departement": "Var",
+    "circonscription": "4",
+    "url": "https://www2.assemblee-nationale.fr/deputes/fiche/OMC_PA795974",
+    "email": "philippe.lottiaux@assemblee-nationale.fr",
+    "groupe": "Rassemblement National",
+    "role": ""
+  },
+  {
+    "nom": "M. Alexandre Loubet",
+    "departement": "Moselle",
+    "circonscription": "7",
+    "url": "https://www2.assemblee-nationale.fr/deputes/fiche/OMC_PA794590",
+    "email": "alexandre.loubet@assemblee-nationale.fr",
+    "groupe": "Rassemblement National",
+    "role": ""
+  },
+  {
+    "nom": "Mme Véronique Louwagie",
+    "departement": "Orne",
+    "circonscription": "2",
+    "url": "https://www2.assemblee-nationale.fr/deputes/fiche/OMC_PA608016",
+    "email": "Veronique.Louwagie@assemblee-nationale.fr",
+    "groupe": "Droite Républicaine",
+    "role": ""
+  },
+  {
+    "nom": "M. Benjamin Lucas-Lundy",
+    "departement": "Yvelines",
+    "circonscription": "8",
+    "url": "https://www2.assemblee-nationale.fr/deputes/fiche/OMC_PA795636",
+    "email": "benjamin.lucas@assemblee-nationale.fr",
+    "groupe": "Écologiste et Social",
+    "role": ""
+  },
+  {
+    "nom": "M. David Magnier",
+    "departement": "Oise",
+    "circonscription": "7",
+    "url": "https://www2.assemblee-nationale.fr/deputes/fiche/OMC_PA841587",
+    "email": "david.magnier@assemblee-nationale.fr",
+    "groupe": "Rassemblement National",
+    "role": ""
+  },
+  {
+    "nom": "Mme Lise Magnier",
+    "departement": "Marne",
+    "circonscription": "4",
+    "url": "https://www2.assemblee-nationale.fr/deputes/fiche/OMC_PA720230",
+    "email": "Lise.Magnier@assemblee-nationale.fr",
+    "groupe": "Horizons & Indépendants",
+    "role": "Secrétaire de l'Assemblée nationale"
+  },
+  {
+    "nom": "M. Sylvain Maillard",
+    "departement": "Paris",
+    "circonscription": "1",
+    "url": "https://www2.assemblee-nationale.fr/deputes/fiche/OMC_PA717379",
+    "email": "Sylvain.Maillard@assemblee-nationale.fr",
+    "groupe": "Ensemble pour la République",
+    "role": ""
+  },
+  {
+    "nom": "M. Frédéric Maillot",
+    "departement": "Réunion",
+    "circonscription": "6",
+    "url": "https://www2.assemblee-nationale.fr/deputes/fiche/OMC_PA796010",
+    "email": "frederic.maillot@assemblee-nationale.fr",
+    "groupe": "Gauche Démocrate et Républicaine",
+    "role": ""
+  },
+  {
+    "nom": "M. Emmanuel Mandon",
+    "departement": "Loire",
+    "circonscription": "3",
+    "url": "https://www2.assemblee-nationale.fr/deputes/fiche/OMC_PA794114",
+    "email": "emmanuel.mandon@assemblee-nationale.fr",
+    "groupe": "Les Démocrates",
+    "role": ""
+  },
+  {
+    "nom": "Mme Hanane Mansouri",
+    "departement": "Isère",
+    "circonscription": "8",
+    "url": "https://www2.assemblee-nationale.fr/deputes/fiche/OMC_PA841183",
+    "email": "hanane.mansouri@assemblee-nationale.fr",
+    "groupe": "UDR",
+    "role": ""
+  },
+  {
+    "nom": "Mme Claire Marais-Beuil",
+    "departement": "Oise",
+    "circonscription": "1",
+    "url": "https://www2.assemblee-nationale.fr/deputes/fiche/OMC_PA841563",
+    "email": "claire.marais-beuil@assemblee-nationale.fr",
+    "groupe": "Rassemblement National",
+    "role": ""
+  },
+  {
+    "nom": "M. Laurent Marcangeli",
+    "departement": "Corse-du-Sud",
+    "circonscription": "1",
+    "url": "https://www2.assemblee-nationale.fr/deputes/fiche/OMC_PA605782",
+    "email": "laurent.marcangeli@assemblee-nationale.fr",
+    "groupe": "Horizons & Indépendants",
+    "role": ""
+  },
+  {
+    "nom": "M. Matthieu Marchio",
+    "departement": "Nord",
+    "circonscription": "16",
+    "url": "https://www2.assemblee-nationale.fr/deputes/fiche/OMC_PA794530",
+    "email": "matthieu.marchio@assemblee-nationale.fr",
+    "groupe": "Rassemblement National",
+    "role": ""
+  },
+  {
+    "nom": "M. Bastien Marchive",
+    "departement": "Deux-Sèvres",
+    "circonscription": "1",
+    "url": "https://www2.assemblee-nationale.fr/deputes/fiche/OMC_PA795730",
+    "email": "bastien.marchive@assemblee-nationale.fr",
+    "groupe": "Ensemble pour la République",
+    "role": ""
+  },
+  {
+    "nom": "M. Christophe Marion",
+    "departement": "Loir-et-Cher",
+    "circonscription": "3",
+    "url": "https://www2.assemblee-nationale.fr/deputes/fiche/OMC_PA794206",
+    "email": "christophe.marion@assemblee-nationale.fr",
+    "groupe": "Ensemble pour la République",
+    "role": ""
+  },
+  {
+    "nom": "M. Pascal Markowsky",
+    "departement": "Charente-Maritime",
+    "circonscription": "4",
+    "url": "https://www2.assemblee-nationale.fr/deputes/fiche/OMC_PA840837",
+    "email": "pascal.markowsky@assemblee-nationale.fr",
+    "groupe": "Rassemblement National",
+    "role": ""
+  },
+  {
+    "nom": "M. Olivier Marleix",
+    "departement": "Eure-et-Loir",
+    "circonscription": "2",
+    "url": "https://www2.assemblee-nationale.fr/deputes/fiche/OMC_PA606098",
+    "email": "Olivier.Marleix@assemblee-nationale.fr",
+    "groupe": "Droite Républicaine",
+    "role": ""
+  },
+  {
+    "nom": "Mme Sandra Marsaud",
+    "departement": "Charente",
+    "circonscription": "2",
+    "url": "https://www2.assemblee-nationale.fr/deputes/fiche/OMC_PA719080",
+    "email": "Sandra.Marsaud@assemblee-nationale.fr",
+    "groupe": "Ensemble pour la République",
+    "role": ""
+  },
+  {
+    "nom": "Mme Alexandra Martin",
+    "departement": "Alpes-Maritimes",
+    "circonscription": "8",
+    "url": "https://www2.assemblee-nationale.fr/deputes/fiche/OMC_PA793342",
+    "email": "alexandra.martin@assemblee-nationale.fr",
+    "groupe": "Droite Républicaine",
+    "role": ""
+  },
+  {
+    "nom": "Mme Élisa Martin",
+    "departement": "Isère",
+    "circonscription": "3",
+    "url": "https://www2.assemblee-nationale.fr/deputes/fiche/OMC_PA342384",
+    "email": "elisa.martin@assemblee-nationale.fr",
+    "groupe": "La France insoumise - Nouveau Front Populaire",
+    "role": ""
+  },
+  {
+    "nom": "M. Patrice Martin",
+    "departement": "Seine-Maritime",
+    "circonscription": "6",
+    "url": "https://www2.assemblee-nationale.fr/deputes/fiche/OMC_PA841825",
+    "email": "patrice.martin@assemblee-nationale.fr",
+    "groupe": "Rassemblement National",
+    "role": ""
+  },
+  {
+    "nom": "M. Éric Martineau",
+    "departement": "Sarthe",
+    "circonscription": "3",
+    "url": "https://www2.assemblee-nationale.fr/deputes/fiche/OMC_PA795100",
+    "email": "eric.martineau@assemblee-nationale.fr",
+    "groupe": "Les Démocrates",
+    "role": ""
+  },
+  {
+    "nom": "Mme Michèle Martinez",
+    "departement": "Pyrénées-Orientales",
+    "circonscription": "4",
+    "url": "https://www2.assemblee-nationale.fr/deputes/fiche/OMC_PA794770",
+    "email": "michele.martinez@assemblee-nationale.fr",
+    "groupe": "Rassemblement National",
+    "role": ""
+  },
+  {
+    "nom": "M. Denis Masséglia",
+    "departement": "Maine-et-Loire",
+    "circonscription": "5",
+    "url": "https://www2.assemblee-nationale.fr/deputes/fiche/OMC_PA720146",
+    "email": "Denis.Masseglia@assemblee-nationale.fr",
+    "groupe": "Ensemble pour la République",
+    "role": ""
+  },
+  {
+    "nom": "Mme Alexandra Masson",
+    "departement": "Alpes-Maritimes",
+    "circonscription": "4",
+    "url": "https://www2.assemblee-nationale.fr/deputes/fiche/OMC_PA793314",
+    "email": "alexandra.masson@assemblee-nationale.fr",
+    "groupe": "Rassemblement National",
+    "role": ""
+  },
+  {
+    "nom": "M. Bryan Masson",
+    "departement": "Alpes-Maritimes",
+    "circonscription": "6",
+    "url": "https://www2.assemblee-nationale.fr/deputes/fiche/OMC_PA793330",
+    "email": "bryan.masson@assemblee-nationale.fr",
+    "groupe": "Rassemblement National",
+    "role": ""
+  },
+  {
+    "nom": "M. Max Mathiasin",
+    "departement": "Guadeloupe",
+    "circonscription": "3",
+    "url": "https://www2.assemblee-nationale.fr/deputes/fiche/OMC_PA720976",
+    "email": "Max.Mathiasin@assemblee-nationale.fr",
+    "groupe": "Libertés, Indépendants, Outre-mer et Territoires",
+    "role": ""
+  },
+  {
+    "nom": "M. Jean-Paul Mattei",
+    "departement": "Pyrénées-Atlantiques",
+    "circonscription": "2",
+    "url": "https://www2.assemblee-nationale.fr/deputes/fiche/OMC_PA720728",
+    "email": "Jean-Paul.Mattei@assemblee-nationale.fr",
+    "groupe": "Les Démocrates",
+    "role": ""
+  },
+  {
+    "nom": "M. Damien Maudet",
+    "departement": "Haute-Vienne",
+    "circonscription": "1",
+    "url": "https://www2.assemblee-nationale.fr/deputes/fiche/OMC_PA795422",
+    "email": "damien.maudet@assemblee-nationale.fr",
+    "groupe": "La France insoumise - Nouveau Front Populaire",
+    "role": ""
+  },
+  {
+    "nom": "M. Emmanuel Maurel",
+    "departement": "Val-d'Oise",
+    "circonscription": "3",
+    "url": "https://www2.assemblee-nationale.fr/deputes/fiche/OMC_PA842271",
+    "email": "emmanuel.maurel@assemblee-nationale.fr",
+    "groupe": "Gauche Démocrate et Républicaine",
+    "role": ""
+  },
+  {
+    "nom": "M. Kévin Mauvieux",
+    "departement": "Eure",
+    "circonscription": "3",
+    "url": "https://www2.assemblee-nationale.fr/deputes/fiche/OMC_PA793616",
+    "email": "kevin.mauvieux@assemblee-nationale.fr",
+    "groupe": "Rassemblement National",
+    "role": ""
+  },
+  {
+    "nom": "Mme Marianne Maximi",
+    "departement": "Puy-de-Dôme",
+    "circonscription": "1",
+    "url": "https://www2.assemblee-nationale.fr/deputes/fiche/OMC_PA794686",
+    "email": "marianne.maximi@assemblee-nationale.fr",
+    "groupe": "La France insoumise - Nouveau Front Populaire",
+    "role": ""
+  },
+  {
+    "nom": "M. Stéphane Mazars",
+    "departement": "Aveyron",
+    "circonscription": "1",
+    "url": "https://www2.assemblee-nationale.fr/deputes/fiche/OMC_PA677483",
+    "email": "Stephane.Mazars@assemblee-nationale.fr",
+    "groupe": "Ensemble pour la République",
+    "role": ""
+  },
+  {
+    "nom": "M. Laurent Mazaury",
+    "departement": "Yvelines",
+    "circonscription": "11",
+    "url": "https://www2.assemblee-nationale.fr/deputes/fiche/OMC_PA841931",
+    "email": "laurent.mazaury@assemblee-nationale.fr",
+    "groupe": "Libertés, Indépendants, Outre-mer et Territoires",
+    "role": ""
+  },
+  {
+    "nom": "M. Nicolas Meizonnet",
+    "departement": "Gard",
+    "circonscription": "2",
+    "url": "https://www2.assemblee-nationale.fr/deputes/fiche/OMC_PA719436",
+    "email": "nicolas.meizonnet@assemblee-nationale.fr",
+    "groupe": "Rassemblement National",
+    "role": ""
+  },
+  {
+    "nom": "Mme Graziella Melchior",
+    "departement": "Finistère",
+    "circonscription": "5",
+    "url": "https://www2.assemblee-nationale.fr/deputes/fiche/OMC_PA719338",
+    "email": "Graziella.Melchior@assemblee-nationale.fr",
+    "groupe": "Ensemble pour la République",
+    "role": ""
+  },
+  {
+    "nom": "Mme Joëlle Mélin",
+    "departement": "Bouches-du-Rhône",
+    "circonscription": "9",
+    "url": "https://www2.assemblee-nationale.fr/deputes/fiche/OMC_PA793354",
+    "email": "joelle.melin@assemblee-nationale.fr",
+    "groupe": "Rassemblement National",
+    "role": ""
+  },
+  {
+    "nom": "Mme Yaël Ménaché",
+    "departement": "Somme",
+    "circonscription": "5",
+    "url": "https://www2.assemblee-nationale.fr/deputes/fiche/OMC_PA795786",
+    "email": "yael.menache@assemblee-nationale.fr",
+    "groupe": "Rassemblement National",
+    "role": ""
+  },
+  {
+    "nom": "M. Thomas Ménagé",
+    "departement": "Loiret",
+    "circonscription": "4",
+    "url": "https://www2.assemblee-nationale.fr/deputes/fiche/OMC_PA794322",
+    "email": "thomas.menage@assemblee-nationale.fr",
+    "groupe": "Rassemblement National",
+    "role": ""
+  },
+  {
+    "nom": "M. Ludovic Mendes",
+    "departement": "Moselle",
+    "circonscription": "2",
+    "url": "https://www2.assemblee-nationale.fr/deputes/fiche/OMC_PA720370",
+    "email": "Ludovic.Mendes@assemblee-nationale.fr",
+    "groupe": "Ensemble pour la République",
+    "role": ""
+  },
+  {
+    "nom": "Mme Estelle Mercier",
+    "departement": "Meurthe-et-Moselle",
+    "circonscription": "1",
+    "url": "https://www2.assemblee-nationale.fr/deputes/fiche/OMC_PA841463",
+    "email": "estelle.mercier@assemblee-nationale.fr",
+    "groupe": "Socialistes et apparentés",
+    "role": ""
+  },
+  {
+    "nom": "Mme Marie Mesmeur",
+    "departement": "Ille-et-Vilaine",
+    "circonscription": "1",
+    "url": "https://www2.assemblee-nationale.fr/deputes/fiche/OMC_PA841215",
+    "email": "marie.mesmeur@assemblee-nationale.fr",
+    "groupe": "La France insoumise - Nouveau Front Populaire",
+    "role": ""
+  },
+  {
+    "nom": "Mme Sophie Mette",
+    "departement": "Gironde",
+    "circonscription": "9",
+    "url": "https://www2.assemblee-nationale.fr/deputes/fiche/OMC_PA719640",
+    "email": "Sophie.Mette@assemblee-nationale.fr",
+    "groupe": "Les Démocrates",
+    "role": ""
+  },
+  {
+    "nom": "M. Nicolas Metzdorf",
+    "departement": "Nouvelle-Calédonie",
+    "circonscription": "1",
+    "url": "https://www2.assemblee-nationale.fr/deputes/fiche/OMC_PA795176",
+    "email": "nicolas.metzdorf@assemblee-nationale.fr",
+    "groupe": "Ensemble pour la République",
+    "role": ""
+  },
+  {
+    "nom": "Mme Frédérique Meunier",
+    "departement": "Corrèze",
+    "circonscription": "2",
+    "url": "https://www2.assemblee-nationale.fr/deputes/fiche/OMC_PA719272",
+    "email": "Frederique.Meunier@assemblee-nationale.fr",
+    "groupe": "Droite Républicaine",
+    "role": ""
+  },
+  {
+    "nom": "Mme Manon Meunier",
+    "departement": "Haute-Vienne",
+    "circonscription": "3",
+    "url": "https://www2.assemblee-nationale.fr/deputes/fiche/OMC_PA795482",
+    "email": "manon.meunier@assemblee-nationale.fr",
+    "groupe": "La France insoumise - Nouveau Front Populaire",
+    "role": ""
+  },
+  {
+    "nom": "M. Pierre Meurin",
+    "departement": "Gard",
+    "circonscription": "4",
+    "url": "https://www2.assemblee-nationale.fr/deputes/fiche/OMC_PA793852",
+    "email": "pierre.meurin@assemblee-nationale.fr",
+    "groupe": "Rassemblement National",
+    "role": ""
+  },
+  {
+    "nom": "M. Maxime Michelet",
+    "departement": "Marne",
+    "circonscription": "3",
+    "url": "https://www2.assemblee-nationale.fr/deputes/fiche/OMC_PA841395",
+    "email": "maxime.michelet@assemblee-nationale.fr",
+    "groupe": "UDR",
+    "role": ""
+  },
+  {
+    "nom": "M. Éric Michoux",
+    "departement": "Saône-et-Loire",
+    "circonscription": "4",
+    "url": "https://www2.assemblee-nationale.fr/deputes/fiche/OMC_PA841769",
+    "email": "eric.michoux@assemblee-nationale.fr",
+    "groupe": "UDR",
+    "role": ""
+  },
+  {
+    "nom": "M. Paul Midy",
+    "departement": "Essonne",
+    "circonscription": "5",
+    "url": "https://www2.assemblee-nationale.fr/deputes/fiche/OMC_PA795664",
+    "email": "paul.midy@assemblee-nationale.fr",
+    "groupe": "Ensemble pour la République",
+    "role": ""
+  },
+  {
+    "nom": "Mme Laure Miller",
+    "departement": "Marne",
+    "circonscription": "2",
+    "url": "https://www2.assemblee-nationale.fr/deputes/fiche/OMC_PA817203",
+    "email": "laure.miller@assemblee-nationale.fr",
+    "groupe": "Ensemble pour la République",
+    "role": ""
+  },
+  {
+    "nom": "M. Paul Molac",
+    "departement": "Morbihan",
+    "circonscription": "4",
+    "url": "https://www2.assemblee-nationale.fr/deputes/fiche/OMC_PA607619",
+    "email": "Paul.Molac@assemblee-nationale.fr",
+    "groupe": "Libertés, Indépendants, Outre-mer et Territoires",
+    "role": ""
+  },
+  {
+    "nom": "M. Yannick Monnet",
+    "departement": "Allier",
+    "circonscription": "1",
+    "url": "https://www2.assemblee-nationale.fr/deputes/fiche/OMC_PA793174",
+    "email": "yannick.monnet@assemblee-nationale.fr",
+    "groupe": "Gauche Démocrate et Républicaine",
+    "role": ""
+  },
+  {
+    "nom": "M. Thibaut Monnier",
+    "departement": "Drôme",
+    "circonscription": "4",
+    "url": "https://www2.assemblee-nationale.fr/deputes/fiche/OMC_PA840915",
+    "email": "thibaut.monnier@assemblee-nationale.fr",
+    "groupe": "Rassemblement National",
+    "role": ""
+  },
+  {
+    "nom": "Mme Louise Morel",
+    "departement": "Bas-Rhin",
+    "circonscription": "6",
+    "url": "https://www2.assemblee-nationale.fr/deputes/fiche/OMC_PA794810",
+    "email": "louise.morel@assemblee-nationale.fr",
+    "groupe": "Les Démocrates",
+    "role": ""
+  },
+  {
+    "nom": "Mme Naïma Moutchou",
+    "departement": "Val-d'Oise",
+    "circonscription": "4",
+    "url": "https://www2.assemblee-nationale.fr/deputes/fiche/OMC_PA720908",
+    "email": "Naima.Moutchou@assemblee-nationale.fr",
+    "groupe": "Horizons & Indépendants",
+    "role": "Vice-présidente de l'Assemblée nationale"
+  },
+  {
+    "nom": "M. Serge Muller",
+    "departement": "Dordogne",
+    "circonscription": "2",
+    "url": "https://www2.assemblee-nationale.fr/deputes/fiche/OMC_PA793696",
+    "email": "serge.muller@assemblee-nationale.fr",
+    "groupe": "Rassemblement National",
+    "role": ""
+  },
+  {
+    "nom": "M. Marcellin Nadeau",
+    "departement": "Martinique",
+    "circonscription": "2",
+    "url": "https://www2.assemblee-nationale.fr/deputes/fiche/OMC_PA795820",
+    "email": "marcellin.nadeau@assemblee-nationale.fr",
+    "groupe": "Gauche Démocrate et Républicaine",
+    "role": ""
+  },
+  {
+    "nom": "M. Christophe Naegelen",
+    "departement": "Vosges",
+    "circonscription": "3",
+    "url": "https://www2.assemblee-nationale.fr/deputes/fiche/OMC_PA721486",
+    "email": "Christophe.Naegelen@assemblee-nationale.fr",
+    "groupe": "Libertés, Indépendants, Outre-mer et Territoires",
+    "role": "Secrétaire de l'Assemblée nationale"
+  },
+  {
+    "nom": "M. Philippe Naillet",
+    "departement": "Réunion",
+    "circonscription": "1",
+    "url": "https://www2.assemblee-nationale.fr/deputes/fiche/OMC_PA643157",
+    "email": "philippe.naillet@assemblee-nationale.fr",
+    "groupe": "Socialistes et apparentés",
+    "role": ""
+  },
+  {
+    "nom": "M. Yannick Neuder",
+    "departement": "Isère",
+    "circonscription": "7",
+    "url": "https://www2.assemblee-nationale.fr/deputes/fiche/OMC_PA794038",
+    "email": "yannick.neuder@assemblee-nationale.fr",
+    "groupe": "Droite Républicaine",
+    "role": ""
+  },
+  {
+    "nom": "M. Jean-Philippe Nilor",
+    "departement": "Martinique",
+    "circonscription": "4",
+    "url": "https://www2.assemblee-nationale.fr/deputes/fiche/OMC_PA610654",
+    "email": "Jean-Philippe.Nilor@assemblee-nationale.fr",
+    "groupe": "La France insoumise - Nouveau Front Populaire",
+    "role": ""
+  },
+  {
+    "nom": "Mme Sandrine Nosbé",
+    "departement": "Isère",
+    "circonscription": "9",
+    "url": "https://www2.assemblee-nationale.fr/deputes/fiche/OMC_PA841191",
+    "email": "sandrine.nosbe@assemblee-nationale.fr",
+    "groupe": "La France insoumise - Nouveau Front Populaire",
+    "role": ""
+  },
+  {
+    "nom": "M. Jérôme Nury",
+    "departement": "Orne",
+    "circonscription": "3",
+    "url": "https://www2.assemblee-nationale.fr/deputes/fiche/OMC_PA720644",
+    "email": "Jerome.Nury@assemblee-nationale.fr",
+    "groupe": "Droite Républicaine",
+    "role": ""
+  },
+  {
+    "nom": "M. Jacques Oberti",
+    "departement": "Haute-Garonne",
+    "circonscription": "10",
+    "url": "https://www2.assemblee-nationale.fr/deputes/fiche/OMC_PA841107",
+    "email": "jacques.oberti@assemblee-nationale.fr",
+    "groupe": "Socialistes et apparentés",
+    "role": ""
+  },
+  {
+    "nom": "Mme Danièle Obono",
+    "departement": "Paris",
+    "circonscription": "17",
+    "url": "https://www2.assemblee-nationale.fr/deputes/fiche/OMC_PA721960",
+    "email": "Daniele.Obono@assemblee-nationale.fr",
+    "groupe": "La France insoumise - Nouveau Front Populaire",
+    "role": ""
+  },
+  {
+    "nom": "M. Julien Odoul",
+    "departement": "Yonne",
+    "circonscription": "3",
+    "url": "https://www2.assemblee-nationale.fr/deputes/fiche/OMC_PA795552",
+    "email": "julien.odoul@assemblee-nationale.fr",
+    "groupe": "Rassemblement National",
+    "role": ""
+  },
+  {
+    "nom": "M. Karl Olive",
+    "departement": "Yvelines",
+    "circonscription": "12",
+    "url": "https://www2.assemblee-nationale.fr/deputes/fiche/OMC_PA795722",
+    "email": "karl.olive@assemblee-nationale.fr",
+    "groupe": "Ensemble pour la République",
+    "role": ""
+  },
+  {
+    "nom": "M. Hubert Ott",
+    "departement": "Haut-Rhin",
+    "circonscription": "2",
+    "url": "https://www2.assemblee-nationale.fr/deputes/fiche/OMC_PA794830",
+    "email": "hubert.ott@assemblee-nationale.fr",
+    "groupe": "Les Démocrates",
+    "role": ""
+  },
+  {
+    "nom": "Mme Julie Ozenne",
+    "departement": "Essonne",
+    "circonscription": "9",
+    "url": "https://www2.assemblee-nationale.fr/deputes/fiche/OMC_PA842045",
+    "email": "julie.ozenne@assemblee-nationale.fr",
+    "groupe": "Écologiste et Social",
+    "role": ""
+  },
+  {
+    "nom": "Mme Nathalie Oziol",
+    "departement": "Hérault",
+    "circonscription": "2",
+    "url": "https://www2.assemblee-nationale.fr/deputes/fiche/OMC_PA793872",
+    "email": "nathalie.oziol@assemblee-nationale.fr",
+    "groupe": "La France insoumise - Nouveau Front Populaire",
+    "role": ""
+  },
+  {
+    "nom": "M. Jimmy Pahun",
+    "departement": "Morbihan",
+    "circonscription": "2",
+    "url": "https://www2.assemblee-nationale.fr/deputes/fiche/OMC_PA720334",
+    "email": "Jimmy.Pahun@assemblee-nationale.fr",
+    "groupe": "Les Démocrates",
+    "role": ""
+  },
+  {
+    "nom": "M. Laurent Panifous",
+    "departement": "Ariège",
+    "circonscription": "2",
+    "url": "https://www2.assemblee-nationale.fr/deputes/fiche/OMC_PA793210",
+    "email": "laurent.panifous@assemblee-nationale.fr",
+    "groupe": "Libertés, Indépendants, Outre-mer et Territoires",
+    "role": "Secrétaire de l'Assemblée nationale"
+  },
+  {
+    "nom": "Mme Agnès Pannier-Runacher",
+    "departement": "Pas-de-Calais",
+    "circonscription": "2",
+    "url": "https://www2.assemblee-nationale.fr/deputes/fiche/OMC_PA759832",
+    "email": "agnes.pannier-runacher@assemblee-nationale.fr",
+    "groupe": "Ensemble pour la République",
+    "role": ""
+  },
+  {
+    "nom": "Mme Sophie Panonacle",
+    "departement": "Gironde",
+    "circonscription": "8",
+    "url": "https://www2.assemblee-nationale.fr/deputes/fiche/OMC_PA719632",
+    "email": "Sophie.Panonacle@assemblee-nationale.fr",
+    "groupe": "Ensemble pour la République",
+    "role": ""
+  },
+  {
+    "nom": "Mme Astrid Panosyan-Bouvet",
+    "departement": "Paris",
+    "circonscription": "4",
+    "url": "https://www2.assemblee-nationale.fr/deputes/fiche/OMC_PA795050",
+    "email": "astrid.panosyan-bouvet@assemblee-nationale.fr",
+    "groupe": "Ensemble pour la République",
+    "role": ""
+  },
+  {
+    "nom": "Mme Mathilde Panot",
+    "departement": "Val-de-Marne",
+    "circonscription": "10",
+    "url": "https://www2.assemblee-nationale.fr/deputes/fiche/OMC_PA720892",
+    "email": "Mathilde.Panot@assemblee-nationale.fr",
+    "groupe": "La France insoumise - Nouveau Front Populaire",
+    "role": ""
+  },
+  {
+    "nom": "Mme Sophie Pantel",
+    "departement": "Lozère",
+    "circonscription": "1",
+    "url": "https://www2.assemblee-nationale.fr/deputes/fiche/OMC_PA841381",
+    "email": "sophie.pantel@assemblee-nationale.fr",
+    "groupe": "Socialistes et apparentés",
+    "role": "Secrétaire de l'Assemblée nationale"
+  },
+  {
+    "nom": "Mme Caroline Parmentier",
+    "departement": "Pas-de-Calais",
+    "circonscription": "9",
+    "url": "https://www2.assemblee-nationale.fr/deputes/fiche/OMC_PA794670",
+    "email": "caroline.parmentier@assemblee-nationale.fr",
+    "groupe": "Rassemblement National",
+    "role": ""
+  },
+  {
+    "nom": "Mme Charlotte Parmentier-Lecocq",
+    "departement": "Nord",
+    "circonscription": "6",
+    "url": "https://www2.assemblee-nationale.fr/deputes/fiche/OMC_PA720480",
+    "email": "Charlotte.Lecocq@assemblee-nationale.fr",
+    "groupe": "Horizons & Indépendants",
+    "role": ""
+  },
+  {
+    "nom": "M. Jérémie Patrier-Leitus",
+    "departement": "Calvados",
+    "circonscription": "3",
+    "url": "https://www2.assemblee-nationale.fr/deputes/fiche/OMC_PA793398",
+    "email": "jeremie.patrier-leitus@assemblee-nationale.fr",
+    "groupe": "Horizons & Indépendants",
+    "role": ""
+  },
+  {
+    "nom": "M. Éric Pauget",
+    "departement": "Alpes-Maritimes",
+    "circonscription": "7",
+    "url": "https://www2.assemblee-nationale.fr/deputes/fiche/OMC_PA718784",
+    "email": "Eric.Pauget@assemblee-nationale.fr",
+    "groupe": "Droite Républicaine",
+    "role": ""
+  },
+  {
+    "nom": "M. Marc Pena",
+    "departement": "Bouches-du-Rhône",
+    "circonscription": "11",
+    "url": "https://www2.assemblee-nationale.fr/deputes/fiche/OMC_PA840793",
+    "email": "marc.pena@assemblee-nationale.fr",
+    "groupe": "Socialistes et apparentés",
+    "role": ""
+  },
+  {
+    "nom": "M. Thierry Perez",
+    "departement": "Isère",
+    "circonscription": "10",
+    "url": "https://www2.assemblee-nationale.fr/deputes/fiche/OMC_PA841199",
+    "email": "thierry.perez@assemblee-nationale.fr",
+    "groupe": "Rassemblement National",
+    "role": ""
+  },
+  {
+    "nom": "Mme Christelle Petex",
+    "departement": "Haute-Savoie",
+    "circonscription": "3",
+    "url": "https://www2.assemblee-nationale.fr/deputes/fiche/OMC_PA721442",
+    "email": "christelle.petex-levet@assemblee-nationale.fr",
+    "groupe": "Droite Républicaine",
+    "role": ""
+  },
+  {
+    "nom": "M. Frédéric Petit",
+    "departement": "Français établis hors de France",
+    "circonscription": "7",
+    "url": "https://www2.assemblee-nationale.fr/deputes/fiche/OMC_PA721182",
+    "email": "Frederic.Petit@assemblee-nationale.fr",
+    "groupe": "Les Démocrates",
+    "role": ""
+  },
+  {
+    "nom": "Mme Maud Petit",
+    "departement": "Val-de-Marne",
+    "circonscription": "4",
+    "url": "https://www2.assemblee-nationale.fr/deputes/fiche/OMC_PA721234",
+    "email": "Maud.Petit@assemblee-nationale.fr",
+    "groupe": "Les Démocrates",
+    "role": ""
+  },
+  {
+    "nom": "M. Stéphane Peu",
+    "departement": "Seine-Saint-Denis",
+    "circonscription": "2",
+    "url": "https://www2.assemblee-nationale.fr/deputes/fiche/OMC_PA721270",
+    "email": "Stephane.Peu@assemblee-nationale.fr",
+    "groupe": "Gauche Démocrate et Républicaine",
+    "role": "Secrétaire de l'Assemblée nationale"
+  },
+  {
+    "nom": "M. Sébastien Peytavie",
+    "departement": "Dordogne",
+    "circonscription": "4",
+    "url": "https://www2.assemblee-nationale.fr/deputes/fiche/OMC_PA793708",
+    "email": "sebastien.peytavie@assemblee-nationale.fr",
+    "groupe": "Écologiste et Social",
+    "role": "Secrétaire de l'Assemblée nationale"
+  },
+  {
+    "nom": "M. Kévin Pfeffer",
+    "departement": "Moselle",
+    "circonscription": "6",
+    "url": "https://www2.assemblee-nationale.fr/deputes/fiche/OMC_PA794582",
+    "email": "kevin.pfeffer@assemblee-nationale.fr",
+    "groupe": "Rassemblement National",
+    "role": ""
+  },
+  {
+    "nom": "Mme Anna Pic",
+    "departement": "Manche",
+    "circonscription": "4",
+    "url": "https://www2.assemblee-nationale.fr/deputes/fiche/OMC_PA794270",
+    "email": "anna.pic@assemblee-nationale.fr",
+    "groupe": "Socialistes et apparentés",
+    "role": ""
+  },
+  {
+    "nom": "M. René Pilato",
+    "departement": "Charente",
+    "circonscription": "1",
+    "url": "https://www2.assemblee-nationale.fr/deputes/fiche/OMC_PA817211",
+    "email": "rene.pilato@assemblee-nationale.fr",
+    "groupe": "La France insoumise - Nouveau Front Populaire",
+    "role": ""
+  },
+  {
+    "nom": "M. François Piquemal",
+    "departement": "Haute-Garonne",
+    "circonscription": "4",
+    "url": "https://www2.assemblee-nationale.fr/deputes/fiche/OMC_PA793756",
+    "email": "francois.piquemal@assemblee-nationale.fr",
+    "groupe": "La France insoumise - Nouveau Front Populaire",
+    "role": ""
+  },
+  {
+    "nom": "Mme Christine Pirès Beaune",
+    "departement": "Puy-de-Dôme",
+    "circonscription": "2",
+    "url": "https://www2.assemblee-nationale.fr/deputes/fiche/OMC_PA608172",
+    "email": "Christine.PiresBeaune@assemblee-nationale.fr",
+    "groupe": "Socialistes et apparentés",
+    "role": "Questeure de l'Assemblée nationale"
+  },
+  {
+    "nom": "Mme Béatrice Piron",
+    "departement": "Yvelines",
+    "circonscription": "3",
+    "url": "https://www2.assemblee-nationale.fr/deputes/fiche/OMC_PA721844",
+    "email": "Beatrice.Piron@assemblee-nationale.fr",
+    "groupe": "Horizons & Indépendants",
+    "role": ""
+  },
+  {
+    "nom": "M. Christophe Plassard",
+    "departement": "Charente-Maritime",
+    "circonscription": "5",
+    "url": "https://www2.assemblee-nationale.fr/deputes/fiche/OMC_PA793572",
+    "email": "christophe.plassard@assemblee-nationale.fr",
+    "groupe": "Horizons & Indépendants",
+    "role": ""
+  },
+  {
+    "nom": "Mme Marie Pochon",
+    "departement": "Drôme",
+    "circonscription": "3",
+    "url": "https://www2.assemblee-nationale.fr/deputes/fiche/OMC_PA793664",
+    "email": "marie.pochon@assemblee-nationale.fr",
+    "groupe": "Écologiste et Social",
+    "role": ""
+  },
+  {
+    "nom": "Mme Lisette Pollet",
+    "departement": "Drôme",
+    "circonscription": "2",
+    "url": "https://www2.assemblee-nationale.fr/deputes/fiche/OMC_PA793656",
+    "email": "lisette.pollet@assemblee-nationale.fr",
+    "groupe": "Rassemblement National",
+    "role": ""
+  },
+  {
+    "nom": "M. Jean-François Portarrieu",
+    "departement": "Haute-Garonne",
+    "circonscription": "5",
+    "url": "https://www2.assemblee-nationale.fr/deputes/fiche/OMC_PA719528",
+    "email": "Jean-Francois.Portarrieu@assemblee-nationale.fr",
+    "groupe": "Horizons & Indépendants",
+    "role": ""
+  },
+  {
+    "nom": "M. Thomas Portes",
+    "departement": "Seine-Saint-Denis",
+    "circonscription": "3",
+    "url": "https://www2.assemblee-nationale.fr/deputes/fiche/OMC_PA796062",
+    "email": "thomas.portes@assemblee-nationale.fr",
+    "groupe": "La France insoumise - Nouveau Front Populaire",
+    "role": ""
+  },
+  {
+    "nom": "M. Alexandre Portier",
+    "departement": "Rhône",
+    "circonscription": "9",
+    "url": "https://www2.assemblee-nationale.fr/deputes/fiche/OMC_PA794994",
+    "email": "alexandre.portier@assemblee-nationale.fr",
+    "groupe": "Droite Républicaine",
+    "role": ""
+  },
+  {
+    "nom": "M. Dominique Potier",
+    "departement": "Meurthe-et-Moselle",
+    "circonscription": "5",
+    "url": "https://www2.assemblee-nationale.fr/deputes/fiche/OMC_PA607553",
+    "email": "Dominique.Potier@assemblee-nationale.fr",
+    "groupe": "Socialistes et apparentés",
+    "role": ""
+  },
+  {
+    "nom": "Mme Josy Poueyto",
+    "departement": "Pyrénées-Atlantiques",
+    "circonscription": "1",
+    "url": "https://www2.assemblee-nationale.fr/deputes/fiche/OMC_PA720720",
+    "email": "Josy.Poueyto@assemblee-nationale.fr",
+    "groupe": "Les Démocrates",
+    "role": ""
+  },
+  {
+    "nom": "Mme Marie-Agnès Poussier-Winsback",
+    "departement": "Seine-Maritime",
+    "circonscription": "9",
+    "url": "https://www2.assemblee-nationale.fr/deputes/fiche/OMC_PA795270",
+    "email": "marieagnes.poussier-winsback@assemblee-nationale.fr",
+    "groupe": "Horizons & Indépendants",
+    "role": ""
+  },
+  {
+    "nom": "Mme Natalia Pouzyreff",
+    "departement": "Yvelines",
+    "circonscription": "6",
+    "url": "https://www2.assemblee-nationale.fr/deputes/fiche/OMC_PA721916",
+    "email": "Natalia.Pouzyreff@assemblee-nationale.fr",
+    "groupe": "Ensemble pour la République",
+    "role": ""
+  },
+  {
+    "nom": "M. Aurélien Pradié",
+    "departement": "Lot",
+    "circonscription": "1",
+    "url": "https://www2.assemblee-nationale.fr/deputes/fiche/OMC_PA720100",
+    "email": "Aurelien.Pradie@assemblee-nationale.fr",
+    "groupe": "Non inscrit",
+    "role": ""
+  },
+  {
+    "nom": "M. Hugo Prevost",
+    "departement": "Isère",
+    "circonscription": "1",
+    "url": "https://www2.assemblee-nationale.fr/deputes/fiche/OMC_PA841167",
+    "email": "hugo.prevost@assemblee-nationale.fr",
+    "groupe": "La France insoumise - Nouveau Front Populaire",
+    "role": ""
+  },
+  {
+    "nom": "M. Pierre Pribetich",
+    "departement": "Côte-d'Or",
+    "circonscription": "3",
+    "url": "https://www2.assemblee-nationale.fr/deputes/fiche/OMC_PA840955",
+    "email": "pierre.pribetich@assemblee-nationale.fr",
+    "groupe": "Socialistes et apparentés",
+    "role": ""
+  },
+  {
+    "nom": "M. Christophe Proença",
+    "departement": "Lot",
+    "circonscription": "2",
+    "url": "https://www2.assemblee-nationale.fr/deputes/fiche/OMC_PA841367",
+    "email": "christophe.proenca@assemblee-nationale.fr",
+    "groupe": "Socialistes et apparentés",
+    "role": ""
+  },
+  {
+    "nom": "M. Loïc Prud'homme",
+    "departement": "Gironde",
+    "circonscription": "3",
+    "url": "https://www2.assemblee-nationale.fr/deputes/fiche/OMC_PA719578",
+    "email": "Loic.Prudhomme@assemblee-nationale.fr",
+    "groupe": "La France insoumise - Nouveau Front Populaire",
+    "role": ""
+  },
+  {
+    "nom": "M. Stéphane Rambaud",
+    "departement": "Var",
+    "circonscription": "3",
+    "url": "https://www2.assemblee-nationale.fr/deputes/fiche/OMC_PA795966",
+    "email": "stephane.rambaud@assemblee-nationale.fr",
+    "groupe": "Rassemblement National",
+    "role": ""
+  },
+  {
+    "nom": "M. Richard Ramos",
+    "departement": "Loiret",
+    "circonscription": "6",
+    "url": "https://www2.assemblee-nationale.fr/deputes/fiche/OMC_PA720092",
+    "email": "Richard.Ramos@assemblee-nationale.fr",
+    "groupe": "Les Démocrates",
+    "role": ""
+  },
+  {
+    "nom": "Mme Angélique Ranc",
+    "departement": "Aube",
+    "circonscription": "3",
+    "url": "https://www2.assemblee-nationale.fr/deputes/fiche/OMC_PA793230",
+    "email": "angelique.ranc@assemblee-nationale.fr",
+    "groupe": "Rassemblement National",
+    "role": ""
+  },
+  {
+    "nom": "M. Julien Rancoule",
+    "departement": "Aude",
+    "circonscription": "3",
+    "url": "https://www2.assemblee-nationale.fr/deputes/fiche/OMC_PA793254",
+    "email": "julien.rancoule@assemblee-nationale.fr",
+    "groupe": "Rassemblement National",
+    "role": ""
+  },
+  {
+    "nom": "M. Jean-Hugues Ratenon",
+    "departement": "Réunion",
+    "circonscription": "5",
+    "url": "https://www2.assemblee-nationale.fr/deputes/fiche/OMC_PA721062",
+    "email": "Jean-Hugues.Ratenon@assemblee-nationale.fr",
+    "groupe": "La France insoumise - Nouveau Front Populaire",
+    "role": ""
+  },
+  {
+    "nom": "Mme Isabelle Rauch",
+    "departement": "Moselle",
+    "circonscription": "9",
+    "url": "https://www2.assemblee-nationale.fr/deputes/fiche/OMC_PA720552",
+    "email": "Isabelle.Rauch@assemblee-nationale.fr",
+    "groupe": "Horizons & Indépendants",
+    "role": ""
+  },
+  {
+    "nom": "M. Jean-Claude Raux",
+    "departement": "Loire-Atlantique",
+    "circonscription": "6",
+    "url": "https://www2.assemblee-nationale.fr/deputes/fiche/OMC_PA794154",
+    "email": "jean-claude.raux@assemblee-nationale.fr",
+    "groupe": "Écologiste et Social",
+    "role": ""
+  },
+  {
+    "nom": "M. Nicolas Ray",
+    "departement": "Allier",
+    "circonscription": "3",
+    "url": "https://www2.assemblee-nationale.fr/deputes/fiche/OMC_PA793094",
+    "email": "nicolas.ray@assemblee-nationale.fr",
+    "groupe": "Droite Républicaine",
+    "role": ""
+  },
+  {
+    "nom": "Mme Marie Récalde",
+    "departement": "Gironde",
+    "circonscription": "6",
+    "url": "https://www2.assemblee-nationale.fr/deputes/fiche/OMC_PA341981",
+    "email": "marie.recalde@assemblee-nationale.fr",
+    "groupe": "Socialistes et apparentés",
+    "role": ""
+  },
+  {
+    "nom": "Mme Sandra Regol",
+    "departement": "Bas-Rhin",
+    "circonscription": "1",
+    "url": "https://www2.assemblee-nationale.fr/deputes/fiche/OMC_PA794778",
+    "email": "sandra.regol@assemblee-nationale.fr",
+    "groupe": "Écologiste et Social",
+    "role": ""
+  },
+  {
+    "nom": "Mme Mereana Reid Arbelot",
+    "departement": "Polynésie Française",
+    "circonscription": "3",
+    "url": "https://www2.assemblee-nationale.fr/deputes/fiche/OMC_PA795240",
+    "email": "mereana.reidarbelot@assemblee-nationale.fr",
+    "groupe": "Gauche Démocrate et Républicaine",
+    "role": "Secrétaire de l'Assemblée nationale"
+  },
+  {
+    "nom": "M. Matthias Renault",
+    "departement": "Somme",
+    "circonscription": "3",
+    "url": "https://www2.assemblee-nationale.fr/deputes/fiche/OMC_PA841955",
+    "email": "matthias.renault@assemblee-nationale.fr",
+    "groupe": "Rassemblement National",
+    "role": ""
+  },
+  {
+    "nom": "M. Franck Riester",
+    "departement": "Seine-et-Marne",
+    "circonscription": "5",
+    "url": "https://www2.assemblee-nationale.fr/deputes/fiche/OMC_PA335758",
+    "email": "franck.riester@assemblee-nationale.fr",
+    "groupe": "Ensemble pour la République",
+    "role": ""
+  },
+  {
+    "nom": "M. Davy Rimane",
+    "departement": "Guyane",
+    "circonscription": "2",
+    "url": "https://www2.assemblee-nationale.fr/deputes/fiche/OMC_PA795876",
+    "email": "davy.rimane@assemblee-nationale.fr",
+    "groupe": "Gauche Démocrate et Républicaine",
+    "role": ""
+  },
+  {
+    "nom": "Mme Catherine Rimbert",
+    "departement": "Vaucluse",
+    "circonscription": "5",
+    "url": "https://www2.assemblee-nationale.fr/deputes/fiche/OMC_PA841981",
+    "email": "catherine.rimbert@assemblee-nationale.fr",
+    "groupe": "Rassemblement National",
+    "role": ""
+  },
+  {
+    "nom": "Mme Véronique Riotton",
+    "departement": "Haute-Savoie",
+    "circonscription": "1",
+    "url": "https://www2.assemblee-nationale.fr/deputes/fiche/OMC_PA721426",
+    "email": "Veronique.Riotton@assemblee-nationale.fr",
+    "groupe": "Ensemble pour la République",
+    "role": ""
+  },
+  {
+    "nom": "Mme Stéphanie Rist",
+    "departement": "Loiret",
+    "circonscription": "1",
+    "url": "https://www2.assemblee-nationale.fr/deputes/fiche/OMC_PA720066",
+    "email": "Stephanie.Rist@assemblee-nationale.fr",
+    "groupe": "Ensemble pour la République",
+    "role": ""
+  },
+  {
+    "nom": "M. Joseph Rivière",
+    "departement": "Réunion",
+    "circonscription": "3",
+    "url": "https://www2.assemblee-nationale.fr/deputes/fiche/OMC_PA842227",
+    "email": "joseph.riviere@assemblee-nationale.fr",
+    "groupe": "Rassemblement National",
+    "role": ""
+  },
+  {
+    "nom": "Mme Marie-Pierre Rixain",
+    "departement": "Essonne",
+    "circonscription": "4",
+    "url": "https://www2.assemblee-nationale.fr/deputes/fiche/OMC_PA722252",
+    "email": "Marie-Pierre.Rixain@assemblee-nationale.fr",
+    "groupe": "Ensemble pour la République",
+    "role": ""
+  },
+  {
+    "nom": "Mme Laurence Robert-Dehault",
+    "departement": "Haute-Marne",
+    "circonscription": "2",
+    "url": "https://www2.assemblee-nationale.fr/deputes/fiche/OMC_PA794442",
+    "email": "laurence.robert-dehault@assemblee-nationale.fr",
+    "groupe": "Rassemblement National",
+    "role": ""
+  },
+  {
+    "nom": "M. Charles Rodwell",
+    "departement": "Yvelines",
+    "circonscription": "1",
+    "url": "https://www2.assemblee-nationale.fr/deputes/fiche/OMC_PA795528",
+    "email": "charles.rodwell@assemblee-nationale.fr",
+    "groupe": "Ensemble pour la République",
+    "role": ""
+  },
+  {
+    "nom": "M. Vincent Rolland",
+    "departement": "Savoie",
+    "circonscription": "2",
+    "url": "https://www2.assemblee-nationale.fr/deputes/fiche/OMC_PA266808",
+    "email": "Vincent.Rolland@assemblee-nationale.fr",
+    "groupe": "Droite Républicaine",
+    "role": ""
+  },
+  {
+    "nom": "M. Xavier Roseren",
+    "departement": "Haute-Savoie",
+    "circonscription": "6",
+    "url": "https://www2.assemblee-nationale.fr/deputes/fiche/OMC_PA721458",
+    "email": "Xavier.Roseren@assemblee-nationale.fr",
+    "groupe": "Horizons & Indépendants",
+    "role": ""
+  },
+  {
+    "nom": "Mme Valérie Rossi",
+    "departement": "Hautes-Alpes",
+    "circonscription": "2",
+    "url": "https://www2.assemblee-nationale.fr/deputes/fiche/OMC_PA840673",
+    "email": "valerie.rossi@assemblee-nationale.fr",
+    "groupe": "Socialistes et apparentés",
+    "role": ""
+  },
+  {
+    "nom": "Mme Claudia Rouaux",
+    "departement": "Ille-et-Vilaine",
+    "circonscription": "3",
+    "url": "https://www2.assemblee-nationale.fr/deputes/fiche/OMC_PA342196",
+    "email": "claudia.rouaux@assemblee-nationale.fr",
+    "groupe": "Socialistes et apparentés",
+    "role": ""
+  },
+  {
+    "nom": "Mme Béatrice Roullaud",
+    "departement": "Seine-et-Marne",
+    "circonscription": "6",
+    "url": "https://www2.assemblee-nationale.fr/deputes/fiche/OMC_PA795410",
+    "email": "beatrice.roullaud@assemblee-nationale.fr",
+    "groupe": "Rassemblement National",
+    "role": ""
+  },
+  {
+    "nom": "M. Jean-Louis Roumégas",
+    "departement": "Hérault",
+    "circonscription": "1",
+    "url": "https://www2.assemblee-nationale.fr/deputes/fiche/OMC_PA606545",
+    "email": "jean-louis.roumegas@assemblee-nationale.fr",
+    "groupe": "Écologiste et Social",
+    "role": ""
+  },
+  {
+    "nom": "M. Aurélien Rousseau",
+    "departement": "Yvelines",
+    "circonscription": "7",
+    "url": "https://www2.assemblee-nationale.fr/deputes/fiche/OMC_PA826635",
+    "email": "aurelien.rousseau@assemblee-nationale.fr",
+    "groupe": "Socialistes et apparentés",
+    "role": ""
+  },
+  {
+    "nom": "Mme Sandrine Rousseau",
+    "departement": "Paris",
+    "circonscription": "9",
+    "url": "https://www2.assemblee-nationale.fr/deputes/fiche/OMC_PA795076",
+    "email": "sandrine.rousseau@assemblee-nationale.fr",
+    "groupe": "Écologiste et Social",
+    "role": ""
+  },
+  {
+    "nom": "M. Fabrice Roussel",
+    "departement": "Loire-Atlantique",
+    "circonscription": "5",
+    "url": "https://www2.assemblee-nationale.fr/deputes/fiche/OMC_PA841327",
+    "email": "fabrice.roussel@assemblee-nationale.fr",
+    "groupe": "Socialistes et apparentés",
+    "role": ""
+  },
+  {
+    "nom": "M. Jean-François Rousset",
+    "departement": "Aveyron",
+    "circonscription": "3",
+    "url": "https://www2.assemblee-nationale.fr/deputes/fiche/OMC_PA793270",
+    "email": "jean-francois.rousset@assemblee-nationale.fr",
+    "groupe": "Ensemble pour la République",
+    "role": ""
+  },
+  {
+    "nom": "Mme Sophie-Laurence Roy",
+    "departement": "Yonne",
+    "circonscription": "2",
+    "url": "https://www2.assemblee-nationale.fr/deputes/fiche/OMC_PA842097",
+    "email": "sophie-laurence.roy@assemblee-nationale.fr",
+    "groupe": "Rassemblement National",
+    "role": ""
+  },
+  {
+    "nom": "M. François Ruffin",
+    "departement": "Somme",
+    "circonscription": "1",
+    "url": "https://www2.assemblee-nationale.fr/deputes/fiche/OMC_PA722142",
+    "email": "Francois.Ruffin@assemblee-nationale.fr",
+    "groupe": "Écologiste et Social",
+    "role": ""
+  },
+  {
+    "nom": "Mme Sandrine Runel",
+    "departement": "Rhône",
+    "circonscription": "4",
+    "url": "https://www2.assemblee-nationale.fr/deputes/fiche/OMC_PA841717",
+    "email": "sandrine.runel@assemblee-nationale.fr",
+    "groupe": "Socialistes et apparentés",
+    "role": ""
+  },
+  {
+    "nom": "Mme Anaïs Sabatini",
+    "departement": "Pyrénées-Orientales",
+    "circonscription": "2",
+    "url": "https://www2.assemblee-nationale.fr/deputes/fiche/OMC_PA794894",
+    "email": "anais.sabatini@assemblee-nationale.fr",
+    "groupe": "Rassemblement National",
+    "role": ""
+  },
+  {
+    "nom": "M. Alexandre Sabatou",
+    "departement": "Oise",
+    "circonscription": "3",
+    "url": "https://www2.assemblee-nationale.fr/deputes/fiche/OMC_PA794570",
+    "email": "alexandre.sabatou@assemblee-nationale.fr",
+    "groupe": "Rassemblement National",
+    "role": ""
+  },
+  {
+    "nom": "M. Arnaud Saint-Martin",
+    "departement": "Seine-et-Marne",
+    "circonscription": "1",
+    "url": "https://www2.assemblee-nationale.fr/deputes/fiche/OMC_PA841845",
+    "email": "arnaud.saint-martin@assemblee-nationale.fr",
+    "groupe": "La France insoumise - Nouveau Front Populaire",
+    "role": ""
+  },
+  {
+    "nom": "M. Sébastien Saint-Pasteur",
+    "departement": "Gironde",
+    "circonscription": "7",
+    "url": "https://www2.assemblee-nationale.fr/deputes/fiche/OMC_PA841243",
+    "email": "sebastien.saint-pasteur@assemblee-nationale.fr",
+    "groupe": "Socialistes et apparentés",
+    "role": ""
+  },
+  {
+    "nom": "Mme Laetitia Saint-Paul",
+    "departement": "Maine-et-Loire",
+    "circonscription": "4",
+    "url": "https://www2.assemblee-nationale.fr/deputes/fiche/OMC_PA720138",
+    "email": "Laetitia.Saint-Paul@assemblee-nationale.fr",
+    "groupe": "Horizons & Indépendants",
+    "role": ""
+  },
+  {
+    "nom": "M. Aurélien Saintoul",
+    "departement": "Hauts-de-Seine",
+    "circonscription": "11",
+    "url": "https://www2.assemblee-nationale.fr/deputes/fiche/OMC_PA795982",
+    "groupe": "",
+    "role": ""
+  },
+  {
+    "nom": "M. Emeric Salmon",
+    "departement": "Haute-Saône",
+    "circonscription": "2",
+    "url": "https://www2.assemblee-nationale.fr/deputes/fiche/OMC_PA794954",
+    "groupe": "",
+    "role": ""
+  },
+  {
+    "nom": "Mme Nicole Sanquer",
+    "departement": "Polynésie Française",
+    "circonscription": "2",
+    "url": "https://www2.assemblee-nationale.fr/deputes/fiche/OMC_PA721110",
+    "groupe": "",
+    "role": ""
+  },
+  {
+    "nom": "M. Nicolas Sansu",
+    "departement": "Cher",
+    "circonscription": "2",
+    "url": "https://www2.assemblee-nationale.fr/deputes/fiche/OMC_PA605745",
+    "groupe": "",
+    "role": ""
+  },
+  {
+    "nom": "Mme Isabelle Santiago",
+    "departement": "Val-de-Marne",
+    "circonscription": "9",
+    "url": "https://www2.assemblee-nationale.fr/deputes/fiche/OMC_PA774960",
+    "email": "isabelle.santiago@assemblee-nationale.fr",
+    "groupe": "Socialistes et apparentés",
+    "role": ""
+  },
+  {
+    "nom": "M. Arnaud Sanvert",
+    "departement": "Saône-et-Loire",
+    "circonscription": "5",
+    "url": "https://www2.assemblee-nationale.fr/deputes/fiche/OMC_PA841777",
+    "groupe": "",
+    "role": ""
+  },
+  {
+    "nom": "Mme Eva Sas",
+    "departement": "Paris",
+    "circonscription": "8",
+    "url": "https://www2.assemblee-nationale.fr/deputes/fiche/OMC_PA610002",
+    "email": "eva.sas@assemblee-nationale.fr",
+    "groupe": "Écologiste et Social",
+    "role": "Secrétaire de l'Assemblée nationale"
+  },
+  {
+    "nom": "M. Hervé Saulignac",
+    "departement": "Ardèche",
+    "circonscription": "1",
+    "url": "https://www2.assemblee-nationale.fr/deputes/fiche/OMC_PA340343",
+    "groupe": "",
+    "role": ""
+  },
+  {
+    "nom": "M. Raphaël Schellenberger",
+    "departement": "Haut-Rhin",
+    "circonscription": "4",
+    "url": "https://www2.assemblee-nationale.fr/deputes/fiche/OMC_PA721314",
+    "email": "Raphael.Schellenberger@assemblee-nationale.fr",
+    "groupe": "Non inscrit",
+    "role": ""
+  },
+  {
+    "nom": "M. Philippe Schreck",
+    "departement": "Var",
+    "circonscription": "8",
+    "url": "https://www2.assemblee-nationale.fr/deputes/fiche/OMC_PA796050",
+    "groupe": "",
+    "role": ""
+  },
+  {
+    "nom": "Mme Sabrina Sebaihi",
+    "departement": "Hauts-de-Seine",
+    "circonscription": "4",
+    "url": "https://www2.assemblee-nationale.fr/deputes/fiche/OMC_PA795808",
+    "email": "sabrina.sebaihi@assemblee-nationale.fr",
+    "groupe": "Écologiste et Social",
+    "role": "Secrétaire de l'Assemblée nationale"
+  },
+  {
+    "nom": "M. Stéphane Séjourné",
+    "departement": "Hauts-de-Seine",
+    "circonscription": "9",
+    "url": "https://www2.assemblee-nationale.fr/deputes/fiche/OMC_PA842137",
+    "email": "stephane.sejourne@assemblee-nationale.fr",
+    "groupe": "Ensemble pour la République",
+    "role": ""
+  },
+  {
+    "nom": "M. Mikaele Seo",
+    "departement": "Wallis-et-Futuna",
+    "circonscription": "1",
+    "url": "https://www2.assemblee-nationale.fr/deputes/fiche/OMC_PA757225",
+    "email": "mikaele.seo@assemblee-nationale.fr",
+    "groupe": "Ensemble pour la République",
+    "role": ""
+  },
+  {
+    "nom": "M. Olivier Serva",
+    "departement": "Guadeloupe",
+    "circonscription": "1",
+    "url": "https://www2.assemblee-nationale.fr/deputes/fiche/OMC_PA720960",
+    "email": "Olivier.Serva@assemblee-nationale.fr",
+    "groupe": "Libertés, Indépendants, Outre-mer et Territoires",
+    "role": ""
+  },
+  {
+    "nom": "Mme Anne Sicard",
+    "departement": "Val-d'Oise",
+    "circonscription": "1",
+    "url": "https://www2.assemblee-nationale.fr/deputes/fiche/OMC_PA842255",
+    "email": "anne.sicard@assemblee-nationale.fr",
+    "groupe": "Rassemblement National",
+    "role": ""
+  },
+  {
+    "nom": "M. Arnaud Simion",
+    "departement": "Haute-Garonne",
+    "circonscription": "6",
+    "url": "https://www2.assemblee-nationale.fr/deputes/fiche/OMC_PA841091",
+    "email": "arnaud.simion@assemblee-nationale.fr",
+    "groupe": "Socialistes et apparentés",
+    "role": ""
+  },
+  {
+    "nom": "Mme Danielle Simonnet",
+    "departement": "Paris",
+    "circonscription": "15",
+    "url": "https://www2.assemblee-nationale.fr/deputes/fiche/OMC_PA796018",
+    "email": "danielle.simonnet@assemblee-nationale.fr",
+    "groupe": "Écologiste et Social",
+    "role": ""
+  },
+  {
+    "nom": "M. Charles Sitzenstuhl",
+    "departement": "Bas-Rhin",
+    "circonscription": "5",
+    "url": "https://www2.assemblee-nationale.fr/deputes/fiche/OMC_PA794802",
+    "email": "charles.sitzenstuhl@assemblee-nationale.fr",
+    "groupe": "Ensemble pour la République",
+    "role": ""
+  },
+  {
+    "nom": "M. Bertrand Sorre",
+    "departement": "Manche",
+    "circonscription": "2",
+    "url": "https://www2.assemblee-nationale.fr/deputes/fiche/OMC_PA720190",
+    "email": "Bertrand.Sorre@assemblee-nationale.fr",
+    "groupe": "Ensemble pour la République",
+    "role": ""
+  },
+  {
+    "nom": "M. Thierry Sother",
+    "departement": "Bas-Rhin",
+    "circonscription": "3",
+    "url": "https://www2.assemblee-nationale.fr/deputes/fiche/OMC_PA841681",
+    "email": "thierry.sother@assemblee-nationale.fr",
+    "groupe": "Socialistes et apparentés",
+    "role": ""
+  },
+  {
+    "nom": "Mme Ersilia Soudais",
+    "departement": "Seine-et-Marne",
+    "circonscription": "7",
+    "url": "https://www2.assemblee-nationale.fr/deputes/fiche/OMC_PA795466",
+    "email": "ersilia.soudais@assemblee-nationale.fr",
+    "groupe": "La France insoumise - Nouveau Front Populaire",
+    "role": ""
+  },
+  {
+    "nom": "Mme Violette Spillebout",
+    "departement": "Nord",
+    "circonscription": "9",
+    "url": "https://www2.assemblee-nationale.fr/deputes/fiche/OMC_PA794486",
+    "email": "violette.spillebout@assemblee-nationale.fr",
+    "groupe": "Ensemble pour la République",
+    "role": ""
+  },
+  {
+    "nom": "Mme Anne Stambach-Terrenoir",
+    "departement": "Haute-Garonne",
+    "circonscription": "2",
+    "url": "https://www2.assemblee-nationale.fr/deputes/fiche/OMC_PA793744",
+    "email": "anne.stambach-terrenoir@assemblee-nationale.fr",
+    "groupe": "La France insoumise - Nouveau Front Populaire",
+    "role": ""
+  },
+  {
+    "nom": "Mme Michèle Tabarot",
+    "departement": "Alpes-Maritimes",
+    "circonscription": "9",
+    "url": "https://www2.assemblee-nationale.fr/deputes/fiche/OMC_PA267794",
+    "email": "Michele.Tabarot@assemblee-nationale.fr",
+    "groupe": "Droite Républicaine",
+    "role": "Questeure de l'Assemblée nationale"
+  },
+  {
+    "nom": "M. Aurélien Taché",
+    "departement": "Val-d'Oise",
+    "circonscription": "10",
+    "url": "https://www2.assemblee-nationale.fr/deputes/fiche/OMC_PA720952",
+    "email": "Aurelien.Tache@assemblee-nationale.fr",
+    "groupe": "La France insoumise - Nouveau Front Populaire",
+    "role": ""
+  },
+  {
+    "nom": "M. Emmanuel Taché de la Pagerie",
+    "departement": "Bouches-du-Rhône",
+    "circonscription": "16",
+    "url": "https://www2.assemblee-nationale.fr/deputes/fiche/OMC_PA793382",
+    "email": "emmanuel.tachedelapagerie@assemblee-nationale.fr",
+    "groupe": "Rassemblement National",
+    "role": ""
+  },
+  {
+    "nom": "Mme Sophie Taillé-Polian",
+    "departement": "Val-de-Marne",
+    "circonscription": "11",
+    "url": "https://www2.assemblee-nationale.fr/deputes/fiche/OMC_PA736201",
+    "email": "sophie.taille-polian@assemblee-nationale.fr",
+    "groupe": "Écologiste et Social",
+    "role": ""
+  },
+  {
+    "nom": "M. Jean-Pierre Taite",
+    "departement": "Loire",
+    "circonscription": "6",
+    "url": "https://www2.assemblee-nationale.fr/deputes/fiche/OMC_PA794178",
+    "email": "jean-pierre.taite@assemblee-nationale.fr",
+    "groupe": "Droite Républicaine",
+    "role": ""
+  },
+  {
+    "nom": "M. Jean-Philippe Tanguy",
+    "departement": "Somme",
+    "circonscription": "4",
+    "url": "https://www2.assemblee-nationale.fr/deputes/fiche/OMC_PA795778",
+    "email": "jean-philippe.tanguy@assemblee-nationale.fr",
+    "groupe": "Rassemblement National",
+    "role": ""
+  },
+  {
+    "nom": "Mme Liliana Tanguy",
+    "departement": "Finistère",
+    "circonscription": "7",
+    "url": "https://www2.assemblee-nationale.fr/deputes/fiche/OMC_PA719550",
+    "email": "Liliana.Tanguy@assemblee-nationale.fr",
+    "groupe": "Ensemble pour la République",
+    "role": ""
+  },
+  {
+    "nom": "M. David Taupiac",
+    "departement": "Gers",
+    "circonscription": "2",
+    "url": "https://www2.assemblee-nationale.fr/deputes/fiche/OMC_PA793796",
+    "email": "david.taupiac@assemblee-nationale.fr",
+    "groupe": "Non inscrit",
+    "role": ""
+  },
+  {
+    "nom": "Mme Andrée Taurinya",
+    "departement": "Loire",
+    "circonscription": "2",
+    "url": "https://www2.assemblee-nationale.fr/deputes/fiche/OMC_PA794106",
+    "email": "andree.taurinya@assemblee-nationale.fr",
+    "groupe": "La France insoumise - Nouveau Front Populaire",
+    "role": ""
+  },
+  {
+    "nom": "M. Matthias Tavel",
+    "departement": "Loire-Atlantique",
+    "circonscription": "8",
+    "url": "https://www2.assemblee-nationale.fr/deputes/fiche/OMC_PA794166",
+    "email": "matthias.tavel@assemblee-nationale.fr",
+    "groupe": "La France insoumise - Nouveau Front Populaire",
+    "role": ""
+  },
+  {
+    "nom": "M. Michaël Taverne",
+    "departement": "Nord",
+    "circonscription": "12",
+    "url": "https://www2.assemblee-nationale.fr/deputes/fiche/OMC_PA794502",
+    "email": "michael.taverne@assemblee-nationale.fr",
+    "groupe": "Rassemblement National",
+    "role": ""
+  },
+  {
+    "nom": "M. Boris Tavernier",
+    "departement": "Rhône",
+    "circonscription": "2",
+    "url": "https://www2.assemblee-nationale.fr/deputes/fiche/OMC_PA841713",
+    "email": "boris.tavernier@assemblee-nationale.fr",
+    "groupe": "Écologiste et Social",
+    "role": ""
+  },
+  {
+    "nom": "M. Jean Terlier",
+    "departement": "Tarn",
+    "circonscription": "3",
+    "url": "https://www2.assemblee-nationale.fr/deputes/fiche/OMC_PA721584",
+    "email": "Jean.Terlier@assemblee-nationale.fr",
+    "groupe": "Ensemble pour la République",
+    "role": ""
+  },
+  {
+    "nom": "M. Flavien Termet",
+    "departement": "Ardennes",
+    "circonscription": "1",
+    "url": "https://www2.assemblee-nationale.fr/deputes/fiche/OMC_PA840737",
+    "email": "flavien.termet@assemblee-nationale.fr",
+    "groupe": "Rassemblement National",
+    "role": ""
+  },
+  {
+    "nom": "M. Thierry Tesson",
+    "departement": "Nord",
+    "circonscription": "17",
+    "url": "https://www2.assemblee-nationale.fr/deputes/fiche/OMC_PA841553",
+    "email": "thierry.tesson@assemblee-nationale.fr",
+    "groupe": "Rassemblement National",
+    "role": ""
+  },
+  {
+    "nom": "Mme Prisca Thevenot",
+    "departement": "Hauts-de-Seine",
+    "circonscription": "8",
+    "url": "https://www2.assemblee-nationale.fr/deputes/fiche/OMC_PA795920",
+    "email": "prisca.thevenot@assemblee-nationale.fr",
+    "groupe": "Ensemble pour la République",
+    "role": ""
+  },
+  {
+    "nom": "Mme Céline Thiébault-Martinez",
+    "departement": "Seine-et-Marne",
+    "circonscription": "9",
+    "url": "https://www2.assemblee-nationale.fr/deputes/fiche/OMC_PA841893",
+    "email": "celine.thiebault-martinez@assemblee-nationale.fr",
+    "groupe": "Socialistes et apparentés",
+    "role": ""
+  },
+  {
+    "nom": "M. Vincent Thiébaut",
+    "departement": "Bas-Rhin",
+    "circonscription": "9",
+    "url": "https://www2.assemblee-nationale.fr/deputes/fiche/OMC_PA722336",
+    "email": "Vincent.Thiebaut@assemblee-nationale.fr",
+    "groupe": "Horizons & Indépendants",
+    "role": ""
+  },
+  {
+    "nom": "M. Jean-Louis Thiériot",
+    "departement": "Seine-et-Marne",
+    "circonscription": "3",
+    "url": "https://www2.assemblee-nationale.fr/deputes/fiche/OMC_PA643089",
+    "email": "Jean-Louis.Thieriot@assemblee-nationale.fr",
+    "groupe": "Droite Républicaine",
+    "role": ""
+  },
+  {
+    "nom": "M. Nicolas Thierry",
+    "departement": "Gironde",
+    "circonscription": "2",
+    "url": "https://www2.assemblee-nationale.fr/deputes/fiche/OMC_PA793948",
+    "email": "nicolas.thierry@assemblee-nationale.fr",
+    "groupe": "Écologiste et Social",
+    "role": ""
+  },
+  {
+    "nom": "Mme Sabine Thillaye",
+    "departement": "Indre-et-Loire",
+    "circonscription": "5",
+    "url": "https://www2.assemblee-nationale.fr/deputes/fiche/OMC_PA719822",
+    "email": "Sabine.Thillaye@assemblee-nationale.fr",
+    "groupe": "Les Démocrates",
+    "role": ""
+  },
+  {
+    "nom": "Mme Mélanie Thomin",
+    "departement": "Finistère",
+    "circonscription": "6",
+    "url": "https://www2.assemblee-nationale.fr/deputes/fiche/OMC_PA793816",
+    "email": "melanie.thomin@assemblee-nationale.fr",
+    "groupe": "Socialistes et apparentés",
+    "role": ""
+  },
+  {
+    "nom": "M. Lionel Tivoli",
+    "departement": "Alpes-Maritimes",
+    "circonscription": "2",
+    "url": "https://www2.assemblee-nationale.fr/deputes/fiche/OMC_PA793298",
+    "email": "lionel.tivoli@assemblee-nationale.fr",
+    "groupe": "Rassemblement National",
+    "role": ""
+  },
+  {
+    "nom": "M. Emmanuel Tjibaou",
+    "departement": "Nouvelle-Calédonie",
+    "circonscription": "2",
+    "url": "https://www2.assemblee-nationale.fr/deputes/fiche/OMC_PA842299",
+    "email": "emmanuel.tjibaou@assemblee-nationale.fr",
+    "groupe": "Gauche Démocrate et Républicaine",
+    "role": ""
+  },
+  {
+    "nom": "M. Romain Tonussi",
+    "departement": "Bouches-du-Rhône",
+    "circonscription": "8",
+    "url": "https://www2.assemblee-nationale.fr/deputes/fiche/OMC_PA840781",
+    "email": "romain.tonussi@assemblee-nationale.fr",
+    "groupe": "Rassemblement National",
+    "role": ""
+  },
+  {
+    "nom": "M. Stéphane Travert",
+    "departement": "Manche",
+    "circonscription": "3",
+    "url": "https://www2.assemblee-nationale.fr/deputes/fiche/OMC_PA607395",
+    "email": "Stephane.Travert@assemblee-nationale.fr",
+    "groupe": "Ensemble pour la République",
+    "role": ""
+  },
+  {
+    "nom": "M. Vincent Trébuchet",
+    "departement": "Ardèche",
+    "circonscription": "2",
+    "url": "https://www2.assemblee-nationale.fr/deputes/fiche/OMC_PA840685",
+    "email": "vincent.trebuchet@assemblee-nationale.fr",
+    "groupe": "UDR",
+    "role": ""
+  },
+  {
+    "nom": "Mme Aurélie Trouvé",
+    "departement": "Seine-Saint-Denis",
+    "circonscription": "9",
+    "url": "https://www2.assemblee-nationale.fr/deputes/fiche/OMC_PA795164",
+    "email": "aurelie.trouve@assemblee-nationale.fr",
+    "groupe": "La France insoumise - Nouveau Front Populaire",
+    "role": ""
+  },
+  {
+    "nom": "M. Nicolas Turquois",
+    "departement": "Vienne",
+    "circonscription": "4",
+    "url": "https://www2.assemblee-nationale.fr/deputes/fiche/OMC_PA722162",
+    "email": "Nicolas.Turquois@assemblee-nationale.fr",
+    "groupe": "Les Démocrates",
+    "role": ""
+  },
+  {
+    "nom": "Mme Sophie Vaginay",
+    "departement": "Alpes-de-Haute-Provence",
+    "circonscription": "2",
+    "url": "https://www2.assemblee-nationale.fr/deputes/fiche/OMC_PA840657",
+    "email": "sophie.vaginay@assemblee-nationale.fr",
+    "groupe": "UDR",
+    "role": ""
+  },
+  {
+    "nom": "M. Boris Vallaud",
+    "departement": "Landes",
+    "circonscription": "3",
+    "url": "https://www2.assemblee-nationale.fr/deputes/fiche/OMC_PA719930",
+    "email": "Boris.Vallaud@assemblee-nationale.fr",
+    "groupe": "Socialistes et apparentés",
+    "role": ""
+  },
+  {
+    "nom": "M. Frédéric Valletoux",
+    "departement": "Seine-et-Marne",
+    "circonscription": "2",
+    "url": "https://www2.assemblee-nationale.fr/deputes/fiche/OMC_PA795350",
+    "email": "frederic.valletoux@assemblee-nationale.fr",
+    "groupe": "Horizons & Indépendants",
+    "role": ""
+  },
+  {
+    "nom": "M. Paul Vannier",
+    "departement": "Val-d'Oise",
+    "circonscription": "5",
+    "url": "https://www2.assemblee-nationale.fr/deputes/fiche/OMC_PA795596",
+    "email": "paul.vannier@assemblee-nationale.fr",
+    "groupe": "La France insoumise - Nouveau Front Populaire",
+    "role": ""
+  },
+  {
+    "nom": "M. Antoine Vermorel-Marques",
+    "departement": "Loire",
+    "circonscription": "5",
+    "url": "https://www2.assemblee-nationale.fr/deputes/fiche/OMC_PA794118",
+    "email": "antoine.vermorel@assemblee-nationale.fr",
+    "groupe": "Droite Républicaine",
+    "role": ""
+  },
+  {
+    "nom": "M. Gérault Verny",
+    "departement": "Bouches-du-Rhône",
+    "circonscription": "14",
+    "url": "https://www2.assemblee-nationale.fr/deputes/fiche/OMC_PA840809",
+    "email": "gerault.verny@assemblee-nationale.fr",
+    "groupe": "UDR",
+    "role": ""
+  },
+  {
+    "nom": "M. Roger Vicot",
+    "departement": "Nord",
+    "circonscription": "11",
+    "url": "https://www2.assemblee-nationale.fr/deputes/fiche/OMC_PA794494",
+    "email": "roger.vicot@assemblee-nationale.fr",
+    "groupe": "Socialistes et apparentés",
+    "role": ""
+  },
+  {
+    "nom": "Mme Annie Vidal",
+    "departement": "Seine-Maritime",
+    "circonscription": "2",
+    "url": "https://www2.assemblee-nationale.fr/deputes/fiche/OMC_PA722102",
+    "email": "Annie.Vidal@assemblee-nationale.fr",
+    "groupe": "Ensemble pour la République",
+    "role": ""
+  },
+  {
+    "nom": "M. Jean-Pierre Vigier",
+    "departement": "Haute-Loire",
+    "circonscription": "2",
+    "url": "https://www2.assemblee-nationale.fr/deputes/fiche/OMC_PA607090",
+    "email": "Jean-Pierre.Vigier@assemblee-nationale.fr",
+    "groupe": "Droite Républicaine",
+    "role": ""
+  },
+  {
+    "nom": "M. Philippe Vigier",
+    "departement": "Eure-et-Loir",
+    "circonscription": "4",
+    "url": "https://www2.assemblee-nationale.fr/deputes/fiche/OMC_PA331582",
+    "email": "Philippe.Vigier@assemblee-nationale.fr",
+    "groupe": "Les Démocrates",
+    "role": ""
+  },
+  {
+    "nom": "Mme Corinne Vignon",
+    "departement": "Haute-Garonne",
+    "circonscription": "3",
+    "url": "https://www2.assemblee-nationale.fr/deputes/fiche/OMC_PA719512",
+    "email": "Corinne.Vignon@assemblee-nationale.fr",
+    "groupe": "Ensemble pour la République",
+    "role": ""
+  },
+  {
+    "nom": "M. Antoine Villedieu",
+    "departement": "Haute-Saône",
+    "circonscription": "1",
+    "url": "https://www2.assemblee-nationale.fr/deputes/fiche/OMC_PA794946",
+    "email": "antoine.villedieu@assemblee-nationale.fr",
+    "groupe": "Rassemblement National",
+    "role": ""
+  },
+  {
+    "nom": "Mme Anne-Cécile Violland",
+    "departement": "Haute-Savoie",
+    "circonscription": "5",
+    "url": "https://www2.assemblee-nationale.fr/deputes/fiche/OMC_PA795026",
+    "email": "anne-cecile.violland@assemblee-nationale.fr",
+    "groupe": "Horizons & Indépendants",
+    "role": ""
+  },
+  {
+    "nom": "M. Stéphane Viry",
+    "departement": "Vosges",
+    "circonscription": "1",
+    "url": "https://www2.assemblee-nationale.fr/deputes/fiche/OMC_PA721474",
+    "email": "Stephane.Viry@assemblee-nationale.fr",
+    "groupe": "Libertés, Indépendants, Outre-mer et Territoires",
+    "role": ""
+  },
+  {
+    "nom": "M. Stéphane Vojetta",
+    "departement": "Français établis hors de France",
+    "circonscription": "5",
+    "url": "https://www2.assemblee-nationale.fr/deputes/fiche/OMC_PA721170",
+    "email": "stephane.vojetta@assemblee-nationale.fr",
+    "groupe": "Ensemble pour la République",
+    "role": ""
+  },
+  {
+    "nom": "M. Frédéric-Pierre Vos",
+    "departement": "Oise",
+    "circonscription": "5",
+    "url": "https://www2.assemblee-nationale.fr/deputes/fiche/OMC_PA841575",
+    "email": "fredericpierre.vos@assemblee-nationale.fr",
+    "groupe": "Rassemblement National",
+    "role": ""
+  },
+  {
+    "nom": "Mme Dominique Voynet",
+    "departement": "Doubs",
+    "circonscription": "2",
+    "url": "https://www2.assemblee-nationale.fr/deputes/fiche/OMC_PA2940",
+    "email": "dominique.voynet@assemblee-nationale.fr",
+    "groupe": "Écologiste et Social",
+    "role": ""
+  },
+  {
+    "nom": "M. Jean-Luc Warsmann",
+    "departement": "Ardennes",
+    "circonscription": "3",
+    "url": "https://www2.assemblee-nationale.fr/deputes/fiche/OMC_PA2952",
+    "email": "Jean-Luc.Warsmann@assemblee-nationale.fr",
+    "groupe": "Libertés, Indépendants, Outre-mer et Territoires",
+    "role": ""
+  },
+  {
+    "nom": "M. Laurent Wauquiez",
+    "departement": "Haute-Loire",
+    "circonscription": "1",
+    "url": "https://www2.assemblee-nationale.fr/deputes/fiche/OMC_PA267285",
+    "email": "laurent.wauquiez@assemblee-nationale.fr",
+    "groupe": "Droite Républicaine",
+    "role": ""
+  },
+  {
+    "nom": "M. Frédéric Weber",
+    "departement": "Meurthe-et-Moselle",
+    "circonscription": "3",
+    "url": "https://www2.assemblee-nationale.fr/deputes/fiche/OMC_PA841479",
+    "email": "frederic.weber@assemblee-nationale.fr",
+    "groupe": "Rassemblement National",
+    "role": ""
+  },
+  {
+    "nom": "M. Jiovanny William",
+    "departement": "Martinique",
+    "circonscription": "1",
+    "url": "https://www2.assemblee-nationale.fr/deputes/fiche/OMC_PA720992",
+    "email": "jiovanny.william@assemblee-nationale.fr",
+    "groupe": "Socialistes et apparentés",
+    "role": ""
+  },
+  {
+    "nom": "M. Éric Woerth",
+    "departement": "Oise",
+    "circonscription": "4",
+    "url": "https://www2.assemblee-nationale.fr/deputes/fiche/OMC_PA2960",
+    "email": "Eric.Woerth@assemblee-nationale.fr",
+    "groupe": "Ensemble pour la République",
+    "role": ""
+  },
+  {
+    "nom": "Mme Caroline Yadan",
+    "departement": "Français établis hors de France",
+    "circonscription": "8",
+    "url": "https://www2.assemblee-nationale.fr/deputes/fiche/OMC_PA795046",
+    "email": "caroline.yadan@assemblee-nationale.fr",
+    "groupe": "Ensemble pour la République",
+    "role": ""
+  },
+  {
+    "nom": "Mme Estelle Youssouffa",
+    "departement": "Mayotte",
+    "circonscription": "1",
+    "url": "https://www2.assemblee-nationale.fr/deputes/fiche/OMC_PA796078",
+    "email": "estelle.youssouffa@assemblee-nationale.fr",
+    "groupe": "Libertés, Indépendants, Outre-mer et Territoires",
+    "role": ""
+  }
+]

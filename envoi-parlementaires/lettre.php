@@ -55,8 +55,10 @@ function generer_mail($parlementaires, $expediteur)
     $objet_lettre_email = rawurlencode(objet_lettre($expediteur));
 
     $email_concat = "";
+    $list_parlementaires = "";
     foreach ($parlementaires as &$parlementaire) {
         $email_concat = $parlementaire["email"] . ',' . $email_concat;
+        $list_parlementaires = $parlementaire["nom"] . "\n" . $list_parlementaires;
     }
 
 
@@ -69,7 +71,8 @@ function generer_mail($parlementaires, $expediteur)
       <p>
         Voici le texte généré à partir de vos informations, qui sera adressé à <strong>tou·tes les députés membres de la commission des lois qui n'ont pas signés la motion de destitution d'Emmanuel Macron</strong>.
       <p>
-
+      
+      $list_parlementaires
       <blockquote>
         $texte_lettre_html
       </blockquote>
@@ -80,7 +83,8 @@ function generer_mail($parlementaires, $expediteur)
           <input type="hidden" name="email" value="$expediteur[email]">
           <input type="hidden" name="nom" value="$expediteur[nom]">
           <input type="hidden" name="prenom" value="$expediteur[prenom]">
-          <input type="hidden" name="campaign" value="envoi-destitution-2024-comission-lois">
+          <input type="hidden" name="departement" value="$expediteur[departement]">
+          <input type="hidden" name="campaign" value="envoi-destitution-2024-assemblee">
           <a onclick="mailto()" href="$lien_email">Je l'envoie moi-même</a>
           <button style="text-wrap: auto;" type="submit">Envoyez-le pour moi</button>
       </div>
