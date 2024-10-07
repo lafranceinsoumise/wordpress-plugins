@@ -124,7 +124,7 @@ class Plugin
   {
     $liste_parlementaires = Liste_Parlementaires::get_instance();
     $expediteur = $liste_parlementaires->expediteur($data);
-    $recipients = $liste_parlementaires->all_parlementaires();
+    $recipients = $liste_parlementaires->get_parlementaire_par_departement($data["departement"]);
 
     $count = count($recipients);
 
@@ -279,6 +279,7 @@ class Plugin
       nom tinytext NOT NULL,
       prenom tinytext NOT NULL,
       campaign tinytext DEFAULT '' NOT NULL,
+      departement tinytext DEFAULT '' NOT NULL,
       PRIMARY KEY  (id)
     ) $charset_collate;";
 

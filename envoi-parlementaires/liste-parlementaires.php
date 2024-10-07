@@ -6,11 +6,6 @@ if (!defined('ABSPATH')) {
     exit; // Exit if accessed directly
 }
 
-$parlementaire_to_exclude = array_map('strtolower', [
-    "M. Pouria Amirshahi", "Mme Léa Balage El Mariky", "M. Emmanuel Duplessy", "Mme Émeline K/Bidi", "M. Stéphane Peu", "M. Frédéric Maillot", "M. Benjamin Lucas-Lundy", "M. Alexis CORBIÈRE", "Mme Clémentine Autain", "M. Hendrik DAVI", "Mme Karine Lebon", "Mme Sandrine Rousseau", "Mme Danielle Simonnet"
-]);
-
-
 class Liste_Parlementaires
 {
     private static $instance = null;
@@ -18,7 +13,9 @@ class Liste_Parlementaires
 
     public function exclude_parlementaire($parlementaire)
     {
-        global $parlementaire_to_exclude;
+        $parlementaire_to_exclude = array_map('strtolower', [
+            "M. Pouria Amirshahi", "Mme Léa Balage El Mariky", "M. Emmanuel Duplessy", "Mme Émeline K/Bidi", "M. Stéphane Peu", "M. Frédéric Maillot", "M. Benjamin Lucas-Lundy", "M. Alexis CORBIÈRE", "Mme Clémentine Autain", "M. Hendrik DAVI", "Mme Karine Lebon", "Mme Sandrine Rousseau", "Mme Danielle Simonnet"
+        ]);
         if (
             $parlementaire["groupe"] === "La France insoumise - Nouveau Front Populaire" ||
             in_array(strtolower($parlementaire["nom"]), $parlementaire_to_exclude)

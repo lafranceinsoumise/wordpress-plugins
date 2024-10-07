@@ -8,7 +8,7 @@ if (!defined('ABSPATH')) {
 
 function objet_lettre($expediteur)
 {
-    return ucfirst($expediteur["nom"] . " " . ucfirst($expediteur["prenom"])) . " souhaite vous interpeller.";
+    return ucfirst($expediteur["prenom"] . " " . ucfirst($expediteur["nom"])) . " souhaite vous interpeller.";
 }
 
 function mail_contenu($expediteur)
@@ -16,16 +16,28 @@ function mail_contenu($expediteur)
     return [
         "Madame la Députée, Monsieur le Député,",
 
-        "La proposition de résolution visant à destituer le président de la République Emmanuel Macron, prévue à l’article 68 de la Constitution, sera étudiée ce mercredi 2 octobre.",
-        "Le président de la République a été lourdement sanctionné lors des élections européennes et législatives de 2024. Or il a nommé Michel Barnier Premier ministre pour continuer la politique menée depuis 2017.\nC’est un affront démocratique, d’autant plus que Michel Barnier est membre d’un parti (LR) ayant recueilli à peine 5% des voix en 2024.",
-        "Ce choix constitue un manquement grave aux devoirs du président de la République. En démocratie, seul le Peuple et souverain.\nPour en finir avec ces manquements d’Emmanuel Macron et respecter le vote du peuple, il est nécessaire d’enclencher la procédure de destitution du président de la République.",
-        "Par ce courriel, je vous demande solennellement de voter pour la destitution du président de la République au sein de la commission de Lois dans laquelle vous siégez.",
-        "Je vous prie d'agréer, Madame la Députée, Monsieur le Député, l'expression de mes salutations distinguées.",
+        "Après son passage ce mercredi 2 octobre en commission des Lois, la proposition de résolution visant à destituer le président de la République Emmanuel Macron, prévue à l’article 68 de la Constitution, devrait prochainement être étudiée en Hémicycle.",
+        "Le président de la République a en effet été lourdement sanctionné lors des élections européennes et législatives de 2024. Or, il a nommé comme Premier ministre Michel Barnier pour continuer la politique menée depuis 2017. C’est un affront démocratique, d’autant plus que Michel Barnier est membre d’un parti (LR) ayant recueilli à peine 5% des voix en 2024.",
+        "Ce choix constitue un manquement grave aux devoirs du président de la République. En démocratie, seul le Peuple est souverain, comme le rappelle l’article 3 de la Déclaration des Droits de l’Homme et du Citoyen : « Le principe de toute souveraineté réside essentiellement dans la nation. Nul corps, nul individu ne peut exercer d'autorité qui n'en émane expressément ».",
+        "Pour en finir avec ces manquements d’Emmanuel Macron et respecter le vote du peuple, il est nécessaire d’enclencher la procédure de destitution du président de la République.",
+        "Par ce courriel, je vous demande solennellement de voter favorablement à cette motion de destitution du président de la République au sein de l'hémicycle de l'Assemblée nationale, afin de réunir le Parlement en Haute Cour et de juger des manquements d’Emmanuel Macron à la Constitution. ",
+        "Je vous prie d'agréer, Madame la Députée, Monsieur le Député, l'expression de mes salutations républicaines.",
 
-        ucfirst($expediteur["nom"]) . " " . ucfirst($expediteur["prenom"]),
+        ucfirst($expediteur["prenom"]) . " " . ucfirst($expediteur["nom"]),
     ];
 }
 
+function texte_intro($noms) {
+    $nom_join = join(", ", $noms);
+    if (count($noms) > 1) {
+        return "Voici le texte généré à partir de vos informations,
+    qui sera adressé à <strong>{$nom_join}</strong> qui n'ont pas signé la motion de destitution d'Emmanuel Macron,
+    ni voté à la commission des lois mercredi 2 octobre..";
+    }
+    return "Voici le texte généré à partir de vos informations,
+    qui sera adressé à <strong>{$nom_join}</strong> qui n'a pas signé la motion de destitution d'Emmanuel Macron,
+    ni voté à la commission des lois mercredi 2 octobre..";
+}
 
 function generer_mail($parlementaires, $expediteur)
 {
@@ -54,13 +66,15 @@ function generer_mail($parlementaires, $expediteur)
     $texte_lettre_email = rawurlencode(implode("\n\n", $texte));
     $objet_lettre_email = rawurlencode(objet_lettre($expediteur));
 
-    $email_concat = "";
-    $list_parlementaires = "";
+    $noms = [];
+    $emails = [];
     foreach ($parlementaires as &$parlementaire) {
-        $email_concat = $parlementaire["email"] . ',' . $email_concat;
-        $list_parlementaires = $parlementaire["nom"] . "\n" . $list_parlementaires;
+        array_push($emails, $parlementaire["email"]);
+        array_push($noms, $parlementaire["nom"]);
     }
 
+    $texte_intro = texte_intro($noms);
+    $email_concat = implode(",", $emails);
 
     $lien_email = htmlspecialchars(
         "mailto:?bcc=$email_concat&subject=$objet_lettre_email&body=$texte_lettre_email",
@@ -68,11 +82,8 @@ function generer_mail($parlementaires, $expediteur)
     );
 
     $result = <<<EOD
-      <p>
-        Voici le texte généré à partir de vos informations, qui sera adressé à <strong>tou·tes les députés membres de la commission des lois qui n'ont pas signés la motion de destitution d'Emmanuel Macron</strong>.
-      <p>
+      <p>$texte_intro<p>
       
-      $list_parlementaires
       <blockquote>
         $texte_lettre_html
       </blockquote>
